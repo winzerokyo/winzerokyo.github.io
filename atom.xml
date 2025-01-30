@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Winzerokyo的游戏站</title>
+  
+  <subtitle>Winzerokyo的游戏站</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2025-01-21T18:17:53.510Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Winzerokyo</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>FC游戏资源</title>
+    <link href="http://example.com/2025/01/22/fc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/01/22/fc-you-xi-zi-yuan/</id>
+    <published>2025-01-21T17:51:44.000Z</published>
+    <updated>2025-01-21T18:17:53.510Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="FC" scheme="http://example.com/categories/FC/"/>
+    
+    
+    <category term="FC游戏" scheme="http://example.com/tags/FC%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SFC游戏资源</title>
+    <link href="http://example.com/2025/01/22/sfc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/01/22/sfc-you-xi-zi-yuan/</id>
+    <published>2025-01-21T17:50:44.000Z</published>
+    <updated>2025-01-21T18:15:20.259Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="SFC" scheme="http://example.com/categories/SFC/"/>
+    
+    
+    <category term="SFC游戏" scheme="http://example.com/tags/SFC%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CPS1和CPS2和NEOGEO游戏资源</title>
+    <link href="http://example.com/2025/01/22/cps1-he-cps2-he-neogeo-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/01/22/cps1-he-cps2-he-neogeo-you-xi-zi-yuan/</id>
+    <published>2025-01-21T17:49:33.000Z</published>
+    <updated>2025-01-21T18:12:29.502Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="CPS1和CPS2和NEOGEO" scheme="http://example.com/categories/CPS1%E5%92%8CCPS2%E5%92%8CNEOGEO/"/>
+    
+    
+    <category term="CPS1和CPS2和NEOGEO游戏" scheme="http://example.com/tags/CPS1%E5%92%8CCPS2%E5%92%8CNEOGEO%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>XBOX游戏资源</title>
+    <link href="http://example.com/2025/01/22/xbox-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/01/22/xbox-you-xi-zi-yuan/</id>
+    <published>2025-01-21T17:48:51.000Z</published>
+    <updated>2025-01-21T18:10:03.506Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="XBOX" scheme="http://example.com/categories/XBOX/"/>
+    
+    
+    <category term="XBOX游戏" scheme="http://example.com/tags/XBOX%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>XBOX360游戏资源</title>
+    <link href="http://example.com/2025/01/22/xbox360-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/01/22/xbox360-you-xi-zi-yuan/</id>
+    <published>2025-01-21T17:48:36.000Z</published>
+    <updated>2025-01-21T18:07:53.874Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="XBOX360" scheme="http://example.com/categories/XBOX360/"/>
+    
+    
+    <category term="XBOX360游戏" scheme="http://example.com/tags/XBOX360%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DC游戏资源</title>
+    <link href="http://example.com/2025/01/22/dc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/01/22/dc-you-xi-zi-yuan/</id>
+    <published>2025-01-21T17:47:13.000Z</published>
+    <updated>2025-01-21T18:04:56.586Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="DC" scheme="http://example.com/categories/DC/"/>
+    
+    
+    <category term="DC游戏" scheme="http://example.com/tags/DC%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>N64游戏资源</title>
+    <link href="http://example.com/2025/01/22/n64-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/01/22/n64-you-xi-zi-yuan/</id>
+    <published>2025-01-21T17:46:45.000Z</published>
+    <updated>2025-01-21T18:02:36.667Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="N64" scheme="http://example.com/categories/N64/"/>
+    
+    
+    <category term="N64游戏" scheme="http://example.com/tags/N64%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PS游戏资源</title>
+    <link href="http://example.com/2025/01/22/ps-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/01/22/ps-you-xi-zi-yuan/</id>
+    <published>2025-01-21T17:45:04.000Z</published>
+    <updated>2025-01-21T17:59:48.403Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PS" scheme="http://example.com/categories/PS/"/>
+    
+    
+    <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PS2游戏资源</title>
+    <link href="http://example.com/2025/01/22/ps2-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/01/22/ps2-you-xi-zi-yuan/</id>
+    <published>2025-01-21T17:44:01.000Z</published>
+    <updated>2025-01-21T17:57:45.333Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PS2" scheme="http://example.com/categories/PS2/"/>
+    
+    
+    <category term="PS2游戏" scheme="http://example.com/tags/PS2%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PS3游戏资源</title>
+    <link href="http://example.com/2025/01/22/ps3-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/01/22/ps3-you-xi-zi-yuan/</id>
+    <published>2025-01-21T17:43:08.000Z</published>
+    <updated>2025-01-21T17:55:04.723Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PS3" scheme="http://example.com/categories/PS3/"/>
+    
+    
+    <category term="PS3游戏" scheme="http://example.com/tags/PS3%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PS4游戏资源</title>
+    <link href="http://example.com/2025/01/22/ps4-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/01/22/ps4-you-xi-zi-yuan/</id>
+    <published>2025-01-21T17:33:28.000Z</published>
+    <updated>2025-01-21T17:52:29.052Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
+    
+    
+    <category term="PS4游戏" scheme="http://example.com/tags/PS4%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PSP游戏资源</title>
+    <link href="http://example.com/2025/01/22/psp-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/01/22/psp-you-xi-zi-yuan/</id>
+    <published>2025-01-21T17:31:28.000Z</published>
+    <updated>2025-01-21T17:48:47.539Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PSP" scheme="http://example.com/categories/PSP/"/>
+    
+    
+    <category term="PSP游戏" scheme="http://example.com/tags/PSP%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PSV游戏资源</title>
+    <link href="http://example.com/2025/01/22/psv-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/01/22/psv-you-xi-zi-yuan/</id>
+    <published>2025-01-21T17:30:28.000Z</published>
+    <updated>2025-01-21T17:46:13.999Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PSV" scheme="http://example.com/categories/PSV/"/>
+    
+    
+    <category term="PSV游戏" scheme="http://example.com/tags/PSV%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>WII和NGC游戏资源</title>
+    <link href="http://example.com/2025/01/22/wii-he-ngc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/01/22/wii-he-ngc-you-xi-zi-yuan/</id>
+    <published>2025-01-21T17:28:28.000Z</published>
+    <updated>2025-01-21T17:38:30.357Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="WII和NGC" scheme="http://example.com/categories/WII%E5%92%8CNGC/"/>
+    
+    
+    <category term="WII和NGC游戏" scheme="http://example.com/tags/WII%E5%92%8CNGC%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>WIIU游戏资源</title>
+    <link href="http://example.com/2025/01/22/wiiu-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/01/22/wiiu-you-xi-zi-yuan/</id>
+    <published>2025-01-21T17:22:28.000Z</published>
+    <updated>2025-01-21T17:28:48.716Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="WIIU" scheme="http://example.com/categories/WIIU/"/>
+    
+    
+    <category term="WIIU游戏" scheme="http://example.com/tags/WIIU%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GBC和GB游戏资源</title>
+    <link href="http://example.com/2025/01/22/gbc-he-gb-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/01/22/gbc-he-gb-you-xi-zi-yuan/</id>
+    <published>2025-01-21T17:15:01.000Z</published>
+    <updated>2025-01-21T17:17:59.678Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="GBC和GB" scheme="http://example.com/categories/GBC%E5%92%8CGB/"/>
+    
+    
+    <category term="GBC和GB游戏" scheme="http://example.com/tags/GBC%E5%92%8CGB%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GBA游戏资源</title>
+    <link href="http://example.com/2025/01/22/gba-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/01/22/gba-you-xi-zi-yuan/</id>
+    <published>2025-01-21T17:10:28.000Z</published>
+    <updated>2025-01-21T17:12:31.018Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="GBA" scheme="http://example.com/categories/GBA/"/>
+    
+    
+    <category term="GBA游戏" scheme="http://example.com/tags/GBA%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NDS游戏资源</title>
+    <link href="http://example.com/2025/01/22/nds-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/01/22/nds-you-xi-zi-yuan/</id>
+    <published>2025-01-21T17:02:22.000Z</published>
+    <updated>2025-01-21T17:12:59.066Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="NDS" scheme="http://example.com/categories/NDS/"/>
+    
+    
+    <category term="NDS游戏" scheme="http://example.com/tags/NDS%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3DS游戏资源</title>
+    <link href="http://example.com/2025/01/21/3ds-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/01/21/3ds-you-xi-zi-yuan/</id>
+    <published>2025-01-21T13:38:28.000Z</published>
+    <updated>2025-01-21T13:59:51.748Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="3DS" scheme="http://example.com/categories/3DS/"/>
+    
+    
+    <category term="3DS游戏" scheme="http://example.com/tags/3DS%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SWITCH模拟器教程和下载，转换软件教程和下载</title>
+    <link href="http://example.com/2025/01/20/switch-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
+    <id>http://example.com/2025/01/20/switch-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
+    <published>2025-01-19T17:11:18.000Z</published>
+    <updated>2025-01-21T13:48:02.958Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
+&lt;p&gt;视频教程&lt;br&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
+    
+    
+    <category term="SWITCH模拟器" scheme="http://example.com/tags/SWITCH%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
+  
+</feed>
