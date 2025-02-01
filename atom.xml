@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-02-01T08:10:35.758Z</updated>
+  <updated>2025-02-01T08:32:20.179Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SWITCH模拟器的问题汇总</title>
+    <link href="http://example.com/2025/02/01/switch-mo-ni-qi-de-wen-ti-hui-zong/"/>
+    <id>http://example.com/2025/02/01/switch-mo-ni-qi-de-wen-ti-hui-zong/</id>
+    <published>2025-02-01T08:26:44.000Z</published>
+    <updated>2025-02-01T08:32:20.179Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;模拟器闪退的自我排查，闪退没有固定的解决方法，因为产生原因多种多样。可以按照下面的办法自己排除。闪退靠排除，1看看自己的显卡驱动够不够新，这个去官网下载最新就能解决。2将MOD和金手指全部不用，排除这些东西导致的闪退。3加载了别人的着色器缓存，这玩意不是不好而是每个硬件生成</summary>
+        
+      
+    
+    
+    
+    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
+    
+    
+    <category term="SWITCH模拟器" scheme="http://example.com/tags/SWITCH%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>3DS模拟器问题汇总</title>
@@ -570,7 +595,7 @@
     <link href="http://example.com/2025/01/22/gbc-he-gb-you-xi-zi-yuan/"/>
     <id>http://example.com/2025/01/22/gbc-he-gb-you-xi-zi-yuan/</id>
     <published>2025-01-21T17:15:01.000Z</published>
-    <updated>2025-01-21T17:17:59.678Z</updated>
+    <updated>2025-02-01T08:33:14.554Z</updated>
     
     
       
@@ -589,41 +614,10 @@
     
     
     
-    <category term="GBC和GB" scheme="http://example.com/categories/GBC%E5%92%8CGB/"/>
+    <category term="GBA、GBC和GB" scheme="http://example.com/categories/GBA%E3%80%81GBC%E5%92%8CGB/"/>
     
     
     <category term="GBC和GB游戏" scheme="http://example.com/tags/GBC%E5%92%8CGB%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GBA游戏资源</title>
-    <link href="http://example.com/2025/01/22/gba-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/01/22/gba-you-xi-zi-yuan/</id>
-    <published>2025-01-21T17:10:28.000Z</published>
-    <updated>2025-02-01T07:45:34.749Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="GBA" scheme="http://example.com/categories/GBA/"/>
-    
-    
-    <category term="GBA游戏" scheme="http://example.com/tags/GBA%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
