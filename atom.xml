@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-01-31T09:53:58.165Z</updated>
+  <updated>2025-02-01T08:10:35.758Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,57 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>3DS模拟器问题汇总</title>
+    <link href="http://example.com/2025/02/01/3ds-mo-ni-qi-wen-ti-hui-zong/"/>
+    <id>http://example.com/2025/02/01/3ds-mo-ni-qi-wen-ti-hui-zong/</id>
+    <published>2025-02-01T08:09:06.000Z</published>
+    <updated>2025-02-01T08:10:35.758Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;问题1：未找到shared</summary>
+        
+      
+    
+    
+    
+    <category term="3DS" scheme="http://example.com/categories/3DS/"/>
+    
+    
+    <category term="3DS模拟器" scheme="http://example.com/tags/3DS%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3DS</title>
+    <link href="http://example.com/2025/02/01/3ds-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
+    <id>http://example.com/2025/02/01/3ds-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
+    <published>2025-02-01T07:51:49.000Z</published>
+    <updated>2025-02-01T08:06:43.131Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
+&lt;p&gt;Lime3DS（安卓版）视频教程&lt;br&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="3DS" scheme="http://example.com/categories/3DS/"/>
+    
+    
+    <category term="3DS模拟器" scheme="http://example.com/tags/3DS%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>shandps4兼容性列表</title>
@@ -550,7 +601,7 @@
     <link href="http://example.com/2025/01/22/gba-you-xi-zi-yuan/"/>
     <id>http://example.com/2025/01/22/gba-you-xi-zi-yuan/</id>
     <published>2025-01-21T17:10:28.000Z</published>
-    <updated>2025-01-31T16:14:59.540Z</updated>
+    <updated>2025-02-01T07:45:34.749Z</updated>
     
     
       
@@ -573,68 +624,6 @@
     
     
     <category term="GBA游戏" scheme="http://example.com/tags/GBA%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>NDS游戏资源</title>
-    <link href="http://example.com/2025/01/22/nds-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/01/22/nds-you-xi-zi-yuan/</id>
-    <published>2025-01-21T17:02:22.000Z</published>
-    <updated>2025-01-21T17:12:59.066Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="NDS" scheme="http://example.com/categories/NDS/"/>
-    
-    
-    <category term="NDS游戏" scheme="http://example.com/tags/NDS%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>3DS游戏资源</title>
-    <link href="http://example.com/2025/01/21/3ds-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/01/21/3ds-you-xi-zi-yuan/</id>
-    <published>2025-01-21T13:38:28.000Z</published>
-    <updated>2025-01-21T13:59:51.748Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="3DS" scheme="http://example.com/categories/3DS/"/>
-    
-    
-    <category term="3DS游戏" scheme="http://example.com/tags/3DS%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
