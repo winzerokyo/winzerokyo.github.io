@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-02-02T10:28:46.992Z</updated>
+  <updated>2025-02-02T10:37:25.940Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,57 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PSV模拟器的问题汇总</title>
+    <link href="http://example.com/2025/02/02/psv-mo-ni-qi-de-wen-ti-hui-zong/"/>
+    <id>http://example.com/2025/02/02/psv-mo-ni-qi-de-wen-ti-hui-zong/</id>
+    <published>2025-02-02T10:33:43.000Z</published>
+    <updated>2025-02-02T10:37:25.940Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;安卓版模拟器文件夹在你手机内部储存空间-android-data-org.vita3s.emulator那个文件夹&lt;br&gt;PC版看你自己设置在哪里就是哪里，你可以在模拟器里面的设置-模拟器那里看到，你设置的位置或者进行位置变更。&lt;/p&gt;
+&lt;p&gt;问题1：Vita3K玩灵魂献祭</summary>
+        
+      
+    
+    
+    
+    <category term="PSV" scheme="http://example.com/categories/PSV/"/>
+    
+    
+    <category term="PSV模拟器" scheme="http://example.com/tags/PSV%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PSP模拟器的问题汇总</title>
+    <link href="http://example.com/2025/02/02/psp-mo-ni-qi-de-wen-ti-hui-zong/"/>
+    <id>http://example.com/2025/02/02/psp-mo-ni-qi-de-wen-ti-hui-zong/</id>
+    <published>2025-02-02T10:33:20.000Z</published>
+    <updated>2025-02-02T10:35:14.198Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;问题1：PPSSPP运行幻想传说（Tales of</summary>
+        
+      
+    
+    
+    
+    <category term="PSP" scheme="http://example.com/categories/PSP/"/>
+    
+    
+    <category term="PSP模拟器" scheme="http://example.com/tags/PSP%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>PSV模拟器教程和下载-转换软件教程和下载</title>
@@ -516,68 +567,6 @@
     
     
     <category term="DC游戏" scheme="http://example.com/tags/DC%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>N64游戏资源</title>
-    <link href="http://example.com/2025/01/22/n64-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/01/22/n64-you-xi-zi-yuan/</id>
-    <published>2025-01-21T17:46:45.000Z</published>
-    <updated>2025-01-21T18:02:36.667Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="N64" scheme="http://example.com/categories/N64/"/>
-    
-    
-    <category term="N64游戏" scheme="http://example.com/tags/N64%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS游戏资源</title>
-    <link href="http://example.com/2025/01/22/ps-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/01/22/ps-you-xi-zi-yuan/</id>
-    <published>2025-01-21T17:45:04.000Z</published>
-    <updated>2025-01-21T17:59:48.403Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PS" scheme="http://example.com/categories/PS/"/>
-    
-    
-    <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
