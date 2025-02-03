@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-02-02T10:37:25.940Z</updated>
+  <updated>2025-02-03T10:54:25.227Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,58 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PS模拟器教程和下载-转换软件教程和下载</title>
+    <link href="http://example.com/2025/02/03/ps-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
+    <id>http://example.com/2025/02/03/ps-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
+    <published>2025-02-03T10:50:28.000Z</published>
+    <updated>2025-02-03T10:54:25.227Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
+&lt;p&gt;Duckstation（PC版）视频教程&lt;br&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="PS" scheme="http://example.com/categories/PS/"/>
+    
+    
+    <category term="PS模拟器" scheme="http://example.com/tags/PS%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PS2模拟器教程和下载-转换软件教程和下载</title>
+    <link href="http://example.com/2025/02/03/ps2-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
+    <id>http://example.com/2025/02/03/ps2-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
+    <published>2025-02-03T10:24:44.000Z</published>
+    <updated>2025-02-03T10:49:07.107Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
+&lt;p&gt;AetherSX2（安卓版）视频教程&lt;br&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="PS2" scheme="http://example.com/categories/PS2/"/>
+    
+    
+    <category term="PS2模拟器" scheme="http://example.com/tags/PS2%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>PSV模拟器的问题汇总</title>
@@ -505,68 +557,6 @@
     
     
     <category term="XBOX游戏" scheme="http://example.com/tags/XBOX%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>XBOX360游戏资源</title>
-    <link href="http://example.com/2025/01/22/xbox360-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/01/22/xbox360-you-xi-zi-yuan/</id>
-    <published>2025-01-21T17:48:36.000Z</published>
-    <updated>2025-01-21T18:07:53.874Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="XBOX360" scheme="http://example.com/categories/XBOX360/"/>
-    
-    
-    <category term="XBOX360游戏" scheme="http://example.com/tags/XBOX360%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>DC游戏资源</title>
-    <link href="http://example.com/2025/01/22/dc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/01/22/dc-you-xi-zi-yuan/</id>
-    <published>2025-01-21T17:47:13.000Z</published>
-    <updated>2025-01-21T18:04:56.586Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="DC" scheme="http://example.com/categories/DC/"/>
-    
-    
-    <category term="DC游戏" scheme="http://example.com/tags/DC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
