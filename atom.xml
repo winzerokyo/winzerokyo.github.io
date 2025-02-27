@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-02-27T13:03:14.309Z</updated>
+  <updated>2025-02-27T15:51:04.919Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,68 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SWITCH游戏资源</title>
+    <link href="http://example.com/2025/02/27/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/02/27/switch-you-xi-zi-yuan/</id>
+    <published>2025-02-27T15:48:22.000Z</published>
+    <updated>2025-02-27T15:51:04.919Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
+    
+    
+    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NDS游戏资源</title>
+    <link href="http://example.com/2025/02/27/nds-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/02/27/nds-you-xi-zi-yuan/</id>
+    <published>2025-02-27T15:40:23.000Z</published>
+    <updated>2025-02-27T15:45:52.758Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="NDS" scheme="http://example.com/categories/NDS/"/>
+    
+    
+    <category term="NDS游戏" scheme="http://example.com/tags/NDS%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>shandps4兼容性列表</title>
@@ -77,37 +139,6 @@
     
     
     <category term="PS4游戏" scheme="http://example.com/tags/PS4%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2025/02/27/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/02/27/switch-you-xi-zi-yuan/</id>
-    <published>2025-02-27T03:47:21.000Z</published>
-    <updated>2025-02-27T03:48:50.949Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
-    
-    
-    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -558,32 +589,6 @@
     
     
     <category term="一个模拟器游戏分享器" scheme="http://example.com/tags/%E4%B8%80%E4%B8%AA%E6%A8%A1%E6%8B%9F%E5%99%A8%E6%B8%B8%E6%88%8F%E5%88%86%E4%BA%AB%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>仙境传说超级初心者的心得2.0</title>
-    <link href="http://example.com/2025/02/15/xian-jing-chuan-shuo-chao-ji-chu-xin-zhe-de-xin-de/"/>
-    <id>http://example.com/2025/02/15/xian-jing-chuan-shuo-chao-ji-chu-xin-zhe-de-xin-de/</id>
-    <published>2025-02-15T10:30:42.000Z</published>
-    <updated>2025-02-16T04:45:29.892Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;这篇文章是上次文章的完全整合版，对现在新版本的一些地方进行了一点信息修正&lt;/p&gt;
-&lt;p&gt;职业评价：&lt;br&gt;装备限制极多，还有萌萌100级给的套装是没有武器的，你要靠乐园团的武器来打100级以后的怪物，除了主线16.1，16.2还有那些主线任务装备，剩下能用的只有氪金的装备了</summary>
-        
-      
-    
-    
-    
-    <category term="仙境传说（端游）" scheme="http://example.com/categories/%E4%BB%99%E5%A2%83%E4%BC%A0%E8%AF%B4%EF%BC%88%E7%AB%AF%E6%B8%B8%EF%BC%89/"/>
-    
-    
-    <category term="仙境传说超级初心者的心得2.0" scheme="http://example.com/tags/%E4%BB%99%E5%A2%83%E4%BC%A0%E8%AF%B4%E8%B6%85%E7%BA%A7%E5%88%9D%E5%BF%83%E8%80%85%E7%9A%84%E5%BF%83%E5%BE%972-0/"/>
     
   </entry>
   
