@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-03-05T14:00:26.169Z</updated>
+  <updated>2025-03-05T16:41:13.794Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>DC游戏资源</title>
+    <link href="http://example.com/2025/03/06/dc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/03/06/dc-you-xi-zi-yuan/</id>
+    <published>2025-03-05T16:40:14.000Z</published>
+    <updated>2025-03-05T16:41:13.794Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="DC" scheme="http://example.com/categories/DC/"/>
+    
+    
+    <category term="DC游戏" scheme="http://example.com/tags/DC%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>SWITCH游戏资源</title>
@@ -562,32 +593,6 @@
     
     
     <category term="GBA模拟器" scheme="http://example.com/tags/GBA%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>现有网盘链接类</title>
-    <link href="http://example.com/2025/02/19/xian-you-wang-pan-lian-jie-lei/"/>
-    <id>http://example.com/2025/02/19/xian-you-wang-pan-lian-jie-lei/</id>
-    <published>2025-02-19T07:23:10.000Z</published>
-    <updated>2025-03-03T15:42:15.615Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;支持方法：&lt;br&gt;将相关网盘资源链接的资源”转存“或者”保存到网盘“，然后充值购买相关网盘的“连续包月“，“连续包季”或者”连续包年“就可以了。&lt;br&gt;以后新的方法那就再说吧。&lt;/p&gt;
-</summary>
-        
-      
-    
-    
-    
-    <category term="如何支持本项目" scheme="http://example.com/categories/%E5%A6%82%E4%BD%95%E6%94%AF%E6%8C%81%E6%9C%AC%E9%A1%B9%E7%9B%AE/"/>
-    
-    
-    <category term="现有网盘链接类" scheme="http://example.com/tags/%E7%8E%B0%E6%9C%89%E7%BD%91%E7%9B%98%E9%93%BE%E6%8E%A5%E7%B1%BB/"/>
     
   </entry>
   
