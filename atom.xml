@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-03-05T16:41:13.794Z</updated>
+  <updated>2025-03-06T05:38:42.269Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SWITCH游戏资源</title>
+    <link href="http://example.com/2025/03/06/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/03/06/switch-you-xi-zi-yuan/</id>
+    <published>2025-03-06T05:37:33.000Z</published>
+    <updated>2025-03-06T05:38:42.269Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
+    
+    
+    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>DC游戏资源</title>
@@ -44,37 +75,6 @@
     
     
     <category term="DC游戏" scheme="http://example.com/tags/DC%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2025/03/05/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/03/05/switch-you-xi-zi-yuan/</id>
-    <published>2025-03-05T13:59:32.000Z</published>
-    <updated>2025-03-05T14:00:26.169Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
-    
-    
-    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
