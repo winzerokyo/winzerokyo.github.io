@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-03-17T03:10:05.683Z</updated>
+  <updated>2025-03-17T05:56:52.571Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,62 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SWITCH游戏资源</title>
+    <link href="http://example.com/2025/03/17/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/03/17/switch-you-xi-zi-yuan/</id>
+    <published>2025-03-17T05:51:52.000Z</published>
+    <updated>2025-03-17T05:56:52.571Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
+    
+    
+    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DC模拟器的问题汇总</title>
+    <link href="http://example.com/2025/03/17/dc-mo-ni-qi-de-wen-ti-hui-zong/"/>
+    <id>http://example.com/2025/03/17/dc-mo-ni-qi-de-wen-ti-hui-zong/</id>
+    <published>2025-03-17T05:06:59.000Z</published>
+    <updated>2025-03-17T05:11:00.179Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;问题1：Flycast模拟器玩生化危机</summary>
+        
+      
+    
+    
+    
+    <category term="DC" scheme="http://example.com/categories/DC/"/>
+    
+    
+    <category term="DC模拟器" scheme="http://example.com/tags/DC%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>XBOX游戏资源</title>
@@ -44,37 +100,6 @@
     
     
     <category term="XBOX游戏" scheme="http://example.com/tags/XBOX%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2025/03/17/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/03/17/switch-you-xi-zi-yuan/</id>
-    <published>2025-03-17T03:01:51.000Z</published>
-    <updated>2025-03-17T03:07:33.594Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
-    
-    
-    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -577,31 +602,6 @@
     
     
     <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS3模拟器的问题汇总</title>
-    <link href="http://example.com/2025/02/25/ps3-mo-ni-qi-de-wen-ti-hui-zong/"/>
-    <id>http://example.com/2025/02/25/ps3-mo-ni-qi-de-wen-ti-hui-zong/</id>
-    <published>2025-02-25T14:35:18.000Z</published>
-    <updated>2025-02-25T14:36:09.794Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;问题1：RPCS3模拟器玩实况足球系列，正式游戏时球员黑色一片&lt;br&gt;答案：设置-GPU，Write Color</summary>
-        
-      
-    
-    
-    
-    <category term="PS3" scheme="http://example.com/categories/PS3/"/>
-    
-    
-    <category term="PS3模拟器" scheme="http://example.com/tags/PS3%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
     
   </entry>
   
