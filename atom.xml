@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-03-17T05:56:52.571Z</updated>
+  <updated>2025-03-17T16:00:04.495Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于模拟器上的一些问题的解答1.0</title>
+    <link href="http://example.com/2025/03/17/guan-yu-mo-ni-qi-shang-de-yi-xie-wen-ti-de-jie-da-1-0/"/>
+    <id>http://example.com/2025/03/17/guan-yu-mo-ni-qi-shang-de-yi-xie-wen-ti-de-jie-da-1-0/</id>
+    <published>2025-03-17T15:59:13.000Z</published>
+    <updated>2025-03-17T16:00:04.495Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;以下都是一些我遇见网友问题的一些主观意见和常见现象的解决归纳总结&lt;/p&gt;
+&lt;p&gt;安卓类&lt;/p&gt;
+&lt;p&gt;1.安卓版的模拟器和开源驱动哪个好用？&lt;/p&gt;
+&lt;p&gt;这个问题其实没什么定式，先讲结论：首先你要自己去试哪个模拟器能运行，一直在更新的模拟器正常来说版本越新越好，因为新版本</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>SWITCH游戏资源</title>
@@ -571,37 +595,6 @@
     
     
     <category term="雷神加速器免费领取一万时效" scheme="http://example.com/tags/%E9%9B%B7%E7%A5%9E%E5%8A%A0%E9%80%9F%E5%99%A8%E5%85%8D%E8%B4%B9%E9%A2%86%E5%8F%96%E4%B8%80%E4%B8%87%E6%97%B6%E6%95%88/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS游戏资源</title>
-    <link href="http://example.com/2025/02/25/ps-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/02/25/ps-you-xi-zi-yuan/</id>
-    <published>2025-02-25T15:10:05.000Z</published>
-    <updated>2025-02-25T15:11:44.893Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PS" scheme="http://example.com/categories/PS/"/>
-    
-    
-    <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
