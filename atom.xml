@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-03-19T10:15:53.730Z</updated>
+  <updated>2025-03-19T15:28:02.423Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,449 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一个模拟器游戏分享器</title>
+    <link href="http://example.com/2025/03/19/yi-ge-mo-ni-qi-you-xi-fen-xiang-qi/"/>
+    <id>http://example.com/2025/03/19/yi-ge-mo-ni-qi-you-xi-fen-xiang-qi/</id>
+    <published>2025-03-19T15:26:31.000Z</published>
+    <updated>2025-03-19T15:28:02.423Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;视频介绍：&lt;/p&gt;
+&lt;iframe src=&quot;//player.bilibili.com/player.html?bvid=BV1pUAGezE9q&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="站主自制软件" scheme="http://example.com/categories/%E7%AB%99%E4%B8%BB%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+    <category term="一个模拟器游戏分享器" scheme="http://example.com/tags/%E4%B8%80%E4%B8%AA%E6%A8%A1%E6%8B%9F%E5%99%A8%E6%B8%B8%E6%88%8F%E5%88%86%E4%BA%AB%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一个模拟器启动器</title>
+    <link href="http://example.com/2025/03/19/yi-ge-mo-ni-qi-qi-dong-qi/"/>
+    <id>http://example.com/2025/03/19/yi-ge-mo-ni-qi-qi-dong-qi/</id>
+    <published>2025-03-19T15:25:34.000Z</published>
+    <updated>2025-03-19T15:27:44.176Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;视频介绍：&lt;/p&gt;
+&lt;iframe src=&quot;//player.bilibili.com/player.html?bvid=BV11hQpYrEzK&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="站主自制软件" scheme="http://example.com/categories/%E7%AB%99%E4%B8%BB%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+    <category term="一个模拟器启动器" scheme="http://example.com/tags/%E4%B8%80%E4%B8%AA%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%90%AF%E5%8A%A8%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>WII和NGC模拟器教程和下载-转换软件教程和下载</title>
+    <link href="http://example.com/2025/03/19/wii-he-ngc-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
+    <id>http://example.com/2025/03/19/wii-he-ngc-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
+    <published>2025-03-19T15:24:27.000Z</published>
+    <updated>2025-03-19T15:26:13.822Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
+&lt;p&gt;##############################################################&lt;/p&gt;
+&lt;p&gt;Dolphin（PC版）视频教程&lt;/p&gt;
+&lt;iframe</summary>
+        
+      
+    
+    
+    
+    <category term="WII和NGC" scheme="http://example.com/categories/WII%E5%92%8CNGC/"/>
+    
+    
+    <category term="WII和NGC模拟器" scheme="http://example.com/tags/WII%E5%92%8CNGC%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>XBOX360模拟器教程和下载-转换软件教程和下载</title>
+    <link href="http://example.com/2025/03/19/xbox360-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
+    <id>http://example.com/2025/03/19/xbox360-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
+    <published>2025-03-19T15:23:01.000Z</published>
+    <updated>2025-03-19T15:25:55.585Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
+&lt;p&gt;##############################################################&lt;/p&gt;
+&lt;p&gt;Xenia（PC版）视频教程&lt;/p&gt;
+&lt;iframe</summary>
+        
+      
+    
+    
+    
+    <category term="XBOX360" scheme="http://example.com/categories/XBOX360/"/>
+    
+    
+    <category term="XBOX360模拟器" scheme="http://example.com/tags/XBOX360%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>XBOX模拟器教程和下载-转换软件教程和下载</title>
+    <link href="http://example.com/2025/03/19/xbox-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
+    <id>http://example.com/2025/03/19/xbox-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
+    <published>2025-03-19T15:22:49.000Z</published>
+    <updated>2025-03-19T15:25:37.814Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
+&lt;p&gt;##############################################################&lt;/p&gt;
+&lt;p&gt;Xemu（PC版）视频教程&lt;/p&gt;
+&lt;iframe</summary>
+        
+      
+    
+    
+    
+    <category term="XBOX" scheme="http://example.com/categories/XBOX/"/>
+    
+    
+    <category term="XBOX模拟器" scheme="http://example.com/tags/XBOX%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>WIIU模拟器教程和下载-转换软件教程和下载</title>
+    <link href="http://example.com/2025/03/19/wiiu-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
+    <id>http://example.com/2025/03/19/wiiu-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
+    <published>2025-03-19T15:17:03.000Z</published>
+    <updated>2025-03-19T15:21:44.109Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
+&lt;p&gt;##############################################################&lt;/p&gt;
+&lt;p&gt;CEMU（PC版）视频教程&lt;/p&gt;
+&lt;iframe</summary>
+        
+      
+    
+    
+    
+    <category term="WIIU" scheme="http://example.com/categories/WIIU/"/>
+    
+    
+    <category term="WIIU模拟器" scheme="http://example.com/tags/WIIU%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PS模拟器教程和下载-转换软件教程和下载</title>
+    <link href="http://example.com/2025/03/19/ps-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
+    <id>http://example.com/2025/03/19/ps-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
+    <published>2025-03-19T15:11:29.000Z</published>
+    <updated>2025-03-19T15:18:45.331Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
+&lt;p&gt;##############################################################&lt;/p&gt;
+&lt;p&gt;Duckstation（PC版）视频教程&lt;/p&gt;
+&lt;iframe</summary>
+        
+      
+    
+    
+    
+    <category term="PS" scheme="http://example.com/categories/PS/"/>
+    
+    
+    <category term="PS模拟器" scheme="http://example.com/tags/PS%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PSP模拟器教程和下载 转换软件教程和下载</title>
+    <link href="http://example.com/2025/03/19/psp-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
+    <id>http://example.com/2025/03/19/psp-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
+    <published>2025-03-19T15:10:44.000Z</published>
+    <updated>2025-03-19T15:13:57.643Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
+&lt;p&gt;##############################################################&lt;/p&gt;
+&lt;p&gt;PPSSPP（PC版）视频教程&lt;/p&gt;
+&lt;iframe</summary>
+        
+      
+    
+    
+    
+    <category term="PSP" scheme="http://example.com/categories/PSP/"/>
+    
+    
+    <category term="PSP模拟器" scheme="http://example.com/tags/PSP%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PS3模拟器教程和下载-转换软件教程和下载</title>
+    <link href="http://example.com/2025/03/19/ps3-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
+    <id>http://example.com/2025/03/19/ps3-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
+    <published>2025-03-19T15:02:23.000Z</published>
+    <updated>2025-03-19T15:10:23.348Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
+&lt;p&gt;##############################################################&lt;/p&gt;
+&lt;p&gt;RPCS3模拟器（PC版）视频教程&lt;/p&gt;
+&lt;iframe</summary>
+        
+      
+    
+    
+    
+    <category term="PS3" scheme="http://example.com/categories/PS3/"/>
+    
+    
+    <category term="PS3模拟器" scheme="http://example.com/tags/PS3%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PS2模拟器教程和下载-转换软件教程和下载</title>
+    <link href="http://example.com/2025/03/19/ps2-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
+    <id>http://example.com/2025/03/19/ps2-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
+    <published>2025-03-19T15:01:48.000Z</published>
+    <updated>2025-03-19T15:06:50.900Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
+&lt;p&gt;##############################################################&lt;/p&gt;
+&lt;p&gt;AetherSX2（安卓版）视频教程&lt;/p&gt;
+&lt;iframe</summary>
+        
+      
+    
+    
+    
+    <category term="PS2" scheme="http://example.com/categories/PS2/"/>
+    
+    
+    <category term="PS2模拟器" scheme="http://example.com/tags/PS2%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NDS模拟器教程和下载 转换软件教程和下载</title>
+    <link href="http://example.com/2025/03/19/nds-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
+    <id>http://example.com/2025/03/19/nds-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
+    <published>2025-03-19T14:01:57.000Z</published>
+    <updated>2025-03-19T14:09:43.700Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
+&lt;p&gt;##############################################################&lt;/p&gt;
+&lt;p&gt;Desmume（PC版）视频教程&lt;/p&gt;
+&lt;iframe</summary>
+        
+      
+    
+    
+    
+    <category term="NDS" scheme="http://example.com/categories/NDS/"/>
+    
+    
+    <category term="NDS模拟器" scheme="http://example.com/tags/NDS%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GBA和GBC和GB模拟器教程和下载 转换软件教程和下载</title>
+    <link href="http://example.com/2025/03/19/gba-he-gbc-he-gb-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
+    <id>http://example.com/2025/03/19/gba-he-gbc-he-gb-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
+    <published>2025-03-19T13:21:44.000Z</published>
+    <updated>2025-03-19T13:36:18.835Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
+&lt;p&gt;##############################################################&lt;/p&gt;
+&lt;p&gt;Visualboyadvance-m（PC版）视频教程&lt;/p&gt;
+&lt;iframe</summary>
+        
+      
+    
+    
+    
+    <category term="GBA、GBC和GB" scheme="http://example.com/categories/GBA%E3%80%81GBC%E5%92%8CGB/"/>
+    
+    
+    <category term="GBA、GBC和GB模拟器" scheme="http://example.com/tags/GBA%E3%80%81GBC%E5%92%8CGB%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>FC模拟器教程和下载-转换软件教程和下载</title>
+    <link href="http://example.com/2025/03/19/fc-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
+    <id>http://example.com/2025/03/19/fc-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
+    <published>2025-03-19T13:21:14.000Z</published>
+    <updated>2025-03-19T13:24:07.604Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
+&lt;p&gt;##############################################################&lt;/p&gt;
+&lt;p&gt;Punes（PC版）视频教程&lt;/p&gt;
+&lt;iframe</summary>
+        
+      
+    
+    
+    
+    <category term="FC" scheme="http://example.com/categories/FC/"/>
+    
+    
+    <category term="FC模拟器" scheme="http://example.com/tags/FC%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DC模拟器教程和下载 转换软件教程和下载</title>
+    <link href="http://example.com/2025/03/19/dc-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
+    <id>http://example.com/2025/03/19/dc-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
+    <published>2025-03-19T13:14:30.000Z</published>
+    <updated>2025-03-19T13:24:12.726Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
+&lt;p&gt;##############################################################&lt;/p&gt;
+&lt;p&gt;Flycast（PC版）视频教程&lt;/p&gt;
+&lt;iframe</summary>
+        
+      
+    
+    
+    
+    <category term="DC" scheme="http://example.com/categories/DC/"/>
+    
+    
+    <category term="DC模拟器" scheme="http://example.com/tags/DC%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CPS1和CPS2和NEOGEO模拟器教程和下载 转换软件教程和下载</title>
+    <link href="http://example.com/2025/03/19/cps1-he-cps2-he-neogeo-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
+    <id>http://example.com/2025/03/19/cps1-he-cps2-he-neogeo-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
+    <published>2025-03-19T13:01:21.000Z</published>
+    <updated>2025-03-19T13:24:15.078Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
+&lt;p&gt;##############################################################&lt;/p&gt;
+&lt;p&gt;WinKawaks（PC版）视频教程&lt;/p&gt;
+&lt;iframe</summary>
+        
+      
+    
+    
+    
+    <category term="CPS1和CPS2和NEOGEO" scheme="http://example.com/categories/CPS1%E5%92%8CCPS2%E5%92%8CNEOGEO/"/>
+    
+    
+    <category term="CPS1和CPS2和NEOGEO模拟器" scheme="http://example.com/tags/CPS1%E5%92%8CCPS2%E5%92%8CNEOGEO%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3DS模拟器教程和下载 转换软件教程和下载</title>
+    <link href="http://example.com/2025/03/19/3ds-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
+    <id>http://example.com/2025/03/19/3ds-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
+    <published>2025-03-19T13:00:51.000Z</published>
+    <updated>2025-03-19T13:24:16.406Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
+&lt;p&gt;##############################################################&lt;/p&gt;
+&lt;p&gt;Azahar模拟器（安卓版）视频教程&lt;br&gt;视频还没有时间做，但是操作跟Citra大差不差，因为就是C</summary>
+        
+      
+    
+    
+    
+    <category term="3DS" scheme="http://example.com/categories/3DS/"/>
+    
+    
+    <category term="3DS模拟器" scheme="http://example.com/tags/3DS%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>Shandps4兼容性列表</title>
@@ -136,469 +579,6 @@
     
     
     <category term="模拟器类" scheme="http://example.com/tags/%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%B1%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>3DS模拟器教程和下载 转换软件教程和下载</title>
-    <link href="http://example.com/2025/03/18/3ds-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
-    <id>http://example.com/2025/03/18/3ds-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
-    <published>2025-03-18T15:51:50.000Z</published>
-    <updated>2025-03-18T15:54:27.185Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
-&lt;p&gt;Azahar橙花这个分支这个由citra的分支和Lime3DS合并而来的，不过这个分支看他们的说明好像为了不被追究而不再为加密的文件提供支持，就是类似CIA和3DS的文件，我测试时已经有无法安装CIA文件的问题。这个模拟器可能要花点时间去详细</summary>
-        
-      
-    
-    
-    
-    <category term="3DS" scheme="http://example.com/categories/3DS/"/>
-    
-    
-    <category term="3DS模拟器" scheme="http://example.com/tags/3DS%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>DC模拟器的问题汇总</title>
-    <link href="http://example.com/2025/03/17/dc-mo-ni-qi-de-wen-ti-hui-zong/"/>
-    <id>http://example.com/2025/03/17/dc-mo-ni-qi-de-wen-ti-hui-zong/</id>
-    <published>2025-03-17T05:06:59.000Z</published>
-    <updated>2025-03-17T05:11:00.179Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;问题1：Flycast模拟器玩生化危机</summary>
-        
-      
-    
-    
-    
-    <category term="DC" scheme="http://example.com/categories/DC/"/>
-    
-    
-    <category term="DC模拟器" scheme="http://example.com/tags/DC%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>XBOX游戏资源</title>
-    <link href="http://example.com/2025/03/17/xbox-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/03/17/xbox-you-xi-zi-yuan/</id>
-    <published>2025-03-17T03:05:52.000Z</published>
-    <updated>2025-03-17T03:10:05.683Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="XBOX" scheme="http://example.com/categories/XBOX/"/>
-    
-    
-    <category term="XBOX游戏" scheme="http://example.com/tags/XBOX%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>每周模拟器版本更新信息</title>
-    <link href="http://example.com/2025/03/15/mei-zhou-mo-ni-qi-ban-ben-geng-xin-xin-xi/"/>
-    <id>http://example.com/2025/03/15/mei-zhou-mo-ni-qi-ban-ben-geng-xin-xin-xi/</id>
-    <published>2025-03-15T03:20:33.000Z</published>
-    <updated>2025-03-15T03:22:07.629Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;​2025-03-15 Shadps4更新到2025-03-13，XEMU更新到V0.8.3.5 ,Xenia canary本周更新到2025-01-20，xenia_master</summary>
-        
-      
-    
-    
-    
-    <category term="每周模拟器版本更新信息" scheme="http://example.com/categories/%E6%AF%8F%E5%91%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
-    
-    
-    <category term="每周模拟器版本更新信息" scheme="http://example.com/tags/%E6%AF%8F%E5%91%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PSV游戏资源</title>
-    <link href="http://example.com/2025/03/14/psv-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/03/14/psv-you-xi-zi-yuan/</id>
-    <published>2025-03-14T14:14:29.000Z</published>
-    <updated>2025-03-14T14:15:20.671Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PSV" scheme="http://example.com/categories/PSV/"/>
-    
-    
-    <category term="PSV游戏" scheme="http://example.com/tags/PSV%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PSP游戏资源</title>
-    <link href="http://example.com/2025/03/14/psp-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/03/14/psp-you-xi-zi-yuan/</id>
-    <published>2025-03-14T13:40:32.000Z</published>
-    <updated>2025-03-14T13:46:20.060Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PSP" scheme="http://example.com/categories/PSP/"/>
-    
-    
-    <category term="PSP游戏" scheme="http://example.com/tags/PSP%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>NDS游戏资源</title>
-    <link href="http://example.com/2025/03/14/nds-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/03/14/nds-you-xi-zi-yuan/</id>
-    <published>2025-03-14T13:10:24.000Z</published>
-    <updated>2025-03-14T13:15:21.491Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="NDS" scheme="http://example.com/categories/NDS/"/>
-    
-    
-    <category term="NDS游戏" scheme="http://example.com/tags/NDS%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS3游戏资源</title>
-    <link href="http://example.com/2025/03/14/ps3-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/03/14/ps3-you-xi-zi-yuan/</id>
-    <published>2025-03-14T02:30:07.000Z</published>
-    <updated>2025-03-14T02:34:54.869Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PS3" scheme="http://example.com/categories/PS3/"/>
-    
-    
-    <category term="PS3游戏" scheme="http://example.com/tags/PS3%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GBA游戏资源</title>
-    <link href="http://example.com/2025/03/13/gba-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/03/13/gba-you-xi-zi-yuan/</id>
-    <published>2025-03-13T15:03:33.000Z</published>
-    <updated>2025-03-13T15:04:40.327Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="GBA、GBC和GB" scheme="http://example.com/categories/GBA%E3%80%81GBC%E5%92%8CGB/"/>
-    
-    
-    <category term="GBA游戏" scheme="http://example.com/tags/GBA%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一个模拟器启动器</title>
-    <link href="http://example.com/2025/03/13/yi-ge-mo-ni-qi-qi-dong-qi/"/>
-    <id>http://example.com/2025/03/13/yi-ge-mo-ni-qi-qi-dong-qi/</id>
-    <published>2025-03-12T16:50:33.000Z</published>
-    <updated>2025-03-12T16:52:26.556Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;视频介绍：&lt;/p&gt;
-&lt;iframe src=&quot;//player.bilibili.com/player.html?bvid=BV11hQpYrEzK&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="站主自制软件" scheme="http://example.com/categories/%E7%AB%99%E4%B8%BB%E8%87%AA%E5%88%B6%E8%BD%AF%E4%BB%B6/"/>
-    
-    
-    <category term="一个模拟器启动器" scheme="http://example.com/tags/%E4%B8%80%E4%B8%AA%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%90%AF%E5%8A%A8%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SFC游戏资源</title>
-    <link href="http://example.com/2025/03/11/sfc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/03/11/sfc-you-xi-zi-yuan/</id>
-    <published>2025-03-11T04:30:46.000Z</published>
-    <updated>2025-03-11T04:31:08.818Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="SFC" scheme="http://example.com/categories/SFC/"/>
-    
-    
-    <category term="SFC游戏" scheme="http://example.com/tags/SFC%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GBC和GB游戏资源</title>
-    <link href="http://example.com/2025/03/11/gbc-he-gb-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/03/11/gbc-he-gb-you-xi-zi-yuan/</id>
-    <published>2025-03-11T04:10:05.000Z</published>
-    <updated>2025-03-11T04:12:53.282Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="GBA、GBC和GB" scheme="http://example.com/categories/GBA%E3%80%81GBC%E5%92%8CGB/"/>
-    
-    
-    <category term="GBC和GB游戏" scheme="http://example.com/tags/GBC%E5%92%8CGB%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS3模拟器教程和下载-转换软件教程和下载</title>
-    <link href="http://example.com/2025/03/08/ps3-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
-    <id>http://example.com/2025/03/08/ps3-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
-    <published>2025-03-08T05:02:22.000Z</published>
-    <updated>2025-03-08T05:03:26.016Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
-&lt;p&gt;##############################################################&lt;/p&gt;
-&lt;p&gt;RPCS3模拟器（PC版）视频教程&lt;/p&gt;
-&lt;iframe</summary>
-        
-      
-    
-    
-    
-    <category term="PS3" scheme="http://example.com/categories/PS3/"/>
-    
-    
-    <category term="PS3模拟器" scheme="http://example.com/tags/PS3%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PSV模拟器的问题汇总</title>
-    <link href="http://example.com/2025/03/08/psv-mo-ni-qi-de-wen-ti-hui-zong/"/>
-    <id>http://example.com/2025/03/08/psv-mo-ni-qi-de-wen-ti-hui-zong/</id>
-    <published>2025-03-07T16:24:44.000Z</published>
-    <updated>2025-03-07T16:24:59.351Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;安卓版模拟器文件夹在你手机内部储存空间-android-data-org.vita3s.emulator那个文件夹&lt;br&gt;PC版看你自己设置在哪里就是哪里，你可以在模拟器里面的设置-模拟器那里看到，你设置的位置或者进行位置变更。&lt;/p&gt;
-&lt;p&gt;问题1：Vita3K玩灵魂献祭</summary>
-        
-      
-    
-    
-    
-    <category term="PSV" scheme="http://example.com/categories/PSV/"/>
-    
-    
-    <category term="PSV模拟器" scheme="http://example.com/tags/PSV%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>DC游戏资源</title>
-    <link href="http://example.com/2025/03/06/dc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/03/06/dc-you-xi-zi-yuan/</id>
-    <published>2025-03-05T16:40:14.000Z</published>
-    <updated>2025-03-05T16:41:13.794Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="DC" scheme="http://example.com/categories/DC/"/>
-    
-    
-    <category term="DC游戏" scheme="http://example.com/tags/DC%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS2模拟器教程和下载-转换软件教程和下载</title>
-    <link href="http://example.com/2025/03/02/ps2-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
-    <id>http://example.com/2025/03/02/ps2-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
-    <published>2025-03-02T08:36:47.000Z</published>
-    <updated>2025-03-02T14:21:33.400Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
-&lt;p&gt;##############################################################&lt;/p&gt;
-&lt;p&gt;AetherSX2（安卓版）视频教程&lt;/p&gt;
-&lt;iframe</summary>
-        
-      
-    
-    
-    
-    <category term="PS2" scheme="http://example.com/categories/PS2/"/>
-    
-    
-    <category term="PS2模拟器" scheme="http://example.com/tags/PS2%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
     
   </entry>
   
