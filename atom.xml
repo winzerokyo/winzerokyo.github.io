@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-03-26T08:40:27.751Z</updated>
+  <updated>2025-03-26T10:34:58.715Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PSV游戏资源</title>
+    <link href="http://example.com/2025/03/26/psv-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/03/26/psv-you-xi-zi-yuan/</id>
+    <published>2025-03-26T10:26:31.000Z</published>
+    <updated>2025-03-26T10:34:58.715Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PSV" scheme="http://example.com/categories/PSV/"/>
+    
+    
+    <category term="PSV游戏" scheme="http://example.com/tags/PSV%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>PS4游戏资源</title>
@@ -530,37 +561,6 @@
     
     
     <category term="PS3游戏" scheme="http://example.com/tags/PS3%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PSV游戏资源</title>
-    <link href="http://example.com/2025/03/21/psv-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/03/21/psv-you-xi-zi-yuan/</id>
-    <published>2025-03-21T15:11:30.000Z</published>
-    <updated>2025-03-21T15:18:11.354Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PSV" scheme="http://example.com/categories/PSV/"/>
-    
-    
-    <category term="PSV游戏" scheme="http://example.com/tags/PSV%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
