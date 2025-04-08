@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-04-08T03:04:01.170Z</updated>
+  <updated>2025-04-08T08:40:22.706Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,75 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Shandps4兼容性列表</title>
+    <link href="http://example.com/2025/04/08/shandps4-jian-rong-xing-lie-biao/"/>
+    <id>http://example.com/2025/04/08/shandps4-jian-rong-xing-lie-biao/</id>
+    <published>2025-04-08T08:36:46.000Z</published>
+    <updated>2025-04-08T08:40:22.706Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;特别备注&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;血源诅咒</summary>
+        
+      
+    
+    
+    
+    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
+    
+    
+    <category term="PS4模拟器" scheme="http://example.com/tags/PS4%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PS4游戏资源</title>
+    <link href="http://example.com/2025/04/08/ps4-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/04/08/ps4-you-xi-zi-yuan/</id>
+    <published>2025-04-08T08:35:05.000Z</published>
+    <updated>2025-04-08T08:37:59.632Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
+    
+    
+    <category term="PS4游戏" scheme="http://example.com/tags/PS4%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
     <title>SWITCH游戏资源</title>
     <link href="http://example.com/2025/04/08/switch-you-xi-zi-yuan/"/>
     <id>http://example.com/2025/04/08/switch-you-xi-zi-yuan/</id>
-    <published>2025-04-08T03:00:29.000Z</published>
-    <updated>2025-04-08T03:04:01.170Z</updated>
+    <published>2025-04-08T08:30:30.000Z</published>
+    <updated>2025-04-08T08:34:10.089Z</updated>
     
     
       
@@ -100,37 +164,6 @@
     
     
     <category term="PS3模拟器" scheme="http://example.com/tags/PS3%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS4游戏资源</title>
-    <link href="http://example.com/2025/04/07/ps4-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/04/07/ps4-you-xi-zi-yuan/</id>
-    <published>2025-04-07T09:28:04.000Z</published>
-    <updated>2025-04-07T09:30:09.796Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
-    
-    
-    <category term="PS4游戏" scheme="http://example.com/tags/PS4%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -233,39 +266,6 @@
 &lt;p&gt;##############################################################&lt;/p&gt;
 &lt;p&gt;Shadps4(PC版)视频教程&lt;/p&gt;
 &lt;iframe</summary>
-        
-      
-    
-    
-    
-    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
-    
-    
-    <category term="PS4模拟器" scheme="http://example.com/tags/PS4%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Shandps4兼容性列表</title>
-    <link href="http://example.com/2025/04/04/shandps4-jian-rong-xing-lie-biao/"/>
-    <id>http://example.com/2025/04/04/shandps4-jian-rong-xing-lie-biao/</id>
-    <published>2025-04-04T07:56:45.000Z</published>
-    <updated>2025-04-04T08:01:44.307Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;特别备注&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;血源诅咒</summary>
         
       
     
