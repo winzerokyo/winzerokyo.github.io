@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-04-09T15:23:49.289Z</updated>
+  <updated>2025-04-09T15:31:20.018Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PS3模拟器教程和下载-转换软件教程和下载</title>
+    <link href="http://example.com/2025/04/09/ps3-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
+    <id>http://example.com/2025/04/09/ps3-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
+    <published>2025-04-09T15:30:24.000Z</published>
+    <updated>2025-04-09T15:31:20.018Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
+&lt;p&gt;##############################################################&lt;/p&gt;
+&lt;p&gt;RPCS3模拟器（PC版）视频教程&lt;/p&gt;
+&lt;iframe</summary>
+        
+      
+    
+    
+    
+    <category term="PS3" scheme="http://example.com/categories/PS3/"/>
+    
+    
+    <category term="PS3模拟器" scheme="http://example.com/tags/PS3%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>FC游戏资源</title>
@@ -582,37 +610,6 @@
     
     
     <category term="XBOX游戏" scheme="http://example.com/tags/XBOX%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GBC和GB游戏资源</title>
-    <link href="http://example.com/2025/03/21/gbc-he-gb-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/03/21/gbc-he-gb-you-xi-zi-yuan/</id>
-    <published>2025-03-21T15:27:06.000Z</published>
-    <updated>2025-03-21T15:32:18.943Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="GBA、GBC和GB" scheme="http://example.com/categories/GBA%E3%80%81GBC%E5%92%8CGB/"/>
-    
-    
-    <category term="GBC和GB游戏" scheme="http://example.com/tags/GBC%E5%92%8CGB%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
