@@ -202,6 +202,31 @@
   </entry>
   
   <entry>
+    <title>PS3模拟器的问题汇总</title>
+    <link href="http://example.com/2025/04/09/ps3-mo-ni-qi-de-wen-ti-hui-zong/"/>
+    <id>http://example.com/2025/04/09/ps3-mo-ni-qi-de-wen-ti-hui-zong/</id>
+    <published>2025-04-09T07:44:20.000Z</published>
+    <updated>2025-04-10T07:55:27.609Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;问题1：RPCS3模拟器玩实况足球系列，正式游戏时球员黑色一片&lt;br&gt;答案：设置-GPU，Write Color</summary>
+        
+      
+    
+    
+    
+    <category term="PS3" scheme="http://example.com/categories/PS3/"/>
+    
+    
+    <category term="PS3模拟器" scheme="http://example.com/tags/PS3%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
     <title>GBA游戏资源</title>
     <link href="http://example.com/2025/04/07/gba-you-xi-zi-yuan/"/>
     <id>http://example.com/2025/04/07/gba-you-xi-zi-yuan/</id>
@@ -229,31 +254,6 @@
     
     
     <category term="GBA游戏" scheme="http://example.com/tags/GBA%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS3模拟器的问题汇总</title>
-    <link href="http://example.com/2025/04/07/ps3-mo-ni-qi-de-wen-ti-hui-zong/"/>
-    <id>http://example.com/2025/04/07/ps3-mo-ni-qi-de-wen-ti-hui-zong/</id>
-    <published>2025-04-07T15:05:19.000Z</published>
-    <updated>2025-04-07T15:10:03.441Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;问题1：RPCS3模拟器玩实况足球系列，正式游戏时球员黑色一片&lt;br&gt;答案：设置-GPU，Write Color</summary>
-        
-      
-    
-    
-    
-    <category term="PS3" scheme="http://example.com/categories/PS3/"/>
-    
-    
-    <category term="PS3模拟器" scheme="http://example.com/tags/PS3%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
     
   </entry>
   
