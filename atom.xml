@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-04-12T01:41:44.955Z</updated>
+  <updated>2025-04-12T01:52:22.167Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>GBC和GB游戏资源</title>
+    <link href="http://example.com/2025/04/12/gbc-he-gb-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/04/12/gbc-he-gb-you-xi-zi-yuan/</id>
+    <published>2025-04-12T01:50:07.000Z</published>
+    <updated>2025-04-12T01:52:22.167Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="GBA、GBC和GB" scheme="http://example.com/categories/GBA%E3%80%81GBC%E5%92%8CGB/"/>
+    
+    
+    <category term="GBC和GB游戏" scheme="http://example.com/tags/GBC%E5%92%8CGB%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>每周模拟器版本更新信息</title>
@@ -579,37 +610,6 @@
     
     
     <category term="DC游戏" scheme="http://example.com/tags/DC%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>3DS游戏资源</title>
-    <link href="http://example.com/2025/03/23/3ds-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/03/23/3ds-you-xi-zi-yuan/</id>
-    <published>2025-03-22T16:29:29.000Z</published>
-    <updated>2025-03-22T16:36:51.453Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="3DS" scheme="http://example.com/categories/3DS/"/>
-    
-    
-    <category term="3DS游戏" scheme="http://example.com/tags/3DS%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
