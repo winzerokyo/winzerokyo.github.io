@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-04-25T16:52:02.114Z</updated>
+  <updated>2025-04-26T03:07:27.444Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,62 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SWITCH游戏资源</title>
+    <link href="http://example.com/2025/04/26/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/04/26/switch-you-xi-zi-yuan/</id>
+    <published>2025-04-26T03:06:01.000Z</published>
+    <updated>2025-04-26T03:07:27.444Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
+    
+    
+    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>每周模拟器版本更新信息</title>
+    <link href="http://example.com/2025/04/26/mei-zhou-mo-ni-qi-ban-ben-geng-xin-xin-xi/"/>
+    <id>http://example.com/2025/04/26/mei-zhou-mo-ni-qi-ban-ben-geng-xin-xin-xi/</id>
+    <published>2025-04-26T02:57:39.000Z</published>
+    <updated>2025-04-26T03:02:05.676Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;​2025-04-26 Shadps4更新到2025-04-25，Shadps4新版本不支持PKG格式，要使用PkgEditor解包了才能读取游戏。XEMU更新到V0.8.5.5 。Xenia canary本周更新到2025-04-25，xenia_master</summary>
+        
+      
+    
+    
+    
+    <category term="每周模拟器版本更新信息" scheme="http://example.com/categories/%E6%AF%8F%E5%91%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
+    
+    
+    <category term="每周模拟器版本更新信息" scheme="http://example.com/tags/%E6%AF%8F%E5%91%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>PS2游戏资源</title>
@@ -75,37 +131,6 @@
     
     
     <category term="GBA游戏" scheme="http://example.com/tags/GBA%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2025/04/26/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/04/26/switch-you-xi-zi-yuan/</id>
-    <published>2025-04-25T16:28:00.000Z</published>
-    <updated>2025-04-25T16:33:00.349Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
-    
-    
-    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -356,31 +381,6 @@
     
     
     <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>每周模拟器版本更新信息</title>
-    <link href="http://example.com/2025/04/19/mei-zhou-mo-ni-qi-ban-ben-geng-xin-xin-xi/"/>
-    <id>http://example.com/2025/04/19/mei-zhou-mo-ni-qi-ban-ben-geng-xin-xin-xi/</id>
-    <published>2025-04-19T04:31:38.000Z</published>
-    <updated>2025-04-19T14:40:08.224Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;​2025-04-19 Shadps4更新到2025-04-18，Shadps4新版本不支持PKG格式，要使用PkgEditor解包了才能读取游戏。XEMU更新到V0.8.5.4 。Xenia canary本周更新到2025-04-18，xenia_master</summary>
-        
-      
-    
-    
-    
-    <category term="每周模拟器版本更新信息" scheme="http://example.com/categories/%E6%AF%8F%E5%91%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
-    
-    
-    <category term="每周模拟器版本更新信息" scheme="http://example.com/tags/%E6%AF%8F%E5%91%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
     
   </entry>
   
