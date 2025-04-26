@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-04-26T03:07:27.444Z</updated>
+  <updated>2025-04-26T15:13:19.247Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>DC游戏资源</title>
+    <link href="http://example.com/2025/04/26/dc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/04/26/dc-you-xi-zi-yuan/</id>
+    <published>2025-04-26T15:11:17.000Z</published>
+    <updated>2025-04-26T15:13:19.247Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="DC" scheme="http://example.com/categories/DC/"/>
+    
+    
+    <category term="DC游戏" scheme="http://example.com/tags/DC%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>SWITCH游戏资源</title>
@@ -583,34 +614,6 @@
     
     
     <category term="PS4模拟器" scheme="http://example.com/tags/PS4%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>3DS模拟器教程和下载 转换软件教程和下载</title>
-    <link href="http://example.com/2025/04/03/3ds-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
-    <id>http://example.com/2025/04/03/3ds-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
-    <published>2025-04-02T16:17:55.000Z</published>
-    <updated>2025-04-11T09:16:38.383Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
-&lt;p&gt;##############################################################&lt;/p&gt;
-&lt;p&gt;Azahar模拟器（安卓版）视频教程&lt;/p&gt;
-&lt;iframe</summary>
-        
-      
-    
-    
-    
-    <category term="3DS" scheme="http://example.com/categories/3DS/"/>
-    
-    
-    <category term="3DS模拟器" scheme="http://example.com/tags/3DS%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
     
   </entry>
   
