@@ -411,7 +411,7 @@
     
       
         <span class="post-detail-header_date">
-          <i class="fas fa-calendar"></i> 发表于：2025-02-01 |
+          <i class="fas fa-calendar"></i> 发表于：2025-05-12 |
         </span>
       
 
@@ -444,8 +444,10 @@
   <div class="main-content">
     <article class="post post-detail">
       <div class="post-content">
-        <p>模拟器闪退的自我排查，闪退没有固定的解决方法，因为产生原因多种多样。可以按照下面的办法自己排除。闪退靠排除，1看看自己的显卡驱动够不够新，这个去官网下载最新就能解决。2将MOD和金手指全部不用，排除这些东西导致的闪退。3加载了别人的着色器缓存，这玩意不是不好而是每个硬件生成的会有不一样而且硬件间会有不兼容的情况，正常删除着色器缓存重新生成就可以。4软件冲突，这些体现在桌面花里胡哨（桌面美化）和喜欢游戏帧率监测（用游戏++或者其他游戏帧率监测的）或者录屏或者用推流的人，因为这些软件会使模拟器的图形接口无法正常调用导致闪退。5设置过于激进，这个就是对模拟器的人没什么认识的人犯的错误，将模拟器设置调得过高，导致机器无法处理闪退。6插好各种音响设备，包括耳机或者其他能输出声音的设备，要能够被系统识别的输出声音的设备。</p>
-<p>整合好的游戏要慎用，有可能会进不了游戏，进不了游戏就找游戏本体，游戏更新和DLC分开加载的资源来就可以，龙神模拟器那里右击游戏图标，管理游戏更新和管理游戏DLC那里能不能识别加载，不能就自己去网上下载游戏更新和DLC来加载</p>
+        <p>NS模拟器游戏文件格式上通常较常见是nsz、xcz、nsp、xci。nsz、xcz你们可以理解成加密和压缩了的游戏文件，这种文件通常是用在实体机上的，因为nsz、xcz真是省空间的。模拟器只能读取nsp、xci这种解密解压缩好的。这里面nsp格式的游戏文件是可以作为游戏本体文件，游戏更新文件和游戏的DLC文件的。至于xci通常只作为游戏本体文件存在。游戏更新文件和游戏的DLC文件的nsp格式文件是无法转换成xci的。非整合的游戏本体文件上nsp和xci是可以用软件互相转换。</p>
+<p>游戏本体、游戏更新和游戏DLC的文件判断。有些人说按照文件大小来区分，首先说明这个方法是不完全对的，因为例如：迪士尼梦幻星谷这些游戏来说，游戏本体文件就是个启动游戏的程序，本身不包含游戏内容的，游戏内容在游戏更新或者DLC的，它的游戏更新和DLC都有可能比游戏本体大。这个最好用NSGManager（菲菲的家）这款电脑软件读取，如果软件读取的信息上写着APP的就是本体，UPD就是更新，DLC就是DLC嘛。没有软件时只能说用模拟器逐个读取来试，因为模拟器读取到了游戏本体就会写明信息，这样就可以排除了本体，更新和DLC可以慢慢试就知道。<br>游戏本体以这个游戏本体文件名为例Donkey Kong Country Tropical Freeze[0100C1F0051B6000][1.0.0][0][4.1.0].nsp。上面的文件名字中，Donkey Kong Country Tropical Freeze就是游戏名字，[0100C1F0051B6000]就是游戏编号，如果有游戏编号呢容易判断，还有因为游戏编号通常是以000结尾的，当然也会有不对的情况。[1.0.0]就是游戏本体的版本号，[0]就是游戏本体的特征写法，一般写得比较标准的话里面就会有v0、0、APP等字样，但是也有例外，[4.1.0]就是要用的最低固件版本，.nsp就是nsp文件格式。.xci格式通常都是游戏本体了。但是也有例外，因为有些人就是乱写。<br>游戏更新以这个游戏本体文件名为例Donkey Kong Country Tropical Freeze[0100C1F0051B6800][1.0.2][131072][5.1.0].nsp。上面的文件名字中，Donkey Kong Country Tropical Freeze就是游戏名字，[0100C1F0051B6800]就是游戏编号，如果有游戏编号呢就容易判断，还有因为游戏编号通常是以800结尾的，当然也会有不对的情况。[1.0.2]就是游戏更新应用后游戏的版本号，[131072]就是游戏更新的特征写法，一般写得比较标准的话里面就会有65536的倍数写法、UPD等字样，[5.1.0]就是要用的最低固件版本，.nsp就是nsp文件格式。但是也有例外，因为有些人就是乱写。<br>游戏DLC以这个游戏本体文件名为例Star Overdrive [Star Overdrive Deluxe upgrade DLC][010047E01EA25002][v0].nsp。上面的文件名字中，[Star Overdrive Deluxe upgrade DLC]就是Star Overdrive Deluxe游戏的DLC，[010047E01EA25002]就是游戏编号就容易判断，如果有游戏编号呢，还有因为游戏本体通常是以0XX结尾的，这里XX是可以是任意数字或者字母，当然也会有不对的情况。[v0]这里的意思就是有游戏本体就可以加载此DLC文件来添加游戏内容，如果是65536的倍数写法的就要加载比65536的倍数写法高的游戏更新，才可以加载此DLC文件来添加游戏内容，.nsp就是nsp文件格式。但是也有例外，因为有些人就是乱写。</p>
+<p>整合好的游戏要慎用，有可能会进不了游戏，进不了游戏就找游戏本体，游戏更新和DLC分开加载的资源来就可以，龙神模拟器那里右击游戏图标，管理游戏更新和管理游戏DLC那里能不能识别加载，不能就自己去网上下载游戏更新和DLC来加载。根据我整理这么多游戏的实践，出现问题的形式上有两种情况，一种是怎样操作都是无法正常读取整合游戏的正确信息，包括更新和DLC的数量，另一种是读取游戏的版本等都正确，但是弹出错误无法运行游戏。第二种情况有些人说整合好的游戏文件最好用xci来整合，这样子通常是没问题的，但是我自己以前实践中发现，文件格式上nsp和xci的整合出来的游戏都是会有几率导致模拟器无法正常读取，弹出错误。我在某次实践中发现这个模拟器的prod.keys和title.keys有关系，因为我试过发现有时候替换key能解决。至于怎样形成这个我不是编译的我不知道，以前测试数据上，如果你比较喜欢整合游戏的，建议用yuzu系的模拟器，尽量少用龙神系的，因为这问题出现的概率龙神系的比yuzu系高。还有要注意的事情，如果是整合好的nsp和xci的游戏会无法转换成另一种格式。</p>
+<p>模拟器闪退的自我排查，闪退没有固定的解决方法，因为产生原因多种多样。可以按照下面的办法自己排除。闪退靠排除，1看看自己的显卡驱动够不够新，这个去官网下载最新就能解决。2将MOD和金手指全部不用，排除这些东西导致的闪退。3加载了别人的着色器缓存，这玩意不是不好而是每个硬件生成的会有不一样而且硬件间会有不兼容的情况，正常删除着色器缓存重新生成就可以。4软件冲突，这些体现在桌面花里胡哨（桌面美化）和喜欢游戏帧率监测（用游戏++或者其他游戏帧率监测的）或者录屏或者用推流的人，因为这些软件会使模拟器的图形接口无法正常调用导致闪退。5设置过于激进，这个就是对模拟器的人没什么认识的人犯的错误，将模拟器设置调得过高，导致机器无法处理闪退。6插好各种音响设备，包括耳机或者其他能输出声音的设备，要能够被系统识别的输出声音的设备。</p>
 <p>问题1：游戏无法打开，打开后闪退或者黑屏。<br>答案：<br>情况1将模拟器升级或者降级处理，因为某些版本的模拟器会出现这样的问题，该问题出现原因<br>原因1模拟器与游戏或者电脑环境不兼容，升级或者降级模拟器（up主本人，B站网友喔嘛麻，B站网友三长，B站网友救济魔女まどか，B站Hestia-L）<br>原因2<br>Yuzu模拟器出现原因<br>情况1更新显卡驱动<br>情况2卸载&#x2F;更新有问题的屏幕录制（覆盖屏幕）或帧数监控软件<br>情况3“模拟”-“设置”-“图形”-单击“API”选择vulkan，看看有没有显卡型号，验证您的Vulkan安装，如果在vulkan下没有显示显卡型号可以试下以下两种方法<br>（1）API选项调成OpenGL再改成vulkan<br>（2）重启模拟器将API选项调成OpenGL试一下能否运行游戏，之后将OpenGL改成vulkan<br>情况4有可能是内存频率调节比较激进导致。</p>
 <p>龙神模拟器出现原因<br>情况1更新显卡驱动<br>情况2卸载&#x2F;更新有问题的屏幕录制（覆盖屏幕）或帧数监控软件<br>情况3“options”-“settings”-“graphics”-单击“graphics backend”选择vulkan，看看“preferred gpu”选项有无显卡型号，验证您的Vulkan安装，如果在vulkan下没有显示显卡型号可以试下以下两种方法<br>（1）“graphics backend”选项调成OpenGL再改成vulkan<br>（2）重启模拟器将“graphics backend”选项调成OpenGL试一下能否运行游戏，之后将OpenGL改成vulkan<br>（B站网友猎神邪天、B站网友暴走弗洛鸽，B站网友第五期团下等马，B站网友愛丽丝的囚徒）；】<br>情况2游戏本体有问题（B站网友斑点丶丶，B站网友抽象鲨）；<br>情况3内存少于16GB有几率因为运行内存不足而无法打开游戏；<br>情况4电脑运行着游戏++等软件导致图形接口被占用，导致无法识别。</p>
 <p>问题2：柚子模拟器的固件和密钥和龙神模拟器视频的固件密钥是一样的吗？<br>答案：固件和密钥两个模拟器是通用的。（B站网友石炎）</p>
@@ -526,7 +528,7 @@
     </li>
     <li class="post-copyright-link">
     <strong>文章链接:  </strong>
-    <a href="/2025/02/01/switch-mo-ni-qi-de-wen-ti-hui-zong/" target="_blank" title="SWITCH模拟器的问题汇总">http://example.com/2025/02/01/switch-mo-ni-qi-de-wen-ti-hui-zong/</a>
+    <a href="/2025/05/12/switch-mo-ni-qi-de-wen-ti-hui-zong/" target="_blank" title="SWITCH模拟器的问题汇总">http://example.com/2025/05/12/switch-mo-ni-qi-de-wen-ti-hui-zong/</a>
     </li>
     <li class="post-copyright-license">
       <strong>版权声明:   </strong>
@@ -544,39 +546,33 @@
 
 
 
-  
-  <div class="post-nav-prev post-nav-item">
-    <div class="post-nav-img" style="background-size: cover; 
-      background-position: center center;">
-      <img class="lazyload lazyload placeholder" src="https://pic2.zhimg.com/80/v2-63bbdb5b76b8d349ad35ff4281efbd37_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-63bbdb5b76b8d349ad35ff4281efbd37_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
-    </div>
-    <a href="/2025/02/02/nds-mo-ni-qi-wen-ti-hui-zong/" class="post-nav-link">
-      <div class="title">
-        <i class="fas fa-angle-left"></i> 上一篇:
-        <div class="title-text">NDS模拟器问题汇总</div>
-      </div>
-      
-      <!-- <div class="content">
-        问题1：DeSmuME_0.9.13_x64.exe运行后最小化在任务栏不能显示在桌面答案：1.右击DeSmuME_0.
-      </div> -->
-    </a>
-  </div>
-
 
 
   
   <div class="post-nav-next post-nav-item">
     <div class="post-nav-img" style="background-size: cover; 
       background-position: center center;">
-      <img class="lazyload lazyload placeholder" src="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" src="" alt="">
+      <img class="lazyload lazyload placeholder" src="https://pic2.zhimg.com/80/v2-63bbdb5b76b8d349ad35ff4281efbd37_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-63bbdb5b76b8d349ad35ff4281efbd37_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" src="" alt="">
     </div>
-    <a href="/2025/02/01/3ds-mo-ni-qi-wen-ti-hui-zong/" class="post-nav-link">
+    <a href="/2025/05/10/switch-you-xi-zi-yuan/" class="post-nav-link">
       <div class="title">
         下一篇: <i class="fas fa-angle-right"></i>
-        <div class="title-text">3DS模拟器问题汇总</div>
+        <div class="title-text">SWITCH游戏资源</div>
       </div>
       <!-- <div class="content">
-        问题1：未找到shared fonts答案：电脑版解决方法，在使用教程简介链接中的shared_font.bin复制到C
+        
+
+
+资源中文名称
+度盘下载地址
+迅雷下载地址
+夸克下载地址
+资源英文名称
+
+
+
+100扇门 密室逃脱
+https://
       </div> -->
     </a>
   </div>
@@ -740,6 +736,27 @@
             
 
             <div class="post-img-box">
+              <a href="/2025/05/12/switch-mo-ni-qi-de-wen-ti-hui-zong/" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">05-12</span>
+                
+              </div>
+              <a class="post-title" href="/2025/05/12/switch-mo-ni-qi-de-wen-ti-hui-zong/">SWITCH模拟器的问题汇总</a>
+            </div>
+          </div>
+        
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
               <a href="/2025/05/10/switch-you-xi-zi-yuan/" class="post-img " style="background-size: cover; 
                 background-position: center center;">
                 <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic2.zhimg.com/80/v2-63bbdb5b76b8d349ad35ff4281efbd37_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-63bbdb5b76b8d349ad35ff4281efbd37_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
@@ -815,27 +832,6 @@
                 
               </div>
               <a class="post-title" href="/2025/05/10/ps2-you-xi-zi-yuan/">PS2游戏资源</a>
-            </div>
-          </div>
-        
-          <div class="aside-list-item">
-            
-            
-            
-
-            <div class="post-img-box">
-              <a href="/2025/05/09/shandps4-jian-rong-xing-lie-biao/" class="post-img " style="background-size: cover; 
-                background-position: center center;">
-                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic2.zhimg.com/80/v2-29e78b52051ce542adf6d786d61fbd19_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-29e78b52051ce542adf6d786d61fbd19_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
-              </a>
-            </div>
-            <div class="post-date-title">
-              <div>
-                
-                  <span class="post-date">05-09</span>
-                
-              </div>
-              <a class="post-title" href="/2025/05/09/shandps4-jian-rong-xing-lie-biao/">Shandps4兼容性列表</a>
             </div>
           </div>
         
