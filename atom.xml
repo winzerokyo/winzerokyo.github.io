@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-05-16T08:28:32.494Z</updated>
+  <updated>2025-05-16T16:23:16.413Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2025/05/16/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/05/16/switch-you-xi-zi-yuan/</id>
-    <published>2025-05-16T08:25:27.000Z</published>
-    <updated>2025-05-16T08:28:32.494Z</updated>
+    <link href="http://example.com/2025/05/17/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/05/17/switch-you-xi-zi-yuan/</id>
+    <published>2025-05-16T16:22:28.000Z</published>
+    <updated>2025-05-16T16:23:16.413Z</updated>
     
     
       
@@ -44,6 +44,99 @@
     
     
     <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PSV游戏资源</title>
+    <link href="http://example.com/2025/05/16/psv-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/05/16/psv-you-xi-zi-yuan/</id>
+    <published>2025-05-16T15:18:36.000Z</published>
+    <updated>2025-05-16T15:19:14.473Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PSV" scheme="http://example.com/categories/PSV/"/>
+    
+    
+    <category term="PSV游戏" scheme="http://example.com/tags/PSV%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SFC游戏资源</title>
+    <link href="http://example.com/2025/05/16/sfc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/05/16/sfc-you-xi-zi-yuan/</id>
+    <published>2025-05-16T15:16:56.000Z</published>
+    <updated>2025-05-16T15:17:55.168Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="SFC" scheme="http://example.com/categories/SFC/"/>
+    
+    
+    <category term="SFC游戏" scheme="http://example.com/tags/SFC%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DC游戏资源</title>
+    <link href="http://example.com/2025/05/16/dc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/05/16/dc-you-xi-zi-yuan/</id>
+    <published>2025-05-16T15:15:19.000Z</published>
+    <updated>2025-05-16T15:18:39.233Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="DC" scheme="http://example.com/categories/DC/"/>
+    
+    
+    <category term="DC游戏" scheme="http://example.com/tags/DC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -325,37 +418,6 @@
   </entry>
   
   <entry>
-    <title>SFC游戏资源</title>
-    <link href="http://example.com/2025/05/12/sfc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/05/12/sfc-you-xi-zi-yuan/</id>
-    <published>2025-05-12T10:08:55.000Z</published>
-    <updated>2025-05-12T10:10:25.366Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="SFC" scheme="http://example.com/categories/SFC/"/>
-    
-    
-    <category term="SFC游戏" scheme="http://example.com/tags/SFC%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
     <title>SWITCH模拟器的问题汇总</title>
     <link href="http://example.com/2025/05/12/switch-mo-ni-qi-de-wen-ti-hui-zong/"/>
     <id>http://example.com/2025/05/12/switch-mo-ni-qi-de-wen-ti-hui-zong/</id>
@@ -549,68 +611,6 @@
     
     
     <category term="XBOX360游戏" scheme="http://example.com/tags/XBOX360%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>DC游戏资源</title>
-    <link href="http://example.com/2025/05/05/dc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/05/05/dc-you-xi-zi-yuan/</id>
-    <published>2025-05-05T02:32:18.000Z</published>
-    <updated>2025-05-05T02:37:54.238Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="DC" scheme="http://example.com/categories/DC/"/>
-    
-    
-    <category term="DC游戏" scheme="http://example.com/tags/DC%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>WII和NGC游戏资源</title>
-    <link href="http://example.com/2025/04/24/wii-he-ngc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/04/24/wii-he-ngc-you-xi-zi-yuan/</id>
-    <published>2025-04-24T13:35:32.000Z</published>
-    <updated>2025-04-24T13:36:11.900Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="WII和NGC" scheme="http://example.com/categories/WII%E5%92%8CNGC/"/>
-    
-    
-    <category term="WII和NGC游戏" scheme="http://example.com/tags/WII%E5%92%8CNGC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
