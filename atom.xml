@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-05-20T08:10:15.099Z</updated>
+  <updated>2025-05-20T16:17:23.699Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2025/05/20/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/05/20/switch-you-xi-zi-yuan/</id>
-    <published>2025-05-20T08:05:34.000Z</published>
-    <updated>2025-05-20T08:10:15.099Z</updated>
+    <link href="http://example.com/2025/05/21/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/05/21/switch-you-xi-zi-yuan/</id>
+    <published>2025-05-20T16:15:35.000Z</published>
+    <updated>2025-05-20T16:17:23.699Z</updated>
     
     
       
@@ -44,6 +44,37 @@
     
     
     <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PS2游戏资源</title>
+    <link href="http://example.com/2025/05/20/ps2-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/05/20/ps2-you-xi-zi-yuan/</id>
+    <published>2025-05-20T15:30:11.000Z</published>
+    <updated>2025-05-20T15:31:28.057Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PS2" scheme="http://example.com/categories/PS2/"/>
+    
+    
+    <category term="PS2游戏" scheme="http://example.com/tags/PS2%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -195,37 +226,6 @@
     
     
     <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS2游戏资源</title>
-    <link href="http://example.com/2025/05/18/ps2-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/05/18/ps2-you-xi-zi-yuan/</id>
-    <published>2025-05-18T02:10:10.000Z</published>
-    <updated>2025-05-18T02:11:47.476Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PS2" scheme="http://example.com/categories/PS2/"/>
-    
-    
-    <category term="PS2游戏" scheme="http://example.com/tags/PS2%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
