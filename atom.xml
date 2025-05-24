@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-05-23T03:52:32.848Z</updated>
+  <updated>2025-05-24T03:37:32.982Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>每周模拟器版本更新信息</title>
+    <link href="http://example.com/2025/05/24/mei-zhou-mo-ni-qi-ban-ben-geng-xin-xin-xi/"/>
+    <id>http://example.com/2025/05/24/mei-zhou-mo-ni-qi-ban-ben-geng-xin-xin-xi/</id>
+    <published>2025-05-24T03:29:43.000Z</published>
+    <updated>2025-05-24T03:37:32.982Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;2025-05-24 Shadps4更新到2025-05-23，Shadps4新版本不支持PKG格式，要使用PkgEditor解包了才能读取游戏。XEMU更新到V0.8.66 。Xenia canary本周更新到2025-05-22，xenia_master</summary>
+        
+      
+    
+    
+    
+    <category term="每周模拟器版本更新信息" scheme="http://example.com/categories/%E6%AF%8F%E5%91%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
+    
+    
+    <category term="每周模拟器版本更新信息" scheme="http://example.com/tags/%E6%AF%8F%E5%91%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2025/05/23/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/05/23/switch-you-xi-zi-yuan/</id>
-    <published>2025-05-23T03:40:40.000Z</published>
-    <updated>2025-05-23T03:52:32.848Z</updated>
+    <link href="http://example.com/2025/05/24/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/05/24/switch-you-xi-zi-yuan/</id>
+    <published>2025-05-24T02:27:41.000Z</published>
+    <updated>2025-05-24T03:30:06.690Z</updated>
     
     
       
@@ -44,6 +69,37 @@
     
     
     <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>FC游戏资源</title>
+    <link href="http://example.com/2025/05/24/fc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/05/24/fc-you-xi-zi-yuan/</id>
+    <published>2025-05-24T02:06:29.000Z</published>
+    <updated>2025-05-24T02:07:21.700Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="FC" scheme="http://example.com/categories/FC/"/>
+    
+    
+    <category term="FC游戏" scheme="http://example.com/tags/FC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -319,31 +375,6 @@
   </entry>
   
   <entry>
-    <title>每周模拟器版本更新信息</title>
-    <link href="http://example.com/2025/05/17/mei-zhou-mo-ni-qi-ban-ben-geng-xin-xin-xi/"/>
-    <id>http://example.com/2025/05/17/mei-zhou-mo-ni-qi-ban-ben-geng-xin-xin-xi/</id>
-    <published>2025-05-17T02:44:42.000Z</published>
-    <updated>2025-05-17T02:48:19.664Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;2025-05-17 Shadps4更新到2025-05-16，Shadps4新版本不支持PKG格式，要使用PkgEditor解包了才能读取游戏。XEMU更新到V0.8.62 。Xenia canary本周更新到2025-05-15，xenia_master</summary>
-        
-      
-    
-    
-    
-    <category term="每周模拟器版本更新信息" scheme="http://example.com/categories/%E6%AF%8F%E5%91%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
-    
-    
-    <category term="每周模拟器版本更新信息" scheme="http://example.com/tags/%E6%AF%8F%E5%91%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
-    
-  </entry>
-  
-  <entry>
     <title>PSV游戏资源</title>
     <link href="http://example.com/2025/05/16/psv-you-xi-zi-yuan/"/>
     <id>http://example.com/2025/05/16/psv-you-xi-zi-yuan/</id>
@@ -464,37 +495,6 @@
     
     
     <category term="GBA游戏" scheme="http://example.com/tags/GBA%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>FC游戏资源</title>
-    <link href="http://example.com/2025/05/13/fc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/05/13/fc-you-xi-zi-yuan/</id>
-    <published>2025-05-13T02:11:28.000Z</published>
-    <updated>2025-05-13T02:17:30.545Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="FC" scheme="http://example.com/categories/FC/"/>
-    
-    
-    <category term="FC游戏" scheme="http://example.com/tags/FC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
