@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-05-29T04:07:16.893Z</updated>
+  <updated>2025-05-29T15:15:14.157Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>SWITCH游戏资源</title>
     <link href="http://example.com/2025/05/29/switch-you-xi-zi-yuan/"/>
     <id>http://example.com/2025/05/29/switch-you-xi-zi-yuan/</id>
-    <published>2025-05-29T04:05:48.000Z</published>
-    <updated>2025-05-29T04:07:16.893Z</updated>
+    <published>2025-05-29T15:14:49.000Z</published>
+    <updated>2025-05-29T15:15:14.157Z</updated>
     
     
       
@@ -44,6 +44,37 @@
     
     
     <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>FC游戏资源</title>
+    <link href="http://example.com/2025/05/29/fc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/05/29/fc-you-xi-zi-yuan/</id>
+    <published>2025-05-29T15:06:32.000Z</published>
+    <updated>2025-05-29T15:08:15.590Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="FC" scheme="http://example.com/categories/FC/"/>
+    
+    
+    <category term="FC游戏" scheme="http://example.com/tags/FC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -166,37 +197,6 @@
     
     
     <category term="WIIU游戏" scheme="http://example.com/tags/WIIU%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>FC游戏资源</title>
-    <link href="http://example.com/2025/05/28/fc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/05/28/fc-you-xi-zi-yuan/</id>
-    <published>2025-05-27T16:05:31.000Z</published>
-    <updated>2025-05-27T16:07:47.168Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="FC" scheme="http://example.com/categories/FC/"/>
-    
-    
-    <category term="FC游戏" scheme="http://example.com/tags/FC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
