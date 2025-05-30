@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-05-29T15:15:14.157Z</updated>
+  <updated>2025-05-30T11:39:56.359Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2025/05/29/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/05/29/switch-you-xi-zi-yuan/</id>
-    <published>2025-05-29T15:14:49.000Z</published>
-    <updated>2025-05-29T15:15:14.157Z</updated>
+    <link href="http://example.com/2025/05/30/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/05/30/switch-you-xi-zi-yuan/</id>
+    <published>2025-05-30T11:38:50.000Z</published>
+    <updated>2025-05-30T11:39:56.359Z</updated>
     
     
       
@@ -44,6 +44,37 @@
     
     
     <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3DS游戏资源</title>
+    <link href="http://example.com/2025/05/30/3ds-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/05/30/3ds-you-xi-zi-yuan/</id>
+    <published>2025-05-30T11:33:31.000Z</published>
+    <updated>2025-05-30T11:34:58.394Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="3DS" scheme="http://example.com/categories/3DS/"/>
+    
+    
+    <category term="3DS游戏" scheme="http://example.com/tags/3DS%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -577,37 +608,6 @@
     
     
     <category term="网游加速器推广" scheme="http://example.com/tags/%E7%BD%91%E6%B8%B8%E5%8A%A0%E9%80%9F%E5%99%A8%E6%8E%A8%E5%B9%BF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>NDS游戏资源</title>
-    <link href="http://example.com/2025/05/08/nds-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/05/08/nds-you-xi-zi-yuan/</id>
-    <published>2025-05-08T08:10:29.000Z</published>
-    <updated>2025-05-08T08:11:31.530Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="NDS" scheme="http://example.com/categories/NDS/"/>
-    
-    
-    <category term="NDS游戏" scheme="http://example.com/tags/NDS%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
