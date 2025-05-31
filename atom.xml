@@ -79,6 +79,31 @@
   </entry>
   
   <entry>
+    <title>每周模拟器版本更新信息</title>
+    <link href="http://example.com/2025/05/30/mei-zhou-mo-ni-qi-ban-ben-geng-xin-xin-xi/"/>
+    <id>http://example.com/2025/05/30/mei-zhou-mo-ni-qi-ban-ben-geng-xin-xin-xi/</id>
+    <published>2025-05-30T02:18:44.000Z</published>
+    <updated>2025-05-31T02:19:47.267Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;2025-05-30 Shadps4更新到2025-05-30，Shadps4新版本不支持PKG格式，要使用PkgEditor解包了才能读取游戏。XEMU更新到V0.8.67 。Xenia canary本周更新到2025-05-30，xenia_master</summary>
+        
+      
+    
+    
+    
+    <category term="每周模拟器版本更新信息" scheme="http://example.com/categories/%E6%AF%8F%E5%91%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
+    
+    
+    <category term="每周模拟器版本更新信息" scheme="http://example.com/tags/%E6%AF%8F%E5%91%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>FC游戏资源</title>
     <link href="http://example.com/2025/05/29/fc-you-xi-zi-yuan/"/>
     <id>http://example.com/2025/05/29/fc-you-xi-zi-yuan/</id>
@@ -321,31 +346,6 @@
     
     
     <category term="GBA游戏" scheme="http://example.com/tags/GBA%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>每周模拟器版本更新信息</title>
-    <link href="http://example.com/2025/05/24/mei-zhou-mo-ni-qi-ban-ben-geng-xin-xin-xi/"/>
-    <id>http://example.com/2025/05/24/mei-zhou-mo-ni-qi-ban-ben-geng-xin-xin-xi/</id>
-    <published>2025-05-24T03:29:43.000Z</published>
-    <updated>2025-05-24T03:37:32.982Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;2025-05-24 Shadps4更新到2025-05-23，Shadps4新版本不支持PKG格式，要使用PkgEditor解包了才能读取游戏。XEMU更新到V0.8.66 。Xenia canary本周更新到2025-05-22，xenia_master</summary>
-        
-      
-    
-    
-    
-    <category term="每周模拟器版本更新信息" scheme="http://example.com/categories/%E6%AF%8F%E5%91%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
-    
-    
-    <category term="每周模拟器版本更新信息" scheme="http://example.com/tags/%E6%AF%8F%E5%91%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
     
   </entry>
   
