@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-05-30T11:39:56.359Z</updated>
+  <updated>2025-05-31T09:56:35.654Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,42 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>SS游戏资源</title>
+    <link href="http://example.com/2025/05/31/ss-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/05/31/ss-you-xi-zi-yuan/</id>
+    <published>2025-05-31T09:55:00.000Z</published>
+    <updated>2025-05-31T09:56:35.654Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="SS" scheme="http://example.com/categories/SS/"/>
+    
+    
+    <category term="SS游戏" scheme="http://example.com/tags/SS%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
     <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2025/05/30/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/05/30/switch-you-xi-zi-yuan/</id>
-    <published>2025-05-30T11:38:50.000Z</published>
-    <updated>2025-05-30T11:39:56.359Z</updated>
+    <link href="http://example.com/2025/05/31/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/05/31/switch-you-xi-zi-yuan/</id>
+    <published>2025-05-31T09:53:51.000Z</published>
+    <updated>2025-05-31T09:54:39.985Z</updated>
     
     
       
@@ -44,6 +75,37 @@
     
     
     <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PSV游戏资源</title>
+    <link href="http://example.com/2025/05/31/psv-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/05/31/psv-you-xi-zi-yuan/</id>
+    <published>2025-05-31T09:50:37.000Z</published>
+    <updated>2025-05-31T09:50:51.111Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PSV" scheme="http://example.com/categories/PSV/"/>
+    
+    
+    <category term="PSV游戏" scheme="http://example.com/tags/PSV%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -468,37 +530,6 @@
   </entry>
   
   <entry>
-    <title>PSV游戏资源</title>
-    <link href="http://example.com/2025/05/16/psv-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/05/16/psv-you-xi-zi-yuan/</id>
-    <published>2025-05-16T15:18:36.000Z</published>
-    <updated>2025-05-16T15:19:14.473Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PSV" scheme="http://example.com/categories/PSV/"/>
-    
-    
-    <category term="PSV游戏" scheme="http://example.com/tags/PSV%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
     <title>SFC游戏资源</title>
     <link href="http://example.com/2025/05/16/sfc-you-xi-zi-yuan/"/>
     <id>http://example.com/2025/05/16/sfc-you-xi-zi-yuan/</id>
@@ -582,32 +613,6 @@
     
     
     <category term="SWITCH模拟器" scheme="http://example.com/tags/SWITCH%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>网游加速器推广</title>
-    <link href="http://example.com/2025/05/10/wang-you-jia-su-qi-tui-guang/"/>
-    <id>http://example.com/2025/05/10/wang-you-jia-su-qi-tui-guang/</id>
-    <published>2025-05-10T03:20:14.000Z</published>
-    <updated>2025-05-10T03:27:34.334Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;以上推广只是为长久发展，用不用随你们自己需要，有啥问题不好用就不要用了，千万不要勉强自己，有啥钱财纠纷请找相应官方，口令不对可以跟我说，这个我会解决。&lt;/p&gt;
-&lt;p&gt;光闪加速器推广&lt;br&gt;加速器官网：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="如何支持本项目" scheme="http://example.com/categories/%E5%A6%82%E4%BD%95%E6%94%AF%E6%8C%81%E6%9C%AC%E9%A1%B9%E7%9B%AE/"/>
-    
-    
-    <category term="网游加速器推广" scheme="http://example.com/tags/%E7%BD%91%E6%B8%B8%E5%8A%A0%E9%80%9F%E5%99%A8%E6%8E%A8%E5%B9%BF/"/>
     
   </entry>
   
