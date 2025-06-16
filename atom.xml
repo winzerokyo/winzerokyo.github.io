@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-06-15T18:27:41.631Z</updated>
+  <updated>2025-06-16T03:40:37.673Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>SWITCH游戏资源</title>
     <link href="http://example.com/2025/06/16/switch-you-xi-zi-yuan/"/>
     <id>http://example.com/2025/06/16/switch-you-xi-zi-yuan/</id>
-    <published>2025-06-15T18:26:15.000Z</published>
-    <updated>2025-06-15T18:27:41.631Z</updated>
+    <published>2025-06-16T03:39:16.000Z</published>
+    <updated>2025-06-16T03:40:37.673Z</updated>
     
     
       
@@ -49,10 +49,10 @@
   
   <entry>
     <title>PSV游戏资源</title>
-    <link href="http://example.com/2025/06/14/psv-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/06/14/psv-you-xi-zi-yuan/</id>
-    <published>2025-06-14T11:16:39.000Z</published>
-    <updated>2025-06-14T11:17:52.234Z</updated>
+    <link href="http://example.com/2025/06/16/psv-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/06/16/psv-you-xi-zi-yuan/</id>
+    <published>2025-06-16T03:18:40.000Z</published>
+    <updated>2025-06-16T03:19:14.227Z</updated>
     
     
       
@@ -75,6 +75,68 @@
     
     
     <category term="PSV游戏" scheme="http://example.com/tags/PSV%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NDS游戏资源</title>
+    <link href="http://example.com/2025/06/16/nds-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/06/16/nds-you-xi-zi-yuan/</id>
+    <published>2025-06-16T02:46:32.000Z</published>
+    <updated>2025-06-16T02:47:12.634Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="NDS" scheme="http://example.com/categories/NDS/"/>
+    
+    
+    <category term="NDS游戏" scheme="http://example.com/tags/NDS%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>FC游戏资源</title>
+    <link href="http://example.com/2025/06/16/fc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/06/16/fc-you-xi-zi-yuan/</id>
+    <published>2025-06-16T02:31:35.000Z</published>
+    <updated>2025-06-16T02:32:05.914Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="FC" scheme="http://example.com/categories/FC/"/>
+    
+    
+    <category term="FC游戏" scheme="http://example.com/tags/FC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -554,68 +616,6 @@
     
     
     <category term="PSP模拟器" scheme="http://example.com/tags/PSP%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>NDS游戏资源</title>
-    <link href="http://example.com/2025/06/03/nds-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/06/03/nds-you-xi-zi-yuan/</id>
-    <published>2025-06-03T08:37:31.000Z</published>
-    <updated>2025-06-03T08:38:38.585Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="NDS" scheme="http://example.com/categories/NDS/"/>
-    
-    
-    <category term="NDS游戏" scheme="http://example.com/tags/NDS%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>FC游戏资源</title>
-    <link href="http://example.com/2025/06/03/fc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/06/03/fc-you-xi-zi-yuan/</id>
-    <published>2025-06-03T08:27:34.000Z</published>
-    <updated>2025-06-03T08:28:49.868Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="FC" scheme="http://example.com/categories/FC/"/>
-    
-    
-    <category term="FC游戏" scheme="http://example.com/tags/FC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
