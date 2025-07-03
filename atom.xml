@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-07-02T14:59:13.463Z</updated>
+  <updated>2025-07-03T02:59:21.489Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,73 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>WSC和WS游戏资源</title>
+    <link href="http://example.com/2025/07/03/wsc-he-ws-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/07/03/wsc-he-ws-you-xi-zi-yuan/</id>
+    <published>2025-07-03T02:58:35.000Z</published>
+    <updated>2025-07-03T02:59:21.489Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="WSC和WS" scheme="http://example.com/categories/WSC%E5%92%8CWS/"/>
+    
+    
+    <category term="WSC和WS游戏" scheme="http://example.com/tags/WSC%E5%92%8CWS%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SFC游戏资源</title>
+    <link href="http://example.com/2025/07/03/sfc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/07/03/sfc-you-xi-zi-yuan/</id>
+    <published>2025-07-03T02:55:01.000Z</published>
+    <updated>2025-07-03T02:56:02.345Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="SFC" scheme="http://example.com/categories/SFC/"/>
+    
+    
+    <category term="SFC游戏" scheme="http://example.com/tags/SFC%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
     <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2025/07/02/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/07/02/switch-you-xi-zi-yuan/</id>
-    <published>2025-07-02T14:58:39.000Z</published>
-    <updated>2025-07-02T14:59:13.463Z</updated>
+    <link href="http://example.com/2025/07/03/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/07/03/switch-you-xi-zi-yuan/</id>
+    <published>2025-07-03T02:48:40.000Z</published>
+    <updated>2025-07-03T02:48:20.641Z</updated>
     
     
       
@@ -196,37 +258,6 @@
     
     
     <category term="PS模拟器" scheme="http://example.com/tags/PS%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SFC游戏资源</title>
-    <link href="http://example.com/2025/06/30/sfc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/06/30/sfc-you-xi-zi-yuan/</id>
-    <published>2025-06-30T02:50:00.000Z</published>
-    <updated>2025-06-30T02:51:09.424Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="SFC" scheme="http://example.com/categories/SFC/"/>
-    
-    
-    <category term="SFC游戏" scheme="http://example.com/tags/SFC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -589,37 +620,6 @@
     
     
     <category term="SWITCH模拟器" scheme="http://example.com/tags/SWITCH%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>WII和NGC游戏资源</title>
-    <link href="http://example.com/2025/06/12/wii-he-ngc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/06/12/wii-he-ngc-you-xi-zi-yuan/</id>
-    <published>2025-06-12T03:01:34.000Z</published>
-    <updated>2025-06-12T03:03:05.233Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="WII和NGC" scheme="http://example.com/categories/WII%E5%92%8CNGC/"/>
-    
-    
-    <category term="WII和NGC游戏" scheme="http://example.com/tags/WII%E5%92%8CNGC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
