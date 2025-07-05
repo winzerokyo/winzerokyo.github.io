@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-07-04T07:58:09.582Z</updated>
+  <updated>2025-07-05T03:12:55.590Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>每周模拟器版本更新信息</title>
+    <link href="http://example.com/2025/07/05/mei-zhou-mo-ni-qi-ban-ben-geng-xin-xin-xi/"/>
+    <id>http://example.com/2025/07/05/mei-zhou-mo-ni-qi-ban-ben-geng-xin-xin-xi/</id>
+    <published>2025-07-05T03:11:49.000Z</published>
+    <updated>2025-07-05T03:12:55.590Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;2025-07-05 Shadps4更新到2025-07-04，Shadps4新版本不支持PKG格式，要使用PkgEditor解包了才能读取游戏。XEMU更新到V0.8.92 。Xenia canary本周更新到2025-07-01，xenia_master</summary>
+        
+      
+    
+    
+    
+    <category term="每周模拟器版本更新信息" scheme="http://example.com/categories/%E6%AF%8F%E5%91%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
+    
+    
+    <category term="每周模拟器版本更新信息" scheme="http://example.com/tags/%E6%AF%8F%E5%91%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2025/07/04/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/07/04/switch-you-xi-zi-yuan/</id>
-    <published>2025-07-04T07:57:42.000Z</published>
-    <updated>2025-07-04T07:58:09.582Z</updated>
+    <link href="http://example.com/2025/07/05/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/07/05/switch-you-xi-zi-yuan/</id>
+    <published>2025-07-05T02:29:43.000Z</published>
+    <updated>2025-07-05T02:29:55.245Z</updated>
     
     
       
@@ -320,31 +345,6 @@
     
     
     <category term="SS游戏" scheme="http://example.com/tags/SS%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>每周模拟器版本更新信息</title>
-    <link href="http://example.com/2025/06/28/mei-zhou-mo-ni-qi-ban-ben-geng-xin-xin-xi/"/>
-    <id>http://example.com/2025/06/28/mei-zhou-mo-ni-qi-ban-ben-geng-xin-xin-xi/</id>
-    <published>2025-06-28T03:50:48.000Z</published>
-    <updated>2025-06-28T03:51:50.355Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;2025-06-28 Shadps4更新到2025-06-27，Shadps4新版本不支持PKG格式，要使用PkgEditor解包了才能读取游戏。XEMU更新到V0.8.84 。Xenia canary本周更新到2025-06-24，xenia_master</summary>
-        
-      
-    
-    
-    
-    <category term="每周模拟器版本更新信息" scheme="http://example.com/categories/%E6%AF%8F%E5%91%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
-    
-    
-    <category term="每周模拟器版本更新信息" scheme="http://example.com/tags/%E6%AF%8F%E5%91%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
     
   </entry>
   
