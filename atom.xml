@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-07-15T14:46:52.396Z</updated>
+  <updated>2025-07-15T17:54:53.655Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PSV模拟器Vita3K如何安装各种封装的游戏资源</title>
+    <link href="http://example.com/2025/07/16/psv-mo-ni-qi-vita3k-ru-he-an-zhuang-ge-chong-feng-zhuang-de-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/07/16/psv-mo-ni-qi-vita3k-ru-he-an-zhuang-ge-chong-feng-zhuang-de-you-xi-zi-yuan/</id>
+    <published>2025-07-15T17:54:45.000Z</published>
+    <updated>2025-07-15T17:54:53.655Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;游戏文件封装类型&lt;/p&gt;
+&lt;p&gt;1.黑商店最传统的pkg格式+zRif文本或者work.bin文件或者rif文件&lt;/p&gt;
+&lt;p&gt;2.学习版机子中出现的MAI封装方式&lt;/p&gt;
+&lt;p&gt;3.学习版机子中出现的nonpdrm封装方式&lt;/p&gt;
+&lt;p&gt;4.多用于移植游戏的启动的VPK&lt;</summary>
+        
+      
+    
+    
+    
+    <category term="PSV" scheme="http://example.com/categories/PSV/"/>
+    
+    
+    <category term="PSV模拟器" scheme="http://example.com/tags/PSV%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>SWITCH游戏资源</title>
@@ -573,34 +602,6 @@
     
     
     <category term="GBA游戏" scheme="http://example.com/tags/GBA%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>WSC和WS模拟器教程和下载-转换软件教程和下载</title>
-    <link href="http://example.com/2025/07/05/wsc-he-ws-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
-    <id>http://example.com/2025/07/05/wsc-he-ws-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
-    <published>2025-07-05T04:37:32.000Z</published>
-    <updated>2025-07-05T04:38:57.479Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
-&lt;p&gt;##############################################################&lt;/p&gt;
-&lt;p&gt;Oswan模拟器（PC版）视频教程&lt;/p&gt;
-&lt;iframe</summary>
-        
-      
-    
-    
-    
-    <category term="WSC和WS" scheme="http://example.com/categories/WSC%E5%92%8CWS/"/>
-    
-    
-    <category term="WSC和WS模拟器" scheme="http://example.com/tags/WSC%E5%92%8CWS%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
     
   </entry>
   
