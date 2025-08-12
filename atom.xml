@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-08-12T12:28:37.197Z</updated>
+  <updated>2025-08-12T14:49:07.951Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,68 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>3DS游戏资源</title>
+    <link href="http://example.com/2025/08/12/3ds-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/08/12/3ds-you-xi-zi-yuan/</id>
+    <published>2025-08-12T14:49:40.000Z</published>
+    <updated>2025-08-12T14:49:07.951Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="3DS" scheme="http://example.com/categories/3DS/"/>
+    
+    
+    <category term="3DS游戏" scheme="http://example.com/tags/3DS%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SFC游戏资源</title>
+    <link href="http://example.com/2025/08/12/sfc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/08/12/sfc-you-xi-zi-yuan/</id>
+    <published>2025-08-12T14:49:05.000Z</published>
+    <updated>2025-08-12T14:49:41.583Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="SFC" scheme="http://example.com/categories/SFC/"/>
+    
+    
+    <category term="SFC游戏" scheme="http://example.com/tags/SFC%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>SWITCH游戏资源</title>
@@ -171,37 +233,6 @@
   </entry>
   
   <entry>
-    <title>SFC游戏资源</title>
-    <link href="http://example.com/2025/08/09/sfc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/08/09/sfc-you-xi-zi-yuan/</id>
-    <published>2025-08-09T08:32:04.000Z</published>
-    <updated>2025-08-09T08:32:56.145Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="SFC" scheme="http://example.com/categories/SFC/"/>
-    
-    
-    <category term="SFC游戏" scheme="http://example.com/tags/SFC%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
     <title>每周模拟器版本更新信息</title>
     <link href="http://example.com/2025/08/09/mei-zhou-mo-ni-qi-ban-ben-geng-xin-xin-xi/"/>
     <id>http://example.com/2025/08/09/mei-zhou-mo-ni-qi-ban-ben-geng-xin-xin-xi/</id>
@@ -316,37 +347,6 @@
     
     
     <category term="WSC和WS游戏" scheme="http://example.com/tags/WSC%E5%92%8CWS%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>3DS游戏资源</title>
-    <link href="http://example.com/2025/07/31/3ds-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/07/31/3ds-you-xi-zi-yuan/</id>
-    <published>2025-07-30T16:32:39.000Z</published>
-    <updated>2025-07-30T16:33:17.509Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="3DS" scheme="http://example.com/categories/3DS/"/>
-    
-    
-    <category term="3DS游戏" scheme="http://example.com/tags/3DS%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
