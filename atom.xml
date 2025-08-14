@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-08-14T14:45:22.984Z</updated>
+  <updated>2025-08-14T16:37:41.214Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SS模拟器教程和下载 转换软件教程和下载</title>
+    <link href="http://example.com/2025/08/15/ss-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
+    <id>http://example.com/2025/08/15/ss-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
+    <published>2025-08-14T16:36:02.000Z</published>
+    <updated>2025-08-14T16:37:41.214Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
+&lt;p&gt;##############################################################&lt;/p&gt;
+&lt;p&gt;Ymir模拟器（PC版）视频教程&lt;br&gt;刚学会，迟些出视频&lt;/p&gt;
+&lt;p&gt;软件下载：&lt;br&gt;手机请手动</summary>
+        
+      
+    
+    
+    
+    <category term="SS" scheme="http://example.com/categories/SS/"/>
+    
+    
+    <category term="SS模拟器" scheme="http://example.com/tags/SS%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>PS4游戏资源</title>
@@ -196,34 +224,6 @@
     
     
     <category term="SFC游戏" scheme="http://example.com/tags/SFC%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SS模拟器教程和下载 转换软件教程和下载</title>
-    <link href="http://example.com/2025/08/12/ss-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
-    <id>http://example.com/2025/08/12/ss-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
-    <published>2025-08-11T17:17:01.000Z</published>
-    <updated>2025-08-11T17:27:56.278Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
-&lt;p&gt;##############################################################&lt;/p&gt;
-&lt;p&gt;Ymir模拟器（PC版）视频教程&lt;br&gt;刚学会，迟些出视频&lt;/p&gt;
-&lt;p&gt;软件下载：&lt;br&gt;手机请手动</summary>
-        
-      
-    
-    
-    
-    <category term="SS" scheme="http://example.com/categories/SS/"/>
-    
-    
-    <category term="SS模拟器" scheme="http://example.com/tags/SS%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
     
   </entry>
   
