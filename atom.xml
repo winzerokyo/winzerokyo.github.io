@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-08-19T08:22:58.678Z</updated>
+  <updated>2025-08-19T13:48:42.377Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,68 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>GBA游戏资源</title>
+    <link href="http://example.com/2025/08/19/gba-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/08/19/gba-you-xi-zi-yuan/</id>
+    <published>2025-08-19T13:48:53.000Z</published>
+    <updated>2025-08-19T13:48:42.377Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="GBA、GBC和GB" scheme="http://example.com/categories/GBA%E3%80%81GBC%E5%92%8CGB/"/>
+    
+    
+    <category term="GBA游戏" scheme="http://example.com/tags/GBA%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PS游戏资源</title>
+    <link href="http://example.com/2025/08/19/ps-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/08/19/ps-you-xi-zi-yuan/</id>
+    <published>2025-08-19T13:48:27.000Z</published>
+    <updated>2025-08-19T13:49:16.920Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PS" scheme="http://example.com/categories/PS/"/>
+    
+    
+    <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>SWITCH游戏资源</title>
@@ -501,37 +563,6 @@
   </entry>
   
   <entry>
-    <title>GBA游戏资源</title>
-    <link href="http://example.com/2025/07/27/gba-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/07/27/gba-you-xi-zi-yuan/</id>
-    <published>2025-07-26T18:42:52.000Z</published>
-    <updated>2025-07-26T18:43:54.313Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="GBA、GBC和GB" scheme="http://example.com/categories/GBA%E3%80%81GBC%E5%92%8CGB/"/>
-    
-    
-    <category term="GBA游戏" scheme="http://example.com/tags/GBA%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
     <title>PSV游戏资源</title>
     <link href="http://example.com/2025/07/26/psv-you-xi-zi-yuan/"/>
     <id>http://example.com/2025/07/26/psv-you-xi-zi-yuan/</id>
@@ -590,37 +621,6 @@
     
     
     <category term="WIIU游戏" scheme="http://example.com/tags/WIIU%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS3游戏资源</title>
-    <link href="http://example.com/2025/07/24/ps3-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/07/24/ps3-you-xi-zi-yuan/</id>
-    <published>2025-07-23T17:52:12.000Z</published>
-    <updated>2025-07-23T17:53:48.772Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PS3" scheme="http://example.com/categories/PS3/"/>
-    
-    
-    <category term="PS3游戏" scheme="http://example.com/tags/PS3%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
