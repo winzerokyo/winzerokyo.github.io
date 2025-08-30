@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-08-30T02:59:57.013Z</updated>
+  <updated>2025-08-30T10:30:26.649Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,155 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>GBA游戏资源</title>
+    <link href="http://example.com/2025/08/30/gba-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/08/30/gba-you-xi-zi-yuan/</id>
+    <published>2025-08-30T10:30:55.000Z</published>
+    <updated>2025-08-30T10:30:26.649Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="GBA、GBC和GB" scheme="http://example.com/categories/GBA%E3%80%81GBC%E5%92%8CGB/"/>
+    
+    
+    <category term="GBA游戏" scheme="http://example.com/tags/GBA%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SWITCH游戏资源</title>
+    <link href="http://example.com/2025/08/30/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/08/30/switch-you-xi-zi-yuan/</id>
+    <published>2025-08-30T10:27:13.000Z</published>
+    <updated>2025-08-30T10:34:08.823Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
+    
+    
+    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SWITCH模拟器的问题汇总</title>
+    <link href="http://example.com/2025/08/30/switch-mo-ni-qi-de-wen-ti-hui-zong/"/>
+    <id>http://example.com/2025/08/30/switch-mo-ni-qi-de-wen-ti-hui-zong/</id>
+    <published>2025-08-30T08:31:47.000Z</published>
+    <updated>2025-08-30T08:31:45.605Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;NS模拟器游戏文件格式上通常较常见是nsz、xcz、nsp、xci。nsz、xcz你们可以理解成加密和压缩了的游戏文件，这种文件通常是用在实体机上的，因为nsz、xcz真是省空间的。模拟器只能读取nsp、xci这种解密解压缩好的。这里面nsp格式的游戏文件是可以作为游戏本体</summary>
+        
+      
+    
+    
+    
+    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
+    
+    
+    <category term="SWITCH模拟器" scheme="http://example.com/tags/SWITCH%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3DS游戏资源</title>
+    <link href="http://example.com/2025/08/30/3ds-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/08/30/3ds-you-xi-zi-yuan/</id>
+    <published>2025-08-30T03:50:41.000Z</published>
+    <updated>2025-08-30T03:51:21.660Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="3DS" scheme="http://example.com/categories/3DS/"/>
+    
+    
+    <category term="3DS游戏" scheme="http://example.com/tags/3DS%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NDS游戏资源</title>
+    <link href="http://example.com/2025/08/30/nds-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/08/30/nds-you-xi-zi-yuan/</id>
+    <published>2025-08-30T03:50:37.000Z</published>
+    <updated>2025-08-30T03:51:03.678Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="NDS" scheme="http://example.com/categories/NDS/"/>
+    
+    
+    <category term="NDS游戏" scheme="http://example.com/tags/NDS%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>每周模拟器版本更新信息</title>
@@ -38,37 +187,6 @@
     
     
     <category term="每周模拟器版本更新信息" scheme="http://example.com/tags/%E6%AF%8F%E5%91%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2025/08/30/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/08/30/switch-you-xi-zi-yuan/</id>
-    <published>2025-08-30T02:09:12.000Z</published>
-    <updated>2025-08-30T02:10:42.364Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
-    
-    
-    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -289,31 +407,6 @@
   </entry>
   
   <entry>
-    <title>SWITCH模拟器的问题汇总</title>
-    <link href="http://example.com/2025/08/25/switch-mo-ni-qi-de-wen-ti-hui-zong/"/>
-    <id>http://example.com/2025/08/25/switch-mo-ni-qi-de-wen-ti-hui-zong/</id>
-    <published>2025-08-25T14:12:46.000Z</published>
-    <updated>2025-08-25T14:13:32.816Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;NS模拟器游戏文件格式上通常较常见是nsz、xcz、nsp、xci。nsz、xcz你们可以理解成加密和压缩了的游戏文件，这种文件通常是用在实体机上的，因为nsz、xcz真是省空间的。模拟器只能读取nsp、xci这种解密解压缩好的。这里面nsp格式的游戏文件是可以作为游戏本体</summary>
-        
-      
-    
-    
-    
-    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
-    
-    
-    <category term="SWITCH模拟器" scheme="http://example.com/tags/SWITCH%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
     <title>WSC和WS游戏资源</title>
     <link href="http://example.com/2025/08/25/wsc-he-ws-you-xi-zi-yuan/"/>
     <id>http://example.com/2025/08/25/wsc-he-ws-you-xi-zi-yuan/</id>
@@ -404,37 +497,6 @@
   </entry>
   
   <entry>
-    <title>GBA游戏资源</title>
-    <link href="http://example.com/2025/08/22/gba-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/08/22/gba-you-xi-zi-yuan/</id>
-    <published>2025-08-21T16:49:54.000Z</published>
-    <updated>2025-08-21T16:49:04.774Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="GBA、GBC和GB" scheme="http://example.com/categories/GBA%E3%80%81GBC%E5%92%8CGB/"/>
-    
-    
-    <category term="GBA游戏" scheme="http://example.com/tags/GBA%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
     <title>SFC游戏资源</title>
     <link href="http://example.com/2025/08/17/sfc-you-xi-zi-yuan/"/>
     <id>http://example.com/2025/08/17/sfc-you-xi-zi-yuan/</id>
@@ -462,37 +524,6 @@
     
     
     <category term="SFC游戏" scheme="http://example.com/tags/SFC%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>NDS游戏资源</title>
-    <link href="http://example.com/2025/08/16/nds-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/08/16/nds-you-xi-zi-yuan/</id>
-    <published>2025-08-16T09:39:36.000Z</published>
-    <updated>2025-08-16T09:40:25.995Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="NDS" scheme="http://example.com/categories/NDS/"/>
-    
-    
-    <category term="NDS游戏" scheme="http://example.com/tags/NDS%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -550,37 +581,6 @@
     
     
     <category term="PS4模拟器" scheme="http://example.com/tags/PS4%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>3DS游戏资源</title>
-    <link href="http://example.com/2025/08/12/3ds-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/08/12/3ds-you-xi-zi-yuan/</id>
-    <published>2025-08-12T14:49:40.000Z</published>
-    <updated>2025-08-12T14:49:07.951Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="3DS" scheme="http://example.com/categories/3DS/"/>
-    
-    
-    <category term="3DS游戏" scheme="http://example.com/tags/3DS%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
