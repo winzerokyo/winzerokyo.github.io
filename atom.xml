@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-09-06T08:45:35.298Z</updated>
+  <updated>2025-09-06T12:35:28.302Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,68 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PSP游戏资源</title>
+    <link href="http://example.com/2025/09/06/psp-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/09/06/psp-you-xi-zi-yuan/</id>
+    <published>2025-09-06T12:35:45.000Z</published>
+    <updated>2025-09-06T12:35:28.302Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PSP" scheme="http://example.com/categories/PSP/"/>
+    
+    
+    <category term="PSP游戏" scheme="http://example.com/tags/PSP%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SWITCH游戏资源</title>
+    <link href="http://example.com/2025/09/06/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/09/06/switch-you-xi-zi-yuan/</id>
+    <published>2025-09-06T12:32:27.000Z</published>
+    <updated>2025-09-06T12:32:39.630Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
+    
+    
+    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>PSV游戏资源</title>
@@ -100,37 +162,6 @@
     
     
     <category term="每周模拟器版本更新信息" scheme="http://example.com/tags/%E6%AF%8F%E5%91%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2025/09/06/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/09/06/switch-you-xi-zi-yuan/</id>
-    <published>2025-09-06T02:38:26.000Z</published>
-    <updated>2025-09-06T02:39:29.455Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
-    
-    
-    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -586,32 +617,6 @@
     
     
     <category term="DC游戏" scheme="http://example.com/tags/DC%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS4模拟器的问题汇总</title>
-    <link href="http://example.com/2025/08/13/ps4-mo-ni-qi-de-wen-ti-hui-zong/"/>
-    <id>http://example.com/2025/08/13/ps4-mo-ni-qi-de-wen-ti-hui-zong/</id>
-    <published>2025-08-13T06:28:09.000Z</published>
-    <updated>2025-08-13T06:29:13.264Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;问题1：shadps4打开后只见模拟器控制台不见模拟器界面&lt;br&gt;答案：这是因为模拟器的设置文件中有路径指向问题，删除user&amp;#x2F;config.toml文件重新启动模拟器即可。这问题常见于整合好的模拟器中。&lt;/p&gt;
-&lt;p&gt;问题2：shadps4打开重力异想世界</summary>
-        
-      
-    
-    
-    
-    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
-    
-    
-    <category term="PS4模拟器" scheme="http://example.com/tags/PS4%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
     
   </entry>
   
