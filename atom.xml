@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-09-08T14:15:03.003Z</updated>
+  <updated>2025-09-08T16:10:50.709Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SFC游戏资源</title>
+    <link href="http://example.com/2025/09/09/sfc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/09/09/sfc-you-xi-zi-yuan/</id>
+    <published>2025-09-08T16:10:07.000Z</published>
+    <updated>2025-09-08T16:10:50.709Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="SFC" scheme="http://example.com/categories/SFC/"/>
+    
+    
+    <category term="SFC游戏" scheme="http://example.com/tags/SFC%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>Shandps4兼容性列表</title>
@@ -582,37 +613,6 @@
     
     
     <category term="仙境传说超级初心者的心得3.0" scheme="http://example.com/tags/%E4%BB%99%E5%A2%83%E4%BC%A0%E8%AF%B4%E8%B6%85%E7%BA%A7%E5%88%9D%E5%BF%83%E8%80%85%E7%9A%84%E5%BF%83%E5%BE%973-0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SFC游戏资源</title>
-    <link href="http://example.com/2025/08/17/sfc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/08/17/sfc-you-xi-zi-yuan/</id>
-    <published>2025-08-17T09:39:06.000Z</published>
-    <updated>2025-08-17T09:40:52.051Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="SFC" scheme="http://example.com/categories/SFC/"/>
-    
-    
-    <category term="SFC游戏" scheme="http://example.com/tags/SFC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
