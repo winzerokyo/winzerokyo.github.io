@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-09-28T04:01:41.855Z</updated>
+  <updated>2025-09-29T04:47:59.909Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2025/09/28/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/09/28/switch-you-xi-zi-yuan/</id>
-    <published>2025-09-28T04:00:53.000Z</published>
-    <updated>2025-09-28T04:01:41.855Z</updated>
+    <link href="http://example.com/2025/09/29/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/09/29/switch-you-xi-zi-yuan/</id>
+    <published>2025-09-29T04:46:54.000Z</published>
+    <updated>2025-09-29T04:47:59.909Z</updated>
     
     
       
@@ -44,6 +44,31 @@
     
     
     <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PSP模拟器的问题汇总</title>
+    <link href="http://example.com/2025/09/29/psp-mo-ni-qi-de-wen-ti-hui-zong/"/>
+    <id>http://example.com/2025/09/29/psp-mo-ni-qi-de-wen-ti-hui-zong/</id>
+    <published>2025-09-29T01:21:23.000Z</published>
+    <updated>2025-09-29T01:21:36.101Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;问题1：PPSSPP运行幻想传说（Tales of</summary>
+        
+      
+    
+    
+    
+    <category term="PSP" scheme="http://example.com/categories/PSP/"/>
+    
+    
+    <category term="PSP模拟器" scheme="http://example.com/tags/PSP%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
     
   </entry>
   
@@ -585,34 +610,6 @@
     
     
     <category term="WII和NGC游戏" scheme="http://example.com/tags/WII%E5%92%8CNGC%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SS模拟器教程和下载 转换软件教程和下载</title>
-    <link href="http://example.com/2025/08/27/ss-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
-    <id>http://example.com/2025/08/27/ss-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
-    <published>2025-08-27T11:24:03.000Z</published>
-    <updated>2025-08-27T11:25:34.718Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
-&lt;p&gt;##############################################################&lt;/p&gt;
-&lt;p&gt;Ymir模拟器（PC版）视频教程&lt;/p&gt;
-&lt;iframe</summary>
-        
-      
-    
-    
-    
-    <category term="SS" scheme="http://example.com/categories/SS/"/>
-    
-    
-    <category term="SS模拟器" scheme="http://example.com/tags/SS%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
     
   </entry>
   
