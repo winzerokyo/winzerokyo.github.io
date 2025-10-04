@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-10-04T04:20:14.315Z</updated>
+  <updated>2025-10-04T09:27:49.242Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>仙境传说超级初心者的心得4.0</title>
+    <link href="http://example.com/2025/10/04/xian-jing-chuan-shuo-chao-ji-chu-xin-zhe-de-xin-de/"/>
+    <id>http://example.com/2025/10/04/xian-jing-chuan-shuo-chao-ji-chu-xin-zhe-de-xin-de/</id>
+    <published>2025-10-04T09:26:46.000Z</published>
+    <updated>2025-10-04T09:27:49.242Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;这篇文章是之前文章的完全整合版，对现在新版本的一些地方进行了一点信息修正，也是对我在不断实践中形成的经验总结。&lt;/p&gt;
+&lt;p&gt;现在我本人零氪练到156了。难听点说就是我已经到了一个普通玩家放弃这游戏的阶段了。&lt;/p&gt;
+&lt;p&gt;单人练级职业评价：&lt;/p&gt;
+&lt;p&gt;装备限制极多，还</summary>
+        
+      
+    
+    
+    
+    <category term="仙境传说（端游）" scheme="http://example.com/categories/%E4%BB%99%E5%A2%83%E4%BC%A0%E8%AF%B4%EF%BC%88%E7%AB%AF%E6%B8%B8%EF%BC%89/"/>
+    
+    
+    <category term="仙境传说超级初心者的心得4.0" scheme="http://example.com/tags/%E4%BB%99%E5%A2%83%E4%BC%A0%E8%AF%B4%E8%B6%85%E7%BA%A7%E5%88%9D%E5%BF%83%E8%80%85%E7%9A%84%E5%BF%83%E5%BE%974-0/"/>
+    
+  </entry>
   
   <entry>
     <title>每周模拟器版本更新信息</title>
@@ -249,34 +277,6 @@
     
     
     <category term="NDS游戏" scheme="http://example.com/tags/NDS%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>仙境传说超级初心者的心得3.0</title>
-    <link href="http://example.com/2025/10/01/xian-jing-chuan-shuo-chao-ji-chu-xin-zhe-de-xin-de/"/>
-    <id>http://example.com/2025/10/01/xian-jing-chuan-shuo-chao-ji-chu-xin-zhe-de-xin-de/</id>
-    <published>2025-10-01T01:40:45.000Z</published>
-    <updated>2025-10-01T01:42:04.037Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;这篇文章是上次文章的完全整合版，对现在新版本的一些地方进行了一点信息修正&lt;/p&gt;
-&lt;p&gt;现在我本人单人零氪练到150了。&lt;/p&gt;
-&lt;p&gt;单人练级职业评价：&lt;/p&gt;
-&lt;p&gt;装备限制极多，还有萌萌100级给的套装是没有武器的，你要靠乐园团的武器来打100级以后的怪物，除了主线1</summary>
-        
-      
-    
-    
-    
-    <category term="仙境传说（端游）" scheme="http://example.com/categories/%E4%BB%99%E5%A2%83%E4%BC%A0%E8%AF%B4%EF%BC%88%E7%AB%AF%E6%B8%B8%EF%BC%89/"/>
-    
-    
-    <category term="仙境传说超级初心者的心得3.0" scheme="http://example.com/tags/%E4%BB%99%E5%A2%83%E4%BC%A0%E8%AF%B4%E8%B6%85%E7%BA%A7%E5%88%9D%E5%BF%83%E8%80%85%E7%9A%84%E5%BF%83%E5%BE%973-0/"/>
     
   </entry>
   
