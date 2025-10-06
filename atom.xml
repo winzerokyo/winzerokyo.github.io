@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-10-06T03:56:55.689Z</updated>
+  <updated>2025-10-06T04:19:15.974Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MD模拟器教程和下载 转换软件教程和下载</title>
+    <link href="http://example.com/2025/10/06/md-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
+    <id>http://example.com/2025/10/06/md-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
+    <published>2025-10-06T04:18:39.000Z</published>
+    <updated>2025-10-06T04:19:15.974Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
+&lt;p&gt;##############################################################&lt;/p&gt;
+&lt;p&gt;Blastem模拟器（PC版）视频教程&lt;br&gt;暂无，不过基本就是打开即用了。&lt;/p&gt;
+&lt;p&gt;软件下载：</summary>
+        
+      
+    
+    
+    
+    <category term="MD" scheme="http://example.com/categories/MD/"/>
+    
+    
+    <category term="MD模拟器" scheme="http://example.com/tags/MD%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>FC游戏资源</title>
@@ -576,37 +604,6 @@
     
     
     <category term="SWITCH模拟器" scheme="http://example.com/tags/SWITCH%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SFC游戏资源</title>
-    <link href="http://example.com/2025/09/09/sfc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/09/09/sfc-you-xi-zi-yuan/</id>
-    <published>2025-09-08T16:10:07.000Z</published>
-    <updated>2025-09-08T16:10:50.709Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="SFC" scheme="http://example.com/categories/SFC/"/>
-    
-    
-    <category term="SFC游戏" scheme="http://example.com/tags/SFC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
