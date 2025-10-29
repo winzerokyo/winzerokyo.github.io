@@ -411,7 +411,7 @@
     
       
         <span class="post-detail-header_date">
-          <i class="fas fa-calendar"></i> 发表于：2025-02-02 |
+          <i class="fas fa-calendar"></i> 发表于：2025-10-29 |
         </span>
       
 
@@ -444,8 +444,8 @@
   <div class="main-content">
     <article class="post post-detail">
       <div class="post-content">
-        <p>问题1：DeSmuME_0.9.13_x64.exe运行后最小化在任务栏不能显示在桌面<br>答案：<br>1.右击DeSmuME_0.9.13_x64.exe选择运用管理员模式运行即可解决<br>2.有可能是杀毒软件导致，将杀毒软件退出后启动可以解决</p>
-<p>问题2：DeSmuME_0.9.13 x64 SSE2一个窗口出来，无法启动模拟器<br>答案：应该是处理器没有SSE2这个指令集导致的，换个模拟器吧</p>
+        <p>问题1：DeSmuME_0.9.13_x64.exe运行后最小化在任务栏不能显示在桌面<br>答案：<br>1.右击DeSmuME_0.9.13_x64.exe选择运用管理员模式运行即可解决<br>2.有可能是杀毒软件导致，将杀毒软件退出后启动可以解决<br>3.将desmume.ini删除后再运行模拟器</p>
+<p>问题2：DeSmuME_0.9.13 x64 SSE2一个窗口出来，无法启动模拟器<br>答案：<br>1.应该是处理器没有SSE2这个指令集导致的，换个模拟器吧<br>2.将desmume.ini删除后再运行模拟器</p>
 <p>问题3：DeSmuME_0.9.13和melonds如何一直开加速<br>答案：设置-热键设置，里面有个切换帧率限制的按键，设置了就可以开加速和关加速</p>
 <p>问题4：melonds玩游戏没有声音<br>答案：看看是不是双开了模拟器，如果是双开了模拟器，可以去设置-多人联机设置那里将声音设置一下就有声音了。</p>
 <p>问题5：melonds游戏加速只有90帧<br>答案：设置-模拟器设置-cpu模拟，勾选“启用JIT重新编译器”勾选了就可以去到300多帧</p>
@@ -454,6 +454,8 @@
 <p>问题8：安卓版melonds玩塞尔达传说大地的汽笛图像贴图有问题<br>答案：设置那里video-renderer改成software就可以，但是这样就没法提高分辨率</p>
 <p>问题9：melonds玩逆转检事有一个要吹铝粉要怎么设置<br>答案：电脑版1.先设置-控制和热键-一般热键-改麦克风按键。2.设置音频设置-把麦克风输入改成模拟吹入噪音。最后按麦克风热键就可以。</p>
 <p>问题10：melonds玩超时空之轮无中文汉化<br>答案：melonds玩超时空之轮要在设置-固件设置，勾选“使用外部固件的设置进行覆盖”，然后下面的语言选项选上日语才会有中文，因为这游戏的汉化是占用了日语做的汉化。</p>
+<p>问题11：Desmume-0.9.13如何让固件文件跟着模拟器文件夹位置变化而变化，就是模拟器放到哪里都可以自动读取固件文件。<br>答案：<br>1.首先在模拟器文件夹内新建一个英文的文件夹（什么英文名字都可以），下面举例的那个文件我这里叫Firmware文件夹，内里固件文件通常包括ARM9BIOS文件我这里举例是叫bios9.bin，ARM7BIOS文件我这里举例是叫bios7.bin，Firmware文件叫firmware.bin<br>2.运行一次模拟器后关闭模拟器，使模拟器文件夹内生成一个desmume.ini，打开desmume.ini<br>3.找出ARM9BIOSFile&#x3D;，这个行文本，然后改成ARM9BIOSFile&#x3D;.\Firmware\bios9.bin<br>4.找出ARM7BIOSFile&#x3D;，这个行文本，然后改成ARM7BIOSFile&#x3D;.\Firmware\bios7.bin<br>5.找出FirmwareFile&#x3D;，这个行文本，然后改成FirmwareFile&#x3D;.\Firmware\firmware.bin<br>6.保存desmume.ini。以后这个模拟器内的文件复制到哪里，模拟器都会读取文件夹内的固件文件了</p>
+<p>问题12：melonDS如何让固件文件跟着模拟器文件夹位置变化而变化，就是模拟器放到哪里都可以自动读取固件文件。<br>答案：<br>1.首先在模拟器文件夹内新建一个英文的文件夹（什么英文名字都可以），下面举例的那个文件我这里叫Firmware文件夹，内里固件文件通常包括ARM9BIOS文件我这里举例是叫bios9.bin，ARM7BIOS文件我这里举例是叫bios7.bin，Firmware文件叫firmware.bin<br>2.运行一次模拟器后关闭模拟器，使模拟器文件夹内生成一个melonDS.toml，打开melonDS.toml<br>3.找出BIOS9Path &#x3D;，这个行文本，然后改成BIOS9Path &#x3D; “.&#x2F;Firmware&#x2F;bios9.bin”<br>4.找出BIOS7Path &#x3D;，这个行文本，然后改成BIOS7Path &#x3D; “.&#x2F;Firmware&#x2F;bios7.bin”<br>5.找出FirmwarePath &#x3D;，这个行文本，然后改成FirmwarePath &#x3D; “.&#x2F;Firmware&#x2F;firmware.bin”<br>6.保存melonDS.toml。以后这个模拟器内的文件复制到哪里，模拟器都会读取文件夹内的固件文件了</p>
 
       </div>
       <div class="post-tags-categories">
@@ -475,7 +477,7 @@
     </li>
     <li class="post-copyright-link">
     <strong>文章链接:  </strong>
-    <a href="/2025/02/02/nds-mo-ni-qi-wen-ti-hui-zong/" target="_blank" title="NDS模拟器问题汇总">http://example.com/2025/02/02/nds-mo-ni-qi-wen-ti-hui-zong/</a>
+    <a href="/2025/10/29/nds-mo-ni-qi-wen-ti-hui-zong/" target="_blank" title="NDS模拟器问题汇总">http://example.com/2025/10/29/nds-mo-ni-qi-wen-ti-hui-zong/</a>
     </li>
     <li class="post-copyright-license">
       <strong>版权声明:   </strong>
@@ -493,37 +495,18 @@
 
 
 
-  
-  <div class="post-nav-prev post-nav-item">
-    <div class="post-nav-img" style="background-size: cover; 
-      background-position: center center;">
-      <img class="lazyload lazyload placeholder" src="https://pic3.zhimg.com/80/v2-e5c15010b8ba4608a1974403a02a2da0_1440w.webp" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-e5c15010b8ba4608a1974403a02a2da0_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
-    </div>
-    <a href="/2025/02/05/sfc-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/" class="post-nav-link">
-      <div class="title">
-        <i class="fas fa-angle-left"></i> 上一篇:
-        <div class="title-text">SFC模拟器教程和下载-转换软件教程和下载</div>
-      </div>
-      
-      <!-- <div class="content">
-        模拟器教程和下载
-###################################################
-      </div> -->
-    </a>
-  </div>
-
 
 
   
   <div class="post-nav-next post-nav-item">
     <div class="post-nav-img" style="background-size: cover; 
       background-position: center center;">
-      <img class="lazyload lazyload placeholder" src="https://pic3.zhimg.com/80/v2-5f7cb7e900b9dcf5354c3d4d2c5cc3c2_1440w.webp" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-5f7cb7e900b9dcf5354c3d4d2c5cc3c2_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" src="" alt="">
+      <img class="lazyload lazyload placeholder" src="https://pic2.zhimg.com/80/v2-63bbdb5b76b8d349ad35ff4281efbd37_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-63bbdb5b76b8d349ad35ff4281efbd37_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" src="" alt="">
     </div>
-    <a href="/2025/01/22/n64-you-xi-zi-yuan/" class="post-nav-link">
+    <a href="/2025/10/29/switch-you-xi-zi-yuan/" class="post-nav-link">
       <div class="title">
         下一篇: <i class="fas fa-angle-right"></i>
-        <div class="title-text">N64游戏资源</div>
+        <div class="title-text">SWITCH游戏资源</div>
       </div>
       <!-- <div class="content">
         
@@ -537,7 +520,8 @@
 
 
 
-任天堂明星大乱斗 Super Smas
+100扇门 密室逃脱
+https://
       </div> -->
     </a>
   </div>
@@ -784,6 +768,27 @@
             
 
             <div class="post-img-box">
+              <a href="/2025/10/29/nds-mo-ni-qi-wen-ti-hui-zong/" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic2.zhimg.com/80/v2-63bbdb5b76b8d349ad35ff4281efbd37_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-63bbdb5b76b8d349ad35ff4281efbd37_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">10-29</span>
+                
+              </div>
+              <a class="post-title" href="/2025/10/29/nds-mo-ni-qi-wen-ti-hui-zong/">NDS模拟器问题汇总</a>
+            </div>
+          </div>
+        
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
               <a href="/2025/10/29/switch-you-xi-zi-yuan/" class="post-img " style="background-size: cover; 
                 background-position: center center;">
                 <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic2.zhimg.com/80/v2-63bbdb5b76b8d349ad35ff4281efbd37_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-63bbdb5b76b8d349ad35ff4281efbd37_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
@@ -859,27 +864,6 @@
                 
               </div>
               <a class="post-title" href="/2025/10/28/mo-ni-qi-ban-ben-geng-xin-xin-xi/">模拟器版本更新信息</a>
-            </div>
-          </div>
-        
-          <div class="aside-list-item">
-            
-            
-            
-
-            <div class="post-img-box">
-              <a href="/2025/10/28/ps3-you-xi-zi-yuan/" class="post-img " style="background-size: cover; 
-                background-position: center center;">
-                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic2.zhimg.com/80/v2-e22aaad20d20634f506f57fff0fcbc17_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-e22aaad20d20634f506f57fff0fcbc17_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
-              </a>
-            </div>
-            <div class="post-date-title">
-              <div>
-                
-                  <span class="post-date">10-28</span>
-                
-              </div>
-              <a class="post-title" href="/2025/10/28/ps3-you-xi-zi-yuan/">PS3游戏资源</a>
             </div>
           </div>
         
