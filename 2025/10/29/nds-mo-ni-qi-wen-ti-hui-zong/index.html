@@ -455,7 +455,7 @@
 <p>问题9：melonds玩逆转检事有一个要吹铝粉要怎么设置<br>答案：电脑版1.先设置-控制和热键-一般热键-改麦克风按键。2.设置音频设置-把麦克风输入改成模拟吹入噪音。最后按麦克风热键就可以。</p>
 <p>问题10：melonds玩超时空之轮无中文汉化<br>答案：melonds玩超时空之轮要在设置-固件设置，勾选“使用外部固件的设置进行覆盖”，然后下面的语言选项选上日语才会有中文，因为这游戏的汉化是占用了日语做的汉化。</p>
 <p>问题11：Desmume-0.9.13如何让固件文件跟着模拟器文件夹位置变化而变化，就是模拟器放到哪里都可以自动读取固件文件。<br>答案：<br>1.首先在模拟器文件夹内新建一个英文的文件夹（什么英文名字都可以），下面举例的那个文件我这里叫Firmware文件夹，内里固件文件通常包括ARM9BIOS文件我这里举例是叫bios9.bin，ARM7BIOS文件我这里举例是叫bios7.bin，Firmware文件叫firmware.bin<br>2.运行一次模拟器后关闭模拟器，使模拟器文件夹内生成一个desmume.ini，打开desmume.ini<br>3.找出ARM9BIOSFile&#x3D;，这个行文本，然后改成ARM9BIOSFile&#x3D;.\Firmware\bios9.bin<br>4.找出ARM7BIOSFile&#x3D;，这个行文本，然后改成ARM7BIOSFile&#x3D;.\Firmware\bios7.bin<br>5.找出FirmwareFile&#x3D;，这个行文本，然后改成FirmwareFile&#x3D;.\Firmware\firmware.bin<br>6.保存desmume.ini。以后这个模拟器内的文件复制到哪里，模拟器都会读取文件夹内的固件文件了</p>
-<p>问题12：melonDS如何让固件文件跟着模拟器文件夹位置变化而变化，就是模拟器放到哪里都可以自动读取固件文件。<br>答案：<br>1.首先在模拟器文件夹内新建一个英文的文件夹（什么英文名字都可以），下面举例的那个文件我这里叫Firmware文件夹，内里固件文件通常包括ARM9BIOS文件我这里举例是叫bios9.bin，ARM7BIOS文件我这里举例是叫bios7.bin，Firmware文件叫firmware.bin<br>2.运行一次模拟器后关闭模拟器，使模拟器文件夹内生成一个melonDS.toml，打开melonDS.toml<br>3.找出BIOS9Path &#x3D;，这个行文本，然后改成BIOS9Path &#x3D; “.&#x2F;Firmware&#x2F;bios9.bin”<br>4.找出BIOS7Path &#x3D;，这个行文本，然后改成BIOS7Path &#x3D; “.&#x2F;Firmware&#x2F;bios7.bin”<br>5.找出FirmwarePath &#x3D;，这个行文本，然后改成FirmwarePath &#x3D; “.&#x2F;Firmware&#x2F;firmware.bin”<br>6.保存melonDS.toml。以后这个模拟器内的文件复制到哪里，模拟器都会读取文件夹内的固件文件了</p>
+<p>问题12：melonDS如何让固件文件跟着模拟器文件夹位置变化而变化，就是模拟器放到哪里都可以自动读取固件文件。<br>答案：<br>1.首先在模拟器文件夹内新建一个英文的文件夹（什么英文名字都可以），下面举例的那个文件我这里叫Firmware文件夹，内里固件文件通常包括ARM9BIOS文件我这里举例是叫bios9.bin，ARM7BIOS文件我这里举例是叫bios7.bin，Firmware文件叫firmware.bin<br>2.运行一次模拟器进入模拟设置-DS勾选使用固件模式后先选择一次固件文件，然后关闭模拟器，使模拟器文件夹内生成一个melonDS.toml，打开melonDS.toml<br>3.找出LastBIOSFolder &#x3D;，这个行文本，然后改成LastBIOSFolder &#x3D; “.&#x2F;Firmware”<br>4.找出BIOS9Path &#x3D;，这个行文本，然后改成BIOS9Path &#x3D; “.&#x2F;Firmware&#x2F;bios9.bin”<br>5.找出BIOS7Path &#x3D;，这个行文本，然后改成BIOS7Path &#x3D; “.&#x2F;Firmware&#x2F;bios7.bin”<br>6.找出FirmwarePath &#x3D;，这个行文本，然后改成FirmwarePath &#x3D; “.&#x2F;Firmware&#x2F;firmware.bin”<br>7.保存melonDS.toml。以后这个模拟器内的文件复制到哪里，模拟器都会读取文件夹内的固件文件了</p>
 
       </div>
       <div class="post-tags-categories">
@@ -494,6 +494,24 @@
 <div class="post-nav">
 
 
+
+  
+  <div class="post-nav-prev post-nav-item">
+    <div class="post-nav-img" style="background-size: cover; 
+      background-position: center center;">
+      <img class="lazyload lazyload placeholder" src="https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+    </div>
+    <a href="/2025/10/30/psv-mo-ni-qi-de-wen-ti-hui-zong/" class="post-nav-link">
+      <div class="title">
+        <i class="fas fa-angle-left"></i> 上一篇:
+        <div class="title-text">PSV模拟器的问题汇总</div>
+      </div>
+      
+      <!-- <div class="content">
+        安卓版模拟器文件夹在你手机内部储存空间-android-data-org.vita3s.emulator那个文件夹PC版
+      </div> -->
+    </a>
+  </div>
 
 
 
@@ -768,6 +786,27 @@ https://
             
 
             <div class="post-img-box">
+              <a href="/2025/10/30/psv-mo-ni-qi-de-wen-ti-hui-zong/" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">10-30</span>
+                
+              </div>
+              <a class="post-title" href="/2025/10/30/psv-mo-ni-qi-de-wen-ti-hui-zong/">PSV模拟器的问题汇总</a>
+            </div>
+          </div>
+        
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
               <a href="/2025/10/29/nds-mo-ni-qi-wen-ti-hui-zong/" class="post-img " style="background-size: cover; 
                 background-position: center center;">
                 <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic2.zhimg.com/80/v2-63bbdb5b76b8d349ad35ff4281efbd37_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-63bbdb5b76b8d349ad35ff4281efbd37_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
@@ -843,27 +882,6 @@ https://
                 
               </div>
               <a class="post-title" href="/2025/10/28/ps2-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/">PS2模拟器教程和下载-转换软件教程和下载</a>
-            </div>
-          </div>
-        
-          <div class="aside-list-item">
-            
-            
-            
-
-            <div class="post-img-box">
-              <a href="/2025/10/28/mo-ni-qi-ban-ben-geng-xin-xin-xi/" class="post-img " style="background-size: cover; 
-                background-position: center center;">
-                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic2.zhimg.com/80/v2-29e78b52051ce542adf6d786d61fbd19_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-29e78b52051ce542adf6d786d61fbd19_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
-              </a>
-            </div>
-            <div class="post-date-title">
-              <div>
-                
-                  <span class="post-date">10-28</span>
-                
-              </div>
-              <a class="post-title" href="/2025/10/28/mo-ni-qi-ban-ben-geng-xin-xin-xi/">模拟器版本更新信息</a>
             </div>
           </div>
         

@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-10-29T15:43:28.198Z</updated>
+  <updated>2025-10-29T17:18:25.063Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>PSV模拟器的问题汇总</title>
+    <link href="http://example.com/2025/10/30/psv-mo-ni-qi-de-wen-ti-hui-zong/"/>
+    <id>http://example.com/2025/10/30/psv-mo-ni-qi-de-wen-ti-hui-zong/</id>
+    <published>2025-10-29T17:17:45.000Z</published>
+    <updated>2025-10-29T17:18:25.063Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;安卓版模拟器文件夹在你手机内部储存空间-android-data-org.vita3s.emulator那个文件夹&lt;br&gt;PC版看你自己设置在哪里就是哪里，你可以在模拟器里面的设置-模拟器那里看到，你设置的位置或者进行位置变更。&lt;/p&gt;
+&lt;p&gt;问题1：Vita3K玩灵魂献祭</summary>
+        
+      
+    
+    
+    
+    <category term="PSV" scheme="http://example.com/categories/PSV/"/>
+    
+    
+    <category term="PSV模拟器" scheme="http://example.com/tags/PSV%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
     <title>NDS模拟器问题汇总</title>
     <link href="http://example.com/2025/10/29/nds-mo-ni-qi-wen-ti-hui-zong/"/>
     <id>http://example.com/2025/10/29/nds-mo-ni-qi-wen-ti-hui-zong/</id>
     <published>2025-10-29T15:42:21.000Z</published>
-    <updated>2025-10-29T15:43:28.198Z</updated>
+    <updated>2025-10-29T16:24:02.658Z</updated>
     
     
       
@@ -571,37 +597,6 @@
     
     
     <category term="MD模拟器" scheme="http://example.com/tags/MD%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GBC和GB游戏资源</title>
-    <link href="http://example.com/2025/10/06/gbc-he-gb-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/10/06/gbc-he-gb-you-xi-zi-yuan/</id>
-    <published>2025-10-06T03:56:14.000Z</published>
-    <updated>2025-10-06T03:57:39.395Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="GBA、GBC和GB" scheme="http://example.com/categories/GBA%E3%80%81GBC%E5%92%8CGB/"/>
-    
-    
-    <category term="GBC和GB游戏" scheme="http://example.com/tags/GBC%E5%92%8CGB%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
