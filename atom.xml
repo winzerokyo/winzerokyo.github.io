@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-11-03T06:28:43.668Z</updated>
+  <updated>2025-11-03T14:04:31.832Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,62 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PS4游戏资源</title>
+    <link href="http://example.com/2025/11/03/ps4-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/11/03/ps4-you-xi-zi-yuan/</id>
+    <published>2025-11-03T14:03:36.000Z</published>
+    <updated>2025-11-03T14:04:31.832Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
+    
+    
+    <category term="PS4游戏" scheme="http://example.com/tags/PS4%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>模拟器版本更新信息</title>
+    <link href="http://example.com/2025/11/03/mo-ni-qi-ban-ben-geng-xin-xin-xi/"/>
+    <id>http://example.com/2025/11/03/mo-ni-qi-ban-ben-geng-xin-xin-xi/</id>
+    <published>2025-11-03T12:42:11.000Z</published>
+    <updated>2025-11-03T14:04:50.590Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;2025-11-03</summary>
+        
+      
+    
+    
+    
+    <category term="模拟器版本更新信息" scheme="http://example.com/categories/%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
+    
+    
+    <category term="模拟器版本更新信息" scheme="http://example.com/tags/%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>SWITCH游戏资源</title>
@@ -137,31 +193,6 @@
     
     
     <category term="GBA游戏" scheme="http://example.com/tags/GBA%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>模拟器版本更新信息</title>
-    <link href="http://example.com/2025/11/01/mo-ni-qi-ban-ben-geng-xin-xin-xi/"/>
-    <id>http://example.com/2025/11/01/mo-ni-qi-ban-ben-geng-xin-xin-xi/</id>
-    <published>2025-11-01T04:50:10.000Z</published>
-    <updated>2025-11-01T04:52:09.052Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;2025-11-01 Shadps4更新到2025-10-31，Shadps4新版本不支持PKG格式，要使用PkgEditor解包了才能读取游戏。XEMU更新到V0.8.111 。Xenia canary本周更新到2025-10-31，xenia_master</summary>
-        
-      
-    
-    
-    
-    <category term="模拟器版本更新信息" scheme="http://example.com/categories/%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
-    
-    
-    <category term="模拟器版本更新信息" scheme="http://example.com/tags/%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
     
   </entry>
   
@@ -569,37 +600,6 @@
     
     
     <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PSP游戏资源</title>
-    <link href="http://example.com/2025/10/06/psp-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/10/06/psp-you-xi-zi-yuan/</id>
-    <published>2025-10-06T15:42:48.000Z</published>
-    <updated>2025-10-06T15:43:11.129Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PSP" scheme="http://example.com/categories/PSP/"/>
-    
-    
-    <category term="PSP游戏" scheme="http://example.com/tags/PSP%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
