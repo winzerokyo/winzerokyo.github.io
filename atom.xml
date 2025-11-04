@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-11-04T05:22:33.881Z</updated>
+  <updated>2025-11-04T16:44:08.130Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,124 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PS4模拟器的问题汇总</title>
+    <link href="http://example.com/2025/11/05/ps4-mo-ni-qi-de-wen-ti-hui-zong/"/>
+    <id>http://example.com/2025/11/05/ps4-mo-ni-qi-de-wen-ti-hui-zong/</id>
+    <published>2025-11-04T16:42:10.000Z</published>
+    <updated>2025-11-04T16:44:08.130Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;问题1：shadps4打开后只见模拟器控制台不见模拟器界面&lt;br&gt;答案：这是因为模拟器的设置文件中有路径指向问题，删除user&amp;#x2F;config.toml文件重新启动模拟器即可。这问题常见于整合好的模拟器中。&lt;/p&gt;
+&lt;p&gt;问题2：如何将初音未来 歌姬计划</summary>
+        
+      
+    
+    
+    
+    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
+    
+    
+    <category term="PS4模拟器" scheme="http://example.com/tags/PS4%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Shandps4兼容性列表</title>
+    <link href="http://example.com/2025/11/05/shandps4-jian-rong-xing-lie-biao/"/>
+    <id>http://example.com/2025/11/05/shandps4-jian-rong-xing-lie-biao/</id>
+    <published>2025-11-04T16:41:09.000Z</published>
+    <updated>2025-11-04T16:41:14.857Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;特别备注&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;血源诅咒</summary>
+        
+      
+    
+    
+    
+    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
+    
+    
+    <category term="PS4模拟器" scheme="http://example.com/tags/PS4%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PS4游戏资源</title>
+    <link href="http://example.com/2025/11/05/ps4-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/11/05/ps4-you-xi-zi-yuan/</id>
+    <published>2025-11-04T16:39:37.000Z</published>
+    <updated>2025-11-04T16:39:57.642Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
+    
+    
+    <category term="PS4游戏" scheme="http://example.com/tags/PS4%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PS4模拟器教程和下载 转换软件教程和下载</title>
+    <link href="http://example.com/2025/11/05/ps4-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
+    <id>http://example.com/2025/11/05/ps4-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
+    <published>2025-11-04T16:36:19.000Z</published>
+    <updated>2025-11-04T16:36:31.320Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
+&lt;p&gt;##############################################################&lt;/p&gt;
+&lt;p&gt;Shadps4(PC版)视频教程&lt;/p&gt;
+&lt;iframe</summary>
+        
+      
+    
+    
+    
+    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
+    
+    
+    <category term="PS4模拟器" scheme="http://example.com/tags/PS4%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>SWITCH游戏资源</title>
@@ -75,37 +193,6 @@
     
     
     <category term="PSP游戏" scheme="http://example.com/tags/PSP%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS4游戏资源</title>
-    <link href="http://example.com/2025/11/03/ps4-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/11/03/ps4-you-xi-zi-yuan/</id>
-    <published>2025-11-03T14:03:36.000Z</published>
-    <updated>2025-11-03T14:04:31.832Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
-    
-    
-    <category term="PS4游戏" scheme="http://example.com/tags/PS4%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -514,92 +601,6 @@
     
     
     <category term="NDS游戏" scheme="http://example.com/tags/NDS%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MD游戏资源</title>
-    <link href="http://example.com/2025/10/24/md-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/10/24/md-you-xi-zi-yuan/</id>
-    <published>2025-10-24T03:38:39.000Z</published>
-    <updated>2025-10-24T03:38:58.497Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="MD" scheme="http://example.com/categories/MD/"/>
-    
-    
-    <category term="MD游戏" scheme="http://example.com/tags/MD%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PSV模拟器教程和下载-转换软件教程和下载</title>
-    <link href="http://example.com/2025/10/21/psv-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
-    <id>http://example.com/2025/10/21/psv-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
-    <published>2025-10-21T04:42:53.000Z</published>
-    <updated>2025-10-21T04:53:49.582Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
-&lt;p&gt;##############################################################&lt;/p&gt;
-&lt;p&gt;Vita3K（PC版）视频教程&lt;/p&gt;
-&lt;iframe</summary>
-        
-      
-    
-    
-    
-    <category term="PSV" scheme="http://example.com/categories/PSV/"/>
-    
-    
-    <category term="PSV模拟器" scheme="http://example.com/tags/PSV%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SWITCH模拟器的问题汇总</title>
-    <link href="http://example.com/2025/10/20/switch-mo-ni-qi-de-wen-ti-hui-zong/"/>
-    <id>http://example.com/2025/10/20/switch-mo-ni-qi-de-wen-ti-hui-zong/</id>
-    <published>2025-10-20T01:37:53.000Z</published>
-    <updated>2025-10-20T01:38:22.185Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;##############################################################&lt;/p&gt;
-&lt;p&gt;游戏文件基础知识&lt;/p&gt;
-&lt;p&gt;NS模拟器游戏文件格式上通常较常见是nsz、xcz、nsp、xci。nsz、xcz你们可以理解成加密和</summary>
-        
-      
-    
-    
-    
-    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
-    
-    
-    <category term="SWITCH模拟器" scheme="http://example.com/tags/SWITCH%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
     
   </entry>
   
