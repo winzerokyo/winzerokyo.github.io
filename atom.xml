@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-11-06T02:36:54.273Z</updated>
+  <updated>2025-11-06T03:14:31.071Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Shandps4兼容性列表</title>
+    <link href="http://example.com/2025/11/06/shandps4-jian-rong-xing-lie-biao/"/>
+    <id>http://example.com/2025/11/06/shandps4-jian-rong-xing-lie-biao/</id>
+    <published>2025-11-06T03:14:10.000Z</published>
+    <updated>2025-11-06T03:14:31.071Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;特别备注&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;血源诅咒</summary>
+        
+      
+    
+    
+    
+    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
+    
+    
+    <category term="PS4模拟器" scheme="http://example.com/tags/PS4%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>PS4游戏资源</title>
@@ -92,39 +125,6 @@
         
     <summary type="html">&lt;p&gt;问题1：shadps4打开后只见模拟器控制台不见模拟器界面&lt;br&gt;答案：这是因为模拟器的设置文件中有路径指向问题，删除user&amp;#x2F;config.toml文件重新启动模拟器即可。这问题常见于整合好的模拟器中。&lt;/p&gt;
 &lt;p&gt;问题2：如何将初音未来 歌姬计划</summary>
-        
-      
-    
-    
-    
-    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
-    
-    
-    <category term="PS4模拟器" scheme="http://example.com/tags/PS4%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Shandps4兼容性列表</title>
-    <link href="http://example.com/2025/11/05/shandps4-jian-rong-xing-lie-biao/"/>
-    <id>http://example.com/2025/11/05/shandps4-jian-rong-xing-lie-biao/</id>
-    <published>2025-11-04T16:41:09.000Z</published>
-    <updated>2025-11-04T16:41:14.857Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;特别备注&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;血源诅咒</summary>
         
       
     
