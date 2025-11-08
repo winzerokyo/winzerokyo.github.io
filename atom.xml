@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-11-07T03:06:28.884Z</updated>
+  <updated>2025-11-08T04:38:43.998Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,95 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>模拟器版本更新信息</title>
+    <link href="http://example.com/2025/11/08/mo-ni-qi-ban-ben-geng-xin-xin-xi/"/>
+    <id>http://example.com/2025/11/08/mo-ni-qi-ban-ben-geng-xin-xin-xi/</id>
+    <published>2025-11-08T04:20:12.000Z</published>
+    <updated>2025-11-08T04:38:43.998Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;现在我提供的资源用了很多相对路径，请不要用超过3层文件夹套着，文件路径指向有什么问题请你们自己手动改回绝对路径。&lt;br&gt;2025-11-08</summary>
+        
+      
+    
+    
+    
+    <category term="模拟器版本更新信息" scheme="http://example.com/categories/%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
+    
+    
+    <category term="模拟器版本更新信息" scheme="http://example.com/tags/%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PS4游戏资源</title>
+    <link href="http://example.com/2025/11/08/ps4-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/11/08/ps4-you-xi-zi-yuan/</id>
+    <published>2025-11-08T02:49:40.000Z</published>
+    <updated>2025-11-08T02:49:08.395Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
+    
+    
+    <category term="PS4游戏" scheme="http://example.com/tags/PS4%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Shandps4兼容性列表</title>
+    <link href="http://example.com/2025/11/08/shandps4-jian-rong-xing-lie-biao/"/>
+    <id>http://example.com/2025/11/08/shandps4-jian-rong-xing-lie-biao/</id>
+    <published>2025-11-08T02:49:12.000Z</published>
+    <updated>2025-11-08T02:51:02.058Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;特别备注&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;血源诅咒</summary>
+        
+      
+    
+    
+    
+    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
+    
+    
+    <category term="PS4模拟器" scheme="http://example.com/tags/PS4%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>SWITCH游戏资源</title>
@@ -44,70 +133,6 @@
     
     
     <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Shandps4兼容性列表</title>
-    <link href="http://example.com/2025/11/06/shandps4-jian-rong-xing-lie-biao/"/>
-    <id>http://example.com/2025/11/06/shandps4-jian-rong-xing-lie-biao/</id>
-    <published>2025-11-06T12:47:11.000Z</published>
-    <updated>2025-11-06T12:47:36.861Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;特别备注&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;血源诅咒</summary>
-        
-      
-    
-    
-    
-    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
-    
-    
-    <category term="PS4模拟器" scheme="http://example.com/tags/PS4%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS4游戏资源</title>
-    <link href="http://example.com/2025/11/06/ps4-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/11/06/ps4-you-xi-zi-yuan/</id>
-    <published>2025-11-06T12:45:39.000Z</published>
-    <updated>2025-11-06T12:45:47.486Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
-    
-    
-    <category term="PS4游戏" scheme="http://example.com/tags/PS4%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -193,31 +218,6 @@
     
     
     <category term="PSP游戏" scheme="http://example.com/tags/PSP%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>模拟器版本更新信息</title>
-    <link href="http://example.com/2025/11/03/mo-ni-qi-ban-ben-geng-xin-xin-xi/"/>
-    <id>http://example.com/2025/11/03/mo-ni-qi-ban-ben-geng-xin-xin-xi/</id>
-    <published>2025-11-03T12:42:11.000Z</published>
-    <updated>2025-11-03T14:04:50.590Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;2025-11-03</summary>
-        
-      
-    
-    
-    
-    <category term="模拟器版本更新信息" scheme="http://example.com/categories/%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
-    
-    
-    <category term="模拟器版本更新信息" scheme="http://example.com/tags/%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
     
   </entry>
   
