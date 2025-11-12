@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-11-11T05:38:12.817Z</updated>
+  <updated>2025-11-12T02:12:28.391Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,42 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2025/11/11/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/11/11/switch-you-xi-zi-yuan/</id>
-    <published>2025-11-11T05:37:10.000Z</published>
-    <updated>2025-11-11T05:38:12.817Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
-    
-    
-    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Shandps4兼容性列表</title>
-    <link href="http://example.com/2025/11/10/shandps4-jian-rong-xing-lie-biao/"/>
-    <id>http://example.com/2025/11/10/shandps4-jian-rong-xing-lie-biao/</id>
-    <published>2025-11-10T15:44:13.000Z</published>
-    <updated>2025-11-10T15:45:35.400Z</updated>
+    <link href="http://example.com/2025/11/12/shandps4-jian-rong-xing-lie-biao/"/>
+    <id>http://example.com/2025/11/12/shandps4-jian-rong-xing-lie-biao/</id>
+    <published>2025-11-12T02:11:14.000Z</published>
+    <updated>2025-11-12T02:12:28.391Z</updated>
     
     
       
@@ -82,10 +51,10 @@
   
   <entry>
     <title>PS4游戏资源</title>
-    <link href="http://example.com/2025/11/10/ps4-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/11/10/ps4-you-xi-zi-yuan/</id>
-    <published>2025-11-10T15:16:41.000Z</published>
-    <updated>2025-11-10T15:17:55.826Z</updated>
+    <link href="http://example.com/2025/11/12/ps4-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/11/12/ps4-you-xi-zi-yuan/</id>
+    <published>2025-11-12T02:10:42.000Z</published>
+    <updated>2025-11-12T02:11:27.713Z</updated>
     
     
       
@@ -108,6 +77,37 @@
     
     
     <category term="PS4游戏" scheme="http://example.com/tags/PS4%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SWITCH游戏资源</title>
+    <link href="http://example.com/2025/11/11/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/11/11/switch-you-xi-zi-yuan/</id>
+    <published>2025-11-11T05:37:10.000Z</published>
+    <updated>2025-11-11T05:38:12.817Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
+    
+    
+    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
