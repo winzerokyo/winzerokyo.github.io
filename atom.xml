@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-11-12T05:25:14.858Z</updated>
+  <updated>2025-11-12T13:25:25.126Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2025/11/12/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/11/12/switch-you-xi-zi-yuan/</id>
-    <published>2025-11-12T05:24:11.000Z</published>
-    <updated>2025-11-12T05:25:14.858Z</updated>
+    <title>MD游戏资源</title>
+    <link href="http://example.com/2025/11/12/md-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/11/12/md-you-xi-zi-yuan/</id>
+    <published>2025-11-12T13:24:40.000Z</published>
+    <updated>2025-11-12T13:25:25.126Z</updated>
     
     
       
@@ -40,10 +40,41 @@
     
     
     
-    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
+    <category term="MD" scheme="http://example.com/categories/MD/"/>
     
     
-    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
+    <category term="MD游戏" scheme="http://example.com/tags/MD%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PS游戏资源</title>
+    <link href="http://example.com/2025/11/12/ps-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/11/12/ps-you-xi-zi-yuan/</id>
+    <published>2025-11-12T13:24:38.000Z</published>
+    <updated>2025-11-12T13:24:48.318Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PS" scheme="http://example.com/categories/PS/"/>
+    
+    
+    <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -51,8 +82,8 @@
     <title>Shandps4兼容性列表</title>
     <link href="http://example.com/2025/11/12/shandps4-jian-rong-xing-lie-biao/"/>
     <id>http://example.com/2025/11/12/shandps4-jian-rong-xing-lie-biao/</id>
-    <published>2025-11-12T02:11:14.000Z</published>
-    <updated>2025-11-12T02:12:28.391Z</updated>
+    <published>2025-11-12T13:13:15.000Z</published>
+    <updated>2025-11-12T13:14:40.838Z</updated>
     
     
       
@@ -84,8 +115,8 @@
     <title>PS4游戏资源</title>
     <link href="http://example.com/2025/11/12/ps4-you-xi-zi-yuan/"/>
     <id>http://example.com/2025/11/12/ps4-you-xi-zi-yuan/</id>
-    <published>2025-11-12T02:10:42.000Z</published>
-    <updated>2025-11-12T02:11:27.713Z</updated>
+    <published>2025-11-12T13:11:43.000Z</published>
+    <updated>2025-11-12T13:12:41.121Z</updated>
     
     
       
@@ -108,6 +139,37 @@
     
     
     <category term="PS4游戏" scheme="http://example.com/tags/PS4%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SWITCH游戏资源</title>
+    <link href="http://example.com/2025/11/12/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/11/12/switch-you-xi-zi-yuan/</id>
+    <published>2025-11-12T05:24:11.000Z</published>
+    <updated>2025-11-12T05:25:14.858Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
+    
+    
+    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -170,37 +232,6 @@
     
     
     <category term="GBA游戏" scheme="http://example.com/tags/GBA%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS游戏资源</title>
-    <link href="http://example.com/2025/11/08/ps-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/11/08/ps-you-xi-zi-yuan/</id>
-    <published>2025-11-08T05:51:37.000Z</published>
-    <updated>2025-11-08T05:51:12.102Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PS" scheme="http://example.com/categories/PS/"/>
-    
-    
-    <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -570,37 +601,6 @@
     
     
     <category term="PS2模拟器" scheme="http://example.com/tags/PS2%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>FC游戏资源</title>
-    <link href="http://example.com/2025/10/24/fc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/10/24/fc-you-xi-zi-yuan/</id>
-    <published>2025-10-24T03:48:45.000Z</published>
-    <updated>2025-10-24T03:48:04.237Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="FC" scheme="http://example.com/categories/FC/"/>
-    
-    
-    <category term="FC游戏" scheme="http://example.com/tags/FC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
