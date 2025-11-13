@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-11-13T17:31:22.542Z</updated>
+  <updated>2025-11-13T17:48:21.669Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,64 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PC游戏资源</title>
+    <link href="http://example.com/2025/11/14/pc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/11/14/pc-you-xi-zi-yuan/</id>
+    <published>2025-11-13T17:47:45.000Z</published>
+    <updated>2025-11-13T17:48:21.669Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PC" scheme="http://example.com/categories/PC/"/>
+    
+    
+    <category term="PC游戏" scheme="http://example.com/tags/PC%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PC各种必要运行工具</title>
+    <link href="http://example.com/2025/11/14/pc-ge-chong-bi-yao-yun-xing-gong-ju/"/>
+    <id>http://example.com/2025/11/14/pc-ge-chong-bi-yao-yun-xing-gong-ju/</id>
+    <published>2025-11-13T17:46:50.000Z</published>
+    <updated>2025-11-13T17:48:00.381Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;PC各种必要运行工具&lt;/p&gt;
+&lt;p&gt;##############################################################&lt;/p&gt;
+&lt;p&gt;各种运行库&lt;br&gt;链接：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="PC" scheme="http://example.com/categories/PC/"/>
+    
+    
+    <category term="PC各种必要运行工具" scheme="http://example.com/tags/PC%E5%90%84%E7%A7%8D%E5%BF%85%E8%A6%81%E8%BF%90%E8%A1%8C%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
   
   <entry>
     <title>Shandps4兼容性列表</title>
@@ -536,62 +594,6 @@
 &lt;p&gt;##############################################################&lt;/p&gt;
 &lt;p&gt;ARMSX2（安卓版）视频教程&lt;br&gt;我还没有时间去试，用过就会出视频。&lt;/p&gt;
 &lt;p&gt;软件下载：&lt;b</summary>
-        
-      
-    
-    
-    
-    <category term="PS2" scheme="http://example.com/categories/PS2/"/>
-    
-    
-    <category term="PS2模拟器" scheme="http://example.com/tags/PS2%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS3游戏资源</title>
-    <link href="http://example.com/2025/10/28/ps3-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/10/28/ps3-you-xi-zi-yuan/</id>
-    <published>2025-10-28T01:53:13.000Z</published>
-    <updated>2025-10-28T01:53:30.712Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PS3" scheme="http://example.com/categories/PS3/"/>
-    
-    
-    <category term="PS3游戏" scheme="http://example.com/tags/PS3%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS2模拟器的问题汇总</title>
-    <link href="http://example.com/2025/10/25/ps2-mo-ni-qi-de-wen-ti-hui-zong/"/>
-    <id>http://example.com/2025/10/25/ps2-mo-ni-qi-de-wen-ti-hui-zong/</id>
-    <published>2025-10-25T12:56:20.000Z</published>
-    <updated>2025-10-25T12:56:22.378Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;问题1：PCSX2模拟器我开游戏显示gpu不支持dx12要更新驱动，但是我的显卡已经更新最新的了这是什么情况&lt;br&gt;答案：新版的模拟器在模拟器文件夹resources&#92;fonts&#92;NotoSansSC-Regular.ttf的这个文件有问题的时候就会出现这个提示。只要在刚才</summary>
         
       
     
