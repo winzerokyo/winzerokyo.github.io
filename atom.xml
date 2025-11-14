@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-11-14T05:55:03.795Z</updated>
+  <updated>2025-11-14T12:58:27.988Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,42 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>GBA游戏资源</title>
+    <link href="http://example.com/2025/11/14/gba-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/11/14/gba-you-xi-zi-yuan/</id>
+    <published>2025-11-14T12:57:04.000Z</published>
+    <updated>2025-11-14T12:58:27.988Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="GBA、GBC和GB" scheme="http://example.com/categories/GBA%E3%80%81GBC%E5%92%8CGB/"/>
+    
+    
+    <category term="GBA游戏" scheme="http://example.com/tags/GBA%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
     <title>SWITCH游戏资源</title>
     <link href="http://example.com/2025/11/14/switch-you-xi-zi-yuan/"/>
     <id>http://example.com/2025/11/14/switch-you-xi-zi-yuan/</id>
-    <published>2025-11-14T05:53:14.000Z</published>
-    <updated>2025-11-14T05:55:03.795Z</updated>
+    <published>2025-11-14T12:51:15.000Z</published>
+    <updated>2025-11-14T12:52:53.590Z</updated>
     
     
       
@@ -284,37 +315,6 @@
     
     
     <category term="PSV游戏" scheme="http://example.com/tags/PSV%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GBA游戏资源</title>
-    <link href="http://example.com/2025/11/08/gba-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/11/08/gba-you-xi-zi-yuan/</id>
-    <published>2025-11-08T06:01:03.000Z</published>
-    <updated>2025-11-08T06:01:16.510Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="GBA、GBC和GB" scheme="http://example.com/categories/GBA%E3%80%81GBC%E5%92%8CGB/"/>
-    
-    
-    <category term="GBA游戏" scheme="http://example.com/tags/GBA%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
