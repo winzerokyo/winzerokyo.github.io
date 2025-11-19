@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-11-19T04:30:37.862Z</updated>
+  <updated>2025-11-19T09:29:29.412Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,42 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>PS游戏资源</title>
+    <link href="http://example.com/2025/11/19/ps-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/11/19/ps-you-xi-zi-yuan/</id>
+    <published>2025-11-19T09:28:41.000Z</published>
+    <updated>2025-11-19T09:29:29.412Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PS" scheme="http://example.com/categories/PS/"/>
+    
+    
+    <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
     <title>SWITCH游戏资源</title>
     <link href="http://example.com/2025/11/19/switch-you-xi-zi-yuan/"/>
     <id>http://example.com/2025/11/19/switch-you-xi-zi-yuan/</id>
-    <published>2025-11-19T04:29:23.000Z</published>
-    <updated>2025-11-19T04:30:37.862Z</updated>
+    <published>2025-11-19T09:21:24.000Z</published>
+    <updated>2025-11-19T09:23:02.199Z</updated>
     
     
       
@@ -139,37 +170,6 @@
     
     
     <category term="PS4游戏" scheme="http://example.com/tags/PS4%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS游戏资源</title>
-    <link href="http://example.com/2025/11/16/ps-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/11/16/ps-you-xi-zi-yuan/</id>
-    <published>2025-11-16T06:20:40.000Z</published>
-    <updated>2025-11-16T06:21:46.503Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PS" scheme="http://example.com/categories/PS/"/>
-    
-    
-    <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
