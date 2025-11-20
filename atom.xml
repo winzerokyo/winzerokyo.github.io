@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-11-19T13:53:36.669Z</updated>
+  <updated>2025-11-20T02:22:38.716Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PC游戏资源</title>
+    <link href="http://example.com/2025/11/20/pc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/11/20/pc-you-xi-zi-yuan/</id>
+    <published>2025-11-20T02:21:49.000Z</published>
+    <updated>2025-11-20T02:22:38.716Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PC" scheme="http://example.com/categories/PC/"/>
+    
+    
+    <category term="PC游戏" scheme="http://example.com/tags/PC%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>Shandps4兼容性列表</title>
@@ -139,37 +170,6 @@
     
     
     <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PC游戏资源</title>
-    <link href="http://example.com/2025/11/19/pc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/11/19/pc-you-xi-zi-yuan/</id>
-    <published>2025-11-18T16:44:48.000Z</published>
-    <updated>2025-11-18T16:45:34.798Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;迅雷下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PC" scheme="http://example.com/categories/PC/"/>
-    
-    
-    <category term="PC游戏" scheme="http://example.com/tags/PC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
