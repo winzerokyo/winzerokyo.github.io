@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-11-25T16:03:38.022Z</updated>
+  <updated>2025-11-26T02:56:24.506Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,73 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>PC游戏资源</title>
+    <link href="http://example.com/2025/11/26/pc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/11/26/pc-you-xi-zi-yuan/</id>
+    <published>2025-11-26T02:55:53.000Z</published>
+    <updated>2025-11-26T02:56:24.506Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PC" scheme="http://example.com/categories/PC/"/>
+    
+    
+    <category term="PC游戏" scheme="http://example.com/tags/PC%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>FC游戏资源</title>
+    <link href="http://example.com/2025/11/26/fc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/11/26/fc-you-xi-zi-yuan/</id>
+    <published>2025-11-26T02:54:46.000Z</published>
+    <updated>2025-11-26T02:55:27.243Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="FC" scheme="http://example.com/categories/FC/"/>
+    
+    
+    <category term="FC游戏" scheme="http://example.com/tags/FC%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
     <title>PS4游戏资源</title>
     <link href="http://example.com/2025/11/26/ps4-you-xi-zi-yuan/"/>
     <id>http://example.com/2025/11/26/ps4-you-xi-zi-yuan/</id>
-    <published>2025-11-25T16:00:52.000Z</published>
-    <updated>2025-11-25T16:03:38.022Z</updated>
+    <published>2025-11-25T16:49:53.000Z</published>
+    <updated>2025-11-25T16:49:28.508Z</updated>
     
     
       
@@ -44,6 +106,37 @@
     
     
     <category term="PS4游戏" scheme="http://example.com/tags/PS4%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>WIIU游戏资源</title>
+    <link href="http://example.com/2025/11/26/wiiu-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/11/26/wiiu-you-xi-zi-yuan/</id>
+    <published>2025-11-25T16:48:36.000Z</published>
+    <updated>2025-11-25T16:48:45.901Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="WIIU" scheme="http://example.com/categories/WIIU/"/>
+    
+    
+    <category term="WIIU游戏" scheme="http://example.com/tags/WIIU%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -145,7 +238,7 @@
     <link href="http://example.com/2025/11/25/switch-you-xi-zi-yuan/"/>
     <id>http://example.com/2025/11/25/switch-you-xi-zi-yuan/</id>
     <published>2025-11-25T04:11:31.000Z</published>
-    <updated>2025-11-25T04:12:36.759Z</updated>
+    <updated>2025-11-26T02:23:22.855Z</updated>
     
     
       
@@ -201,37 +294,6 @@
     
     
     <category term="PS4模拟器" scheme="http://example.com/tags/PS4%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PC游戏资源</title>
-    <link href="http://example.com/2025/11/23/pc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/11/23/pc-you-xi-zi-yuan/</id>
-    <published>2025-11-23T14:35:52.000Z</published>
-    <updated>2025-11-24T15:35:43.240Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PC" scheme="http://example.com/categories/PC/"/>
-    
-    
-    <category term="PC游戏" scheme="http://example.com/tags/PC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -556,57 +618,6 @@
     
     
     <category term="SFC游戏" scheme="http://example.com/tags/SFC%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PSV模拟器的问题汇总</title>
-    <link href="http://example.com/2025/10/30/psv-mo-ni-qi-de-wen-ti-hui-zong/"/>
-    <id>http://example.com/2025/10/30/psv-mo-ni-qi-de-wen-ti-hui-zong/</id>
-    <published>2025-10-29T17:17:45.000Z</published>
-    <updated>2025-10-29T17:18:25.063Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;安卓版模拟器文件夹在你手机内部储存空间-android-data-org.vita3s.emulator那个文件夹&lt;br&gt;PC版看你自己设置在哪里就是哪里，你可以在模拟器里面的设置-模拟器那里看到，你设置的位置或者进行位置变更。&lt;/p&gt;
-&lt;p&gt;问题1：Vita3K玩灵魂献祭</summary>
-        
-      
-    
-    
-    
-    <category term="PSV" scheme="http://example.com/categories/PSV/"/>
-    
-    
-    <category term="PSV模拟器" scheme="http://example.com/tags/PSV%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>NDS模拟器问题汇总</title>
-    <link href="http://example.com/2025/10/29/nds-mo-ni-qi-wen-ti-hui-zong/"/>
-    <id>http://example.com/2025/10/29/nds-mo-ni-qi-wen-ti-hui-zong/</id>
-    <published>2025-10-29T15:42:21.000Z</published>
-    <updated>2025-10-29T16:24:02.658Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;问题1：DeSmuME_0.9.13_x64.exe运行后最小化在任务栏不能显示在桌面&lt;br&gt;答案：&lt;br&gt;1.右击DeSmuME_0.9.13_x64.exe选择运用管理员模式运行即可解决&lt;br&gt;2.有可能是杀毒软件导致，将杀毒软件退出后启动可以解决&lt;br&gt;3.将desm</summary>
-        
-      
-    
-    
-    
-    <category term="NDS" scheme="http://example.com/categories/NDS/"/>
-    
-    
-    <category term="NDS模拟器" scheme="http://example.com/tags/NDS%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
     
   </entry>
   
