@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-12-05T08:33:44.865Z</updated>
+  <updated>2025-12-06T05:37:39.126Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2025/12/05/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/12/05/switch-you-xi-zi-yuan/</id>
-    <published>2025-12-05T08:32:41.000Z</published>
-    <updated>2025-12-05T08:33:44.865Z</updated>
+    <link href="http://example.com/2025/12/06/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/12/06/switch-you-xi-zi-yuan/</id>
+    <published>2025-12-06T05:36:42.000Z</published>
+    <updated>2025-12-06T05:37:39.126Z</updated>
     
     
       
@@ -44,6 +44,93 @@
     
     
     <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>模拟器版本更新信息</title>
+    <link href="http://example.com/2025/12/06/mo-ni-qi-ban-ben-geng-xin-xin-xi/"/>
+    <id>http://example.com/2025/12/06/mo-ni-qi-ban-ben-geng-xin-xin-xi/</id>
+    <published>2025-12-06T03:37:17.000Z</published>
+    <updated>2025-12-06T03:40:45.743Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;现在我提供的资源用了很多相对路径，请不要用超过3层文件夹套着，文件路径指向有什么问题请你们自己手动改回绝对路径。&lt;br&gt;2025-12-06</summary>
+        
+      
+    
+    
+    
+    <category term="模拟器版本更新信息" scheme="http://example.com/categories/%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
+    
+    
+    <category term="模拟器版本更新信息" scheme="http://example.com/tags/%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>WSC和WS游戏资源</title>
+    <link href="http://example.com/2025/12/06/wsc-he-ws-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/12/06/wsc-he-ws-you-xi-zi-yuan/</id>
+    <published>2025-12-06T02:00:43.000Z</published>
+    <updated>2025-12-06T02:00:21.648Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="WSC和WS" scheme="http://example.com/categories/WSC%E5%92%8CWS/"/>
+    
+    
+    <category term="WSC和WS游戏" scheme="http://example.com/tags/WSC%E5%92%8CWS%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PS2游戏资源</title>
+    <link href="http://example.com/2025/12/06/ps2-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/12/06/ps2-you-xi-zi-yuan/</id>
+    <published>2025-12-06T01:59:29.000Z</published>
+    <updated>2025-12-06T01:59:34.648Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PS2" scheme="http://example.com/categories/PS2/"/>
+    
+    
+    <category term="PS2游戏" scheme="http://example.com/tags/PS2%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -106,37 +193,6 @@
     
     
     <category term="SFC游戏" scheme="http://example.com/tags/SFC%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS2游戏资源</title>
-    <link href="http://example.com/2025/12/05/ps2-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/12/05/ps2-you-xi-zi-yuan/</id>
-    <published>2025-12-04T17:07:28.000Z</published>
-    <updated>2025-12-04T17:07:49.574Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PS2" scheme="http://example.com/categories/PS2/"/>
-    
-    
-    <category term="PS2游戏" scheme="http://example.com/tags/PS2%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -291,31 +347,6 @@
     
     
     <category term="MD模拟器" scheme="http://example.com/tags/MD%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>模拟器版本更新信息</title>
-    <link href="http://example.com/2025/11/29/mo-ni-qi-ban-ben-geng-xin-xin-xi/"/>
-    <id>http://example.com/2025/11/29/mo-ni-qi-ban-ben-geng-xin-xin-xi/</id>
-    <published>2025-11-29T02:30:16.000Z</published>
-    <updated>2025-11-29T02:33:17.009Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;现在我提供的资源用了很多相对路径，请不要用超过3层文件夹套着，文件路径指向有什么问题请你们自己手动改回绝对路径。&lt;br&gt;2025-11-29</summary>
-        
-      
-    
-    
-    
-    <category term="模拟器版本更新信息" scheme="http://example.com/categories/%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
-    
-    
-    <category term="模拟器版本更新信息" scheme="http://example.com/tags/%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
     
   </entry>
   
@@ -561,37 +592,6 @@
     
     
     <category term="PSV游戏" scheme="http://example.com/tags/PSV%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>WSC和WS游戏资源</title>
-    <link href="http://example.com/2025/11/08/wsc-he-ws-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/11/08/wsc-he-ws-you-xi-zi-yuan/</id>
-    <published>2025-11-08T05:49:42.000Z</published>
-    <updated>2025-11-24T15:39:14.672Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="WSC和WS" scheme="http://example.com/categories/WSC%E5%92%8CWS/"/>
-    
-    
-    <category term="WSC和WS游戏" scheme="http://example.com/tags/WSC%E5%92%8CWS%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
