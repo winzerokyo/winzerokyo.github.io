@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-12-07T16:41:18.309Z</updated>
+  <updated>2025-12-08T07:59:13.856Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,68 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SWITCH游戏资源</title>
+    <link href="http://example.com/2025/12/08/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/12/08/switch-you-xi-zi-yuan/</id>
+    <published>2025-12-08T07:58:45.000Z</published>
+    <updated>2025-12-08T07:59:13.856Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
+    
+    
+    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GBA游戏资源</title>
+    <link href="http://example.com/2025/12/08/gba-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/12/08/gba-you-xi-zi-yuan/</id>
+    <published>2025-12-08T02:20:05.000Z</published>
+    <updated>2025-12-08T02:21:45.390Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="GBA、GBC和GB" scheme="http://example.com/categories/GBA%E3%80%81GBC%E5%92%8CGB/"/>
+    
+    
+    <category term="GBA游戏" scheme="http://example.com/tags/GBA%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>Xenia-canary.config.toml注释汉化</title>
@@ -70,37 +132,6 @@
     
     
     <category term="PC游戏" scheme="http://example.com/tags/PC%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2025/12/07/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/12/07/switch-you-xi-zi-yuan/</id>
-    <published>2025-12-07T03:14:44.000Z</published>
-    <updated>2025-12-07T03:16:03.823Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
-    
-    
-    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -497,37 +528,6 @@
     
     
     <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GBA游戏资源</title>
-    <link href="http://example.com/2025/11/14/gba-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/11/14/gba-you-xi-zi-yuan/</id>
-    <published>2025-11-14T12:57:04.000Z</published>
-    <updated>2025-11-24T15:34:15.204Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="GBA、GBC和GB" scheme="http://example.com/categories/GBA%E3%80%81GBC%E5%92%8CGB/"/>
-    
-    
-    <category term="GBA游戏" scheme="http://example.com/tags/GBA%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
