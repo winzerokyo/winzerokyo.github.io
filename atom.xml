@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-12-10T05:54:23.481Z</updated>
+  <updated>2025-12-10T06:28:53.961Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>WSC和WS游戏资源</title>
+    <link href="http://example.com/2025/12/10/wsc-he-ws-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/12/10/wsc-he-ws-you-xi-zi-yuan/</id>
+    <published>2025-12-10T06:27:44.000Z</published>
+    <updated>2025-12-10T06:28:53.961Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="WSC和WS" scheme="http://example.com/categories/WSC%E5%92%8CWS/"/>
+    
+    
+    <category term="WSC和WS游戏" scheme="http://example.com/tags/WSC%E5%92%8CWS%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>SWITCH游戏资源</title>
@@ -252,37 +283,6 @@
     
     
     <category term="模拟器版本更新信息" scheme="http://example.com/tags/%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>WSC和WS游戏资源</title>
-    <link href="http://example.com/2025/12/06/wsc-he-ws-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/12/06/wsc-he-ws-you-xi-zi-yuan/</id>
-    <published>2025-12-06T02:00:43.000Z</published>
-    <updated>2025-12-06T02:00:21.648Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="WSC和WS" scheme="http://example.com/categories/WSC%E5%92%8CWS/"/>
-    
-    
-    <category term="WSC和WS游戏" scheme="http://example.com/tags/WSC%E5%92%8CWS%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
