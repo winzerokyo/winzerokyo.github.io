@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-12-13T08:51:27.602Z</updated>
+  <updated>2025-12-14T13:24:04.550Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>PC游戏问题汇总</title>
+    <link href="http://example.com/2025/12/14/pc-you-xi-wen-ti-hui-zong/"/>
+    <id>http://example.com/2025/12/14/pc-you-xi-wen-ti-hui-zong/</id>
+    <published>2025-12-14T13:23:24.000Z</published>
+    <updated>2025-12-14T13:24:04.550Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;问题1：游戏运行后闪退&lt;br&gt;答案：&lt;br&gt;情况1：请大家玩游戏前将各种运行库安装好，因为很多报错就是因为没有相关运行库导致。&lt;br&gt;情况2：游戏文件路径要全英文&lt;/p&gt;
+&lt;p&gt;问题2：钢铁雄心IV如何修改成中文&lt;br&gt;答案：&lt;br&gt;先运行一次游戏&lt;br&gt;然后进入此电脑&#92;文</summary>
+        
+      
+    
+    
+    
+    <category term="PC" scheme="http://example.com/categories/PC/"/>
+    
+    
+    <category term="PC游戏" scheme="http://example.com/tags/PC%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
     <title>PC游戏资源</title>
-    <link href="http://example.com/2025/12/13/pc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/12/13/pc-you-xi-zi-yuan/</id>
-    <published>2025-12-13T08:50:02.000Z</published>
-    <updated>2025-12-13T08:51:27.602Z</updated>
+    <link href="http://example.com/2025/12/14/pc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/12/14/pc-you-xi-zi-yuan/</id>
+    <published>2025-12-14T13:15:03.000Z</published>
+    <updated>2025-12-14T13:16:03.633Z</updated>
     
     
       
@@ -588,34 +614,6 @@
     
     
     <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PC各种必要运行工具</title>
-    <link href="http://example.com/2025/11/14/pc-ge-chong-bi-yao-yun-xing-gong-ju/"/>
-    <id>http://example.com/2025/11/14/pc-ge-chong-bi-yao-yun-xing-gong-ju/</id>
-    <published>2025-11-13T17:46:50.000Z</published>
-    <updated>2025-11-24T15:35:31.441Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;PC各种必要运行工具&lt;/p&gt;
-&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;p&gt;##############################################################&lt;/p&gt;
-&lt;p&gt;各种运行库&lt;br&gt;链接：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="PC" scheme="http://example.com/categories/PC/"/>
-    
-    
-    <category term="PC各种必要运行工具" scheme="http://example.com/tags/PC%E5%90%84%E7%A7%8D%E5%BF%85%E8%A6%81%E8%BF%90%E8%A1%8C%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
