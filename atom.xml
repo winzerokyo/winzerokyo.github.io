@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-12-23T14:29:45.079Z</updated>
+  <updated>2025-12-24T07:09:00.942Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,18 +17,18 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>2025-12-23临时公告</title>
-    <link href="http://example.com/2025/12/23/2025-12-23-lin-shi-gong-gao/"/>
-    <id>http://example.com/2025/12/23/2025-12-23-lin-shi-gong-gao/</id>
-    <published>2025-12-23T14:20:11.000Z</published>
-    <updated>2025-12-23T14:29:45.079Z</updated>
+    <title>2025-12-24临时公告</title>
+    <link href="http://example.com/2025/12/24/2025-12-24-lin-shi-gong-gao/"/>
+    <id>http://example.com/2025/12/24/2025-12-24-lin-shi-gong-gao/</id>
+    <published>2025-12-24T07:03:12.000Z</published>
+    <updated>2025-12-24T07:09:00.942Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;2025-12-23度盘那里收到巨量举报反馈，如果各位网友使用度盘资源时发现资源没了，可以去B站联系我，反馈方式如下：游戏类型-游戏名字-所属网盘，链接缺失。例子如下：SWITCH-网络奇兵</summary>
+    <summary type="html">&lt;p&gt;2025-12-24暂时将大部分的资源修正了，但是还有一些还没修好，有一款游戏的链接是没了的，但是我自己暂时找不出来，如果你们找到了可以给我反馈一下。&lt;br&gt;2025-12-23度盘那里收到巨量举报反馈，如果各位网友使用度盘资源时发现资源没了，可以去B站联系我，反馈方式如下</summary>
         
       
     
@@ -38,6 +38,37 @@
     
     
     <category term="临时公告" scheme="http://example.com/tags/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SWITCH游戏资源</title>
+    <link href="http://example.com/2025/12/24/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/12/24/switch-you-xi-zi-yuan/</id>
+    <published>2025-12-24T07:02:03.000Z</published>
+    <updated>2025-12-24T07:03:38.754Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
+    
+    
+    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -65,37 +96,6 @@
     
     
     <category term="模拟器版本更新信息" scheme="http://example.com/tags/%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2025/12/23/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/12/23/switch-you-xi-zi-yuan/</id>
-    <published>2025-12-23T13:17:02.000Z</published>
-    <updated>2025-12-23T13:18:40.212Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
-    
-    
-    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
