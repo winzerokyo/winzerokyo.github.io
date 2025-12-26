@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-12-26T06:00:54.181Z</updated>
+  <updated>2025-12-26T13:16:24.299Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>SWITCH游戏资源</title>
     <link href="http://example.com/2025/12/26/switch-you-xi-zi-yuan/"/>
     <id>http://example.com/2025/12/26/switch-you-xi-zi-yuan/</id>
-    <published>2025-12-26T06:00:05.000Z</published>
-    <updated>2025-12-26T06:00:54.181Z</updated>
+    <published>2025-12-26T13:15:06.000Z</published>
+    <updated>2025-12-26T13:16:24.299Z</updated>
     
     
       
@@ -44,6 +44,68 @@
     
     
     <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NDS游戏资源</title>
+    <link href="http://example.com/2025/12/26/nds-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/12/26/nds-you-xi-zi-yuan/</id>
+    <published>2025-12-26T13:08:45.000Z</published>
+    <updated>2025-12-26T13:09:59.691Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="NDS" scheme="http://example.com/categories/NDS/"/>
+    
+    
+    <category term="NDS游戏" scheme="http://example.com/tags/NDS%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GBC和GB游戏资源</title>
+    <link href="http://example.com/2025/12/26/gbc-he-gb-you-xi-zi-yuan/"/>
+    <id>http://example.com/2025/12/26/gbc-he-gb-you-xi-zi-yuan/</id>
+    <published>2025-12-26T13:00:18.000Z</published>
+    <updated>2025-12-26T13:01:33.735Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="GBA、GBC和GB" scheme="http://example.com/categories/GBA%E3%80%81GBC%E5%92%8CGB/"/>
+    
+    
+    <category term="GBC和GB游戏" scheme="http://example.com/tags/GBC%E5%92%8CGB%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -462,37 +524,6 @@
   </entry>
   
   <entry>
-    <title>NDS游戏资源</title>
-    <link href="http://example.com/2025/12/10/nds-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/12/10/nds-you-xi-zi-yuan/</id>
-    <published>2025-12-09T16:15:44.000Z</published>
-    <updated>2025-12-09T16:15:33.874Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="NDS" scheme="http://example.com/categories/NDS/"/>
-    
-    
-    <category term="NDS游戏" scheme="http://example.com/tags/NDS%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Xenia-canary.config.toml注释汉化</title>
     <link href="http://example.com/2025/12/08/xenia-canary.config.toml-zhu-shi-han-hua/"/>
     <id>http://example.com/2025/12/08/xenia-canary.config.toml-zhu-shi-han-hua/</id>
@@ -574,37 +605,6 @@
     
     
     <category term="MD模拟器" scheme="http://example.com/tags/MD%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GBC和GB游戏资源</title>
-    <link href="http://example.com/2025/11/28/gbc-he-gb-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/11/28/gbc-he-gb-you-xi-zi-yuan/</id>
-    <published>2025-11-28T12:05:17.000Z</published>
-    <updated>2025-11-28T12:07:00.563Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="GBA、GBC和GB" scheme="http://example.com/categories/GBA%E3%80%81GBC%E5%92%8CGB/"/>
-    
-    
-    <category term="GBC和GB游戏" scheme="http://example.com/tags/GBC%E5%92%8CGB%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
