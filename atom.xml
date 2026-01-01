@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-12-31T16:23:28.182Z</updated>
+  <updated>2026-01-01T10:04:43.006Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,68 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>3DS游戏资源</title>
+    <link href="http://example.com/2026/01/01/3ds-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/01/01/3ds-you-xi-zi-yuan/</id>
+    <published>2026-01-01T10:03:48.000Z</published>
+    <updated>2026-01-01T10:04:43.006Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="3DS" scheme="http://example.com/categories/3DS/"/>
+    
+    
+    <category term="3DS游戏" scheme="http://example.com/tags/3DS%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PSV游戏资源</title>
+    <link href="http://example.com/2026/01/01/psv-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/01/01/psv-you-xi-zi-yuan/</id>
+    <published>2026-01-01T09:38:54.000Z</published>
+    <updated>2026-01-01T09:39:07.114Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PSV" scheme="http://example.com/categories/PSV/"/>
+    
+    
+    <category term="PSV游戏" scheme="http://example.com/tags/PSV%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>SFC游戏资源</title>
@@ -194,37 +256,6 @@
     
     
     <category term="临时公告" scheme="http://example.com/tags/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>3DS游戏资源</title>
-    <link href="http://example.com/2025/12/31/3ds-you-xi-zi-yuan/"/>
-    <id>http://example.com/2025/12/31/3ds-you-xi-zi-yuan/</id>
-    <published>2025-12-31T14:35:47.000Z</published>
-    <updated>2025-12-31T14:36:33.177Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="3DS" scheme="http://example.com/categories/3DS/"/>
-    
-    
-    <category term="3DS游戏" scheme="http://example.com/tags/3DS%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -583,32 +614,6 @@
     
     
     <category term="SWITCH模拟器" scheme="http://example.com/tags/SWITCH%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Xenia-canary.config.toml注释汉化</title>
-    <link href="http://example.com/2025/12/08/xenia-canary.config.toml-zhu-shi-han-hua/"/>
-    <id>http://example.com/2025/12/08/xenia-canary.config.toml-zhu-shi-han-hua/</id>
-    <published>2025-12-07T16:39:42.000Z</published>
-    <updated>2025-12-07T16:41:18.309Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;基于20251205的xenia-canary.config.toml注释汉化&lt;/p&gt;
-&lt;p&gt;[APU]&lt;br&gt;apu &amp;#x3D; “any”                                       	# 音频系统。使用: [any, nop,</summary>
-        
-      
-    
-    
-    
-    <category term="XBOX360" scheme="http://example.com/categories/XBOX360/"/>
-    
-    
-    <category term="XBOX360模拟器" scheme="http://example.com/tags/XBOX360%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
     
   </entry>
   
