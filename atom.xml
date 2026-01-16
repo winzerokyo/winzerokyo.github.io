@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-01-15T12:29:29.277Z</updated>
+  <updated>2026-01-16T12:52:02.493Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PC游戏资源</title>
+    <link href="http://example.com/2026/01/16/pc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/01/16/pc-you-xi-zi-yuan/</id>
+    <published>2026-01-16T12:50:16.000Z</published>
+    <updated>2026-01-16T12:52:02.493Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PC" scheme="http://example.com/categories/PC/"/>
+    
+    
+    <category term="PC游戏" scheme="http://example.com/tags/PC%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>SWITCH游戏资源</title>
@@ -125,37 +156,6 @@
         
     <summary type="html">&lt;p&gt;问题1：游戏运行后闪退&lt;br&gt;答案：&lt;br&gt;情况1：请大家玩游戏前将各种运行库安装好，因为很多报错就是因为没有相关运行库导致。&lt;br&gt;情况2：游戏文件路径要全英文&lt;/p&gt;
 &lt;p&gt;问题2：钢铁雄心IV如何修改成中文&lt;br&gt;答案：&lt;br&gt;先运行一次游戏&lt;br&gt;然后进入此电脑&#92;文</summary>
-        
-      
-    
-    
-    
-    <category term="PC" scheme="http://example.com/categories/PC/"/>
-    
-    
-    <category term="PC游戏" scheme="http://example.com/tags/PC%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PC游戏资源</title>
-    <link href="http://example.com/2026/01/15/pc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/01/15/pc-you-xi-zi-yuan/</id>
-    <published>2026-01-15T02:24:15.000Z</published>
-    <updated>2026-01-15T02:25:15.017Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
         
       
     
