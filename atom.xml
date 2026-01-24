@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-01-24T03:34:06.321Z</updated>
+  <updated>2026-01-24T06:10:25.591Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>GBA游戏资源</title>
+    <link href="http://example.com/2026/01/24/gba-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/01/24/gba-you-xi-zi-yuan/</id>
+    <published>2026-01-24T06:09:11.000Z</published>
+    <updated>2026-01-24T06:10:25.591Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="GBA+GBC+GB" scheme="http://example.com/categories/GBA-GBC-GB/"/>
+    
+    
+    <category term="GBA游戏" scheme="http://example.com/tags/GBA%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>PC游戏资源</title>
@@ -499,37 +530,6 @@
     
     
     <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GBA游戏资源</title>
-    <link href="http://example.com/2026/01/05/gba-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/01/05/gba-you-xi-zi-yuan/</id>
-    <published>2026-01-05T12:27:10.000Z</published>
-    <updated>2026-01-05T12:29:00.637Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="GBA+GBC+GB" scheme="http://example.com/categories/GBA-GBC-GB/"/>
-    
-    
-    <category term="GBA游戏" scheme="http://example.com/tags/GBA%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
