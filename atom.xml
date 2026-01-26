@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-01-26T04:56:20.242Z</updated>
+  <updated>2026-01-26T05:54:49.919Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SWITCH模拟器的问题汇总</title>
+    <link href="http://example.com/2026/01/26/switch-mo-ni-qi-de-wen-ti-hui-zong/"/>
+    <id>http://example.com/2026/01/26/switch-mo-ni-qi-de-wen-ti-hui-zong/</id>
+    <published>2026-01-26T05:53:56.000Z</published>
+    <updated>2026-01-26T05:54:49.919Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;##############################################################&lt;/p&gt;
+&lt;p&gt;游戏文件基础知识&lt;/p&gt;
+&lt;p&gt;NS模拟器游戏文件格式上通常较常见是nsz、xcz、nsp、xci。nsz、xcz你们可以理解成加密和</summary>
+        
+      
+    
+    
+    
+    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
+    
+    
+    <category term="SWITCH模拟器" scheme="http://example.com/tags/SWITCH%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>PC游戏资源</title>
@@ -44,33 +71,6 @@
     
     
     <category term="PC游戏" scheme="http://example.com/tags/PC%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SWITCH模拟器的问题汇总</title>
-    <link href="http://example.com/2026/01/25/switch-mo-ni-qi-de-wen-ti-hui-zong/"/>
-    <id>http://example.com/2026/01/25/switch-mo-ni-qi-de-wen-ti-hui-zong/</id>
-    <published>2026-01-25T12:57:55.000Z</published>
-    <updated>2026-01-25T12:58:18.895Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;##############################################################&lt;/p&gt;
-&lt;p&gt;游戏文件基础知识&lt;/p&gt;
-&lt;p&gt;NS模拟器游戏文件格式上通常较常见是nsz、xcz、nsp、xci。nsz、xcz你们可以理解成加密和</summary>
-        
-      
-    
-    
-    
-    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
-    
-    
-    <category term="SWITCH模拟器" scheme="http://example.com/tags/SWITCH%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
     
   </entry>
   
