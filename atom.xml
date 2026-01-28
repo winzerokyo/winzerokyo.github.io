@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-01-28T12:13:00.190Z</updated>
+  <updated>2026-01-28T12:34:03.991Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PSP游戏资源</title>
+    <link href="http://example.com/2026/01/28/psp-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/01/28/psp-you-xi-zi-yuan/</id>
+    <published>2026-01-28T12:32:50.000Z</published>
+    <updated>2026-01-28T12:34:03.991Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PSP" scheme="http://example.com/categories/PSP/"/>
+    
+    
+    <category term="PSP游戏" scheme="http://example.com/tags/PSP%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>PC游戏资源</title>
@@ -585,32 +616,6 @@
     
     
     <category term="MD游戏" scheme="http://example.com/tags/MD%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2026元旦快乐</title>
-    <link href="http://example.com/2025/12/31/2026-yuan-dan-kuai-le/"/>
-    <id>http://example.com/2025/12/31/2026-yuan-dan-kuai-le/</id>
-    <published>2025-12-31T14:36:13.000Z</published>
-    <updated>2025-12-31T14:37:41.802Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;2026元旦快乐，希望大家开开心心迎接新一年。&lt;/p&gt;
-</summary>
-        
-      
-    
-    
-    
-    <category term="如何支持本项目" scheme="http://example.com/categories/%E5%A6%82%E4%BD%95%E6%94%AF%E6%8C%81%E6%9C%AC%E9%A1%B9%E7%9B%AE/"/>
-    
-    
-    <category term="临时公告" scheme="http://example.com/tags/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
     
   </entry>
   
