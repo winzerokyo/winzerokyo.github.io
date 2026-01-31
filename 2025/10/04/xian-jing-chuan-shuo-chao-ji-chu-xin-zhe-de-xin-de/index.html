@@ -1,0 +1,1922 @@
+<!DOCTYPE html>
+<html>
+  <!-- meta/link... -->
+  
+
+
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+  <title>仙境传说超级初心者的心得4.0 | Winzerokyo的游戏站</title>
+
+  <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/favicon.ico">
+  <link rel="stylesheet" href="https://at.alicdn.com/t/font_1911880_c1nvbyezg17.css">
+  <link href="https://unpkg.com/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="/js/swiper/swiper@5.4.1.min.css" rel="stylesheet">
+  
+  
+  
+  
+<link rel="stylesheet" href="/css/animate.min.css">
+
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+  
+    <link href="https://unpkg.com/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" rel="stylesheet">
+  
+  
+  <style>
+        @media (max-width: 992px) {
+            #waifu {
+                display: none;
+            }
+        }
+    </style>
+    <script defer src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+    <link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+
+    
+    
+    <!-- 依赖于jquery和vue -->
+    <script src="https://unpkg.com/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://unpkg.com/vue@2.6.11/dist/vue.min.js"></script>
+
+    <!-- import link -->
+    
+        
+            
+        
+            
+        
+    
+    <!-- import script -->
+    
+        
+            
+        
+            
+        
+    
+
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="Winzerokyo的游戏站" type="application/atom+xml">
+</head>
+
+  
+  <!-- 预加载动画 -->
+  
+  
+  <div class="preloader_6" id="loader">
+  <div class="loader"></div>
+</div>
+  <script>
+    var endLoading = function () {
+      document.body.style.overflow = 'auto';
+      document.getElementById('loader').classList.add("loaded");
+    }
+    window.addEventListener('DOMContentLoaded', endLoading);
+  </script>
+
+
+  <body>
+    <!-- 判断是否为暗黑风格 -->
+    <!-- 判断是否为黑夜模式 -->
+<script defer>
+  let isDark = JSON.parse(localStorage.getItem('dark')) || JSON.parse('false');
+
+  if (isDark) {
+    $(document.body).addClass('darkModel');
+  }
+</script>
+
+    <!-- 需要在上面加载的js -->
+    <script>
+  function loadScript(src, cb) {
+    return new Promise(resolve => {
+      setTimeout(function () {
+        var HEAD = document.getElementsByTagName("head")[0] || document.documentElement;
+        var script = document.createElement("script");
+        script.setAttribute("type", "text/javascript");
+        if (cb) {
+          if (JSON.stringify(cb)) {
+            for (let p in cb) {
+              if (p == "onload") {
+                script[p] = () => {
+                  cb[p]()
+                  resolve()
+                }
+              } else {
+                script[p] = cb[p]
+                script.onload = resolve
+              }
+            }
+          } else {
+            script.onload = () => {
+              cb()
+              resolve()
+            };
+          }
+        } else {
+          script.onload = resolve
+        }
+        script.setAttribute("src", src);
+        HEAD.appendChild(script);
+      });
+    });
+  }
+
+  //https://github.com/filamentgroup/loadCSS
+  var loadCSS = function (src) {
+    return new Promise(resolve => {
+      setTimeout(function () {
+        var link = document.createElement('link');
+        link.rel = "stylesheet";
+        link.href = src;
+        link.onload = resolve;
+        document.getElementsByTagName("head")[0].appendChild(link);
+      });
+    });
+  };
+
+</script> 
+
+<!-- 轮播图所需要的js -->
+<script src="/js/swiper/swiper.min.js"></script>
+<script src="/js/swiper/vue-awesome-swiper.js"></script>
+<script src="/js/swiper/swiper.animate1.0.3.min.js"></script>
+
+<script type="text/javascript">
+  Vue.use(window.VueAwesomeSwiper)
+</script>
+
+
+  <script src="/js/vue-typed-js/index.js"></script>
+
+
+<!-- 首页的公告滚动插件的js需要重新加载 -->
+<script src="/js/vue-seamless-scroll/index.js"></script>
+
+<!-- 打字机效果js -->
+<script src="https://unpkg.com/typed.js@2.0.11"></script>
+
+
+    <div id="safearea">
+      <main class="main" id="pjax-container">
+        <!-- 头部导航 -->
+        
+<header class="header  " 
+  id="navHeader"
+  style="position: fixed;
+  left: 0; top: 0; z-index: 10;width: 100%;"
+>
+  <div class="header-content">
+    <div class="bars">
+      <div id="appDrawer" class="sidebar-image">
+  <div class="drawer-box-icon">
+    <i class="fas fa-bars" aria-hidden="true" @click="showDialogDrawer"></i>
+  </div>
+  
+  <transition name="fade">
+    <div class="drawer-box_mask" v-cloak style="display: none;" v-show="visible" @click.self="cancelDialogDrawer">
+    </div>
+  </transition>
+  <div class="drawer-box" :class="{'active': visible}">
+    <div class="drawer-box-head bg-color">
+      <img class="drawer-box-head_logo lazyload placeholder" src="/medias/logo.png" class="lazyload placeholder" data-srcset="/medias/logo.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="logo">
+      <h3 class="drawer-box-head_title">Winzerokyo的游戏站</h3>
+      <h5 class="drawer-box-head_desc"></h5>
+    </div>
+    
+    <div class="drawer-box-content">
+      <ul class="drawer-box-content_menu">
+        
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script>
+  var body = document.body || document.documentElement || window;
+  var vm = new Vue({
+    el: '#appDrawer',
+    data: {
+      visible: false,
+      top: 0,
+      openArr: [],
+    },
+    computed: {
+    },
+    mounted() {
+    },
+    methods: {
+      isOpen(index) {
+        if (this.openArr.includes(index)) {
+          return true;
+        } else {
+          return false;
+        }
+      },
+      openOrCloseMenu(curIndex) {
+        const index = this.openArr.indexOf(curIndex);
+        if (index !== -1) {
+          this.openArr.splice(index, 1);
+        } else {
+          this.openArr.push(curIndex);
+        }
+      },
+      showDialogDrawer() {
+        this.visible = true;
+        // 防止页面滚动，只能让弹框滚动
+        this.top = $(document).scrollTop()
+        body.style.cssText = 'width: 100%; height: 100%;overflow: hidden;';
+      },
+      cancelDialogDrawer() {
+        this.visible = false;
+        body.removeAttribute('style');
+        $(document).scrollTop(this.top)
+      }
+    },
+    created() {}
+  })
+</script>
+
+    </div>
+    <div class="blog-title" id="author-avatar">
+      
+        <div class="avatar">
+          <img src="/medias/logo.png" class="lazyload placeholder" data-srcset="/medias/logo.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="logo">
+        </div>
+      
+      <a href="/" class="logo">Winzerokyo的游戏站</a>
+    </div>
+    <nav class="navbar">
+      <ul class="menu">
+        
+      </ul>
+      
+      
+
+    </nav>
+  </div>
+  
+  
+    <div id="he-plugin-simple"></div>
+    <script defer>
+      WIDGET = {
+        CONFIG: {
+          "modules": "012",
+          "background": 5,
+          "tmpColor": "4A4A4A",
+          "tmpSize": 16,
+          "cityColor": "4A4A4A",
+          "citySize": 16,
+          "aqiSize": 16,
+          "weatherIconSize": 24,
+          "alertIconSize": 18,
+          "padding": "10px 10px 10px 10px",
+          "shadow": "1",
+          "language": "auto",
+          "borderRadius": 5,
+          "fixed": "false",
+          "vertical": "middle",
+          "horizontal": "center",
+          "key": "2784dd3fcb1e4f0f9a9b579bf69641f2"
+        }
+      }
+    </script>
+    <script defer src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script> 
+    
+</header>
+        <!-- 内容区域 -->
+        
+<!-- prismjs 代码高亮 -->
+
+
+
+
+<div class="bg-dark-floor" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -1;"></div>
+
+
+  <!-- 文章详情页顶部图片和标题 -->
+
+
+
+
+<div class="post-detail-header" id="thumbnail_canvas" style="background-repeat: no-repeat; background-size: cover; 
+  background-position: center center;position: relative;background-image:url('https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp')">
+  <div class="post-detail-header-mask"></div>
+  <canvas id="header_canvas"style="position:absolute;bottom:0;pointer-events:none;"></canvas>
+  
+  <div class="post-detail-header_info-box">
+    <div class="title-box">
+      <span class="title">
+        仙境传说超级初心者的心得4.0
+      </span>
+    </div>
+    
+    
+      
+        <span class="post-detail-header_date">
+          <i class="fas fa-calendar"></i> 发表于：2025-10-04 |
+        </span>
+      
+
+      
+        <span class="post-detail-header_categories">
+          <i class="iconfont iconbookmark1"></i> 分类：
+          
+            <a href="/categories/%E4%BB%99%E5%A2%83%E4%BC%A0%E8%AF%B4%EF%BC%88%E7%AB%AF%E6%B8%B8%EF%BC%89/" class="post-detail-header_category">
+              仙境传说（端游）
+            </a>
+          
+        </span>
+      
+
+      
+    
+  </div>
+  
+  
+    <script defer src="/js/bubble/bubble.js"></script>
+  
+</div>
+
+
+
+
+
+<div class="post-detail-content post-row" 
+  style="padding-top: 0px;">
+  <div class="main-content">
+    <article class="post post-detail">
+      <div class="post-content">
+        <p>这篇文章是之前文章的完全整合版，对现在新版本的一些地方进行了一点信息修正，也是对我在不断实践中形成的经验总结。</p>
+<p>现在我本人零氪练到156了。难听点说就是我已经到了一个普通玩家放弃这游戏的阶段了。</p>
+<p>单人练级职业评价：</p>
+<p>装备限制极多，还有萌萌100级给的套装是没有武器的，你要靠乐园团的武器来打100级以后的怪物，除了主线16.1，16.2还有那些主线任务装备，高版本的会有乐园团的职业专属武器，那时候会好一点，但也只是好一点，如果是低版本就是乐园团那把短剑3，剩下能用的只有氪金的装备了。99级前，是一个残废一转职业打转生二转怪，100后到三转前就是一个残废二转职业打转生三转怪，不氪金的话就是假面骑士古迦（空我）的男二肉身打怪，氪金了就是古迦（空我）一阶段打后期怪。</p>
+<p>超幸运祝福短剑 和 向往自由手杖 这两把氪金获得的毕业武器，如果想获得平常职业的待遇，这两把毕业氪金武器是最快捷的。这两把武器是超级初心者能练到究极初心者的关键之一。</p>
+<p>超级初心者有这问题的根本是技能伤害转换数值过低造成的，100级以后的体系是引用非转生2转的体系，这体系最大的问题就是技能伤害转换数值过低，正常最高都是1400%左右。其他职业的2000%以上，其他没那么高的都会根据特定属性和基础等级再增伤。超级初心者解决这个问题的方法就是用氪金武器来解决的，氪金武器会引用一些高伤害技能来解决伤害不足的问题。这个就是经商天才的做法，我本人很佩服。</p>
+<p>其实这职业官方真要重做，不过韩游那作风肯定关服都不会管了。</p>
+<p>多开练级职业评价：</p>
+<p>超级初心者要用来多开的话，我会建议用来做低配牧师，对装备要求不高，如果要用来做主力输出职业的话，其他搭配的职业就要用猎灵士刷超级初心者灵魂，刷没死亡记录，全部属性+10，可以无视等级使用全部职业头饰，可以无视等级使用武器等级4的单手剑、短剑、单手斧、钝器、单手杖，刷灵魂是增益最明显和最大的，因为可以修正一些技能伤害不够的问题。诗人或者舞娘就是给常规的状态，3转以后的主教可以给一些超级初心者没有的状态。</p>
+<p>####################################</p>
+<p>职业转职要求：</p>
+<p>一转</p>
+<p>首先说明超级初心者转职要初心者45级，职业等级10级才能转职。</p>
+<p>初心者基础等级45以上即可转职成为超级初心者</p>
+<p>1、利用萌萌转职传送炼金术师的转职场所到艾尔帕兰(钟塔新城)六点钟方向的水车小屋内。找NPC特杰雷诺聊天。</p>
+<p>2、带著30个黏稠液体和30个枯木汁与NPC特杰雷诺对话就可转职。</p>
+<p>3、转职之后可自由学习绝大部份的一转技能。</p>
+<p>4、而超级初学者的手推车只能在艾尔帕兰(钟塔新城)的卡普拉总公司外头向NPC-卡普拉 职员租取。艾尔帕兰的卡普拉总公司入口后面57，238位置有专门为超初出租手推车的卡普拉职员，费用1900个金币。</p>
+<p>等级突破</p>
+<p>要突破99级是基础等级和职业等级双99级才能做任务突破99级的限制开始100级以后的升级。</p>
+<p>1、双99级后先去艾尔帕兰超初转职场所找阿瑟雷开始等级突破任务，再到克魔岛北边洞穴找npc钓鱼中的初学</p>
+<p>初学者等级扩充任务起始npc也是转超初那里</p>
+<p>艾尔帕兰6、7点钟方向的水车小屋(116 63)内的亚瑟雷</p>
+<p>2、然后是克魔岛北边洞穴内的钓鱼中的初学者 史努比(左下圆圈上方往下凸那里)，要求狩猎1000只怪(波利、疯兔、绿棉虫、小鸡之一)</p>
+<p>3、然后到朱诺飞艇内的赌场找弟弟史酷比(钢都、毁葛那一班)，需要给ZENY&#x2F;rob的(假如是100W任务完成额外可以获得全套初学者套装(大可不必)，其他选项只有初学者铠甲)，就给最低就可以，全套初学者套装没什么用，直接100级后用萌萌送的更好。</p>
+<p>4、最后回去找克魔岛北边洞穴内的钓鱼中的初学者 史努比</p>
+<p>专用手推车的的购买位置</p>
+<p>艾尔帕兰的卡普拉总公司入口后面57，238位置有专门为超初出租手推车的卡普拉职员，费用1900个金币。</p>
+<p>####################################</p>
+<p>99级前的流派介绍</p>
+<p>二刀流（零氪首选）能打周末本，不挑装备，乐园团装备就可以了。</p>
+<p>二刀流玩法，这个玩法相对稳妥，持续作战效果好。用一开始新手的药水就能玩到100级突破。这套配置可以不用洗点就去扩展。</p>
+<p>核心装备乐园团任务装备的短剑3，如果有其他乐园团短剑可以用就那个。有钱可以买到勺子插黑蛇卡，有钱可以买个初学者钢盾插张猴桃木卡（前提是你攻速能在装备了盾牌后能到190，装备盾牌会-10攻速），这样就可以平常打怪时触发治愈术回血，可以穿乐园团白给的影子套或超级初心者影子手套和超级初心者影子盾牌</p>
+<p>核心技能如下：</p>
+<p>二刀连击+10（转职后一开始就要加的技能）</p>
+<p>单手剑使用熟练度+10（加伤害，短剑也触发这个伤害加成的。）</p>
+<p>治愈术+10（防止被秒，如果有钱可以买个初学者钢盾插张猴桃木卡，这样就可以平常打怪时触发治愈术回血）</p>
+<p>加速术+10（加攻速，间接加伤害）</p>
+<p>天使之赐福+10（加伤害，加命中）</p>
+<p>天使之击+10（增加恶魔类和不死类的物理伤害，周末本增伤神技）</p>
+<p>心神凝聚+10（加攻速，提高闪避率，增加生存几率，减少药水消耗）</p>
+<p>其余技能</p>
+<p>SP快速恢复+10（加速回蓝）</p>
+<p>偷窃+6（后面扩展后背刺前置，还有活动时有用）</p>
+<p>隐匿+1（后面扩展后背刺前置）</p>
+<p>光猎+1（瞬间移动前置）</p>
+<p>瞬间移动+1（代替苍蝇翅膀）</p>
+<p>人物属性加点</p>
+<p>加点上，一开始就是STR，AGI，DEX平均分配，DEX到了30就开始改成STR和AGI平均分配，AGI加到70就先加STR，剩下的加LUK。</p>
+<p>最后99级时加点如下</p>
+<p>STR&#x3D;99（伤害保证）</p>
+<p>AGI&#x3D;70（提高闪避率）</p>
+<p>DEX&#x3D;34（初期命中率保证）</p>
+<p>LUK&#x3D;50（增加暴击几率，提高伤害）</p>
+<p>狂击流派，这个玩法会有缺蓝的情况，70级之前很愉快，70-99那段时间就相对痛苦了。</p>
+<p>核心装备任务装备的短剑3，如果是有乐园团加狂击伤害的单手剑就用那个，可以穿乐园团白给的影子套或者超级初心者影子手套和超级初心者影子盾牌</p>
+<p>核心技能如下：</p>
+<p>狂击+10（狂击流转职后一开始就要加的技能）</p>
+<p>SP快速恢复+10（加快回蓝速度）</p>
+<p>单手剑使用熟练度+10（加伤害）</p>
+<p>怒爆+1（主要就是获取那个10秒20%的武器火属性伤害）</p>
+<p>加速术+10（加攻速，间接加伤害）</p>
+<p>天使之赐福+10（加伤害，加命中）</p>
+<p>天使之击+10（增加恶魔类和不死类的物理伤害，周末本增伤神技）</p>
+<p>之后的剩余点数看自己扩展等级后的流派来分配了</p>
+<p>人物属性加点</p>
+<p>最后99级时加点如下</p>
+<p>STR&#x3D;99（伤害保证）</p>
+<p>AGI&#x3D;70（提高闪避率）</p>
+<p>INT&#x3D;51（增加蓝量，提高续航时间）</p>
+<p>DEX&#x3D;30（初期命中率保证）</p>
+<p>自动咏唱魔法流派，这个自咏二刀流，能到100级，效果会比纯魔法攻击舒服，后面扩展等级后，可以用风魔巫师卡片的效果继续打下去。但是100级后打不了多少个副本。</p>
+<p>核心装备：五指剑插半龙人卡（必要）或者有钱可以买到勺子插半龙人卡（必要），巫师卡片（有就更好），盾牌插猴桃木卡片（有就更好），可以穿超级初心者影子手套和超级初心者影子盾牌</p>
+<p>核心技能如下：</p>
+<p>二刀连击+10（转职后一开始就要加的技能）</p>
+<p>火球术+10（配合半龙人卡，普攻触发10级火球术）</p>
+<p>单手剑使用熟练度+10（加伤害）</p>
+<p>治愈术+10（配合猴桃木卡片普攻触发10级治愈术，增加生存几率，减少药水消耗）</p>
+<p>加速术+10（加攻速，间接加伤害）</p>
+<p>天使之赐福+10（加伤害，加命中）</p>
+<p>天使之击+10（增加恶魔类和不死类的物理伤害，周末本增伤神技）</p>
+<p>心神凝聚+10（加攻速，提高闪避率，增加生存几率，减少药水消耗）</p>
+<p>SP快速恢复+10（加快回蓝速度，如果你有超级出生者影子手套，这个技能就能加魔法破防40%）</p>
+<p>之后的剩余点数看自己扩展等级后的流派来分配了</p>
+<p>人物属性加点</p>
+<p>最后99级时加点如下</p>
+<p>STR&#x3D;70（物理伤害保证）</p>
+<p>AGI&#x3D;85（提高闪避率）</p>
+<p>INT&#x3D;72（增加蓝量，提高续航时间，增加魔法伤害）</p>
+<p>DEX&#x3D;30（初期命中率保证）</p>
+<p>纯魔法的话我会建议要么用火焰之墙或者圣灵召唤，拿催眠师的魔杖或者如果乐园团有对应法杖就用那个。主要是纯魔法的伤害实在不太好，问题太多了。技能伤害不够，咏唱长，除非有活动给的潜水衣一套，无法打断咏唱就可以玩一下，但是效率太差了。</p>
+<p>####################################</p>
+<p>100-200级的流派介绍</p>
+<p>陷阱流（零氪高伤）这个流派能打主线任务，只是操作感不好，只依赖主线任务的鞋子，-0.5秒固咏。省钱提升大可以用加INT或DEX的+9蛇皮。170可以换个智慧法袍，那个加INT挺多。看到人面虫皇后的脚便宜，可以买来当武器这个武器加技能伤害，这个流派增伤只吃INT和DEX，还有人物等级，其他的属性基本没什么作用，装备容易凑齐。</p>
+<p>地雷陷阱+5（主力输出技能）</p>
+<p>雷鸣术+10（防止一些不能使用地雷陷阱攻击的怪物）</p>
+<p>圣母之颂歌+5（提升回蓝速度，加强续航），其实这个流派MP很够用的</p>
+<p>突破极限+5（最大血量和最大蓝量）</p>
+<p>心灵超越+5（最大血量和最大蓝量）</p>
+<p>救援天使+1（回血和蓝）</p>
+<p>信任+10（最大血量和圣属性抗性）</p>
+<p>99前的技能</p>
+<p>加速术+10</p>
+<p>天使之赐福+10（增伤BUFF）</p>
+<p>鹗枭之眼+10（增伤）</p>
+<p>心神凝聚+10（增伤BUFF）</p>
+<p>人物属性</p>
+<p>INT&#x3D;130</p>
+<p>DEX&#x3D;130</p>
+<p>其余看自己实际情况加就可以</p>
+<p>地雷陷阱这技能不看ATK和MATK，动物杀手这类专门伤害、装备上的专门属性怪物伤害也没很大加成，属性攻击伤害也影响不大，破物防和魔防的也影响不大，现在知道就是只吃INT、DEX和人物等级，这些装备核心就是加属性就是了，武器+INT高就可以，攻击力可以不看，巨神蛇的皮也不用贵，+8以上有DEX或者INT附魔就可以，看到人面虫皇后的脚便宜，可以买来当武器这个武器加技能伤害。鞋子只要-0.5秒固咏就可以，魔法或者物理也不用管。</p>
+<p>背刺流（零氪可选）这个流派能打主线任务，主线任务装备就可以有不错的输出。其他流派主要就是不氪金或者没人带单刷是打不了那些基本打不了16.1主线外的副本。高版本会有乐园团短剑装备，加背刺和潜击</p>
+<p>背刺+10（主力输出技能）</p>
+<p>潜击+5（主要就是弄个伤害加成）</p>
+<p>圣母之颂歌+5（提升回蓝速度，加强续航）</p>
+<p>突破极限+5（加伤害和最大血量和最大蓝量）</p>
+<p>其余技能</p>
+<p>心灵超越+5（加最大血量和最大蓝量）</p>
+<p>救援天使+1（回血和蓝）</p>
+<p>心灵超越+5（最大血量和最大蓝量）</p>
+<p>信任+10（加最大血量和圣属性抗性）</p>
+<p>动物杀手+10（加对动物系伤害）</p>
+<p>人物属性加点</p>
+<p>最后200级时加点如下</p>
+<p>STR&#x3D;130</p>
+<p>AGI&#x3D;100</p>
+<p>VIT&#x3D;34</p>
+<p>INT&#x3D;100</p>
+<p>DEX&#x3D;100</p>
+<p>LUK&#x3D;100</p>
+<p>100级纯魔法的话我会建议雷鸣术，拿催眠师的魔杖，高版本会有乐园团法杖，加火箭术&#x2F;水箭术&#x2F;雷击术&#x2F;火球术&#x2F;崩裂术伤害+25%伤害，主要零氪很难减固咏。要技能有用要靠装备减固咏和要凑数值来减变咏。氪金或者有大号的话基本就没有什么流派问题了，不行就可以堆到可以。</p>
+<p>其他还有很多流派，但是实用性太差了，回旋盾击虽然是主线任务套装最受益的流派，但是由于该技能本身数值太低，所以伤害上不去，要有连续盾击要穿超初物理影子套，这个就要有大号才可以玩不适合零氪族。回旋盾击和连续盾击主要靠ATK数值，盾牌本身的重量属性有加成，最好就是近卫兵的盾牌。对于动物杀手这类伤害增加有帮助，这个技能属于远程物理伤害，加远程物理伤害伤害也有帮助。武器研究、单手剑使用熟练度、洒水祈福那些是没有加成的。</p>
+<p>毒性感染是底子不错的技能，但是不好用，而且对命中要求比较高。毒性感染主要靠ATK数值。对于动物杀手这类伤害增加有帮助，这个技能属于近距离物理伤害，加近距离物理伤害伤害也有帮助。武器研究、单手剑使用熟练度、洒水祈福那些是没有加成的。</p>
+<p>还有一个要留意的事情，武器研究这个技能的加成可能只能作用在普通攻击上，物理系的技能可能是没有伤害加成。</p>
+<p>####################################</p>
+<p>装备和卡片选择</p>
+<p>99级前很简单了就是乐园团装备就是了。有钱买个勺子，插什么卡都可以基本到190攻速。</p>
+<p>盾牌上的选择主要是初学者钢盾、16.1的近卫兵盾牌和其他全职业通用盾牌。</p>
+<p>100级后武器</p>
+<p>幻影装备是跟超初没关系的，只做任务就是了。</p>
+<p>绯红色大驹短剑 100级乐园团装备就比这个好</p>
+<p>邪念之短剑 160后没装备才用，+7以上最好</p>
+<p>人面虫的脚 这武器有的话可能可以用于自咏超初</p>
+<p>人面虫皇后的脚 这武器有的话可能可以用于自咏超初（人面虫的脚进阶版），陷阱流可以用来做武器加伤害。</p>
+<p>希波克里西锐剑 精炼+11时，习得单手剑使用熟练度时，可使用与单手剑使用熟练度技能同等级的怪物互击技能</p>
+<p>氪金武器</p>
+<p>超幸运祝福短剑 物理系超初毕业武器了，17.1以后就可以LT了</p>
+<p>向往自由手杖 法系超初毕业武器了，17.1以后就可以LT了</p>
+<p>100级后防具</p>
+<p>16.1贵族套，16.2帝国套，17.1幻象套，17.2恩典套，或者一些活动套装，最后就是一些氪金装备，至于幻想套还是恩典套好，首先你要考虑你有没有大号或者氪金，氪金就是幻想套好，因为精炼高了和弄了模组，幻象套的属性比恩典好。恩典的好处就是制作便宜，但是属性差一点和无法给其他人用。法系装备可能要用散件。</p>
+<p>影子装备</p>
+<p>高版本可以用乐园团提供的白给影子套。</p>
+<p>超级初心者的影子装备其实选择面很窄，因为基本都要用自己的职业影子套。</p>
+<p>99前有用的影子装备</p>
+<p>影子超级初学者手套</p>
+<p>影子超级初学者神盾</p>
+<p>100后有用的影子装备</p>
+<p>影子超初物理手套</p>
+<p>影子超初物理耳环</p>
+<p>影子超初物理坠子 上面三个影子超初物理一起用可以解锁连续盾击流派。加上影子超级初学者神盾可以有额外加成</p>
+<p>影子超初魔法神盾</p>
+<p>影子超初魔法铠甲</p>
+<p>影子超初魔法战靴 上面三个影子超初魔法一起用可以根据水球术等级解锁相应等级重力原野技能。加上影子超级初学者手套可以有额外加成</p>
+<p>卡片介绍</p>
+<p>自咏的超级初心者可以看看这些卡片（不过自咏还是要靠装备，不氪金没什么好装备用）</p>
+<p>寒冰雕像卡片</p>
+<p>猴桃木卡片</p>
+<p>风魔巫师卡片</p>
+<p>半龙人卡片</p>
+<p>邪恶使者卡片</p>
+<p>珠宝蜘蛛卡片</p>
+<p>鸮袅侯爵卡片</p>
+<p>鸮袅首领卡片</p>
+<p>物理系的参考其他平常职业的输出卡片就是了。</p>
+<p>####################################</p>
+<p>99级前练级旅程：</p>
+<p>17.1之前，一开始国服的话是对话可以到19-20级左右，低版本的仙境传说可以很早就可以用萌萌，17.1之后，但是比较新的版本基本是转职成超级初心者才能用萌萌</p>
+<p>打波利任务时把物品都全部拾取尽量赚600Z，杰勒比结晶留起来，后面有用。完成后在新手职业传送那里选其他职业转职传送到普隆德拉就可以。</p>
+<p>然后去找传送到伊甸园的NPC，传送到伊甸园，然后先找登记NPC进行登记，17.1前然后去找萌萌，获取一个可以随时召唤萌萌的道具。17.1后不需要找萌萌都会有召唤萌萌的道具，17.1前获得道具后就使用道具，召唤萌萌，然后领取新手装备，17.1后要转职成超级初生者才能用召唤萌萌领取新手装备。</p>
+<p>一开始赚600Z利用萌萌转职传送巫师的转职场所去吉芬道具商店买杰勒比结晶100个，之后用萌萌转职传送骑士转职场所去普隆德拉南门右下角201，52找信差换5本经验书。</p>
+<p>然后找呆呆做双倍经验任务，领取双倍时间后直接去蚁穴一层打白蚁幼虫，一边打幼虫一边收集浓稠黏液。（如果蚁穴多人可以去做伊甸园的任务面板的任务，记得收集30个浓稠黏液就可以）</p>
+<p>打到大概35级，如果收集够了30个粘稠液体，这个如果有钱可以去首都武器店买一把五指剑，前期好有用，然后去伊甸园去斐扬森林去打长老树精，装备厉害的可以去吉芬那边的长老树精打枯木汁，打完应该都45级，然后去运河之都艾尔帕兰做转职任务，详情可以看看上面职业要求</p>
+<p>低版本转职后去伊甸园先接了中间女NPC的装备任务，然后清理萌萌的任务</p>
+<p>高版本的好像到了等级可以去伊甸园中间那些NPC的装备任务，然后清理萌萌的任务</p>
+<p>打到萌萌40级人物就会去到兽人村，利用伊甸园NPC回复的功能，将人物升到55级，大多数这段时间都是打兽人腐尸，之后才去打完装备任务。</p>
+<p>换了装备就去伊甸园传送去打野猪打到70级。（这里是初期很赚钱的地方，因为很多人收物品）</p>
+<p>然后去做70级的伊甸园中间男NPC的装备任务，做完任务换装备之后就在70级的男NPC的装备任务那里刷怪刷到85级，到了80级可以去伊甸园中间男NPC的装备任务把任务做了，那样任务给的武器就可以附加一张卡的效果，不过建议附加对不死系怪物的增伤效果，因为周末本是不死系的怪物为主。刷到90级就可以伊甸园中间男NPC的装备任务把任务又做了，那样任务给的武器就又可以再一次附加80级任务时的卡的效果。</p>
+<p>之后去克雷斯特汉姆古城 地下监狱2层刷怪，升到双99或者去克雷斯特汉姆古城 大墓地那里刷祭司。</p>
+<p>如果升到70后80前，是周末就选79-80的周末本，刷到80多级，80级后的可以选80-99的周末本刷到双99。</p>
+<p>双99级后去做等级扩展任务，详情可以看看上面职业要求</p>
+<p>####################################</p>
+<p>100级后练级旅程：</p>
+<p>主要是零氪没什么装备，而且我是单刷的，我能力上只能过相关主线，16.2开始就没法做日常副本，主要是没装备。你多开或者氪金的以下都可以当我没说。</p>
+<p>以上攻略主要以背刺流和陷阱流来解决。</p>
+<p>幻影的话应该单刷能打100级那个，幻影九尾狐的那个，其他幻影任务，你氪金了或者全装备多开也可以玩。</p>
+<p>先去刷90级怪来提升职业等级，学会了背刺才去做16.1主线任务，</p>
+<p>16.1的主线任务BOSS要靠剧情攻击才能打赢的，详情你可以看看相关视频。</p>
+<p>16.2的主要注意</p>
+<p>1、埃琳娜 博克巴的对战，NPC对站，引诱NPC在边上，NPC读条立刻跑去场地另一边，这样子就能打赢。</p>
+<p>2、邪心猎人军事基地副本，要慢慢走来引诱不多于两个敌人来打，如果敌人有红线缠身状态的，最好只引诱一个来打。注意回血。时间正常是够用的，按照节奏来就是了。</p>
+<p>17.1那个跟攻略做，但是副本要慢慢刷，超初来说难度挺高的。中间有个屋子里的副本，BOSS会打很久，如果途中被BOSS秒了还是能跑进去继续打的。</p>
+<p>17.2还没做</p>
+<p>副本（多看相关视频，看看最少技能伤害到多少才能打才去挑战就是了）</p>
+<p>周末本，打自己等级对应的基本都能打过，就是速度快慢的问题。</p>
+<p>莱莎的记忆，这个副本只要做好了16.1，打这个副本一定要慢慢来。平常注意不要被三只黄色的狼追着就可以防止被秒了。BOSS战要注意控制好蓝量和自己的血量。BOSS有气球时要技能攻击几次才能消除无敌状态</p>
+<p>吉芬魔法大赛，要打通这副本应该需要全身装备弄好了才可以。</p>
+<p>土色副本，主要就是第三层刷材料时要注意不要被怪围了，BOSS战注意控制自己的蓝量和血量。土色副本的BOSS是不会被陷阱伤害到的，最好用雷鸣术来慢慢磨就可以了。</p>
+<p>普通古城副本你要有技能一下6W伤害时才考虑进去吧，就是有能力秒幻影3：极冻幻影的怪时就能去试试了。新版本下收益少了很多，但是可以打过也是一种实力嘛。</p>
+<p>新的沉没之塔，超初没啥范围攻击的有力技能，很难去打的。</p>
+<p>####################################</p>
+
+      </div>
+      <div class="post-tags-categories">
+        
+        <div class="tags">
+          
+            <a href="/tags/%E4%BB%99%E5%A2%83%E4%BC%A0%E8%AF%B4%E8%B6%85%E7%BA%A7%E5%88%9D%E5%BF%83%E8%80%85%E7%9A%84%E5%BF%83%E5%BE%974-0/" class="">
+              仙境传说超级初心者的心得4.0
+            </a>
+          
+        </div>
+        
+      </div>
+      
+        <div class="copyright">
+  <ul class="post-copyright">
+    <li class="post-copyright-author">
+    <strong>作者:  </strong>Winzerokyo</a>
+    </li>
+    <li class="post-copyright-link">
+    <strong>文章链接:  </strong>
+    <a href="/2025/10/04/xian-jing-chuan-shuo-chao-ji-chu-xin-zhe-de-xin-de/" target="_blank" title="仙境传说超级初心者的心得4.0">http://example.com/2025/10/04/xian-jing-chuan-shuo-chao-ji-chu-xin-zhe-de-xin-de/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>版权声明:   </strong>
+      本网站所有文章除特别声明外,均采用 <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">CC BY-NC-ND 4.0</a>
+      许可协议。转载请注明出处!
+    </li>
+  </ul>
+<div>
+      
+    </article>
+    <!-- 上一篇文章和下一篇文章 -->
+    
+      <!-- 文章详情页的上一页和下一页 -->
+<div class="post-nav">
+
+
+
+  
+  <div class="post-nav-prev post-nav-item">
+    <div class="post-nav-img" style="background-size: cover; 
+      background-position: center center;">
+      <img class="lazyload lazyload placeholder" src="https://pic4.zhimg.com/80/v2-83ea273b88e119d9615aed0d89aad4ab_1440w.webp" class="lazyload placeholder" data-srcset="https://pic4.zhimg.com/80/v2-83ea273b88e119d9615aed0d89aad4ab_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+    </div>
+    <a href="/2025/10/25/ps2-mo-ni-qi-de-wen-ti-hui-zong/" class="post-nav-link">
+      <div class="title">
+        <i class="fas fa-angle-left"></i> 上一篇:
+        <div class="title-text">PS2模拟器的问题汇总</div>
+      </div>
+      
+      <!-- <div class="content">
+        问题1：PCSX2模拟器我开游戏显示gpu不支持dx12要更新驱动，但是我的显卡已经更新最新的了这是什么情况答案：新版的
+      </div> -->
+    </a>
+  </div>
+
+
+
+  
+  <div class="post-nav-next post-nav-item">
+    <div class="post-nav-img" style="background-size: cover; 
+      background-position: center center;">
+      <img class="lazyload lazyload placeholder" src="https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" src="" alt="">
+    </div>
+    <a href="/2025/10/04/ps3-mo-ni-qi-de-wen-ti-hui-zong/" class="post-nav-link">
+      <div class="title">
+        下一篇: <i class="fas fa-angle-right"></i>
+        <div class="title-text">PS3模拟器的问题汇总</div>
+      </div>
+      <!-- <div class="content">
+        问题1：RPCS3模拟器玩实况足球系列，正式游戏时球员黑色一片答案：设置-GPU，Write Color Buffers
+      </div> -->
+    </a>
+  </div>
+
+</div>
+
+    
+    
+
+    <!-- 打赏 -->
+    
+      <div id="appDonate" class="post-donate">
+  <div id="donate_board" class="donate_bar center" ref="donate">
+    <a id="btn_donate" class="btn_donate" href="javascript:;" title="打赏" @click="showDialogDrawer()"></a>
+  </div>
+  <transition name="fade">
+    <div 
+      class="donate-box-mask"
+      v-cloak 
+      v-show="visible"
+      @click="cancelDialogDrawer()"
+    >
+    </div>
+  </transition>
+  <transition name="bounce">
+    <div class="donate-box" v-cloak v-show="visible">
+      <div class="donate-box_close">
+        <i class="fas fa-times" aria-hidden="true" @click="cancelDialogDrawer" pointer></i>
+      </div>
+      <div class="donate-box_title">
+        <h4>
+          你的赏识是我前进的动力
+        </h4>
+      </div>
+      <div class="donate-box_tab">
+        <div class="Alipay" pointer :class="{'active': tabActive === 'Alipay'}" @click="changeTabActive('Alipay')">
+          支付宝
+        </div>
+        <div class="WeChatpay" pointer :class="{'active': tabActive === 'WeChatpay'}" @click="changeTabActive('WeChatpay')">
+          微信
+        </div>
+      </div>
+      <div class="donate-box_img">
+        <div class="AlipayImg" v-show="tabActive === 'Alipay'">
+          <img src="/images/Alipay.jpg" class="lazyload placeholder" data-srcset="/images/Alipay.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="支付宝打赏" />
+        </div> 
+        <div class="WeChatpayImg" v-show="tabActive === 'WeChatpay'">
+          <img src="/images/WeChatpay.png" class="lazyload placeholder" data-srcset="/images/WeChatpay.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="微信打赏" />
+        </div>
+      </div>
+    </div>
+  </transition>
+</div>
+
+<script>
+  var body = document.body || document.documentElement || window;
+  var vm = new Vue({
+    el: '#appDonate',
+    data: {
+      visible: false,
+      tabActive: 'Alipay',
+      top: 0,
+    },
+    computed: {
+    },
+    mounted() {
+    },
+    methods: {
+      showDialogDrawer() {
+        this.visible = true;
+        // 防止页面滚动，只能让弹框滚动
+        // function getScroll() {
+        //   return {
+        //     left: window.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft || 0,
+        //     top: window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0
+        //   };
+        // }
+        this.top = $(document).scrollTop() // or getScroll().top
+        // console.log('aa', $('.main-content'));
+        body.style.cssText = 'overflow: hidden;';
+      },
+      cancelDialogDrawer() {
+        this.visible = false;
+        body.removeAttribute('style');
+        $(document).scrollTop(this.top)
+      },
+      changeTabActive(name) {
+        this.tabActive = name;
+      }
+    },
+    created() {}
+  })
+</script>
+    
+
+    <!-- 分享 -->
+    
+    
+    <!-- 评论 -->
+    <!-- 评论 -->
+
+  <div id="myComment">
+    
+  </div>
+
+
+<!-- 还需要在后面这个地址里设置script, comment script in themes\hexo-theme-bamboo\layout\_partial\scripts\index.ejs -->
+
+
+  </div>
+
+  <!-- 目录 -->
+  <aside id='l_side'>
+  
+    
+      <section class="widget side_blogger">
+  <div class='content'>
+    
+      
+        <a class='avatar flat-box circle' href='/about/'>
+          <img src='https://pic2.zhimg.com/80/v2-42b72d5ebee4b8d8aa70d9687effe87b_1440w.webp'/>
+        </a>
+      
+    
+    
+      <div class='text'>
+        
+          <h2>Winzerokyo游戏站</h2>
+        
+        
+          <p>创建者Winzerokyo</p>
+
+        
+        
+          <p><span id="jinrishici-sentence">Winzerokyo的游戏站</span></p>
+          <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+        
+      </div>
+    
+    
+      <div class="social-wrapper">
+        
+          
+            <a href="/atom.xml"
+              class="social fas fa-rss flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+              
+            </a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    
+  </div>
+</section>
+
+    
+  
+  
+  
+    
+      <div class="widget test_a" id="test_a" style="order: 0;background: #fff">
+        <header>
+          
+            <a style="color: #d63130" target="_blank" rel="noopener" href='https://space.bilibili.com/5788784'><i class="fab fa-weibo fa-fw" aria-hidden="true"></i><span class='name'>BILIBILI winzerokyo</span></a>
+          
+        </header>
+        <div class="content">
+          BILIBILI主页
+        </div>
+    </div>
+    
+  
+
+  <div class="layout_sticky">    
+    
+      
+<section class="widget side_toc">
+  
+  <header>
+    
+      <i style="color: " class="fas fa-list fa-fw" aria-hidden="true"></i><span class='name' style="color: ">本文目录</span>
+    
+  </header>
+
+
+  <div class='content'>
+    <div class="toc-main">
+      <div class="toc-content">
+        <!--  -->
+        <div class="toc"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 手机端目录按钮 -->
+<div id="toc-mobile-btn">
+  <i class="fas fa-list-ul" aria-hidden="true"></i>
+</div>
+
+      
+  <section class="widget side_recent_post">
+    
+  <header>
+    
+      <a style="color: " href='/tags/'><i class="fas fa-book fa-fw" aria-hidden="true"></i><span class='name'>最新文章</span></a>
+    
+  </header>
+
+
+    <div class='content'>
+      
+      <!-- hash算法 -->
+      
+      <div class="aside-list">
+        
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
+              <a href="/2026/01/31/hello-world/" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic3.zhimg.com/80/v2-5f7cb7e900b9dcf5354c3d4d2c5cc3c2_1440w.webp" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-5f7cb7e900b9dcf5354c3d4d2c5cc3c2_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">01-31</span>
+                
+              </div>
+              <a class="post-title" href="/2026/01/31/hello-world/">Hello World</a>
+            </div>
+          </div>
+        
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
+              <a href="/2026/01/31/mo-ni-qi-ban-ben-geng-xin-xin-xi/" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic2.zhimg.com/80/v2-29e78b52051ce542adf6d786d61fbd19_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-29e78b52051ce542adf6d786d61fbd19_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">01-31</span>
+                
+              </div>
+              <a class="post-title" href="/2026/01/31/mo-ni-qi-ban-ben-geng-xin-xin-xi/">模拟器版本更新信息</a>
+            </div>
+          </div>
+        
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
+              <a href="/2026/01/31/switch-mo-ni-qi-de-wen-ti-hui-zong/" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">01-31</span>
+                
+              </div>
+              <a class="post-title" href="/2026/01/31/switch-mo-ni-qi-de-wen-ti-hui-zong/">SWITCH模拟器的问题汇总</a>
+            </div>
+          </div>
+        
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
+              <a href="/2026/01/31/ss-you-xi-zi-yuan/" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">01-31</span>
+                
+              </div>
+              <a class="post-title" href="/2026/01/31/ss-you-xi-zi-yuan/">SS游戏资源</a>
+            </div>
+          </div>
+        
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
+              <a href="/2026/01/30/switch-you-xi-zi-yuan/" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic2.zhimg.com/80/v2-63bbdb5b76b8d349ad35ff4281efbd37_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-63bbdb5b76b8d349ad35ff4281efbd37_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">01-30</span>
+                
+              </div>
+              <a class="post-title" href="/2026/01/30/switch-you-xi-zi-yuan/">SWITCH游戏资源</a>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  </section>
+
+    
+  </div>
+</aside>
+
+  <!-- 图片放大 Wrap images with fancybox support -->
+  <script defer src="/js/wrapImage.js"></script>
+</div>
+
+<!-- 文章详情页背景图 -->
+<div id="appBgSwiper" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -2;"
+	:style="{'background-color': bgColor ? bgColor : 'transparent'}">
+	<transition-group tag="ul" :name="names">
+		<li v-for='(image,index) in img' :key='index' v-show="index === mark" class="bg-swiper-box">
+			<img :src="image" class="bg-swiper-img no-lazy">
+		</li>
+	</transition-group>
+</div>
+<script>
+	var vm = new Vue({
+		el: '#appBgSwiper',
+		data: {
+			names: '' || 'fade' || 'fade', // translate-fade fade
+			mark: 0,
+			img: [],
+			bgColor: '',
+			time: null
+		},
+		methods: {   //添加方法
+			change(i, m) {
+				if (i > m) {
+					// this.names = 'fade';
+				} else if (i < m) {
+					// this.names = 'fade';
+				} else {
+					return;
+				}
+				this.mark = i;
+			},
+			prev() {
+				// this.names = 'fade';
+				this.mark--;
+				if (this.mark === -1) {
+					this.mark = 3;
+					return
+				}
+			},
+			next() {
+				// this.names = 'fade';
+				this.mark++;
+				if (this.mark === this.img.length) {
+					this.mark = 0;
+					return
+				}
+			},
+			autoPlay() {
+				// this.names = 'fade';
+				this.mark++;
+				if (this.mark === this.img.length) {
+					this.mark = 0;
+					return
+				}
+			},
+			play() {
+				let bgImgDelay = '' || '180000'
+				let delay = parseInt(bgImgDelay) || 180000;
+				this.time = setInterval(this.autoPlay, delay);
+			},
+			enter() {
+				clearInterval(this.time);
+			},
+			leave() {
+				this.play();
+			}
+		},
+		created() {
+			this.play()
+		},
+		beforeDestroy() {
+			clearInterval(this.time);
+		},
+		mounted() {
+			let prop = '' || '';
+			let isImg = prop.includes('.bmp') || prop.includes('.jpg') || prop.includes('.png') || prop.includes('.tif') || prop.includes('.gif') || prop.includes('.pcx') || prop.includes('.tga') || prop.includes('.exif') || prop.includes('.fpx') || prop.includes('.psd') || prop.includes('.cdr') || prop.includes('.pcd') || prop.includes('.dxf') || prop.includes('.ufo') || prop.includes('.eps') || prop.includes('.ai') || prop.includes('.raw') || prop.includes('.WMF') || prop.includes('.webp') || prop.includes('.jpeg') || prop.includes('http://') || prop.includes('https://')
+			if (isImg) {
+				let img = prop.split(',');
+				let configRoot = '/'
+				let arrImg = [];
+				img.forEach(el => {
+					var Expression = /http(s)?:\/\/([\w-]+\.)+[\w-]+(\/[\w- .\/?%&=]*)?/;
+					var objExp = new RegExp(Expression);
+
+					if (objExp.test(el)) {
+						// http or https
+						arrImg.push(el);
+					} else {
+						// 非http or https开头
+						// 本地文件
+						let firstStr = el.charAt(0);
+						if (firstStr == '/') {
+							el = el.substr(1); // 删除第一个字符 '/',因为 configRoot最后一个字符为 /
+						}
+						el = configRoot + el;
+						arrImg.push(el);
+					}
+				})
+				this.img = arrImg;
+			} else {
+				this.bgColor = prop;
+			}
+		}
+	})
+</script>
+
+<style>
+	.bg-swiper-box {
+		position: absolute;
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+
+	.bg-swiper-img {
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+	}
+</style>
+
+
+
+
+  <script>
+  function loadMermaid() {
+    if (document.getElementsByClassName('mermaid').length) {
+      if (window.mermaidJsLoad) mermaid.init()
+      else {
+        loadScript('https://unpkg.com/mermaid/dist/mermaid.min.js').then(() => {
+          window.mermaidJsLoad = true
+          mermaid.initialize({
+            theme: 'default',
+          })
+          if ('true') {
+            mermaid.init();
+          }
+        })
+      }
+    }
+  };
+  document.addEventListener("DOMContentLoaded", function () {
+    loadMermaid();
+  })
+
+  document.addEventListener('pjax:complete', function () {
+    loadMermaid();
+  })
+  
+</script>
+
+
+      </main>
+    </div>
+
+    <!-- 页脚 -->
+    
+  
+  
+    <!-- 底部鱼儿跳动效果，依赖于jquery-->
+<div id="j-fish-skip" style=" position: relative;height: 153px;width: auto;"></div>
+<script defer>
+  var RENDERER = {
+    POINT_INTERVAL: 5,
+    FISH_COUNT: 3,
+    MAX_INTERVAL_COUNT: 50,
+    INIT_HEIGHT_RATE: .5,
+    THRESHOLD: 50,
+    FISH_COLOR: '',
+    init: function () {
+      this.setFishColor(); this.setParameters(), this.reconstructMethods(), this.setup(), this.bindEvent(), this.render()
+    },
+    setFishColor: function () {
+      let isDark = JSON.parse(localStorage.getItem('dark')) || JSON.parse('false');
+      if (isDark) {
+        this.FISH_COLOR = '#222'; // 暗黑色，有时间把这整成一个变量
+      } else {
+        this.FISH_COLOR = '' || 'rgba(66, 185, 133, 0.8)';
+      }
+    },
+    setParameters: function () {
+      this.$window = $(window), this.$container = $("#j-fish-skip"), this.$canvas = $("<canvas />"), this.context = this.$canvas.appendTo(this.$container).get(0).getContext("2d"), this.points = [], this.fishes = [], this.watchIds = []
+    },
+    createSurfacePoints: function () {
+      var t = Math.round(this.width / this.POINT_INTERVAL);
+      this.pointInterval = this.width / (t - 1), this.points.push(new SURFACE_POINT(this, 0));
+      for (var i = 1; i < t; i++) {
+        var e = new SURFACE_POINT(this, i * this.pointInterval),
+          h = this.points[i - 1];
+        e.setPreviousPoint(h), h.setNextPoint(e), this.points.push(e)
+      }
+    },
+    reconstructMethods: function () {
+      this.watchWindowSize = this.watchWindowSize.bind(this), this.jdugeToStopResize = this.jdugeToStopResize.bind(this), this.startEpicenter = this.startEpicenter.bind(this), this.moveEpicenter = this.moveEpicenter.bind(this), this.reverseVertical = this.reverseVertical.bind(this), this.render = this.render.bind(this)
+    },
+    setup: function () {
+      this.points.length = 0, this.fishes.length = 0, this.watchIds.length = 0, this.intervalCount = this.MAX_INTERVAL_COUNT, this.width = this.$container.width(), this.height = this.$container.height(), this.fishCount = this.FISH_COUNT * this.width / 500 * this.height / 500, this.$canvas.attr({
+        width: this.width,
+        height: this.height
+      }), this.reverse = !1, this.fishes.push(new FISH(this)), this.createSurfacePoints()
+    },
+    watchWindowSize: function () {
+      this.clearTimer(), this.tmpWidth = this.$window.width(), this.tmpHeight = this.$window.height(), this.watchIds.push(setTimeout(this.jdugeToStopResize, this.WATCH_INTERVAL))
+    },
+    clearTimer: function () {
+      for (; this.watchIds.length > 0;) clearTimeout(this.watchIds.pop())
+    },
+    jdugeToStopResize: function () {
+      var t = this.$window.width(),
+        i = this.$window.height(),
+        e = t == this.tmpWidth && i == this.tmpHeight;
+      this.tmpWidth = t, this.tmpHeight = i, e && this.setup()
+    },
+    bindEvent: function () {
+      this.$window.on("resize", this.watchWindowSize), this.$container.on("mouseenter", this.startEpicenter), this.$container.on("mousemove", this.moveEpicenter)
+    },
+    getAxis: function (t) {
+      var i = this.$container.offset();
+      return {
+        x: t.clientX - i.left + this.$window.scrollLeft(),
+        y: t.clientY - i.top + this.$window.scrollTop()
+      }
+    },
+    startEpicenter: function (t) {
+      this.axis = this.getAxis(t)
+    },
+    moveEpicenter: function (t) {
+      var i = this.getAxis(t);
+      this.axis || (this.axis = i), this.generateEpicenter(i.x, i.y, i.y - this.axis.y), this.axis = i
+    },
+    generateEpicenter: function (t, i, e) {
+      if (!(i < this.height / 2 - this.THRESHOLD || i > this.height / 2 + this.THRESHOLD)) {
+        var h = Math.round(t / this.pointInterval);
+        h < 0 || h >= this.points.length || this.points[h].interfere(i, e)
+      }
+    },
+    reverseVertical: function () {
+      this.reverse = !this.reverse;
+      for (var t = 0, i = this.fishes.length; t < i; t++) this.fishes[t].reverseVertical()
+    },
+    controlStatus: function () {
+      for (var t = 0, i = this.points.length; t < i; t++) this.points[t].updateSelf();
+      for (t = 0, i = this.points.length; t < i; t++) this.points[t].updateNeighbors();
+      this.fishes.length < this.fishCount && 0 == --this.intervalCount && (this.intervalCount = this.MAX_INTERVAL_COUNT, this.fishes.push(new FISH(this)))
+    },
+    render: function () {
+      requestAnimationFrame(this.render), this.controlStatus(), this.context.clearRect(0, 0, this.width, this.height), this.context.fillStyle = this.FISH_COLOR;
+      for (var t = 0, i = this.fishes.length; t < i; t++) this.fishes[t].render(this.context);
+      this.context.save(), this.context.globalCompositeOperation = "xor", this.context.beginPath(), this.context.moveTo(0, this.reverse ? 0 : this.height);
+      for (t = 0, i = this.points.length; t < i; t++) this.points[t].render(this.context);
+      this.context.lineTo(this.width, this.reverse ? 0 : this.height), this.context.closePath(), this.context.fill(), this.context.restore()
+    }
+  },
+  SURFACE_POINT = function (t, i) {
+    this.renderer = t, this.x = i, this.init()
+  };
+  SURFACE_POINT.prototype = {
+    SPRING_CONSTANT: .03,
+    SPRING_FRICTION: .9,
+    WAVE_SPREAD: .3,
+    ACCELARATION_RATE: .01,
+    init: function () {
+      this.initHeight = this.renderer.height * this.renderer.INIT_HEIGHT_RATE, this.height = this.initHeight, this.fy = 0, this.force = {
+        previous: 0,
+        next: 0
+      }
+    },
+    setPreviousPoint: function (t) {
+      this.previous = t
+    },
+    setNextPoint: function (t) {
+      this.next = t
+    },
+    interfere: function (t, i) {
+      this.fy = this.renderer.height * this.ACCELARATION_RATE * (this.renderer.height - this.height - t >= 0 ? -1 : 1) * Math.abs(i)
+    },
+    updateSelf: function () {
+      this.fy += this.SPRING_CONSTANT * (this.initHeight - this.height), this.fy *= this.SPRING_FRICTION, this.height += this.fy
+    },
+    updateNeighbors: function () {
+      this.previous && (this.force.previous = this.WAVE_SPREAD * (this.height - this.previous.height)), this.next && (this.force.next = this.WAVE_SPREAD * (this.height - this.next.height))
+    },
+    render: function (t) {
+      this.previous && (this.previous.height += this.force.previous, this.previous.fy += this.force.previous), this.next && (this.next.height += this.force.next, this.next.fy += this.force.next), t.lineTo(this.x, this.renderer.height - this.height)
+    }
+  };
+  var FISH = function (t) {
+    this.renderer = t, this.init()
+  };
+  FISH.prototype = {
+    GRAVITY: .4,
+    init: function () {
+      this.direction = Math.random() < .5, this.x = this.direction ? this.renderer.width + this.renderer.THRESHOLD : -this.renderer.THRESHOLD, this.previousY = this.y, this.vx = this.getRandomValue(4, 10) * (this.direction ? -1 : 1), this.renderer.reverse ? (this.y = this.getRandomValue(1 * this.renderer.height / 10, 4 * this.renderer.height / 10), this.vy = this.getRandomValue(2, 5), this.ay = this.getRandomValue(.05, .2)) : (this.y = this.getRandomValue(6 * this.renderer.height / 10, 9 * this.renderer.height / 10), this.vy = this.getRandomValue(-5, -2), this.ay = this.getRandomValue(-.2, -.05)), this.isOut = !1, this.theta = 0, this.phi = 0
+    },
+    getRandomValue: function (t, i) {
+      return t + (i - t) * Math.random()
+    },
+    reverseVertical: function () {
+      this.isOut = !this.isOut, this.ay *= -1
+    },
+    controlStatus: function (t) {
+      this.previousY = this.y, this.x += this.vx, this.y += this.vy, this.vy += this.ay, this.renderer.reverse ? this.y > this.renderer.height * this.renderer.INIT_HEIGHT_RATE ? (this.vy -= this.GRAVITY, this.isOut = !0) : (this.isOut && (this.ay = this.getRandomValue(.05, .2)), this.isOut = !1) : this.y < this.renderer.height * this.renderer.INIT_HEIGHT_RATE ? (this.vy += this.GRAVITY, this.isOut = !0) : (this.isOut && (this.ay = this.getRandomValue(-.2, -.05)), this.isOut = !1), this.isOut || (this.theta += Math.PI / 20, this.theta %= 2 * Math.PI, this.phi += Math.PI / 30, this.phi %= 2 * Math.PI), this.renderer.generateEpicenter(this.x + (this.direction ? -1 : 1) * this.renderer.THRESHOLD, this.y, this.y - this.previousY), (this.vx > 0 && this.x > this.renderer.width + this.renderer.THRESHOLD || this.vx < 0 && this.x < -this.renderer.THRESHOLD) && this.init()
+    },
+    render: function (t) {
+      t.save(), t.translate(this.x, this.y), t.rotate(Math.PI + Math.atan2(this.vy, this.vx)), t.scale(1, this.direction ? 1 : -1), t.beginPath(), t.moveTo(-30, 0), t.bezierCurveTo(-20, 15, 15, 10, 40, 0), t.bezierCurveTo(15, -10, -20, -15, -30, 0), t.fill(), t.save(), t.translate(40, 0), t.scale(.9 + .2 * Math.sin(this.theta), 1), t.beginPath(), t.moveTo(0, 0), t.quadraticCurveTo(5, 10, 20, 8), t.quadraticCurveTo(12, 5, 10, 0), t.quadraticCurveTo(12, -5, 20, -8), t.quadraticCurveTo(5, -10, 0, 0), t.fill(), t.restore(), t.save(), t.translate(-3, 0), t.rotate((Math.PI / 3 + Math.PI / 10 * Math.sin(this.phi)) * (this.renderer.reverse ? -1 : 1)), t.beginPath(), this.renderer.reverse ? (t.moveTo(5, 0), t.bezierCurveTo(10, 10, 10, 30, 0, 40), t.bezierCurveTo(-12, 25, -8, 10, 0, 0)) : (t.moveTo(-5, 0), t.bezierCurveTo(-10, -10, -10, -30, 0, -40), t.bezierCurveTo(12, -25, 8, -10, 0, 0)), t.closePath(), t.fill(), t.restore(), t.restore(), this.controlStatus(t)
+    }
+  }, $(function () {
+    RENDERER.init()
+    $('.dark').click(function () {
+      setTimeout(() => {
+        RENDERER.setFishColor();
+        RENDERER.context.fill();
+      });
+    })
+  });
+</script>
+  
+  <div class="footer bg-color">
+    <div class="footer-main">
+      
+        
+          <div class="link">
+            
+          </div>
+        
+      
+        
+          <div class="footer-copyright">
+            <p>Copyright © 2019 - 2020 <a target="_blank" rel="noopener" href="https://github.com/yuang01">yuang01</a> | Powered by <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">Hexo</a> | Theme <a target="_blank" rel="noopener" href="https://github.com/yuang01/theme">Bamboo</a> </p>
+
+          </div>
+        
+      
+        
+          <div class="footer-custom">
+            
+          </div>
+        
+      
+    </div>
+  </div>
+
+
+
+    <!-- 渲染暗黑按钮 -->
+    
+      <div class="dark" onclick="toggleDarkMode()">
+  <div class="dark-content">
+    <i class="fas" id="darkIcon" aria-hidden="true"></i>
+  </div>
+</div>
+
+<script defer>
+  $(function() {
+    // 初始化暗黑模式状态
+    let isDark = JSON.parse(localStorage.getItem('dark')) || JSON.parse('false');
+    updateDarkModeIcon(isDark);
+  });
+
+  function toggleDarkMode() {
+    const isDark = $(document.body).hasClass('darkModel');
+    $(document.body).toggleClass('darkModel');
+    localStorage.setItem('dark', !isDark);
+    updateDarkModeIcon(!isDark);
+  }
+
+  function updateDarkModeIcon(isDark) {
+    const iconElement = document.getElementById('darkIcon');
+    if (isDark) {
+      iconElement.classList.remove('fa-moon');
+      iconElement.classList.add('fa-lightbulb');
+    } else {
+      iconElement.classList.remove('fa-lightbulb');
+      iconElement.classList.add('fa-moon');
+    }
+  }
+</script>
+
+    
+    <!-- 渲染回到顶部按钮 -->
+    
+      <div class="goTop top-btn-color" pointer>
+  <i class="fas fa-arrow-up" aria-hidden="true"></i>
+</div>
+<script defer src="/js/goTop.js"></script>
+
+    
+    <!-- 渲染左下角音乐播放器 -->
+    
+
+    <!-- 图片放大 -->
+    
+      <script src="https://unpkg.com/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    
+
+    <!-- 百度解析 -->
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script async>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <!-- 背景彩带 -->
+    
+      <script async type="text/javascript" size="100" alpha='0.4' zIndex="-1" src="/js/ribbon.min.js"></script>
+    
+
+    <script src="/js/utils/index.js"></script>
+    <script src="/js/app.js"></script>
+    
+    <!-- 文章目录所需js -->
+<!-- <link href="/js/tocbot/tocbot.css" rel="stylesheet">
+<script src="/js/tocbot/tocbot.min.js"></script> -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.min.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.css">
+
+<script>
+  var headerEl = 'h2, h3, h4',  //headers 
+    content = '.post-detail',//文章容器
+    idArr = {};  //标题数组以确定是否增加索引id
+  //add #id
+  var option = {
+    // Where to render the table of contents.
+    tocSelector: '.toc',
+    // Where to grab the headings to build the table of contents.
+    contentSelector: content,
+    // Which headings to grab inside of the contentSelector element.
+    headingSelector: headerEl,
+    scrollSmooth: true,
+    scrollSmoothOffset: -70,
+    // headingsOffset: -($(window).height() * 0.4 - 45),
+    headingsOffset: -($(window).height() * 0.4 - 70),
+    // positionFixedSelector: '.toc-main',
+    // positionFixedClass: 'is-position-fixed',
+    fixedSidebarOffset: 'auto',
+    activeLinkClass: 'is-active-link',
+    orderedList: true,
+    collapseDepth: 20,
+    // onClick: function (e) {},
+  }
+  if ($('.toc').length > 0) {
+
+    $(content).children(headerEl).each(function () {
+      //去除空格以及多余标点
+      var headerId = $(this).text().replace(/[\s|\~|`|\!|\@|\#|\$|\%|\^|\&|\*|\(|\)|\_|\+|\=|\||\|\[|\]|\{|\}|\;|\:|\"|\'|\,|\<|\.|\>|\/|\?|\：|\，|\。]/g, '');
+
+      headerId = headerId.toLowerCase();
+      if (idArr[headerId]) {
+        //id已经存在
+        $(this).attr('id', headerId + '-' + idArr[headerId]);
+        idArr[headerId]++;
+      }
+      else {
+        //id未存在
+        idArr[headerId] = 1;
+        $(this).attr('id', headerId);
+      }
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+      tocbot.init(option);
+      mobileTocClick();
+    });
+
+  }
+
+  window.tocScrollFn = function () {
+    return bamboo.throttle(function () {
+      findHeadPosition();
+    }, 100)()
+  }
+  window.addEventListener('scroll', tocScrollFn);
+
+  const findHeadPosition = function (top) {
+    if ($('.toc-list').length <= 0) {
+      return false;
+    }
+    setTimeout(() => {  // or DOMContentLoaded 
+      autoScrollToc();
+    }, 0);
+  }
+
+  const autoScrollToc = function () {
+    const $activeItem = document.querySelector('.is-active-link');
+    const $cardToc = document.querySelector('.toc-content');
+    const activePosition = $activeItem.getBoundingClientRect().top
+    const sidebarScrollTop = $cardToc.scrollTop
+    if (activePosition > (document.documentElement.clientHeight - 100)) {
+      $cardToc.scrollTop = sidebarScrollTop + 150
+    }
+    if (activePosition < 150) {
+      $cardToc.scrollTop = sidebarScrollTop - 150
+    }
+  }
+
+  document.addEventListener('pjax:send', function () {
+    if ($('.toc').length) {
+      tocbot.destroy();
+    }
+  });
+
+  document.addEventListener('pjax:complete', function () {
+    if ($('.toc').length) {
+      tocbot.init(option);
+      mobileTocClick();
+    }
+  });
+  
+  // 手机端toc按钮点击出现目录
+  const mobileTocClick = function () {
+    const $cardTocLayout = document.getElementsByClassName('side_toc')[0];
+    const $cardToc = $cardTocLayout.getElementsByClassName('toc-content')[0];
+    let right = '45px';
+    if (window.innerWidth >= 551 && window.innerWidth <= 992) {
+      right = '100px'
+    }
+    const mobileToc = {
+      open: () => {
+        $cardTocLayout.style.cssText = 'animation: toc-open .3s; opacity: 1; right: ' + right
+      },
+
+      close: () => {
+        $cardTocLayout.style.animation = 'toc-close .2s'
+        setTimeout(() => {
+          $cardTocLayout.style.cssText = "opacity:''; animation: ''; right: ''"
+        }, 100)
+      }
+    }
+    document.getElementById('toc-mobile-btn').addEventListener('click', () => {
+      if (window.getComputedStyle($cardTocLayout).getPropertyValue('opacity') === '0') mobileToc.open()
+      else mobileToc.close()
+    })
+
+    $cardToc.addEventListener('click', (e) => {
+      if (window.innerWidth < 992) { // 小于992px的时候
+        mobileToc.close()
+      }
+    })
+  }
+</script>
+
+<style>
+  /* .is-position-fixed {
+    position: sticky !important;
+    top: 74px;
+  }
+
+  .toc-main ul {
+    counter-reset: show-list;
+  }
+
+  .toc-main ul li::before {
+    content: counter(item)".";
+    display: block;
+    position: absolute;
+    left: 12px;
+    top: 0;
+  } */
+</style>
+ 
+
+<!-- 设置导航背景 -->
+<script>
+  let setHeaderClass = () => {
+    const nav = $('#navHeader');
+    const navTop = nav.outerHeight();
+    const winTop = $(window).scrollTop();
+    if(winTop > navTop) {
+      nav.addClass('header-bg-color');
+    }
+    else {
+      nav.removeClass('header-bg-color');
+    }
+  };
+
+  let scrollCollect = () => {
+    return bamboo.throttle(function (e) {
+      setHeaderClass();
+    }, 200)()
+  }
+
+  let initHeaderBg = () => {
+    setHeaderClass();
+  }
+
+  setHeaderClass();
+  window.addEventListener('scroll', scrollCollect);
+
+  document.addEventListener('pjax:send', function () {
+    window.removeEventListener('scroll', scrollCollect)
+  })
+  document.addEventListener('pjax:complete', function () {
+    window.addEventListener('scroll', scrollCollect);
+    setHeaderClass();
+  })
+</script> 
+
+<!-- 渲染issues标签里的内容 -->
+<script>
+  function loadIssuesJS() {
+    if ($(".post-detail").find(".issues-api").length == 0) {
+      return;
+    } 
+    loadScript('/js/issues/index.js');
+  };
+  $(function () {
+    loadIssuesJS();
+  });
+  document.addEventListener('pjax:complete', function () {
+    if (typeof IssuesAPI == "undefined") {
+      loadIssuesJS();
+    }
+  })
+</script>
+
+<!-- 渲染远程json加载的图片标签(getPhotoOnline)里的内容 -->
+<script>
+  function loadPhotoOnlineJS() {
+    if ($(".post-detail").find(".getJsonPhoto-api").length == 0) {
+      return;
+    } 
+    loadScript('/js/getPhotoOnline/index.js');
+  };
+  $(function () {
+    loadPhotoOnlineJS();
+  });
+  document.addEventListener('pjax:complete', function () {
+    if (typeof getPhotoJson == "undefined") {
+      loadPhotoOnlineJS();
+    }
+  })
+</script>
+
+<!-- 渲染远程json加载的talk标签(getTalkOnline)里的内容 -->
+<script>
+  function loadTalkOnlineJS() {
+    if ($(".post-detail").find(".getJsonTalk-api").length == 0) {
+      return;
+    } 
+    loadScript('https://cdnjs.cloudflare.com/ajax/libs/waterfall.js/1.0.2/waterfall.min.js'); // 瀑布流插件，https://raphamorim.io/waterfall.js/
+    loadScript('/js/getTalkOnline/index.js');
+  };
+  $(function () {
+    loadTalkOnlineJS();
+  });
+  document.addEventListener('pjax:complete', function () {
+    if (typeof getTalkJson == "undefined") {
+      loadTalkOnlineJS();
+    }
+  })
+</script>
+
+<!-- 渲染远程json加载的site-card标签(getSiteOnline)里的内容 -->
+<script>
+  function loadSiteOnlineJS() {
+    if ($(".post-detail").find(".getJsonSite-api").length == 0) {
+      return;
+    } 
+    loadScript('/js/getSiteOnline/index.js');
+  };
+  $(function () {
+    loadSiteOnlineJS();
+  });
+  document.addEventListener('pjax:complete', function () {
+    if (typeof getSiteJson == "undefined") {
+      loadSiteOnlineJS();
+    }
+  })
+</script>
+
+<!-- 输入框打字特效 -->
+<!-- 输入框打字特效 -->
+
+  <script src="/js/activate-power-mode.js"></script>
+  <script>
+    POWERMODE.colorful = true;  // 打开随机颜色特效
+    POWERMODE.shake = false;    // 关闭输入框抖动
+    document.body.addEventListener('input', POWERMODE);//监听打字事件
+  </script>
+
+
+<!-- markdown代码一键复制功能 -->
+
+  <link rel="stylesheet" href="https://unpkg.com/v-plugs-ayu/lib/ayu.css">
+  <script src="https://unpkg.com/v-plugs-ayu/lib/ayu.umd.min.js"></script>
+  <script src="/js/clipboard/clipboard.min.js"></script>
+  <div id="appCopy">
+  </div>
+  <script data-pjax>
+    var vm = new Vue({
+      el: '#appCopy',
+      data: {
+      },
+      computed: {
+      },
+      mounted() {
+        const that = this;
+        var copy = '复制';
+        /* code */
+        var initCopyCode = function () {
+          var copyHtml = '';
+          copyHtml += '<button class="btn-copy" data-clipboard-snippet="" style="position:absolute;top:0;right:0;z-index:1;">';
+          copyHtml += '<i class="fas fa-copy"></i><span>' + copy + '</span>';
+          copyHtml += '</button>';
+          $(".post-detail pre").not('.gutter pre').wrap("<div class='codeBox' style='position:relative;width:100%;'></div>")
+          $(".post-detail pre").not('.gutter pre').before(copyHtml);
+          new ClipboardJS('.btn-copy', {
+            target: function (trigger) {
+              return trigger.nextElementSibling;
+            }
+          });
+        }
+        initCopyCode();
+        $('.btn-copy').unbind('click').bind('click', function () {
+          doSomething();
+        })
+        $(document).unbind('keypress').bind('keypress', function (e) {
+          if (e.ctrlKey && e.keyCode == 67) {
+            doSomething();
+          }
+        })
+
+        function doSomething() {
+          that.$notify({
+            title: "成功",
+            content: "代码已复制，请遵守相关授权协议。",
+            type: 'success'
+          })
+        }
+      },
+      methods: {
+      },
+      created() { }
+    })
+  </script>
+  
+
+<!-- 图片懒加载 -->
+<script defer src="https://unpkg.com/vanilla-lazyload@17.1.0/dist/lazyload.min.js"></script>
+<script>
+  // https://www.npmjs.com/package/vanilla-lazyload
+  // Set the options globally
+  // to make LazyLoad self-initialize
+  window.lazyLoadOptions = {
+    elements_selector: ".lazyload",
+    threshold: 0
+  };
+  // Listen to the initialization event
+  // and get the instance of LazyLoad
+  window.addEventListener(
+    "LazyLoad::Initialized",
+    function (event) {
+      window.lazyLoadInstance = event.detail.instance;
+    },
+    false
+  );
+  document.addEventListener('DOMContentLoaded', function () {
+    lazyLoadInstance.update();
+  });
+  document.addEventListener('pjax:complete', function () {
+    lazyLoadInstance.update();
+  });
+</script>
+
+
+<!-- 卡片滚动动画 -->
+   
+
+<!-- 评论所需js -->
+
+  
+
+
+<!-- 鼠标点击特效 -->
+<!-- 爱心点击 -->
+
+  
+    <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 999; pointer-events: none;" ></canvas>
+    <script async src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
+    <script async src="/js/cursor/explosion.min.js"></script>
+  
+
+
+
+
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" data-pjax></script>
+
+
+<!-- 轮播图标签 -->
+<script>
+  var bambooSwiperTag = {};
+  function load_swiper() {
+    if (!document.querySelectorAll(".post-swiper-container")[0]) return;
+    loadCSS("https://unpkg.com/swiper@6/swiper-bundle.min.css")
+    loadScript("https://unpkg.com/swiper@6/swiper-bundle.min.js").then(() => {
+      pjax_swiper();
+    });
+  }
+
+  load_swiper();
+
+  function pjax_swiper() {
+    bambooSwiperTag.swiper = new Swiper('.post-swiper-container', {
+      slidesPerView: 'auto',
+      spaceBetween: 8,
+      centeredSlides: true,
+      loop: true,
+      autoplay: true ? {
+        delay: 3000,
+        stopOnLastSlide: false,
+        disableOnInteraction: false,
+      } : false,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      on:{
+        init: function(){
+          swiperAnimateCache(this); //隐藏动画元素 
+          swiperAnimate(this); //初始化完成开始动画
+        }, 
+        slideChangeTransitionEnd: function(){ 
+          swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
+          //this.slides.eq(this.activeIndex).find('.ani').removeClass('ani'); 动画只展现一次，去除ani类名
+        } 
+      }
+    });
+  }
+
+  document.addEventListener('pjax:complete', function () {
+    if (!document.querySelectorAll(".post-swiper-container")[0]) return;
+    if (typeof bambooSwiperTag.swiper === "undefined") {
+      load_swiper();
+    } else {
+      pjax_swiper();
+    }
+  });
+</script>
+    <!-- pjax -->
+    
+
+<!-- pjax -->
+
+
+  <script src="/js/pjax@0.2.8/index.js"></script>
+  
+    <div class="pjax-animate">
+  
+    <div class="loading-circle"><div id="loader-circle"></div></div>
+    <script>
+      window.ShowLoading = function() {
+        $(".loading-circle").css("display", "block");
+      };
+      window.HideLoading = function() {
+        $(".loading-circle").css("display", "none");
+      }
+    </script>
+  
+	<script>
+    document.addEventListener('pjax:complete', function () {
+      window.HideLoading();
+    })
+    document.addEventListener('pjax:send', function () {
+      window.ShowLoading();
+    })
+    document.addEventListener('pjax:error', function () {
+      window.HideLoading();
+    })
+	</script>
+</div>
+
+  
+
+  <script>
+    var pjax = new Pjax({
+      elements: 'a[href]:not([href^="#"]):not([href="javascript:void(0)"]):not([no-pjax])',   // 拦截正常带链接的 a 标签
+      selectors: ["#pjax-container","title"],                                   // 根据实际需要确认重载区域
+      cacheBust: false,   // url 地址追加时间戳，用以避免浏览器缓存
+      timeout: 5000
+    });
+
+    document.addEventListener('pjax:send', function (e) {
+
+      try {
+        var currentUrl = window.location.pathname;
+        var targetUrl = e.triggerElement.href;
+        var banUrl = [""];
+        if (banUrl[0] != "") {
+          banUrl.forEach(item => {
+            if(currentUrl.indexOf(item) != -1 || targetUrl.indexOf(item) != -1) {
+              window.location.href = targetUrl;
+            }
+          });
+        }
+      } catch (error) {}
+
+      $(window).unbind('resize');
+      $(window).unbind('scroll');
+      $(document).unbind('scroll');
+      $(document).unbind('click');
+      $('body').unbind('click');
+
+    })
+    
+    document.addEventListener('pjax:complete', function () {
+      $('script[data-pjax], .pjax-reload script').each(function () {
+        $(this).parent().append($(this).remove());
+      });
+    });
+
+    document.addEventListener('pjax:error', function (e) {
+      window.location.href = e.triggerElement.href;
+    })
+    
+    // 刷新不从顶部开始
+    document.addEventListener("DOMContentLoaded", function () {
+      history.scrollRestoration = 'auto';
+    })
+  </script>
+
+
+
+  </body>
+</html>

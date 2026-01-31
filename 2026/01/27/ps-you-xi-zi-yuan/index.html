@@ -1,0 +1,2798 @@
+<!DOCTYPE html>
+<html>
+  <!-- meta/link... -->
+  
+
+
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+  <title>PS游戏资源 | Winzerokyo的游戏站</title>
+
+  <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/favicon.ico">
+  <link rel="stylesheet" href="https://at.alicdn.com/t/font_1911880_c1nvbyezg17.css">
+  <link href="https://unpkg.com/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="/js/swiper/swiper@5.4.1.min.css" rel="stylesheet">
+  
+  
+  
+  
+<link rel="stylesheet" href="/css/animate.min.css">
+
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+  
+    <link href="https://unpkg.com/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" rel="stylesheet">
+  
+  
+  <style>
+        @media (max-width: 992px) {
+            #waifu {
+                display: none;
+            }
+        }
+    </style>
+    <script defer src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+    <link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+
+    
+    
+    <!-- 依赖于jquery和vue -->
+    <script src="https://unpkg.com/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://unpkg.com/vue@2.6.11/dist/vue.min.js"></script>
+
+    <!-- import link -->
+    
+        
+            
+        
+            
+        
+    
+    <!-- import script -->
+    
+        
+            
+        
+            
+        
+    
+
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="Winzerokyo的游戏站" type="application/atom+xml">
+</head>
+
+  
+  <!-- 预加载动画 -->
+  
+  
+  <div class="preloader_6" id="loader">
+  <div class="loader"></div>
+</div>
+  <script>
+    var endLoading = function () {
+      document.body.style.overflow = 'auto';
+      document.getElementById('loader').classList.add("loaded");
+    }
+    window.addEventListener('DOMContentLoaded', endLoading);
+  </script>
+
+
+  <body>
+    <!-- 判断是否为暗黑风格 -->
+    <!-- 判断是否为黑夜模式 -->
+<script defer>
+  let isDark = JSON.parse(localStorage.getItem('dark')) || JSON.parse('false');
+
+  if (isDark) {
+    $(document.body).addClass('darkModel');
+  }
+</script>
+
+    <!-- 需要在上面加载的js -->
+    <script>
+  function loadScript(src, cb) {
+    return new Promise(resolve => {
+      setTimeout(function () {
+        var HEAD = document.getElementsByTagName("head")[0] || document.documentElement;
+        var script = document.createElement("script");
+        script.setAttribute("type", "text/javascript");
+        if (cb) {
+          if (JSON.stringify(cb)) {
+            for (let p in cb) {
+              if (p == "onload") {
+                script[p] = () => {
+                  cb[p]()
+                  resolve()
+                }
+              } else {
+                script[p] = cb[p]
+                script.onload = resolve
+              }
+            }
+          } else {
+            script.onload = () => {
+              cb()
+              resolve()
+            };
+          }
+        } else {
+          script.onload = resolve
+        }
+        script.setAttribute("src", src);
+        HEAD.appendChild(script);
+      });
+    });
+  }
+
+  //https://github.com/filamentgroup/loadCSS
+  var loadCSS = function (src) {
+    return new Promise(resolve => {
+      setTimeout(function () {
+        var link = document.createElement('link');
+        link.rel = "stylesheet";
+        link.href = src;
+        link.onload = resolve;
+        document.getElementsByTagName("head")[0].appendChild(link);
+      });
+    });
+  };
+
+</script> 
+
+<!-- 轮播图所需要的js -->
+<script src="/js/swiper/swiper.min.js"></script>
+<script src="/js/swiper/vue-awesome-swiper.js"></script>
+<script src="/js/swiper/swiper.animate1.0.3.min.js"></script>
+
+<script type="text/javascript">
+  Vue.use(window.VueAwesomeSwiper)
+</script>
+
+
+  <script src="/js/vue-typed-js/index.js"></script>
+
+
+<!-- 首页的公告滚动插件的js需要重新加载 -->
+<script src="/js/vue-seamless-scroll/index.js"></script>
+
+<!-- 打字机效果js -->
+<script src="https://unpkg.com/typed.js@2.0.11"></script>
+
+
+    <div id="safearea">
+      <main class="main" id="pjax-container">
+        <!-- 头部导航 -->
+        
+<header class="header  " 
+  id="navHeader"
+  style="position: fixed;
+  left: 0; top: 0; z-index: 10;width: 100%;"
+>
+  <div class="header-content">
+    <div class="bars">
+      <div id="appDrawer" class="sidebar-image">
+  <div class="drawer-box-icon">
+    <i class="fas fa-bars" aria-hidden="true" @click="showDialogDrawer"></i>
+  </div>
+  
+  <transition name="fade">
+    <div class="drawer-box_mask" v-cloak style="display: none;" v-show="visible" @click.self="cancelDialogDrawer">
+    </div>
+  </transition>
+  <div class="drawer-box" :class="{'active': visible}">
+    <div class="drawer-box-head bg-color">
+      <img class="drawer-box-head_logo lazyload placeholder" src="/medias/logo.png" class="lazyload placeholder" data-srcset="/medias/logo.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="logo">
+      <h3 class="drawer-box-head_title">Winzerokyo的游戏站</h3>
+      <h5 class="drawer-box-head_desc"></h5>
+    </div>
+    
+    <div class="drawer-box-content">
+      <ul class="drawer-box-content_menu">
+        
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script>
+  var body = document.body || document.documentElement || window;
+  var vm = new Vue({
+    el: '#appDrawer',
+    data: {
+      visible: false,
+      top: 0,
+      openArr: [],
+    },
+    computed: {
+    },
+    mounted() {
+    },
+    methods: {
+      isOpen(index) {
+        if (this.openArr.includes(index)) {
+          return true;
+        } else {
+          return false;
+        }
+      },
+      openOrCloseMenu(curIndex) {
+        const index = this.openArr.indexOf(curIndex);
+        if (index !== -1) {
+          this.openArr.splice(index, 1);
+        } else {
+          this.openArr.push(curIndex);
+        }
+      },
+      showDialogDrawer() {
+        this.visible = true;
+        // 防止页面滚动，只能让弹框滚动
+        this.top = $(document).scrollTop()
+        body.style.cssText = 'width: 100%; height: 100%;overflow: hidden;';
+      },
+      cancelDialogDrawer() {
+        this.visible = false;
+        body.removeAttribute('style');
+        $(document).scrollTop(this.top)
+      }
+    },
+    created() {}
+  })
+</script>
+
+    </div>
+    <div class="blog-title" id="author-avatar">
+      
+        <div class="avatar">
+          <img src="/medias/logo.png" class="lazyload placeholder" data-srcset="/medias/logo.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="logo">
+        </div>
+      
+      <a href="/" class="logo">Winzerokyo的游戏站</a>
+    </div>
+    <nav class="navbar">
+      <ul class="menu">
+        
+      </ul>
+      
+      
+
+    </nav>
+  </div>
+  
+  
+    <div id="he-plugin-simple"></div>
+    <script defer>
+      WIDGET = {
+        CONFIG: {
+          "modules": "012",
+          "background": 5,
+          "tmpColor": "4A4A4A",
+          "tmpSize": 16,
+          "cityColor": "4A4A4A",
+          "citySize": 16,
+          "aqiSize": 16,
+          "weatherIconSize": 24,
+          "alertIconSize": 18,
+          "padding": "10px 10px 10px 10px",
+          "shadow": "1",
+          "language": "auto",
+          "borderRadius": 5,
+          "fixed": "false",
+          "vertical": "middle",
+          "horizontal": "center",
+          "key": "2784dd3fcb1e4f0f9a9b579bf69641f2"
+        }
+      }
+    </script>
+    <script defer src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script> 
+    
+</header>
+        <!-- 内容区域 -->
+        
+<!-- prismjs 代码高亮 -->
+
+
+
+
+<div class="bg-dark-floor" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -1;"></div>
+
+
+  <!-- 文章详情页顶部图片和标题 -->
+
+
+
+
+<div class="post-detail-header" id="thumbnail_canvas" style="background-repeat: no-repeat; background-size: cover; 
+  background-position: center center;position: relative;background-image:url('https://pic4.zhimg.com/80/v2-e434e3a2888fb4efb1844845b8791d1f_1440w.webp')">
+  <div class="post-detail-header-mask"></div>
+  <canvas id="header_canvas"style="position:absolute;bottom:0;pointer-events:none;"></canvas>
+  
+  <div class="post-detail-header_info-box">
+    <div class="title-box">
+      <span class="title">
+        PS游戏资源
+      </span>
+    </div>
+    
+    
+      
+        <span class="post-detail-header_date">
+          <i class="fas fa-calendar"></i> 发表于：2026-01-27 |
+        </span>
+      
+
+      
+        <span class="post-detail-header_categories">
+          <i class="iconfont iconbookmark1"></i> 分类：
+          
+            <a href="/categories/PS/" class="post-detail-header_category">
+              PS
+            </a>
+          
+        </span>
+      
+
+      
+    
+  </div>
+  
+  
+    <script defer src="/js/bubble/bubble.js"></script>
+  
+</div>
+
+
+
+
+
+<div class="post-detail-content post-row" 
+  style="padding-top: 0px;">
+  <div class="main-content">
+    <article class="post post-detail">
+      <div class="post-content">
+        <p>为了照顾不看网站公告的，默认解压密码：2234。</p>
+<table>
+<thead>
+<tr>
+<th align="center">资源中文名称</th>
+<th align="center">度盘下载地址</th>
+<th align="center">迅雷下载地址</th>
+<th align="center">夸克下载地址</th>
+<th align="center">资源英文名称</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Forget me not 勿忘我-调色板-[简][V1.0]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1mwdaSiw7rm5ostEgJ9DIlw?pwd=2234">https://pan.baidu.com/s/1mwdaSiw7rm5ostEgJ9DIlw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwOfwGVssn7fnYe-IxaBBUA1?pwd=k9ne#">https://pan.xunlei.com/s/VOEwOfwGVssn7fnYe-IxaBBUA1?pwd=k9ne#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">RPG工具4[简][V1.0]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1wq6Gx9VpHHjn7OWwppkBWQ?pwd=2234">https://pan.baidu.com/s/1wq6Gx9VpHHjn7OWwppkBWQ?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwOjMWEaeEXQ3x1M6dHp4mA1?pwd=ft8g#">https://pan.xunlei.com/s/VOEwOjMWEaeEXQ3x1M6dHp4mA1?pwd=ft8g#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">SD高达G世纪[简][091016]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1CqaKU6dgq9BZ0CL9qpodWQ?pwd=2234">https://pan.baidu.com/s/1CqaKU6dgq9BZ0CL9qpodWQ?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwOn1WUQFK13j4cSETaL5kA1?pwd=uguz#">https://pan.xunlei.com/s/VOEwOn1WUQFK13j4cSETaL5kA1?pwd=uguz#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">SRPG制作工具[简][V1.0]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1-RWiT7mBLYp2LPwJ6wHu8A?pwd=2234">https://pan.baidu.com/s/1-RWiT7mBLYp2LPwJ6wHu8A?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwOqgRpJIyJUCG8bQJnM73A1?pwd=s6g7#">https://pan.xunlei.com/s/VOEwOqgRpJIyJUCG8bQJnM73A1?pwd=s6g7#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">三国志5 威力加强版[简][v1.0][寂寞的冬]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1t-pNdoZ-HfNkisd4VUDK4g?pwd=2234">https://pan.baidu.com/s/1t-pNdoZ-HfNkisd4VUDK4g?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwOu_lvM7xGk9g8Ew7fLyqA1?pwd=tjie#">https://pan.xunlei.com/s/VOEwOu_lvM7xGk9g8Ew7fLyqA1?pwd=tjie#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">三国志4[繁][官方]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1rdJDePjYsU5AN9OhmiDNuA?pwd=2234">https://pan.baidu.com/s/1rdJDePjYsU5AN9OhmiDNuA?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwOy44qC1cwu_dDnWRQG-DA1?pwd=idse#">https://pan.xunlei.com/s/VOEwOy44qC1cwu_dDnWRQG-DA1?pwd=idse#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">三国志5PK[简][未知]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1kOkxTUxPVcR9PmbX857WOQ?pwd=2234">https://pan.baidu.com/s/1kOkxTUxPVcR9PmbX857WOQ?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwP0aiAfUV9o-JOAqtcHNEA1?pwd=yazk#">https://pan.xunlei.com/s/VOEwP0aiAfUV9o-JOAqtcHNEA1?pwd=yazk#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">三国志5[繁][官方]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/11U0_2tr3lS3wnBUsVwVvIw?pwd=2234">https://pan.baidu.com/s/11U0_2tr3lS3wnBUsVwVvIw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwP44DGhd26oIx5kB8zd8eA1?pwd=vs8d#">https://pan.xunlei.com/s/VOEwP44DGhd26oIx5kB8zd8eA1?pwd=vs8d#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">三国志7[简][V1.0]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1ebWaPaCt3Bqbh4XgQnLB0A?pwd=2234">https://pan.baidu.com/s/1ebWaPaCt3Bqbh4XgQnLB0A?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwP7bMTlJJTi9gsydyj6PlA1?pwd=xgtd#">https://pan.xunlei.com/s/VOEwP7bMTlJJTi9gsydyj6PlA1?pwd=xgtd#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">三国志孔明传[简][Final]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1KiSW7e3__4JeLJJbaVVo9g?pwd=2234">https://pan.baidu.com/s/1KiSW7e3__4JeLJJbaVVo9g?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwPBDJ68g4RuN5ipC3hWtXA1?pwd=qju4#">https://pan.xunlei.com/s/VOEwPBDJ68g4RuN5ipC3hWtXA1?pwd=qju4#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">三国无双[简][v1.0][gorosega]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1cCcAxMHoNI-Y6WAQA7T-Vw?pwd=2234">https://pan.baidu.com/s/1cCcAxMHoNI-Y6WAQA7T-Vw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwPF1dnUwW1BYGJY0l8CPMA1?pwd=5kv2#">https://pan.xunlei.com/s/VOEwPF1dnUwW1BYGJY0l8CPMA1?pwd=5kv2#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">人鱼的烙印[简][汉化测试版v20220614][WGF]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1v0vohxr8DfxOaSjnemhG1Q?pwd=2234">https://pan.baidu.com/s/1v0vohxr8DfxOaSjnemhG1Q?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwPJ0JCJmpsNJPVcjvQrlQA1?pwd=khmq#">https://pan.xunlei.com/s/VOEwPJ0JCJmpsNJPVcjvQrlQA1?pwd=khmq#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">劲爆热鼠[繁][v1.0][戏谷资讯]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1qLgnaev073gI9mq_aHyfaQ?pwd=2234">https://pan.baidu.com/s/1qLgnaev073gI9mq_aHyfaQ?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwPMj2BFC3dRTall1topcBA1?pwd=anji#">https://pan.xunlei.com/s/VOEwPMj2BFC3dRTall1topcBA1?pwd=anji#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">勇者斗恶龙怪兽篇1+2[简][V1.0]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/17_zyhJg-Xf--d2jTi7L2Pg?pwd=2234">https://pan.baidu.com/s/17_zyhJg-Xf--d2jTi7L2Pg?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwPQShHrf1rP1INNRw3wk3A1?pwd=kgj7#">https://pan.xunlei.com/s/VOEwPQShHrf1rP1INNRw3wk3A1?pwd=kgj7#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">北斗神拳 世纪末救世主传说[简][爱玩帝]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1WPIPCJm0xWigCXyclLE6zg?pwd=2234">https://pan.baidu.com/s/1WPIPCJm0xWigCXyclLE6zg?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwPUCRBFC3dRTall1toraQA1?pwd=6fwx#">https://pan.xunlei.com/s/VOEwPUCRBFC3dRTall1toraQA1?pwd=6fwx#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">北欧女神[简][V1.04]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1JQAHDdY7f7kV-wgnKBqkHw?pwd=2234">https://pan.baidu.com/s/1JQAHDdY7f7kV-wgnKBqkHw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwPXlOQRj3t1hjTTF6STVtA1?pwd=pten#">https://pan.xunlei.com/s/VOEwPXlOQRj3t1hjTTF6STVtA1?pwd=pten#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">午夜列车[简][V1.0]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1-x3Mluwcy-4GfwJ0L2rOJg?pwd=2234">https://pan.baidu.com/s/1-x3Mluwcy-4GfwJ0L2rOJg?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwPaJAe2jBjrwGLHaw7MFUA1?pwd=pgc7#">https://pan.xunlei.com/s/VOEwPaJAe2jBjrwGLHaw7MFUA1?pwd=pgc7#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">卡片召唤师[简][V1.0]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1nBuT503Fe5E8SkObsPlTpQ?pwd=2234">https://pan.baidu.com/s/1nBuT503Fe5E8SkObsPlTpQ?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwPdtLcc8KeUBBCn-kCWhtA1?pwd=hbpp#">https://pan.xunlei.com/s/VOEwPdtLcc8KeUBBCn-kCWhtA1?pwd=hbpp#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">台湾麻将 风云再起[繁][v1.0][官方]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1g05arakoTYbRRs8g3LA0zw?pwd=2234">https://pan.baidu.com/s/1g05arakoTYbRRs8g3LA0zw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwPhgdo192v4YWcFraQBm2A1?pwd=vzhu#">https://pan.xunlei.com/s/VOEwPhgdo192v4YWcFraQBm2A1?pwd=vzhu#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">台湾麻将首部曲[繁][v1.0][官方]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1oB_f_sCHwCcxM0e6KtetlA?pwd=2234">https://pan.baidu.com/s/1oB_f_sCHwCcxM0e6KtetlA?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwPlTD0BLswX26HFw3yD5aA1?pwd=zh6p#">https://pan.xunlei.com/s/VOEwPlTD0BLswX26HFw3yD5aA1?pwd=zh6p#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">合金装备 索利德 完全版[简][v20220810][凤凰+killllme]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1ZAcIkK0OrOukoNK98t9PCg?pwd=2234">https://pan.baidu.com/s/1ZAcIkK0OrOukoNK98t9PCg?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwPpfN85R5e4HRGrsgztH6A1?pwd=sr56#">https://pan.xunlei.com/s/VOEwPpfN85R5e4HRGrsgztH6A1?pwd=sr56#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">大航海时代外传[ciosddr汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/10nqn80adJzA1lS39WHYjHQ?pwd=2234">https://pan.baidu.com/s/10nqn80adJzA1lS39WHYjHQ?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwPtNeKoJZaAjvPu-BVqGIA1?pwd=fmy2#">https://pan.xunlei.com/s/VOEwPtNeKoJZaAjvPu-BVqGIA1?pwd=fmy2#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">天诛忍凯旋[简][Beta]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1KXi8-09wFabLXJxLKUcnVw?pwd=2234">https://pan.baidu.com/s/1KXi8-09wFabLXJxLKUcnVw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwPww_o192v4YWcFraQH8rA1?pwd=whpu#">https://pan.xunlei.com/s/VOEwPww_o192v4YWcFraQH8rA1?pwd=whpu#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">太阳的表决[简][V1.0]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1r0xhALy-gPeE5ggXRzIWlg?pwd=2234">https://pan.baidu.com/s/1r0xhALy-gPeE5ggXRzIWlg?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwQ-UrITbjfgHuqMEcC1KBA1?pwd=rcyk#">https://pan.xunlei.com/s/VOEwQ-UrITbjfgHuqMEcC1KBA1?pwd=rcyk#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">寂静岭[简][V1.0]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/17jvJslekpTD--CUHGKAzEg?pwd=2234">https://pan.baidu.com/s/17jvJslekpTD--CUHGKAzEg?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwQ30BnUwW1BYGJY0l8VsjA1?pwd=f9n8#">https://pan.xunlei.com/s/VOEwQ30BnUwW1BYGJY0l8VsjA1?pwd=f9n8#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">寄生前夜2[简][第三版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1abSpXPiZBQJC-axJ7uVqlw?pwd=2234">https://pan.baidu.com/s/1abSpXPiZBQJC-axJ7uVqlw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwQ6XxTlJJTi9gsydyjVqLA1?pwd=2pda#">https://pan.xunlei.com/s/VOEwQ6XxTlJJTi9gsydyjVqLA1?pwd=2pda#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">寄生前夜[简][汉化修正版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1R5TSg7NcFurDRrxIArAciA?pwd=2234">https://pan.baidu.com/s/1R5TSg7NcFurDRrxIArAciA?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwQA5rTRq8dskPMnBxGd-vA1?pwd=g7p6#">https://pan.xunlei.com/s/VOEwQA5rTRq8dskPMnBxGd-vA1?pwd=g7p6#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">封神演义爱藏版[简][V1.1]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1RGqOoH_kRabj-gRL4Iu9PQ?pwd=2234">https://pan.baidu.com/s/1RGqOoH_kRabj-gRL4Iu9PQ?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwQDj3vM7xGk9g8Ew7fq5aA1?pwd=bfcn#">https://pan.xunlei.com/s/VOEwQDj3vM7xGk9g8Ew7fq5aA1?pwd=bfcn#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">射雕英雄传[简][繁][官方]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1_bMKgx_yYChIY1nKLLfXcA?pwd=2234">https://pan.baidu.com/s/1_bMKgx_yYChIY1nKLLfXcA?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwQHJAnUwW1BYGJY0l8aYhA1?pwd=yn7f#">https://pan.xunlei.com/s/VOEwQHJAnUwW1BYGJY0l8aYhA1?pwd=yn7f#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">少年佣兵团[简][v2.03][WGF]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1gKqARh7O-KfIIgD7Eg95_A?pwd=2234">https://pan.baidu.com/s/1gKqARh7O-KfIIgD7Eg95_A?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwQL2S85R5e4HRGrsh-6F9A1?pwd=j4pc#">https://pan.xunlei.com/s/VOEwQL2S85R5e4HRGrsh-6F9A1?pwd=j4pc#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">TRS 泪指传说 尤特娜英雄战记[フェニックス团队汉化版+GGWY-204汉化修正版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1WzE_QnVOdvrBL18LpSHJqw?pwd=2234">https://pan.baidu.com/s/1WzE_QnVOdvrBL18LpSHJqw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwQP33UQFK13j4cSETaxJaA1?pwd=f5r5#">https://pan.xunlei.com/s/VOEwQP33UQFK13j4cSETaxJaA1?pwd=f5r5#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">幻想大陆战记[简][V1.0]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1O3BGcEFDA19Qq45m-AG09g?pwd=2234">https://pan.baidu.com/s/1O3BGcEFDA19Qq45m-AG09g?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwQSdkbH59gFYZ72dJyq7-A1?pwd=tcyd#">https://pan.xunlei.com/s/VOEwQSdkbH59gFYZ72dJyq7-A1?pwd=tcyd#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">幻想大陆战记初代[简][V1.0]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/12YzWk3QZj4K1_Cz7t1isKQ?pwd=2234">https://pan.baidu.com/s/12YzWk3QZj4K1_Cz7t1isKQ?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwQWHpAfUV9o-JOAqtcw9FA1?pwd=qd9k#">https://pan.xunlei.com/s/VOEwQWHpAfUV9o-JOAqtcw9FA1?pwd=qd9k#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">异度装甲[简][v1.22][Agemo]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1GzNjOZakS9Br_9OWPC-8pQ?pwd=2234">https://pan.baidu.com/s/1GzNjOZakS9Br_9OWPC-8pQ?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwQ_2ycc8KeUBBCn-kCrFVA1?pwd=5ffb#">https://pan.xunlei.com/s/VOEwQ_2ycc8KeUBBCn-kCrFVA1?pwd=5ffb#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">弟切草 苏生篇[简][意志之路+扑家汉化组]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1fVDTpuwcowM6La3mWa_64A?pwd=2234">https://pan.baidu.com/s/1fVDTpuwcowM6La3mWa_64A?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwQcpLGhd26oIx5kB9-DflA1?pwd=2u7i#">https://pan.xunlei.com/s/VOEwQcpLGhd26oIx5kB9-DflA1?pwd=2u7i#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">恐龙危机2日版非中文</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1B3oQ0n_zrWR3wUeoZzAokQ?pwd=2234">https://pan.baidu.com/s/1B3oQ0n_zrWR3wUeoZzAokQ?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwQgGQUQFK13j4cSETb5MjA1?pwd=dw5i#">https://pan.xunlei.com/s/VOEwQgGQUQFK13j4cSETb5MjA1?pwd=dw5i#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">恶魔召唤师 灵魂黑客[简][v1.0fix][monkeyking]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1zA7T3PfkXhQCQdp3nmx2FA?pwd=2234">https://pan.baidu.com/s/1zA7T3PfkXhQCQdp3nmx2FA?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwQkMOCJmpsNJPVcjvRP-6A1?pwd=wy7t#">https://pan.xunlei.com/s/VOEwQkMOCJmpsNJPVcjvRP-6A1?pwd=wy7t#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">恶魔城X - 月下夜想曲[简][V2.0Fix]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1xeUqHrxLn5KiW4AVwZQWsg?pwd=2234">https://pan.baidu.com/s/1xeUqHrxLn5KiW4AVwZQWsg?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwQoEU68g4RuN5ipC3iBgTA1?pwd=m9hk#">https://pan.xunlei.com/s/VOEwQoEU68g4RuN5ipC3iBgTA1?pwd=m9hk#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">我是东巴2[简][v1.1]<a href="%E4%BB%85%E9%99%90%E6%A8%A1%E6%8B%9F%E5%99%A8%E8%BF%90%E8%A1%8C">劲草</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1nGFa2RVn4rHsyiG5S4tGeg?pwd=2234">https://pan.baidu.com/s/1nGFa2RVn4rHsyiG5S4tGeg?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwQs6PfVvdC6NaRecvyN5kA1?pwd=qic6#">https://pan.xunlei.com/s/VOEwQs6PfVvdC6NaRecvyN5kA1?pwd=qic6#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">拳皇京[简][BETA]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1QX6dNFFp4k_i46nPxaD1GA?pwd=2234">https://pan.baidu.com/s/1QX6dNFFp4k_i46nPxaD1GA?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwQvc1e2jBjrwGLHaw7sLoA1?pwd=6ubd#">https://pan.xunlei.com/s/VOEwQvc1e2jBjrwGLHaw7sLoA1?pwd=6ubd#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">放浪冒险谭[简][v1.22][小混蛋]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1K5vWkH4i7qanhbwF4WQbNA?pwd=2234">https://pan.baidu.com/s/1K5vWkH4i7qanhbwF4WQbNA?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwQzLhTlJJTi9gsydyjtqFA1?pwd=6x7e#">https://pan.xunlei.com/s/VOEwQzLhTlJJTi9gsydyjtqFA1?pwd=6x7e#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">星之刃[简][V1.0]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1IMwoa7-63gyxXYuotZ_7xA?pwd=2234">https://pan.baidu.com/s/1IMwoa7-63gyxXYuotZ_7xA?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwR1rbu-xfzBh0gLsk2vV8A1?pwd=udnb#">https://pan.xunlei.com/s/VOEwR1rbu-xfzBh0gLsk2vV8A1?pwd=udnb#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">最终幻想2[简][繁][V1.0]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1-0ffktQC6rM06HxGUPI6Uw?pwd=2234">https://pan.baidu.com/s/1-0ffktQC6rM06HxGUPI6Uw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwR5VtTRq8dskPMnBxH1bZA1?pwd=wsny#">https://pan.xunlei.com/s/VOEwR5VtTRq8dskPMnBxH1bZA1?pwd=wsny#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">最终幻想7[简][V1.0]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1iWrHq3xq3_jVE5jrlxf98Q?pwd=2234">https://pan.baidu.com/s/1iWrHq3xq3_jVE5jrlxf98Q?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwR93gXHXeCqnXMQgPZefLA1?pwd=w73p#">https://pan.xunlei.com/s/VOEwR93gXHXeCqnXMQgPZefLA1?pwd=w73p#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">最终幻想8[简]<a href="%E5%8E%BB%E9%99%A4RHP%EF%BC%8C%E4%B8%8D%E6%AD%BB%E6%9C%BA%EF%BC%8C%E4%B8%8D%E4%B9%B1%E7%A0%81">v1.0修正第三版</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/14e468N1xe0ulYDi9tHeszA?pwd=2234">https://pan.baidu.com/s/14e468N1xe0ulYDi9tHeszA?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwRD98C45_TVkdIJmoKzk2A1?pwd=rwrb#">https://pan.xunlei.com/s/VOEwRD98C45_TVkdIJmoKzk2A1?pwd=rwrb#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">最终幻想9[简][V2.0]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1-chEOluEzzRezAxlZgLa1w?pwd=2234">https://pan.baidu.com/s/1-chEOluEzzRezAxlZgLa1w?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwRGj1-rw_SUvj0zJw1MGTA1?pwd=w5qn#">https://pan.xunlei.com/s/VOEwRGj1-rw_SUvj0zJw1MGTA1?pwd=w5qn#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">最终幻想战略版[简][070806]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1clfryHHaCTc_ENW6cQcJaA?pwd=2234">https://pan.baidu.com/s/1clfryHHaCTc_ENW6cQcJaA?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwRKP00BLswX26HFw3yn4EA1?pwd=kaew#">https://pan.xunlei.com/s/VOEwRKP00BLswX26HFw3yn4EA1?pwd=kaew#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">本格派四人麻将俱乐部[简][V1.0][施珂昱]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1Mhbvn8jd7X79DEDkPpfkmg?pwd=2234">https://pan.baidu.com/s/1Mhbvn8jd7X79DEDkPpfkmg?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwRODje2jBjrwGLHaw8A1zA1?pwd=xbwf#">https://pan.xunlei.com/s/VOEwRODje2jBjrwGLHaw8A1zA1?pwd=xbwf#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">名侦探柯南 三人的名推理[简][V0.99]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1je9JXUXxY5Wl-YhFcr8lCw?pwd=2234">https://pan.baidu.com/s/1je9JXUXxY5Wl-YhFcr8lCw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwRS0WBFC3dRTall1tpgEwA1?pwd=x8rz#">https://pan.xunlei.com/s/VOEwRS0WBFC3dRTall1tpgEwA1?pwd=x8rz#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">格兰蒂亚[简][V1.1]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/11Kqy9TlBIAAAdTwbSv9pmA?pwd=2234">https://pan.baidu.com/s/11Kqy9TlBIAAAdTwbSv9pmA?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwRVYSpJIyJUCG8bQJoNcqA1?pwd=ft59#">https://pan.xunlei.com/s/VOEwRVYSpJIyJUCG8bQJoNcqA1?pwd=ft59#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">梦幻模拟战1&amp;2 加强版[简][V4.2][痕]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1aVV44QpAU-YFUVP9UJxdPQ?pwd=2234">https://pan.baidu.com/s/1aVV44QpAU-YFUVP9UJxdPQ?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwRZO0i1kpH-NqtoxchT1lA1?pwd=uk5n#">https://pan.xunlei.com/s/VOEwRZO0i1kpH-NqtoxchT1lA1?pwd=uk5n#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">梦幻模拟战4[Doi_Doi系统文本润色V1.5汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/13__Wc1ZolJEySj_gGiP3Yg?pwd=2234">https://pan.baidu.com/s/13__Wc1ZolJEySj_gGiP3Yg?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwRc1PKoJZaAjvPu-BWZleA1?pwd=in3b#">https://pan.xunlei.com/s/VOEwRc1PKoJZaAjvPu-BWZleA1?pwd=in3b#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">梦幻模拟战5[简][v1.1][WGF]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/196km8Ss1IHOu2wK-rdqZBQ?pwd=2234">https://pan.baidu.com/s/196km8Ss1IHOu2wK-rdqZBQ?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwRflBnUwW1BYGJY0l9A-7A1?pwd=5nuk#">https://pan.xunlei.com/s/VOEwRflBnUwW1BYGJY0l9A-7A1?pwd=5nuk#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">梦幻骑士[简][V1.2]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1RXAum-Saol9mTT2M7yUBLg?pwd=2234">https://pan.baidu.com/s/1RXAum-Saol9mTT2M7yUBLg?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwRjIlBNnqJBRviDENt5RgA1?pwd=vm5e#">https://pan.xunlei.com/s/VOEwRjIlBNnqJBRviDENt5RgA1?pwd=vm5e#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">武士枪手(回升之斩)[繁]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1Z5ZGsIkROsDDeBjL85nmug?pwd=2234">https://pan.baidu.com/s/1Z5ZGsIkROsDDeBjL85nmug?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwRmqLC45_TVkdIJmoLBsrA1?pwd=wf4p#">https://pan.xunlei.com/s/VOEwRmqLC45_TVkdIJmoLBsrA1?pwd=wf4p#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">武藏传[简][劲草]<a href="%E4%BB%85%E9%99%90%E6%A8%A1%E6%8B%9F%E5%99%A8%E8%BF%90%E8%A1%8C">v1.1</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1iHlC9dStWUfKEckpq5LzRA?pwd=2234">https://pan.baidu.com/s/1iHlC9dStWUfKEckpq5LzRA?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwRqjVbH59gFYZ72dJzKvMA1?pwd=cb86#">https://pan.xunlei.com/s/VOEwRqjVbH59gFYZ72dJzKvMA1?pwd=cb86#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">水浒演武[官方]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1XuIGeLnS9fbEhm5LmRCmDw?pwd=2234">https://pan.baidu.com/s/1XuIGeLnS9fbEhm5LmRCmDw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwRu6dUQFK13j4cSETbig2A1?pwd=9iru#">https://pan.xunlei.com/s/VOEwRu6dUQFK13j4cSETbig2A1?pwd=9iru#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">永恒传说[简][V0.8]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/15nKMPx5SggRVxwFK_iz07w?pwd=2234">https://pan.baidu.com/s/15nKMPx5SggRVxwFK_iz07w?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwRxfMPrGEaW02vagkRU_2A1?pwd=h26r#">https://pan.xunlei.com/s/VOEwRxfMPrGEaW02vagkRU_2A1?pwd=h26r#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">沉默爆破手[简][V1.0]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1N27pD2HIKbcaFVeYLHNQSg?pwd=2234">https://pan.baidu.com/s/1N27pD2HIKbcaFVeYLHNQSg?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwS0E6X9bRKRu0cJV7oon6A1?pwd=tkx8#">https://pan.xunlei.com/s/VOEwS0E6X9bRKRu0cJV7oon6A1?pwd=tkx8#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">沙加开拓者[简][V1.0]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1wmpv-fBmdc_lUOGjkTJVDw?pwd=2234">https://pan.baidu.com/s/1wmpv-fBmdc_lUOGjkTJVDw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwS3m-e2jBjrwGLHaw8RgNA1?pwd=2rns#">https://pan.xunlei.com/s/VOEwS3m-e2jBjrwGLHaw8RgNA1?pwd=2rns#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">沙加开拓者2[简][V1.1]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1nM8itJJetI9XOPF5NYx3Hg?pwd=2234">https://pan.baidu.com/s/1nM8itJJetI9XOPF5NYx3Hg?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwS7NeBNnqJBRviDENtEfuA1?pwd=xd4e#">https://pan.xunlei.com/s/VOEwS7NeBNnqJBRviDENtEfuA1?pwd=xd4e#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">洛克人8钢铁英雄们[简][部分汉化][GOROSEGA]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1qf8gzhz-tU4RU3bWGu2JJA?pwd=2234">https://pan.baidu.com/s/1qf8gzhz-tU4RU3bWGu2JJA?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwSBJjfcsgGS5enOWAjyyOA1?pwd=fzrd#">https://pan.xunlei.com/s/VOEwSBJjfcsgGS5enOWAjyyOA1?pwd=fzrd#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">牧场物语 中秋满月[简][v1.0][劲草]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1bJWu_oUASMneXBG9HssIeg?pwd=2234">https://pan.baidu.com/s/1bJWu_oUASMneXBG9HssIeg?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwSF4KfcsgGS5enOWAk-G8A1?pwd=84ap#">https://pan.xunlei.com/s/VOEwSF4KfcsgGS5enOWAk-G8A1?pwd=84ap#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">猫犬协奏曲[简][完整汉化版][神州国光社]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1IkiyZ-wJabTWrxjI2JVNbQ?pwd=2234">https://pan.baidu.com/s/1IkiyZ-wJabTWrxjI2JVNbQ?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwSIs5nUwW1BYGJY0l9OboA1?pwd=2sjm#">https://pan.xunlei.com/s/VOEwSIs5nUwW1BYGJY0l9OboA1?pwd=2sjm#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">圣剑传说玛娜传奇[koro团队汉化][V0.8]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1TV_zMDryVI5zhwwEiL4Hww?pwd=2234">https://pan.baidu.com/s/1TV_zMDryVI5zhwwEiL4Hww?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwSMgpC45_TVkdIJmoLPWvA1?pwd=ta89#">https://pan.xunlei.com/s/VOEwSMgpC45_TVkdIJmoLPWvA1?pwd=ta89#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">玩具之梦[简][v1.0][劲草]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1tRzxu6rZTIWk0O6lg6SUXQ?pwd=2234">https://pan.baidu.com/s/1tRzxu6rZTIWk0O6lg6SUXQ?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwSQOgqC1cwu_dDnWRRdQ3A1?pwd=7s28#">https://pan.xunlei.com/s/VOEwSQOgqC1cwu_dDnWRRdQ3A1?pwd=7s28#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">生化危机2 震动版[简][V3.0fix]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1NBAH31ifBHeCsoL5YarJtQ?pwd=2234">https://pan.baidu.com/s/1NBAH31ifBHeCsoL5YarJtQ?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwSU5FAfUV9o-JOAqtdizjA1?pwd=kjke#">https://pan.xunlei.com/s/VOEwSU5FAfUV9o-JOAqtdizjA1?pwd=kjke#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">生化危机3[简][20111118]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1ipVURYIpzh0g9t-cwr9CQQ?pwd=2234">https://pan.baidu.com/s/1ipVURYIpzh0g9t-cwr9CQQ?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwSXmCXHXeCqnXMQgP_A1_A1?pwd=pqcq#">https://pan.xunlei.com/s/VOEwSXmCXHXeCqnXMQgP_A1_A1?pwd=pqcq#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">疯狂大屋2 基顿和他的叔叔[繁][v1.0][官方]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1WiKcXhqgnjCaTeXHAf00tA?pwd=2234">https://pan.baidu.com/s/1WiKcXhqgnjCaTeXHAf00tA?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwSaeMfVvdC6NaRecvyzODA1?pwd=iqkj#">https://pan.xunlei.com/s/VOEwSaeMfVvdC6NaRecvyzODA1?pwd=iqkj#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">百事超人[简][最终汉化版v20220823][Advance汉化组+冬寂]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1QcDiKC0bnEoEeiNHu-gLbg?pwd=2234">https://pan.baidu.com/s/1QcDiKC0bnEoEeiNHu-gLbg?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwSerQBNnqJBRviDENtSebA1?pwd=wqx7#">https://pan.xunlei.com/s/VOEwSerQBNnqJBRviDENtSebA1?pwd=wqx7#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">皇牌空战2[简][V1.0]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1KViioVOsI1FfpFaVePeBOw?pwd=2234">https://pan.baidu.com/s/1KViioVOsI1FfpFaVePeBOw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwSiQGHcqQ9RekW6eRxTZnA1?pwd=6ena#">https://pan.xunlei.com/s/VOEwSiQGHcqQ9RekW6eRxTZnA1?pwd=6ena#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">真说侍魂 武士道列传[简][机翻体验版][作者未知]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1gTq3oKqPNSpQR9IJApD0Aw?pwd=2234">https://pan.baidu.com/s/1gTq3oKqPNSpQR9IJApD0Aw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwSmIxXHXeCqnXMQgP_G41A1?pwd=eaj5#">https://pan.xunlei.com/s/VOEwSmIxXHXeCqnXMQgP_G41A1?pwd=eaj5#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">真魔装机神[简][剧情汉化版][WGF]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1uIB-f723WBfQ0lWBkuWphw?pwd=2234">https://pan.baidu.com/s/1uIB-f723WBfQ0lWBkuWphw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwSq10Hrf1rP1INNRw5KOxA1?pwd=aga5#">https://pan.xunlei.com/s/VOEwSq10Hrf1rP1INNRw5KOxA1?pwd=aga5#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">秦始皇[繁][v1.0][官方]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1ccB81Cfu9hCRe3W20M3omw?pwd=2234">https://pan.baidu.com/s/1ccB81Cfu9hCRe3W20M3omw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwStfbEaeEXQ3x1M6dJcAKA1?pwd=8hma#">https://pan.xunlei.com/s/VOEwStfbEaeEXQ3x1M6dJcAKA1?pwd=8hma#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">超时空之轮2[简][V1.0]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1xCV4jBy3LtbNXAVXTkPXSQ?pwd=2234">https://pan.baidu.com/s/1xCV4jBy3LtbNXAVXTkPXSQ?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwSxFCbH59gFYZ72dJzjpEA1?pwd=8sif#">https://pan.xunlei.com/s/VOEwSxFCbH59gFYZ72dJzjpEA1?pwd=8sif#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">笑笑江湖大富翁[繁][官方]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1wIXxIz560GVVmOyV2qP4Ig?pwd=2234">https://pan.baidu.com/s/1wIXxIz560GVVmOyV2qP4Ig?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwT-oTXHXeCqnXMQgP_LShA1?pwd=ajjp#">https://pan.xunlei.com/s/VOEwT-oTXHXeCqnXMQgP_LShA1?pwd=ajjp#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">第2次超级机器人大战[简][BetaV3]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/10kzKBvbLtywV2UsmkkYgyw?pwd=2234">https://pan.baidu.com/s/10kzKBvbLtywV2UsmkkYgyw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwT3ZkQRj3t1hjTTF6Tk_5A1?pwd=qdpi#">https://pan.xunlei.com/s/VOEwT3ZkQRj3t1hjTTF6Tk_5A1?pwd=qdpi#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">织田信长传[繁][V1.02]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1g0LHhcSJMBo5Qs0v_nmW9g?pwd=2234">https://pan.baidu.com/s/1g0LHhcSJMBo5Qs0v_nmW9g?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwT7Bj9Qh-rNLhXbd2NBhvA1?pwd=q9yz#">https://pan.xunlei.com/s/VOEwT7Bj9Qh-rNLhXbd2NBhvA1?pwd=q9yz#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">胜利十一人 实况足球甲A联赛[简][v1.0]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/11ZUwR0JVgtyl1cUgTf2rDg?pwd=2234">https://pan.baidu.com/s/11ZUwR0JVgtyl1cUgTf2rDg?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwTB-HEaeEXQ3x1M6dJl6wA1?pwd=t4kp#">https://pan.xunlei.com/s/VOEwTB-HEaeEXQ3x1M6dJl6wA1?pwd=t4kp#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">胜利十一人2000[繁][V1.0]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1GPfzzuVwP2L6JasdOItzig?pwd=2234">https://pan.baidu.com/s/1GPfzzuVwP2L6JasdOItzig?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwTEftu-xfzBh0gLsk3juLA1?pwd=4sqe#">https://pan.xunlei.com/s/VOEwTEftu-xfzBh0gLsk3juLA1?pwd=4sqe#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">胜利十一人2002[简][V1.0]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1nKDpQnXBS9vh_f6KhTKOhQ?pwd=2234">https://pan.baidu.com/s/1nKDpQnXBS9vh_f6KhTKOhQ?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwTIMpC45_TVkdIJmoLkpjA1?pwd=d5gj#">https://pan.xunlei.com/s/VOEwTIMpC45_TVkdIJmoLkpjA1?pwd=d5gj#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">街 命运的交叉点[5.3修复版][shikeyu团队汉化]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1Ru1X8AWa8i3FvazrgL75Uw?pwd=2234">https://pan.baidu.com/s/1Ru1X8AWa8i3FvazrgL75Uw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwTMKvC45_TVkdIJmoLmNTA1?pwd=mbbd#">https://pan.xunlei.com/s/VOEwTMKvC45_TVkdIJmoLmNTA1?pwd=mbbd#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">西游记[简][V1.1]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1cKLafRCwJmdK5bO8Fo3ZPg?pwd=2234">https://pan.baidu.com/s/1cKLafRCwJmdK5bO8Fo3ZPg?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwTPqLHcqQ9RekW6eRxiv4A1?pwd=xcrs#">https://pan.xunlei.com/s/VOEwTPqLHcqQ9RekW6eRxiv4A1?pwd=xcrs#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">超级机器人大战F[简][v1.0Fix][WGF]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1-hAeJ4HDXRccu1gHdJk9RA?pwd=2234">https://pan.baidu.com/s/1-hAeJ4HDXRccu1gHdJk9RA?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwTThbC45_TVkdIJmoLoRIA1?pwd=iwbu#">https://pan.xunlei.com/s/VOEwTThbC45_TVkdIJmoLoRIA1?pwd=iwbu#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">超级机器人大战F完结篇[简]<a href="%E6%B1%89%E5%8C%96%E8%87%B3%E7%BA%A660%E8%AF%9D">汉化测试版</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1rOD9zSi0Z0b-kacxG8bdZA?pwd=2234">https://pan.baidu.com/s/1rOD9zSi0Z0b-kacxG8bdZA?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwTXi7o192v4YWcFraRbjkA1?pwd=r5vr#">https://pan.xunlei.com/s/VOEwTXi7o192v4YWcFraRbjkA1?pwd=r5vr#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">超级机器人大战α[简][130629]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1ZEjfRlzrXmJcJTV7huoFeg?pwd=2234">https://pan.baidu.com/s/1ZEjfRlzrXmJcJTV7huoFeg?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwTaPafVvdC6NaRecvzLLeA1?pwd=3qqc#">https://pan.xunlei.com/s/VOEwTaPafVvdC6NaRecvzLLeA1?pwd=3qqc#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">超级机器人大战α外传[简][SLPS-03147-V1.1][V1.0][WDF]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/14v2iGcllNV8D0L7ZPcOvrw?pwd=2234">https://pan.baidu.com/s/14v2iGcllNV8D0L7ZPcOvrw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwTegc-rw_SUvj0zJw2H5CA1?pwd=vauj#">https://pan.xunlei.com/s/VOEwTegc-rw_SUvj0zJw2H5CA1?pwd=vauj#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">超级机器人大战α外传[简][SLPS-03577-V1.2][V1.0][WDF]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1N0Am33Ok5eoNo2zJPTZX-A?pwd=2234">https://pan.baidu.com/s/1N0Am33Ok5eoNo2zJPTZX-A?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwTiySPrGEaW02vagkS9sIA1?pwd=q98k#">https://pan.xunlei.com/s/VOEwTiySPrGEaW02vagkS9sIA1?pwd=q98k#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">超魔神英雄传 另一界层[简体汉化1.01]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1wJP7rnp_GH1uU1G54ONbJQ?pwd=2234">https://pan.baidu.com/s/1wJP7rnp_GH1uU1G54ONbJQ?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwTmjAbH59gFYZ72dK-2hyA1?pwd=gnr9#">https://pan.xunlei.com/s/VOEwTmjAbH59gFYZ72dK-2hyA1?pwd=gnr9#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center">Chou Majin Eiyuuden Wataru : Another Step</td>
+</tr>
+<tr>
+<td align="center">钟楼 幽灵之首[简][v1.0][扑家汉化组]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1XuHRTJouJqA9iQVMgEkH7A?pwd=2234">https://pan.baidu.com/s/1XuHRTJouJqA9iQVMgEkH7A?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwTqXb0xR-jsoYLDf9C9wgA1?pwd=dhew#">https://pan.xunlei.com/s/VOEwTqXb0xR-jsoYLDf9C9wgA1?pwd=dhew#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">钟楼2[简][V2][killllme]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1NeKV5PV-imeOMMw-BcHylg?pwd=2234">https://pan.baidu.com/s/1NeKV5PV-imeOMMw-BcHylg?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwTuG1Vssn7fnYe-IxcQA2A1?pwd=m86n#">https://pan.xunlei.com/s/VOEwTuG1Vssn7fnYe-IxcQA2A1?pwd=m86n#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">钟楼首度恐惧[简][V1.0]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1z4BRJxIiXwP2ASvuv4N8ZQ?pwd=2234">https://pan.baidu.com/s/1z4BRJxIiXwP2ASvuv4N8ZQ?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwTxtKl6qbnuThHbQyHgLTA1?pwd=qts6#">https://pan.xunlei.com/s/VOEwTxtKl6qbnuThHbQyHgLTA1?pwd=qts6#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">镰鼬之夜特别篇[简][V1.0]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1aE7pcWBdtWwFvnSlZKRV5A?pwd=2234">https://pan.baidu.com/s/1aE7pcWBdtWwFvnSlZKRV5A?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwU0VSVssn7fnYe-IxcSreA1?pwd=vyby#">https://pan.xunlei.com/s/VOEwU0VSVssn7fnYe-IxcSreA1?pwd=vyby#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">阿兰多拉[简][V1.1]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1Xpx9cusroYcOoRrgZcc3mg?pwd=2234">https://pan.baidu.com/s/1Xpx9cusroYcOoRrgZcc3mg?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwU41p0xR-jsoYLDf9CEC-A1?pwd=jrfn#">https://pan.xunlei.com/s/VOEwU41p0xR-jsoYLDf9CEC-A1?pwd=jrfn#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">霸王的大陆[简][V1.4]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1cCSvRCMMvDxaP5Ascx00qw?pwd=2234">https://pan.baidu.com/s/1cCSvRCMMvDxaP5Ascx00qw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwU7beX9bRKRu0cJV7p_HSA1?pwd=57xg#">https://pan.xunlei.com/s/VOEwU7beX9bRKRu0cJV7p_HSA1?pwd=57xg#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">麻将写真馆[繁][v1.0][官方]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/11LaI4hlcdFH7Kkli-weU6A?pwd=2234">https://pan.baidu.com/s/11LaI4hlcdFH7Kkli-weU6A?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwUBN2cc8KeUBBCn-kEFqwA1?pwd=u7a8#">https://pan.xunlei.com/s/VOEwUBN2cc8KeUBBCn-kEFqwA1?pwd=u7a8#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">麻将学园三合一[繁][v1.0][官方]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1txyFRixAtAubwxOnNfo1NA?pwd=2234">https://pan.baidu.com/s/1txyFRixAtAubwxOnNfo1NA?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwUF0_vM7xGk9g8Ew7hjDmA1?pwd=5d8h#">https://pan.xunlei.com/s/VOEwUF0_vM7xGk9g8Ew7hjDmA1?pwd=5d8h#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">黄昏之歌[简][汉化测试版v20220613][WGF]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1i6_NV2WY8-GpnUFQZxE-ww?pwd=2234">https://pan.baidu.com/s/1i6_NV2WY8-GpnUFQZxE-ww?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwUIxhHcqQ9RekW6eRy4zqA1?pwd=7uci#">https://pan.xunlei.com/s/VOEwUIxhHcqQ9RekW6eRy4zqA1?pwd=7uci#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">龙骑士传说[简][v1.0][龙骑士传说吧+意志之路]</td>
+<td align="center"></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwUMsUX9bRKRu0cJV7pf80A1?pwd=wxex#">https://pan.xunlei.com/s/VOEwUMsUX9bRKRu0cJV7pf80A1?pwd=wxex#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">钟楼2[汉化V2琵琶行：凤凰汉化]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1Yyod79OgoYBpOrF2LLWgVQ?pwd=2234">https://pan.baidu.com/s/1Yyod79OgoYBpOrF2LLWgVQ?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwUQXN68g4RuN5ipC3ja4LA1?pwd=8wrb#">https://pan.xunlei.com/s/VOEwUQXN68g4RuN5ipC3ja4LA1?pwd=8wrb#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">恶魔召唤师 灵魂黑客[纯净版汉化][黄金风格neo[B站]发布]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/12jmRVCg9ppn3pgrsScFUvA?pwd=2234">https://pan.baidu.com/s/12jmRVCg9ppn3pgrsScFUvA?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwUU_aVssn7fnYe-IxcchJA1?pwd=vhca#">https://pan.xunlei.com/s/VOEwUU_aVssn7fnYe-IxcchJA1?pwd=vhca#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">生化危机 枪下游魂[Advance汉化组][v2708]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/14EqhsYVPfYHAKN7brU7Ocg?pwd=2234">https://pan.baidu.com/s/14EqhsYVPfYHAKN7brU7Ocg?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwUYWWnUwW1BYGJY0lADhCA1?pwd=e55f#">https://pan.xunlei.com/s/VOEwUYWWnUwW1BYGJY0lADhCA1?pwd=e55f#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">天仙娘娘 剧场版[剧情汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1n2oGJVWtotI8sKJ5nYDuqw?pwd=2234">https://pan.baidu.com/s/1n2oGJVWtotI8sKJ5nYDuqw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwUb6NqC1cwu_dDnWRSXL4A1?pwd=eeav#">https://pan.xunlei.com/s/VOEwUb6NqC1cwu_dDnWRSXL4A1?pwd=eeav#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">鬼魂力量3 爱与邪恶[0.99汉化][彤语彤心[B站]汉化]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1Xi4jHfWZ96FloyYeLV2e1A?pwd=2234">https://pan.baidu.com/s/1Xi4jHfWZ96FloyYeLV2e1A?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwUf5QqC1cwu_dDnWRSZXXA1?pwd=fanm#">https://pan.xunlei.com/s/VOEwUf5QqC1cwu_dDnWRSZXXA1?pwd=fanm#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">天诛[GXB团队汉化]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1kzZlHmMq9_--pNQtOqKGXg?pwd=2234">https://pan.baidu.com/s/1kzZlHmMq9_--pNQtOqKGXg?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwUia3C45_TVkdIJmoMIXBA1?pwd=88dd#">https://pan.xunlei.com/s/VOEwUia3C45_TVkdIJmoMIXBA1?pwd=88dd#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">天诛2[GXB团队汉化]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1wZn4Z8WUUPGV-MXszm1Kqw?pwd=2234">https://pan.baidu.com/s/1wZn4Z8WUUPGV-MXszm1Kqw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwUm6lGhd26oIx5kB90reCA1?pwd=kxne#">https://pan.xunlei.com/s/VOEwUm6lGhd26oIx5kB90reCA1?pwd=kxne#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">犬夜叉 祭典之诗[V2汉化][killllme团队汉化]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1gAMrMJ6OAIHNVbEXn1KNKQ?pwd=2234">https://pan.baidu.com/s/1gAMrMJ6OAIHNVbEXn1KNKQ?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwUq2R68g4RuN5ipC3jlx9A1?pwd=fxjc#">https://pan.xunlei.com/s/VOEwUq2R68g4RuN5ipC3jlx9A1?pwd=fxjc#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">侠客游3[V5完全汉化版][b站killllme汉化]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/14pYdGn6nkMHpOIzk7NaMfg?pwd=2234">https://pan.baidu.com/s/14pYdGn6nkMHpOIzk7NaMfg?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwUtyhXHXeCqnXMQgPa0efA1?pwd=bz8m#">https://pan.xunlei.com/s/VOEwUtyhXHXeCqnXMQgPa0efA1?pwd=bz8m#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">国王密令[1.1.1汉化版][国王密令我们汉化组汉化]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1RFinIwHNT8SXRomJNl6icw?pwd=2234">https://pan.baidu.com/s/1RFinIwHNT8SXRomJNl6icw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwUxtUVssn7fnYe-IxcmpiA1?pwd=29nv#">https://pan.xunlei.com/s/VOEwUxtUVssn7fnYe-IxcmpiA1?pwd=29nv#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">雷布斯[GXB+人中日月汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1hKUyb3Eai8kKaQBz0Q89OA?pwd=2234">https://pan.baidu.com/s/1hKUyb3Eai8kKaQBz0Q89OA?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwWUpdTlJJTi9gsydym2nbA1?pwd=zjg3#">https://pan.xunlei.com/s/VOEwWUpdTlJJTi9gsydym2nbA1?pwd=zjg3#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">J联赛实况胜利十一人’98-‘99[XHK007汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1HrTJJQfiytqdXaBoRwKg3w?pwd=2234">https://pan.baidu.com/s/1HrTJJQfiytqdXaBoRwKg3w?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwV4WPi1kpH-NqtoxciosXA1?pwd=n7kh#">https://pan.xunlei.com/s/VOEwV4WPi1kpH-NqtoxciosXA1?pwd=n7kh#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">漂流记[黄金风格neo汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1kIDvG04wyj69uSCb8qdQhg?pwd=2234">https://pan.baidu.com/s/1kIDvG04wyj69uSCb8qdQhg?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwV87NQRj3t1hjTTF6UXq_A1?pwd=mkr4#">https://pan.xunlei.com/s/VOEwV87NQRj3t1hjTTF6UXq_A1?pwd=mkr4#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">SD高达G世纪F[热血小子2021汉化测试版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1WNNz7Y_nc3oPt5rYxBNg2w?pwd=2234">https://pan.baidu.com/s/1WNNz7Y_nc3oPt5rYxBNg2w?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwVBwXi1kpH-NqtoxcirD9A1?pwd=g4sv#">https://pan.xunlei.com/s/VOEwVBwXi1kpH-NqtoxcirD9A1?pwd=g4sv#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">侠客游奥德赛[killllmeV0.9汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1g3AnCXjtrmPjNFD-v1bcQg?pwd=2234">https://pan.baidu.com/s/1g3AnCXjtrmPjNFD-v1bcQg?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwVFjn0xR-jsoYLDf9CgcVA1?pwd=rujs#">https://pan.xunlei.com/s/VOEwVFjn0xR-jsoYLDf9CgcVA1?pwd=rujs#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">洛克人DASH[嘿欧阳团队V0.9.4汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1Acl2YokbawZFf-mmleUdYA?pwd=2234">https://pan.baidu.com/s/1Acl2YokbawZFf-mmleUdYA?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwVJYLVssn7fnYe-IxcvbRA1?pwd=m5jy#">https://pan.xunlei.com/s/VOEwVJYLVssn7fnYe-IxcvbRA1?pwd=m5jy#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">三国志3[卍团队V1.1汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1xI3JvajQ9wAFnBazV0xFOw?pwd=2234">https://pan.baidu.com/s/1xI3JvajQ9wAFnBazV0xFOw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwVNF6HcqQ9RekW6eRyUT1A1?pwd=zdji#">https://pan.xunlei.com/s/VOEwVNF6HcqQ9RekW6eRyUT1A1?pwd=zdji#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">生化危机1 导演剪辑震动版[killme&amp;手柄V0.3汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1AyG2DTZj-zXmCCwJfLiCww?pwd=2234">https://pan.baidu.com/s/1AyG2DTZj-zXmCCwJfLiCww?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwVRB4HcqQ9RekW6eRyVbaA1?pwd=8dne#">https://pan.xunlei.com/s/VOEwVRB4HcqQ9RekW6eRyVbaA1?pwd=8dne#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">三国志6威力加强版[中国宋庄V1.02汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1_qXTnM71NRgP89p4iFhXYA?pwd=2234">https://pan.baidu.com/s/1_qXTnM71NRgP89p4iFhXYA?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwVV-KEaeEXQ3x1M6dKi0NA1?pwd=gnvc#">https://pan.xunlei.com/s/VOEwVV-KEaeEXQ3x1M6dKi0NA1?pwd=gnvc#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">皇牌空战3 电脑空间[aikikaV1.01汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1EedmhE0cg_6WnC6cvHZyiQ?pwd=2234">https://pan.baidu.com/s/1EedmhE0cg_6WnC6cvHZyiQ?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwVYsz-rw_SUvj0zJw37qJA1?pwd=dxyw#">https://pan.xunlei.com/s/VOEwVYsz-rw_SUvj0zJw37qJA1?pwd=dxyw#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center">Ace Combat 3 - Electrosphere</td>
+</tr>
+<tr>
+<td align="center">人偶情缘[Advance汉化组V17.1汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1cdHafW6_2A3uQcHfvTPIvQ?pwd=2234">https://pan.baidu.com/s/1cdHafW6_2A3uQcHfvTPIvQ?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwVbjrfVvdC6NaRecw-916A1?pwd=b3ac#">https://pan.xunlei.com/s/VOEwVbjrfVvdC6NaRecw-916A1?pwd=b3ac#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">机器人大战Complete Box[WGF团队汉化公测版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1ujHvn_9ACLd09mWvuUqglw?pwd=2234">https://pan.baidu.com/s/1ujHvn_9ACLd09mWvuUqglw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOEwVfhle2jBjrwGLHawA9GeA1?pwd=g29g#">https://pan.xunlei.com/s/VOEwVfhle2jBjrwGLHawA9GeA1?pwd=g29g#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">掠夺者[飞云&amp;白菜汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1yE6N2ArD7beljzhqNeuKlA?pwd=2234">https://pan.baidu.com/s/1yE6N2ArD7beljzhqNeuKlA?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOFVykWscMcusuwnOhiwlcToA1?pwd=z3xr#">https://pan.xunlei.com/s/VOFVykWscMcusuwnOhiwlcToA1?pwd=z3xr#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">恐怖照片 心灵写真奇谭[aikika汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1jGI8GbG_Db302Sbj4Tk97w?pwd=2234">https://pan.baidu.com/s/1jGI8GbG_Db302Sbj4Tk97w?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOJxdZAp7PVlxg3U22-qbl4RA1?pwd=4ftm#">https://pan.xunlei.com/s/VOJxdZAp7PVlxg3U22-qbl4RA1?pwd=4ftm#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">雨月奇谭[1d4444[B站]V1.01汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1zdUQrUVPys3RXWeisWG-LQ?pwd=2234">https://pan.baidu.com/s/1zdUQrUVPys3RXWeisWG-LQ?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOM2fGhPLtQPVNEoM0vzs-x-A1?pwd=q6qf#">https://pan.xunlei.com/s/VOM2fGhPLtQPVNEoM0vzs-x-A1?pwd=q6qf#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">哆啦A梦 大雄与复活之星[aikika汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1CuhnknKe4G4IkQvG15pKpw?pwd=2234">https://pan.baidu.com/s/1CuhnknKe4G4IkQvG15pKpw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOO3HIepnsuq8TEYA2EtlGQ5A1?pwd=w7cs#">https://pan.xunlei.com/s/VOO3HIepnsuq8TEYA2EtlGQ5A1?pwd=w7cs#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">雷盖亚传说[黄金风格neoV1.01汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1kNkP8lawIyXhBnKHBWNPcA?pwd=2234">https://pan.baidu.com/s/1kNkP8lawIyXhBnKHBWNPcA?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOPJHRdDPMbWlfaBLu5GmS46A1?pwd=ab7w#">https://pan.xunlei.com/s/VOPJHRdDPMbWlfaBLu5GmS46A1?pwd=ab7w#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center">Legend of Legaia</td>
+</tr>
+<tr>
+<td align="center">女武神的冒险[飞雨影汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1kpMOVuJ5SlBI2cYsb-h6zQ?pwd=2234">https://pan.baidu.com/s/1kpMOVuJ5SlBI2cYsb-h6zQ?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOQCR4UOcn-7E-aYxlZZsj5yA1?pwd=ihrh#">https://pan.xunlei.com/s/VOQCR4UOcn-7E-aYxlZZsj5yA1?pwd=ihrh#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center">Namco Anthology 2</td>
+</tr>
+<tr>
+<td align="center">伦敦精灵侦探团[WGF团队V2汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/10iiFk2RKw1LdCjEpi0GasA?pwd=2234">https://pan.baidu.com/s/10iiFk2RKw1LdCjEpi0GasA?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOQW8hiPC_J6XU4p-R6xr2myA1?pwd=u9yn#">https://pan.xunlei.com/s/VOQW8hiPC_J6XU4p-R6xr2myA1?pwd=u9yn#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">恶魔城年代记[狸克菜单汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/10xMaI796vFk_Ky5txBcBQg?pwd=2234">https://pan.baidu.com/s/10xMaI796vFk_Ky5txBcBQg?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOQsG_yZNGQ9nEFd9l_u21HZA1?pwd=7fqv#">https://pan.xunlei.com/s/VOQsG_yZNGQ9nEFd9l_u21HZA1?pwd=7fqv#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">洛克人X4[狸克&amp;我干UFO部分汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1ZRUohbGNPz0Sh3pB3KpzsA?pwd=2234">https://pan.baidu.com/s/1ZRUohbGNPz0Sh3pB3KpzsA?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOR4JsBBgF2-K7Hr3JRhp8diA1?pwd=i8qr#">https://pan.xunlei.com/s/VOR4JsBBgF2-K7Hr3JRhp8diA1?pwd=i8qr#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">波波罗克洛伊斯物语[星龙八战士汉化组V1.2汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1G05SkEZ4_bx6EXJEbH9b1Q?pwd=2234">https://pan.baidu.com/s/1G05SkEZ4_bx6EXJEbH9b1Q?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VORHSQq-D0eCVV06LHbt34xGA1?pwd=7bzi#">https://pan.xunlei.com/s/VORHSQq-D0eCVV06LHbt34xGA1?pwd=7bzi#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">宇宙骑警[飞云汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1RMJLHepnLvWsEztJqguMbg?pwd=2234">https://pan.baidu.com/s/1RMJLHepnLvWsEztJqguMbg?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOSdo0pGV1zPgbbQKsJ5ICsFA1?pwd=4ag3#">https://pan.xunlei.com/s/VOSdo0pGV1zPgbbQKsJ5ICsFA1?pwd=4ag3#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center">Policenauts</td>
+</tr>
+<tr>
+<td align="center">成龙特技之王[狸克V2汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1F5BYO8tyQ0Car7KNYNabQQ?pwd=2234">https://pan.baidu.com/s/1F5BYO8tyQ0Car7KNYNabQQ?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOT69EJkFdDHU6YFgRk_58jsA1?pwd=hxg8#">https://pan.xunlei.com/s/VOT69EJkFdDHU6YFgRk_58jsA1?pwd=hxg8#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">荒野兵器[黄金风格neoV1.0.2汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1pUwG27rF56-dNpsvD4SVNw?pwd=2234">https://pan.baidu.com/s/1pUwG27rF56-dNpsvD4SVNw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOT6ClY8bmuj-l58oNx3EAxnA1?pwd=h74d#">https://pan.xunlei.com/s/VOT6ClY8bmuj-l58oNx3EAxnA1?pwd=h74d#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center">Wild-Arms</td>
+</tr>
+<tr>
+<td align="center">厄 友情谈疑[aikika汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1QzcCtkfVSoxjK6DqgMvvog?pwd=2234">https://pan.baidu.com/s/1QzcCtkfVSoxjK6DqgMvvog?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOUn142zp1CKbKjufLlftPAgA1?pwd=b2rh#">https://pan.xunlei.com/s/VOUn142zp1CKbKjufLlftPAgA1?pwd=b2rh#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center">Yaku - Yuujou Dangi</td>
+</tr>
+<tr>
+<td align="center">时间飞船系列 爆裂出击 杜伦布[狸克汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1OXj7xTg1ANueCjT4cyLzEw?pwd=2234">https://pan.baidu.com/s/1OXj7xTg1ANueCjT4cyLzEw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOY1_PAPNhsQtJSqyTii2gXgA1?pwd=aahn#">https://pan.xunlei.com/s/VOY1_PAPNhsQtJSqyTii2gXgA1?pwd=aahn#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center">Time Bokan Series - Bokan to Ippatsu! Doronbow</td>
+</tr>
+<tr>
+<td align="center">饿狼传说特别版 支配精神[狸克和ZEDDBAI汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1ppQ5boNKKHjf88vVFT5kog?pwd=2234">https://pan.baidu.com/s/1ppQ5boNKKHjf88vVFT5kog?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOYWeqbPbQcy4KoMb3ojbVIpA1?pwd=tjab#">https://pan.xunlei.com/s/VOYWeqbPbQcy4KoMb3ojbVIpA1?pwd=tjab#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center">REAL BOUT FATAL FURY SPECIAL - DOMINATED MIND</td>
+</tr>
+<tr>
+<td align="center">拳皇99[1d4444[B站]汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1TODNxlC1QFloVJSrYo1KtQ?pwd=2234">https://pan.baidu.com/s/1TODNxlC1QFloVJSrYo1KtQ?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOZoCVgEECSkKdBArtsS4byMA1?pwd=en88#">https://pan.xunlei.com/s/VOZoCVgEECSkKdBArtsS4byMA1?pwd=en88#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center">King of Fighters ‘99</td>
+</tr>
+<tr>
+<td align="center">山脊赛车[狸克汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/14xR_zLykIxbhM9odDat7JA?pwd=2234">https://pan.baidu.com/s/14xR_zLykIxbhM9odDat7JA?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VO_34Wd174a7J3Jdi4QciHcMA1?pwd=eja2#">https://pan.xunlei.com/s/VO_34Wd174a7J3Jdi4QciHcMA1?pwd=eja2#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">幻想水浒外传 Vol.1 哈莫尼亚的剑士[aikika汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/18-zoPDeSIZyavzjDnAoC-g?pwd=2234">https://pan.baidu.com/s/18-zoPDeSIZyavzjDnAoC-g?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOaAsWCOXCEWoziT3gMVTYKHA1?pwd=54v8#">https://pan.xunlei.com/s/VOaAsWCOXCEWoziT3gMVTYKHA1?pwd=54v8#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">并列竞速特别版[狸克汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/12UQRcLlwl3wcjU2eRpPUfw?pwd=2234">https://pan.baidu.com/s/12UQRcLlwl3wcjU2eRpPUfw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOaKUe8s1HXP7pn_BAwJzvaLA1?pwd=yfhj#">https://pan.xunlei.com/s/VOaKUe8s1HXP7pn_BAwJzvaLA1?pwd=yfhj#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center">Side By Side Special</td>
+</tr>
+<tr>
+<td align="center">饿狼传说特别版 支配精神 SNK粉丝收藏特辑[1d4444+CLARK.H汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1i29sd4Ko9dVhSYLLSmhPMw?pwd=2234">https://pan.baidu.com/s/1i29sd4Ko9dVhSYLLSmhPMw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VONQ4ipHEQ2gyaI2gIg-X6veA1?pwd=62gb#">https://pan.xunlei.com/s/VONQ4ipHEQ2gyaI2gIg-X6veA1?pwd=62gb#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center">SNK Fan Collection - Garou Densetsu</td>
+</tr>
+<tr>
+<td align="center">时间飞船系列 轰隆时间[狸克汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/10M0dP358vws5L-sy6FsBoA?pwd=2234">https://pan.baidu.com/s/10M0dP358vws5L-sy6FsBoA?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOaZ3uyYW9GbHjV2k2RVOGmNA1?pwd=ynpi#">https://pan.xunlei.com/s/VOaZ3uyYW9GbHjV2k2RVOGmNA1?pwd=ynpi#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center">Time Bokan Series - Bokan desu yo</td>
+</tr>
+<tr>
+<td align="center">幻想水浒外传 Vol.2 水晶谷的决斗[aikika汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1Cb7ACxuxLeOFQbtsY7_6_Q?pwd=2234">https://pan.baidu.com/s/1Cb7ACxuxLeOFQbtsY7_6_Q?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VObO2RoKj8Uy2eS4uMfH5VD_A1?pwd=axza#">https://pan.xunlei.com/s/VObO2RoKj8Uy2eS4uMfH5VD_A1?pwd=axza#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center">Gensou Suiko Gaiden Vol. 2 - Crystal Valley no Kettou</td>
+</tr>
+<tr>
+<td align="center">洛克人Dash2 庞大的遗产 [嘿欧阳团队汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1ye_S_JkhydLPWELGkkPQ_A?pwd=2234">https://pan.baidu.com/s/1ye_S_JkhydLPWELGkkPQ_A?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOdWzHEoUvcW_h7PyOq1CefgA1?pwd=q6vj#">https://pan.xunlei.com/s/VOdWzHEoUvcW_h7PyOq1CefgA1?pwd=q6vj#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">D之食卓[五路拖拉慢字幕组汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1-s6rQqWXa_y2ZoVOe3hLWw?pwd=2234">https://pan.baidu.com/s/1-s6rQqWXa_y2ZoVOe3hLWw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOdsE2hTwDi6DEuQ-X8zj6CjA1?pwd=23x3#">https://pan.xunlei.com/s/VOdsE2hTwDi6DEuQ-X8zj6CjA1?pwd=23x3#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center">D no Shokutaku - Complete Graphics</td>
+</tr>
+<tr>
+<td align="center">东京魔人学园剑风帖 阳之章[飞雨影团队V20260124汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1uGCb2yrbvofwG0iSTSUftw?pwd=2234">https://pan.baidu.com/s/1uGCb2yrbvofwG0iSTSUftw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOduvIYeYwxzBbIVtoI56CW0A1?pwd=y8wb#">https://pan.xunlei.com/s/VOduvIYeYwxzBbIVtoI56CW0A1?pwd=y8wb#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center">Tokyo Majin Gakuen - Kenpuuchou</td>
+</tr>
+<tr>
+<td align="center">攻壳机动队 GHOST IN THE SHELL[五路拖拉慢字幕组汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1u2r9kihuWIdbcUvxQ5sQYQ?pwd=2234">https://pan.baidu.com/s/1u2r9kihuWIdbcUvxQ5sQYQ?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOeAJbXlJ-waLGisXhYfhhqAA1?pwd=z67c#">https://pan.xunlei.com/s/VOeAJbXlJ-waLGisXhYfhhqAA1?pwd=z67c#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center">Koukaku Kidoutai - Ghost in the Shell</td>
+</tr>
+<tr>
+<td align="center">暗黑破坏神[killllmeV20251128完全汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1yUn5QXVv20pZfBUGkzm3qw?pwd=2234">https://pan.baidu.com/s/1yUn5QXVv20pZfBUGkzm3qw?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOeQRMMqNe06y9WhD81phCFaA1?pwd=xqsa#">https://pan.xunlei.com/s/VOeQRMMqNe06y9WhD81phCFaA1?pwd=xqsa#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center">Diablo</td>
+</tr>
+<tr>
+<td align="center">啪啦啪啦啪</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1jgTtCgGzFrstsM6MU0DqXA?pwd=2234">https://pan.baidu.com/s/1jgTtCgGzFrstsM6MU0DqXA?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOgm3vLtd3Y5ut9dT8deZ9ztA1?pwd=2y33#">https://pan.xunlei.com/s/VOgm3vLtd3Y5ut9dT8deZ9ztA1?pwd=2y33#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">新生 厕所的花子同学[aikika汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1P8BZiYRteRmM7aQxXLrajQ?pwd=2234">https://pan.baidu.com/s/1P8BZiYRteRmM7aQxXLrajQ?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOhonZj2gGQ8UVwgR9zLY6TDA1?pwd=2sxd#">https://pan.xunlei.com/s/VOhonZj2gGQ8UVwgR9zLY6TDA1?pwd=2sxd#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center">Shinsei Toilet no Hanako-san</td>
+</tr>
+<tr>
+<td align="center">鲁邦三世[狸克汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1qM_V5GDk8fF0sIy_r71Z1A?pwd=2234">https://pan.baidu.com/s/1qM_V5GDk8fF0sIy_r71Z1A?pwd=2234</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VOibaJq9qZ99z111YTk2oqKkA1?pwd=8f6u#">https://pan.xunlei.com/s/VOibaJq9qZ99z111YTk2oqKkA1?pwd=8f6u#</a></td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.quark.cn/s/0476a79c168d">https://pan.quark.cn/s/0476a79c168d</a></td>
+<td align="center">Punch the Monkey! Game Edition</td>
+</tr>
+</tbody></table>
+
+      </div>
+      <div class="post-tags-categories">
+        
+        <div class="tags">
+          
+            <a href="/tags/PS%E6%B8%B8%E6%88%8F/" class="">
+              PS游戏
+            </a>
+          
+        </div>
+        
+      </div>
+      
+        <div class="copyright">
+  <ul class="post-copyright">
+    <li class="post-copyright-author">
+    <strong>作者:  </strong>Winzerokyo</a>
+    </li>
+    <li class="post-copyright-link">
+    <strong>文章链接:  </strong>
+    <a href="/2026/01/27/ps-you-xi-zi-yuan/" target="_blank" title="PS游戏资源">http://example.com/2026/01/27/ps-you-xi-zi-yuan/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>版权声明:   </strong>
+      本网站所有文章除特别声明外,均采用 <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">CC BY-NC-ND 4.0</a>
+      许可协议。转载请注明出处!
+    </li>
+  </ul>
+<div>
+      
+    </article>
+    <!-- 上一篇文章和下一篇文章 -->
+    
+      <!-- 文章详情页的上一页和下一页 -->
+<div class="post-nav">
+
+
+
+  
+  <div class="post-nav-prev post-nav-item">
+    <div class="post-nav-img" style="background-size: cover; 
+      background-position: center center;">
+      <img class="lazyload lazyload placeholder" src="https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+    </div>
+    <a href="/2026/01/28/psp-you-xi-zi-yuan/" class="post-nav-link">
+      <div class="title">
+        <i class="fas fa-angle-left"></i> 上一篇:
+        <div class="title-text">PSP游戏资源</div>
+      </div>
+      
+      <!-- <div class="content">
+        为了照顾不看网站公告的，默认解压密码：2234。
+
+
+
+资源中文名称
+度盘下载地址
+迅雷下载地址
+夸克下载地址
+资源英文
+      </div> -->
+    </a>
+  </div>
+
+
+
+  
+  <div class="post-nav-next post-nav-item">
+    <div class="post-nav-img" style="background-size: cover; 
+      background-position: center center;">
+      <img class="lazyload lazyload placeholder" src="https://pic2.zhimg.com/80/v2-63bbdb5b76b8d349ad35ff4281efbd37_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-63bbdb5b76b8d349ad35ff4281efbd37_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" src="" alt="">
+    </div>
+    <a href="/2026/01/27/wsc-ws-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/" class="post-nav-link">
+      <div class="title">
+        下一篇: <i class="fas fa-angle-right"></i>
+        <div class="title-text">WSC+WS模拟器教程和下载-转换软件教程和下载</div>
+      </div>
+      <!-- <div class="content">
+        模拟器教程和下载
+为了照顾不看网站公告的，默认解压密码：2234。
+##########################
+      </div> -->
+    </a>
+  </div>
+
+</div>
+
+    
+    
+
+    <!-- 打赏 -->
+    
+      <div id="appDonate" class="post-donate">
+  <div id="donate_board" class="donate_bar center" ref="donate">
+    <a id="btn_donate" class="btn_donate" href="javascript:;" title="打赏" @click="showDialogDrawer()"></a>
+  </div>
+  <transition name="fade">
+    <div 
+      class="donate-box-mask"
+      v-cloak 
+      v-show="visible"
+      @click="cancelDialogDrawer()"
+    >
+    </div>
+  </transition>
+  <transition name="bounce">
+    <div class="donate-box" v-cloak v-show="visible">
+      <div class="donate-box_close">
+        <i class="fas fa-times" aria-hidden="true" @click="cancelDialogDrawer" pointer></i>
+      </div>
+      <div class="donate-box_title">
+        <h4>
+          你的赏识是我前进的动力
+        </h4>
+      </div>
+      <div class="donate-box_tab">
+        <div class="Alipay" pointer :class="{'active': tabActive === 'Alipay'}" @click="changeTabActive('Alipay')">
+          支付宝
+        </div>
+        <div class="WeChatpay" pointer :class="{'active': tabActive === 'WeChatpay'}" @click="changeTabActive('WeChatpay')">
+          微信
+        </div>
+      </div>
+      <div class="donate-box_img">
+        <div class="AlipayImg" v-show="tabActive === 'Alipay'">
+          <img src="/images/Alipay.jpg" class="lazyload placeholder" data-srcset="/images/Alipay.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="支付宝打赏" />
+        </div> 
+        <div class="WeChatpayImg" v-show="tabActive === 'WeChatpay'">
+          <img src="/images/WeChatpay.png" class="lazyload placeholder" data-srcset="/images/WeChatpay.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="微信打赏" />
+        </div>
+      </div>
+    </div>
+  </transition>
+</div>
+
+<script>
+  var body = document.body || document.documentElement || window;
+  var vm = new Vue({
+    el: '#appDonate',
+    data: {
+      visible: false,
+      tabActive: 'Alipay',
+      top: 0,
+    },
+    computed: {
+    },
+    mounted() {
+    },
+    methods: {
+      showDialogDrawer() {
+        this.visible = true;
+        // 防止页面滚动，只能让弹框滚动
+        // function getScroll() {
+        //   return {
+        //     left: window.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft || 0,
+        //     top: window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0
+        //   };
+        // }
+        this.top = $(document).scrollTop() // or getScroll().top
+        // console.log('aa', $('.main-content'));
+        body.style.cssText = 'overflow: hidden;';
+      },
+      cancelDialogDrawer() {
+        this.visible = false;
+        body.removeAttribute('style');
+        $(document).scrollTop(this.top)
+      },
+      changeTabActive(name) {
+        this.tabActive = name;
+      }
+    },
+    created() {}
+  })
+</script>
+    
+
+    <!-- 分享 -->
+    
+    
+    <!-- 评论 -->
+    <!-- 评论 -->
+
+  <div id="myComment">
+    
+  </div>
+
+
+<!-- 还需要在后面这个地址里设置script, comment script in themes\hexo-theme-bamboo\layout\_partial\scripts\index.ejs -->
+
+
+  </div>
+
+  <!-- 目录 -->
+  <aside id='l_side'>
+  
+    
+      <section class="widget side_blogger">
+  <div class='content'>
+    
+      
+        <a class='avatar flat-box circle' href='/about/'>
+          <img src='https://pic2.zhimg.com/80/v2-42b72d5ebee4b8d8aa70d9687effe87b_1440w.webp'/>
+        </a>
+      
+    
+    
+      <div class='text'>
+        
+          <h2>Winzerokyo游戏站</h2>
+        
+        
+          <p>创建者Winzerokyo</p>
+
+        
+        
+          <p><span id="jinrishici-sentence">Winzerokyo的游戏站</span></p>
+          <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+        
+      </div>
+    
+    
+      <div class="social-wrapper">
+        
+          
+            <a href="/atom.xml"
+              class="social fas fa-rss flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+              
+            </a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    
+  </div>
+</section>
+
+    
+  
+  
+  
+    
+      <div class="widget test_a" id="test_a" style="order: 0;background: #fff">
+        <header>
+          
+            <a style="color: #d63130" target="_blank" rel="noopener" href='https://space.bilibili.com/5788784'><i class="fab fa-weibo fa-fw" aria-hidden="true"></i><span class='name'>BILIBILI winzerokyo</span></a>
+          
+        </header>
+        <div class="content">
+          BILIBILI主页
+        </div>
+    </div>
+    
+  
+
+  <div class="layout_sticky">    
+    
+      
+<section class="widget side_toc">
+  
+  <header>
+    
+      <i style="color: " class="fas fa-list fa-fw" aria-hidden="true"></i><span class='name' style="color: ">本文目录</span>
+    
+  </header>
+
+
+  <div class='content'>
+    <div class="toc-main">
+      <div class="toc-content">
+        <!--  -->
+        <div class="toc"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 手机端目录按钮 -->
+<div id="toc-mobile-btn">
+  <i class="fas fa-list-ul" aria-hidden="true"></i>
+</div>
+
+      
+  <section class="widget side_recent_post">
+    
+  <header>
+    
+      <a style="color: " href='/tags/'><i class="fas fa-book fa-fw" aria-hidden="true"></i><span class='name'>最新文章</span></a>
+    
+  </header>
+
+
+    <div class='content'>
+      
+      <!-- hash算法 -->
+      
+      <div class="aside-list">
+        
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
+              <a href="/2026/01/31/hello-world/" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic3.zhimg.com/80/v2-5f7cb7e900b9dcf5354c3d4d2c5cc3c2_1440w.webp" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-5f7cb7e900b9dcf5354c3d4d2c5cc3c2_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">01-31</span>
+                
+              </div>
+              <a class="post-title" href="/2026/01/31/hello-world/">Hello World</a>
+            </div>
+          </div>
+        
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
+              <a href="/2026/01/31/mo-ni-qi-ban-ben-geng-xin-xin-xi/" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic2.zhimg.com/80/v2-29e78b52051ce542adf6d786d61fbd19_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-29e78b52051ce542adf6d786d61fbd19_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">01-31</span>
+                
+              </div>
+              <a class="post-title" href="/2026/01/31/mo-ni-qi-ban-ben-geng-xin-xin-xi/">模拟器版本更新信息</a>
+            </div>
+          </div>
+        
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
+              <a href="/2026/01/31/switch-mo-ni-qi-de-wen-ti-hui-zong/" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">01-31</span>
+                
+              </div>
+              <a class="post-title" href="/2026/01/31/switch-mo-ni-qi-de-wen-ti-hui-zong/">SWITCH模拟器的问题汇总</a>
+            </div>
+          </div>
+        
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
+              <a href="/2026/01/31/ss-you-xi-zi-yuan/" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">01-31</span>
+                
+              </div>
+              <a class="post-title" href="/2026/01/31/ss-you-xi-zi-yuan/">SS游戏资源</a>
+            </div>
+          </div>
+        
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
+              <a href="/2026/01/30/switch-you-xi-zi-yuan/" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic2.zhimg.com/80/v2-63bbdb5b76b8d349ad35ff4281efbd37_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-63bbdb5b76b8d349ad35ff4281efbd37_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">01-30</span>
+                
+              </div>
+              <a class="post-title" href="/2026/01/30/switch-you-xi-zi-yuan/">SWITCH游戏资源</a>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  </section>
+
+    
+  </div>
+</aside>
+
+  <!-- 图片放大 Wrap images with fancybox support -->
+  <script defer src="/js/wrapImage.js"></script>
+</div>
+
+<!-- 文章详情页背景图 -->
+<div id="appBgSwiper" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -2;"
+	:style="{'background-color': bgColor ? bgColor : 'transparent'}">
+	<transition-group tag="ul" :name="names">
+		<li v-for='(image,index) in img' :key='index' v-show="index === mark" class="bg-swiper-box">
+			<img :src="image" class="bg-swiper-img no-lazy">
+		</li>
+	</transition-group>
+</div>
+<script>
+	var vm = new Vue({
+		el: '#appBgSwiper',
+		data: {
+			names: '' || 'fade' || 'fade', // translate-fade fade
+			mark: 0,
+			img: [],
+			bgColor: '',
+			time: null
+		},
+		methods: {   //添加方法
+			change(i, m) {
+				if (i > m) {
+					// this.names = 'fade';
+				} else if (i < m) {
+					// this.names = 'fade';
+				} else {
+					return;
+				}
+				this.mark = i;
+			},
+			prev() {
+				// this.names = 'fade';
+				this.mark--;
+				if (this.mark === -1) {
+					this.mark = 3;
+					return
+				}
+			},
+			next() {
+				// this.names = 'fade';
+				this.mark++;
+				if (this.mark === this.img.length) {
+					this.mark = 0;
+					return
+				}
+			},
+			autoPlay() {
+				// this.names = 'fade';
+				this.mark++;
+				if (this.mark === this.img.length) {
+					this.mark = 0;
+					return
+				}
+			},
+			play() {
+				let bgImgDelay = '' || '180000'
+				let delay = parseInt(bgImgDelay) || 180000;
+				this.time = setInterval(this.autoPlay, delay);
+			},
+			enter() {
+				clearInterval(this.time);
+			},
+			leave() {
+				this.play();
+			}
+		},
+		created() {
+			this.play()
+		},
+		beforeDestroy() {
+			clearInterval(this.time);
+		},
+		mounted() {
+			let prop = '' || '';
+			let isImg = prop.includes('.bmp') || prop.includes('.jpg') || prop.includes('.png') || prop.includes('.tif') || prop.includes('.gif') || prop.includes('.pcx') || prop.includes('.tga') || prop.includes('.exif') || prop.includes('.fpx') || prop.includes('.psd') || prop.includes('.cdr') || prop.includes('.pcd') || prop.includes('.dxf') || prop.includes('.ufo') || prop.includes('.eps') || prop.includes('.ai') || prop.includes('.raw') || prop.includes('.WMF') || prop.includes('.webp') || prop.includes('.jpeg') || prop.includes('http://') || prop.includes('https://')
+			if (isImg) {
+				let img = prop.split(',');
+				let configRoot = '/'
+				let arrImg = [];
+				img.forEach(el => {
+					var Expression = /http(s)?:\/\/([\w-]+\.)+[\w-]+(\/[\w- .\/?%&=]*)?/;
+					var objExp = new RegExp(Expression);
+
+					if (objExp.test(el)) {
+						// http or https
+						arrImg.push(el);
+					} else {
+						// 非http or https开头
+						// 本地文件
+						let firstStr = el.charAt(0);
+						if (firstStr == '/') {
+							el = el.substr(1); // 删除第一个字符 '/',因为 configRoot最后一个字符为 /
+						}
+						el = configRoot + el;
+						arrImg.push(el);
+					}
+				})
+				this.img = arrImg;
+			} else {
+				this.bgColor = prop;
+			}
+		}
+	})
+</script>
+
+<style>
+	.bg-swiper-box {
+		position: absolute;
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+
+	.bg-swiper-img {
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+	}
+</style>
+
+
+
+
+  <script>
+  function loadMermaid() {
+    if (document.getElementsByClassName('mermaid').length) {
+      if (window.mermaidJsLoad) mermaid.init()
+      else {
+        loadScript('https://unpkg.com/mermaid/dist/mermaid.min.js').then(() => {
+          window.mermaidJsLoad = true
+          mermaid.initialize({
+            theme: 'default',
+          })
+          if ('true') {
+            mermaid.init();
+          }
+        })
+      }
+    }
+  };
+  document.addEventListener("DOMContentLoaded", function () {
+    loadMermaid();
+  })
+
+  document.addEventListener('pjax:complete', function () {
+    loadMermaid();
+  })
+  
+</script>
+
+
+      </main>
+    </div>
+
+    <!-- 页脚 -->
+    
+  
+  
+    <!-- 底部鱼儿跳动效果，依赖于jquery-->
+<div id="j-fish-skip" style=" position: relative;height: 153px;width: auto;"></div>
+<script defer>
+  var RENDERER = {
+    POINT_INTERVAL: 5,
+    FISH_COUNT: 3,
+    MAX_INTERVAL_COUNT: 50,
+    INIT_HEIGHT_RATE: .5,
+    THRESHOLD: 50,
+    FISH_COLOR: '',
+    init: function () {
+      this.setFishColor(); this.setParameters(), this.reconstructMethods(), this.setup(), this.bindEvent(), this.render()
+    },
+    setFishColor: function () {
+      let isDark = JSON.parse(localStorage.getItem('dark')) || JSON.parse('false');
+      if (isDark) {
+        this.FISH_COLOR = '#222'; // 暗黑色，有时间把这整成一个变量
+      } else {
+        this.FISH_COLOR = '' || 'rgba(66, 185, 133, 0.8)';
+      }
+    },
+    setParameters: function () {
+      this.$window = $(window), this.$container = $("#j-fish-skip"), this.$canvas = $("<canvas />"), this.context = this.$canvas.appendTo(this.$container).get(0).getContext("2d"), this.points = [], this.fishes = [], this.watchIds = []
+    },
+    createSurfacePoints: function () {
+      var t = Math.round(this.width / this.POINT_INTERVAL);
+      this.pointInterval = this.width / (t - 1), this.points.push(new SURFACE_POINT(this, 0));
+      for (var i = 1; i < t; i++) {
+        var e = new SURFACE_POINT(this, i * this.pointInterval),
+          h = this.points[i - 1];
+        e.setPreviousPoint(h), h.setNextPoint(e), this.points.push(e)
+      }
+    },
+    reconstructMethods: function () {
+      this.watchWindowSize = this.watchWindowSize.bind(this), this.jdugeToStopResize = this.jdugeToStopResize.bind(this), this.startEpicenter = this.startEpicenter.bind(this), this.moveEpicenter = this.moveEpicenter.bind(this), this.reverseVertical = this.reverseVertical.bind(this), this.render = this.render.bind(this)
+    },
+    setup: function () {
+      this.points.length = 0, this.fishes.length = 0, this.watchIds.length = 0, this.intervalCount = this.MAX_INTERVAL_COUNT, this.width = this.$container.width(), this.height = this.$container.height(), this.fishCount = this.FISH_COUNT * this.width / 500 * this.height / 500, this.$canvas.attr({
+        width: this.width,
+        height: this.height
+      }), this.reverse = !1, this.fishes.push(new FISH(this)), this.createSurfacePoints()
+    },
+    watchWindowSize: function () {
+      this.clearTimer(), this.tmpWidth = this.$window.width(), this.tmpHeight = this.$window.height(), this.watchIds.push(setTimeout(this.jdugeToStopResize, this.WATCH_INTERVAL))
+    },
+    clearTimer: function () {
+      for (; this.watchIds.length > 0;) clearTimeout(this.watchIds.pop())
+    },
+    jdugeToStopResize: function () {
+      var t = this.$window.width(),
+        i = this.$window.height(),
+        e = t == this.tmpWidth && i == this.tmpHeight;
+      this.tmpWidth = t, this.tmpHeight = i, e && this.setup()
+    },
+    bindEvent: function () {
+      this.$window.on("resize", this.watchWindowSize), this.$container.on("mouseenter", this.startEpicenter), this.$container.on("mousemove", this.moveEpicenter)
+    },
+    getAxis: function (t) {
+      var i = this.$container.offset();
+      return {
+        x: t.clientX - i.left + this.$window.scrollLeft(),
+        y: t.clientY - i.top + this.$window.scrollTop()
+      }
+    },
+    startEpicenter: function (t) {
+      this.axis = this.getAxis(t)
+    },
+    moveEpicenter: function (t) {
+      var i = this.getAxis(t);
+      this.axis || (this.axis = i), this.generateEpicenter(i.x, i.y, i.y - this.axis.y), this.axis = i
+    },
+    generateEpicenter: function (t, i, e) {
+      if (!(i < this.height / 2 - this.THRESHOLD || i > this.height / 2 + this.THRESHOLD)) {
+        var h = Math.round(t / this.pointInterval);
+        h < 0 || h >= this.points.length || this.points[h].interfere(i, e)
+      }
+    },
+    reverseVertical: function () {
+      this.reverse = !this.reverse;
+      for (var t = 0, i = this.fishes.length; t < i; t++) this.fishes[t].reverseVertical()
+    },
+    controlStatus: function () {
+      for (var t = 0, i = this.points.length; t < i; t++) this.points[t].updateSelf();
+      for (t = 0, i = this.points.length; t < i; t++) this.points[t].updateNeighbors();
+      this.fishes.length < this.fishCount && 0 == --this.intervalCount && (this.intervalCount = this.MAX_INTERVAL_COUNT, this.fishes.push(new FISH(this)))
+    },
+    render: function () {
+      requestAnimationFrame(this.render), this.controlStatus(), this.context.clearRect(0, 0, this.width, this.height), this.context.fillStyle = this.FISH_COLOR;
+      for (var t = 0, i = this.fishes.length; t < i; t++) this.fishes[t].render(this.context);
+      this.context.save(), this.context.globalCompositeOperation = "xor", this.context.beginPath(), this.context.moveTo(0, this.reverse ? 0 : this.height);
+      for (t = 0, i = this.points.length; t < i; t++) this.points[t].render(this.context);
+      this.context.lineTo(this.width, this.reverse ? 0 : this.height), this.context.closePath(), this.context.fill(), this.context.restore()
+    }
+  },
+  SURFACE_POINT = function (t, i) {
+    this.renderer = t, this.x = i, this.init()
+  };
+  SURFACE_POINT.prototype = {
+    SPRING_CONSTANT: .03,
+    SPRING_FRICTION: .9,
+    WAVE_SPREAD: .3,
+    ACCELARATION_RATE: .01,
+    init: function () {
+      this.initHeight = this.renderer.height * this.renderer.INIT_HEIGHT_RATE, this.height = this.initHeight, this.fy = 0, this.force = {
+        previous: 0,
+        next: 0
+      }
+    },
+    setPreviousPoint: function (t) {
+      this.previous = t
+    },
+    setNextPoint: function (t) {
+      this.next = t
+    },
+    interfere: function (t, i) {
+      this.fy = this.renderer.height * this.ACCELARATION_RATE * (this.renderer.height - this.height - t >= 0 ? -1 : 1) * Math.abs(i)
+    },
+    updateSelf: function () {
+      this.fy += this.SPRING_CONSTANT * (this.initHeight - this.height), this.fy *= this.SPRING_FRICTION, this.height += this.fy
+    },
+    updateNeighbors: function () {
+      this.previous && (this.force.previous = this.WAVE_SPREAD * (this.height - this.previous.height)), this.next && (this.force.next = this.WAVE_SPREAD * (this.height - this.next.height))
+    },
+    render: function (t) {
+      this.previous && (this.previous.height += this.force.previous, this.previous.fy += this.force.previous), this.next && (this.next.height += this.force.next, this.next.fy += this.force.next), t.lineTo(this.x, this.renderer.height - this.height)
+    }
+  };
+  var FISH = function (t) {
+    this.renderer = t, this.init()
+  };
+  FISH.prototype = {
+    GRAVITY: .4,
+    init: function () {
+      this.direction = Math.random() < .5, this.x = this.direction ? this.renderer.width + this.renderer.THRESHOLD : -this.renderer.THRESHOLD, this.previousY = this.y, this.vx = this.getRandomValue(4, 10) * (this.direction ? -1 : 1), this.renderer.reverse ? (this.y = this.getRandomValue(1 * this.renderer.height / 10, 4 * this.renderer.height / 10), this.vy = this.getRandomValue(2, 5), this.ay = this.getRandomValue(.05, .2)) : (this.y = this.getRandomValue(6 * this.renderer.height / 10, 9 * this.renderer.height / 10), this.vy = this.getRandomValue(-5, -2), this.ay = this.getRandomValue(-.2, -.05)), this.isOut = !1, this.theta = 0, this.phi = 0
+    },
+    getRandomValue: function (t, i) {
+      return t + (i - t) * Math.random()
+    },
+    reverseVertical: function () {
+      this.isOut = !this.isOut, this.ay *= -1
+    },
+    controlStatus: function (t) {
+      this.previousY = this.y, this.x += this.vx, this.y += this.vy, this.vy += this.ay, this.renderer.reverse ? this.y > this.renderer.height * this.renderer.INIT_HEIGHT_RATE ? (this.vy -= this.GRAVITY, this.isOut = !0) : (this.isOut && (this.ay = this.getRandomValue(.05, .2)), this.isOut = !1) : this.y < this.renderer.height * this.renderer.INIT_HEIGHT_RATE ? (this.vy += this.GRAVITY, this.isOut = !0) : (this.isOut && (this.ay = this.getRandomValue(-.2, -.05)), this.isOut = !1), this.isOut || (this.theta += Math.PI / 20, this.theta %= 2 * Math.PI, this.phi += Math.PI / 30, this.phi %= 2 * Math.PI), this.renderer.generateEpicenter(this.x + (this.direction ? -1 : 1) * this.renderer.THRESHOLD, this.y, this.y - this.previousY), (this.vx > 0 && this.x > this.renderer.width + this.renderer.THRESHOLD || this.vx < 0 && this.x < -this.renderer.THRESHOLD) && this.init()
+    },
+    render: function (t) {
+      t.save(), t.translate(this.x, this.y), t.rotate(Math.PI + Math.atan2(this.vy, this.vx)), t.scale(1, this.direction ? 1 : -1), t.beginPath(), t.moveTo(-30, 0), t.bezierCurveTo(-20, 15, 15, 10, 40, 0), t.bezierCurveTo(15, -10, -20, -15, -30, 0), t.fill(), t.save(), t.translate(40, 0), t.scale(.9 + .2 * Math.sin(this.theta), 1), t.beginPath(), t.moveTo(0, 0), t.quadraticCurveTo(5, 10, 20, 8), t.quadraticCurveTo(12, 5, 10, 0), t.quadraticCurveTo(12, -5, 20, -8), t.quadraticCurveTo(5, -10, 0, 0), t.fill(), t.restore(), t.save(), t.translate(-3, 0), t.rotate((Math.PI / 3 + Math.PI / 10 * Math.sin(this.phi)) * (this.renderer.reverse ? -1 : 1)), t.beginPath(), this.renderer.reverse ? (t.moveTo(5, 0), t.bezierCurveTo(10, 10, 10, 30, 0, 40), t.bezierCurveTo(-12, 25, -8, 10, 0, 0)) : (t.moveTo(-5, 0), t.bezierCurveTo(-10, -10, -10, -30, 0, -40), t.bezierCurveTo(12, -25, 8, -10, 0, 0)), t.closePath(), t.fill(), t.restore(), t.restore(), this.controlStatus(t)
+    }
+  }, $(function () {
+    RENDERER.init()
+    $('.dark').click(function () {
+      setTimeout(() => {
+        RENDERER.setFishColor();
+        RENDERER.context.fill();
+      });
+    })
+  });
+</script>
+  
+  <div class="footer bg-color">
+    <div class="footer-main">
+      
+        
+          <div class="link">
+            
+          </div>
+        
+      
+        
+          <div class="footer-copyright">
+            <p>Copyright © 2019 - 2020 <a target="_blank" rel="noopener" href="https://github.com/yuang01">yuang01</a> | Powered by <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">Hexo</a> | Theme <a target="_blank" rel="noopener" href="https://github.com/yuang01/theme">Bamboo</a> </p>
+
+          </div>
+        
+      
+        
+          <div class="footer-custom">
+            
+          </div>
+        
+      
+    </div>
+  </div>
+
+
+
+    <!-- 渲染暗黑按钮 -->
+    
+      <div class="dark" onclick="toggleDarkMode()">
+  <div class="dark-content">
+    <i class="fas" id="darkIcon" aria-hidden="true"></i>
+  </div>
+</div>
+
+<script defer>
+  $(function() {
+    // 初始化暗黑模式状态
+    let isDark = JSON.parse(localStorage.getItem('dark')) || JSON.parse('false');
+    updateDarkModeIcon(isDark);
+  });
+
+  function toggleDarkMode() {
+    const isDark = $(document.body).hasClass('darkModel');
+    $(document.body).toggleClass('darkModel');
+    localStorage.setItem('dark', !isDark);
+    updateDarkModeIcon(!isDark);
+  }
+
+  function updateDarkModeIcon(isDark) {
+    const iconElement = document.getElementById('darkIcon');
+    if (isDark) {
+      iconElement.classList.remove('fa-moon');
+      iconElement.classList.add('fa-lightbulb');
+    } else {
+      iconElement.classList.remove('fa-lightbulb');
+      iconElement.classList.add('fa-moon');
+    }
+  }
+</script>
+
+    
+    <!-- 渲染回到顶部按钮 -->
+    
+      <div class="goTop top-btn-color" pointer>
+  <i class="fas fa-arrow-up" aria-hidden="true"></i>
+</div>
+<script defer src="/js/goTop.js"></script>
+
+    
+    <!-- 渲染左下角音乐播放器 -->
+    
+
+    <!-- 图片放大 -->
+    
+      <script src="https://unpkg.com/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    
+
+    <!-- 百度解析 -->
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script async>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <!-- 背景彩带 -->
+    
+      <script async type="text/javascript" size="100" alpha='0.4' zIndex="-1" src="/js/ribbon.min.js"></script>
+    
+
+    <script src="/js/utils/index.js"></script>
+    <script src="/js/app.js"></script>
+    
+    <!-- 文章目录所需js -->
+<!-- <link href="/js/tocbot/tocbot.css" rel="stylesheet">
+<script src="/js/tocbot/tocbot.min.js"></script> -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.min.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.css">
+
+<script>
+  var headerEl = 'h2, h3, h4',  //headers 
+    content = '.post-detail',//文章容器
+    idArr = {};  //标题数组以确定是否增加索引id
+  //add #id
+  var option = {
+    // Where to render the table of contents.
+    tocSelector: '.toc',
+    // Where to grab the headings to build the table of contents.
+    contentSelector: content,
+    // Which headings to grab inside of the contentSelector element.
+    headingSelector: headerEl,
+    scrollSmooth: true,
+    scrollSmoothOffset: -70,
+    // headingsOffset: -($(window).height() * 0.4 - 45),
+    headingsOffset: -($(window).height() * 0.4 - 70),
+    // positionFixedSelector: '.toc-main',
+    // positionFixedClass: 'is-position-fixed',
+    fixedSidebarOffset: 'auto',
+    activeLinkClass: 'is-active-link',
+    orderedList: true,
+    collapseDepth: 20,
+    // onClick: function (e) {},
+  }
+  if ($('.toc').length > 0) {
+
+    $(content).children(headerEl).each(function () {
+      //去除空格以及多余标点
+      var headerId = $(this).text().replace(/[\s|\~|`|\!|\@|\#|\$|\%|\^|\&|\*|\(|\)|\_|\+|\=|\||\|\[|\]|\{|\}|\;|\:|\"|\'|\,|\<|\.|\>|\/|\?|\：|\，|\。]/g, '');
+
+      headerId = headerId.toLowerCase();
+      if (idArr[headerId]) {
+        //id已经存在
+        $(this).attr('id', headerId + '-' + idArr[headerId]);
+        idArr[headerId]++;
+      }
+      else {
+        //id未存在
+        idArr[headerId] = 1;
+        $(this).attr('id', headerId);
+      }
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+      tocbot.init(option);
+      mobileTocClick();
+    });
+
+  }
+
+  window.tocScrollFn = function () {
+    return bamboo.throttle(function () {
+      findHeadPosition();
+    }, 100)()
+  }
+  window.addEventListener('scroll', tocScrollFn);
+
+  const findHeadPosition = function (top) {
+    if ($('.toc-list').length <= 0) {
+      return false;
+    }
+    setTimeout(() => {  // or DOMContentLoaded 
+      autoScrollToc();
+    }, 0);
+  }
+
+  const autoScrollToc = function () {
+    const $activeItem = document.querySelector('.is-active-link');
+    const $cardToc = document.querySelector('.toc-content');
+    const activePosition = $activeItem.getBoundingClientRect().top
+    const sidebarScrollTop = $cardToc.scrollTop
+    if (activePosition > (document.documentElement.clientHeight - 100)) {
+      $cardToc.scrollTop = sidebarScrollTop + 150
+    }
+    if (activePosition < 150) {
+      $cardToc.scrollTop = sidebarScrollTop - 150
+    }
+  }
+
+  document.addEventListener('pjax:send', function () {
+    if ($('.toc').length) {
+      tocbot.destroy();
+    }
+  });
+
+  document.addEventListener('pjax:complete', function () {
+    if ($('.toc').length) {
+      tocbot.init(option);
+      mobileTocClick();
+    }
+  });
+  
+  // 手机端toc按钮点击出现目录
+  const mobileTocClick = function () {
+    const $cardTocLayout = document.getElementsByClassName('side_toc')[0];
+    const $cardToc = $cardTocLayout.getElementsByClassName('toc-content')[0];
+    let right = '45px';
+    if (window.innerWidth >= 551 && window.innerWidth <= 992) {
+      right = '100px'
+    }
+    const mobileToc = {
+      open: () => {
+        $cardTocLayout.style.cssText = 'animation: toc-open .3s; opacity: 1; right: ' + right
+      },
+
+      close: () => {
+        $cardTocLayout.style.animation = 'toc-close .2s'
+        setTimeout(() => {
+          $cardTocLayout.style.cssText = "opacity:''; animation: ''; right: ''"
+        }, 100)
+      }
+    }
+    document.getElementById('toc-mobile-btn').addEventListener('click', () => {
+      if (window.getComputedStyle($cardTocLayout).getPropertyValue('opacity') === '0') mobileToc.open()
+      else mobileToc.close()
+    })
+
+    $cardToc.addEventListener('click', (e) => {
+      if (window.innerWidth < 992) { // 小于992px的时候
+        mobileToc.close()
+      }
+    })
+  }
+</script>
+
+<style>
+  /* .is-position-fixed {
+    position: sticky !important;
+    top: 74px;
+  }
+
+  .toc-main ul {
+    counter-reset: show-list;
+  }
+
+  .toc-main ul li::before {
+    content: counter(item)".";
+    display: block;
+    position: absolute;
+    left: 12px;
+    top: 0;
+  } */
+</style>
+ 
+
+<!-- 设置导航背景 -->
+<script>
+  let setHeaderClass = () => {
+    const nav = $('#navHeader');
+    const navTop = nav.outerHeight();
+    const winTop = $(window).scrollTop();
+    if(winTop > navTop) {
+      nav.addClass('header-bg-color');
+    }
+    else {
+      nav.removeClass('header-bg-color');
+    }
+  };
+
+  let scrollCollect = () => {
+    return bamboo.throttle(function (e) {
+      setHeaderClass();
+    }, 200)()
+  }
+
+  let initHeaderBg = () => {
+    setHeaderClass();
+  }
+
+  setHeaderClass();
+  window.addEventListener('scroll', scrollCollect);
+
+  document.addEventListener('pjax:send', function () {
+    window.removeEventListener('scroll', scrollCollect)
+  })
+  document.addEventListener('pjax:complete', function () {
+    window.addEventListener('scroll', scrollCollect);
+    setHeaderClass();
+  })
+</script> 
+
+<!-- 渲染issues标签里的内容 -->
+<script>
+  function loadIssuesJS() {
+    if ($(".post-detail").find(".issues-api").length == 0) {
+      return;
+    } 
+    loadScript('/js/issues/index.js');
+  };
+  $(function () {
+    loadIssuesJS();
+  });
+  document.addEventListener('pjax:complete', function () {
+    if (typeof IssuesAPI == "undefined") {
+      loadIssuesJS();
+    }
+  })
+</script>
+
+<!-- 渲染远程json加载的图片标签(getPhotoOnline)里的内容 -->
+<script>
+  function loadPhotoOnlineJS() {
+    if ($(".post-detail").find(".getJsonPhoto-api").length == 0) {
+      return;
+    } 
+    loadScript('/js/getPhotoOnline/index.js');
+  };
+  $(function () {
+    loadPhotoOnlineJS();
+  });
+  document.addEventListener('pjax:complete', function () {
+    if (typeof getPhotoJson == "undefined") {
+      loadPhotoOnlineJS();
+    }
+  })
+</script>
+
+<!-- 渲染远程json加载的talk标签(getTalkOnline)里的内容 -->
+<script>
+  function loadTalkOnlineJS() {
+    if ($(".post-detail").find(".getJsonTalk-api").length == 0) {
+      return;
+    } 
+    loadScript('https://cdnjs.cloudflare.com/ajax/libs/waterfall.js/1.0.2/waterfall.min.js'); // 瀑布流插件，https://raphamorim.io/waterfall.js/
+    loadScript('/js/getTalkOnline/index.js');
+  };
+  $(function () {
+    loadTalkOnlineJS();
+  });
+  document.addEventListener('pjax:complete', function () {
+    if (typeof getTalkJson == "undefined") {
+      loadTalkOnlineJS();
+    }
+  })
+</script>
+
+<!-- 渲染远程json加载的site-card标签(getSiteOnline)里的内容 -->
+<script>
+  function loadSiteOnlineJS() {
+    if ($(".post-detail").find(".getJsonSite-api").length == 0) {
+      return;
+    } 
+    loadScript('/js/getSiteOnline/index.js');
+  };
+  $(function () {
+    loadSiteOnlineJS();
+  });
+  document.addEventListener('pjax:complete', function () {
+    if (typeof getSiteJson == "undefined") {
+      loadSiteOnlineJS();
+    }
+  })
+</script>
+
+<!-- 输入框打字特效 -->
+<!-- 输入框打字特效 -->
+
+  <script src="/js/activate-power-mode.js"></script>
+  <script>
+    POWERMODE.colorful = true;  // 打开随机颜色特效
+    POWERMODE.shake = false;    // 关闭输入框抖动
+    document.body.addEventListener('input', POWERMODE);//监听打字事件
+  </script>
+
+
+<!-- markdown代码一键复制功能 -->
+
+  <link rel="stylesheet" href="https://unpkg.com/v-plugs-ayu/lib/ayu.css">
+  <script src="https://unpkg.com/v-plugs-ayu/lib/ayu.umd.min.js"></script>
+  <script src="/js/clipboard/clipboard.min.js"></script>
+  <div id="appCopy">
+  </div>
+  <script data-pjax>
+    var vm = new Vue({
+      el: '#appCopy',
+      data: {
+      },
+      computed: {
+      },
+      mounted() {
+        const that = this;
+        var copy = '复制';
+        /* code */
+        var initCopyCode = function () {
+          var copyHtml = '';
+          copyHtml += '<button class="btn-copy" data-clipboard-snippet="" style="position:absolute;top:0;right:0;z-index:1;">';
+          copyHtml += '<i class="fas fa-copy"></i><span>' + copy + '</span>';
+          copyHtml += '</button>';
+          $(".post-detail pre").not('.gutter pre').wrap("<div class='codeBox' style='position:relative;width:100%;'></div>")
+          $(".post-detail pre").not('.gutter pre').before(copyHtml);
+          new ClipboardJS('.btn-copy', {
+            target: function (trigger) {
+              return trigger.nextElementSibling;
+            }
+          });
+        }
+        initCopyCode();
+        $('.btn-copy').unbind('click').bind('click', function () {
+          doSomething();
+        })
+        $(document).unbind('keypress').bind('keypress', function (e) {
+          if (e.ctrlKey && e.keyCode == 67) {
+            doSomething();
+          }
+        })
+
+        function doSomething() {
+          that.$notify({
+            title: "成功",
+            content: "代码已复制，请遵守相关授权协议。",
+            type: 'success'
+          })
+        }
+      },
+      methods: {
+      },
+      created() { }
+    })
+  </script>
+  
+
+<!-- 图片懒加载 -->
+<script defer src="https://unpkg.com/vanilla-lazyload@17.1.0/dist/lazyload.min.js"></script>
+<script>
+  // https://www.npmjs.com/package/vanilla-lazyload
+  // Set the options globally
+  // to make LazyLoad self-initialize
+  window.lazyLoadOptions = {
+    elements_selector: ".lazyload",
+    threshold: 0
+  };
+  // Listen to the initialization event
+  // and get the instance of LazyLoad
+  window.addEventListener(
+    "LazyLoad::Initialized",
+    function (event) {
+      window.lazyLoadInstance = event.detail.instance;
+    },
+    false
+  );
+  document.addEventListener('DOMContentLoaded', function () {
+    lazyLoadInstance.update();
+  });
+  document.addEventListener('pjax:complete', function () {
+    lazyLoadInstance.update();
+  });
+</script>
+
+
+<!-- 卡片滚动动画 -->
+   
+
+<!-- 评论所需js -->
+
+  
+
+
+<!-- 鼠标点击特效 -->
+<!-- 爱心点击 -->
+
+  
+    <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 999; pointer-events: none;" ></canvas>
+    <script async src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
+    <script async src="/js/cursor/explosion.min.js"></script>
+  
+
+
+
+
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" data-pjax></script>
+
+
+<!-- 轮播图标签 -->
+<script>
+  var bambooSwiperTag = {};
+  function load_swiper() {
+    if (!document.querySelectorAll(".post-swiper-container")[0]) return;
+    loadCSS("https://unpkg.com/swiper@6/swiper-bundle.min.css")
+    loadScript("https://unpkg.com/swiper@6/swiper-bundle.min.js").then(() => {
+      pjax_swiper();
+    });
+  }
+
+  load_swiper();
+
+  function pjax_swiper() {
+    bambooSwiperTag.swiper = new Swiper('.post-swiper-container', {
+      slidesPerView: 'auto',
+      spaceBetween: 8,
+      centeredSlides: true,
+      loop: true,
+      autoplay: true ? {
+        delay: 3000,
+        stopOnLastSlide: false,
+        disableOnInteraction: false,
+      } : false,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      on:{
+        init: function(){
+          swiperAnimateCache(this); //隐藏动画元素 
+          swiperAnimate(this); //初始化完成开始动画
+        }, 
+        slideChangeTransitionEnd: function(){ 
+          swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
+          //this.slides.eq(this.activeIndex).find('.ani').removeClass('ani'); 动画只展现一次，去除ani类名
+        } 
+      }
+    });
+  }
+
+  document.addEventListener('pjax:complete', function () {
+    if (!document.querySelectorAll(".post-swiper-container")[0]) return;
+    if (typeof bambooSwiperTag.swiper === "undefined") {
+      load_swiper();
+    } else {
+      pjax_swiper();
+    }
+  });
+</script>
+    <!-- pjax -->
+    
+
+<!-- pjax -->
+
+
+  <script src="/js/pjax@0.2.8/index.js"></script>
+  
+    <div class="pjax-animate">
+  
+    <div class="loading-circle"><div id="loader-circle"></div></div>
+    <script>
+      window.ShowLoading = function() {
+        $(".loading-circle").css("display", "block");
+      };
+      window.HideLoading = function() {
+        $(".loading-circle").css("display", "none");
+      }
+    </script>
+  
+	<script>
+    document.addEventListener('pjax:complete', function () {
+      window.HideLoading();
+    })
+    document.addEventListener('pjax:send', function () {
+      window.ShowLoading();
+    })
+    document.addEventListener('pjax:error', function () {
+      window.HideLoading();
+    })
+	</script>
+</div>
+
+  
+
+  <script>
+    var pjax = new Pjax({
+      elements: 'a[href]:not([href^="#"]):not([href="javascript:void(0)"]):not([no-pjax])',   // 拦截正常带链接的 a 标签
+      selectors: ["#pjax-container","title"],                                   // 根据实际需要确认重载区域
+      cacheBust: false,   // url 地址追加时间戳，用以避免浏览器缓存
+      timeout: 5000
+    });
+
+    document.addEventListener('pjax:send', function (e) {
+
+      try {
+        var currentUrl = window.location.pathname;
+        var targetUrl = e.triggerElement.href;
+        var banUrl = [""];
+        if (banUrl[0] != "") {
+          banUrl.forEach(item => {
+            if(currentUrl.indexOf(item) != -1 || targetUrl.indexOf(item) != -1) {
+              window.location.href = targetUrl;
+            }
+          });
+        }
+      } catch (error) {}
+
+      $(window).unbind('resize');
+      $(window).unbind('scroll');
+      $(document).unbind('scroll');
+      $(document).unbind('click');
+      $('body').unbind('click');
+
+    })
+    
+    document.addEventListener('pjax:complete', function () {
+      $('script[data-pjax], .pjax-reload script').each(function () {
+        $(this).parent().append($(this).remove());
+      });
+    });
+
+    document.addEventListener('pjax:error', function (e) {
+      window.location.href = e.triggerElement.href;
+    })
+    
+    // 刷新不从顶部开始
+    document.addEventListener("DOMContentLoaded", function () {
+      history.scrollRestoration = 'auto';
+    })
+  </script>
+
+
+
+  </body>
+</html>

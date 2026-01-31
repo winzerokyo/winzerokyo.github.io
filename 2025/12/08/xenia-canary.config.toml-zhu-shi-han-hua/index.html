@@ -1,0 +1,1772 @@
+<!DOCTYPE html>
+<html>
+  <!-- meta/link... -->
+  
+
+
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+  <title>Xenia-canary.config.toml注释汉化 | Winzerokyo的游戏站</title>
+
+  <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/favicon.ico">
+  <link rel="stylesheet" href="https://at.alicdn.com/t/font_1911880_c1nvbyezg17.css">
+  <link href="https://unpkg.com/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="/js/swiper/swiper@5.4.1.min.css" rel="stylesheet">
+  
+  
+  
+  
+<link rel="stylesheet" href="/css/animate.min.css">
+
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+  
+    <link href="https://unpkg.com/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" rel="stylesheet">
+  
+  
+  <style>
+        @media (max-width: 992px) {
+            #waifu {
+                display: none;
+            }
+        }
+    </style>
+    <script defer src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+    <link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+
+    
+    
+    <!-- 依赖于jquery和vue -->
+    <script src="https://unpkg.com/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://unpkg.com/vue@2.6.11/dist/vue.min.js"></script>
+
+    <!-- import link -->
+    
+        
+            
+        
+            
+        
+    
+    <!-- import script -->
+    
+        
+            
+        
+            
+        
+    
+
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="Winzerokyo的游戏站" type="application/atom+xml">
+</head>
+
+  
+  <!-- 预加载动画 -->
+  
+  
+  <div class="preloader_6" id="loader">
+  <div class="loader"></div>
+</div>
+  <script>
+    var endLoading = function () {
+      document.body.style.overflow = 'auto';
+      document.getElementById('loader').classList.add("loaded");
+    }
+    window.addEventListener('DOMContentLoaded', endLoading);
+  </script>
+
+
+  <body>
+    <!-- 判断是否为暗黑风格 -->
+    <!-- 判断是否为黑夜模式 -->
+<script defer>
+  let isDark = JSON.parse(localStorage.getItem('dark')) || JSON.parse('false');
+
+  if (isDark) {
+    $(document.body).addClass('darkModel');
+  }
+</script>
+
+    <!-- 需要在上面加载的js -->
+    <script>
+  function loadScript(src, cb) {
+    return new Promise(resolve => {
+      setTimeout(function () {
+        var HEAD = document.getElementsByTagName("head")[0] || document.documentElement;
+        var script = document.createElement("script");
+        script.setAttribute("type", "text/javascript");
+        if (cb) {
+          if (JSON.stringify(cb)) {
+            for (let p in cb) {
+              if (p == "onload") {
+                script[p] = () => {
+                  cb[p]()
+                  resolve()
+                }
+              } else {
+                script[p] = cb[p]
+                script.onload = resolve
+              }
+            }
+          } else {
+            script.onload = () => {
+              cb()
+              resolve()
+            };
+          }
+        } else {
+          script.onload = resolve
+        }
+        script.setAttribute("src", src);
+        HEAD.appendChild(script);
+      });
+    });
+  }
+
+  //https://github.com/filamentgroup/loadCSS
+  var loadCSS = function (src) {
+    return new Promise(resolve => {
+      setTimeout(function () {
+        var link = document.createElement('link');
+        link.rel = "stylesheet";
+        link.href = src;
+        link.onload = resolve;
+        document.getElementsByTagName("head")[0].appendChild(link);
+      });
+    });
+  };
+
+</script> 
+
+<!-- 轮播图所需要的js -->
+<script src="/js/swiper/swiper.min.js"></script>
+<script src="/js/swiper/vue-awesome-swiper.js"></script>
+<script src="/js/swiper/swiper.animate1.0.3.min.js"></script>
+
+<script type="text/javascript">
+  Vue.use(window.VueAwesomeSwiper)
+</script>
+
+
+  <script src="/js/vue-typed-js/index.js"></script>
+
+
+<!-- 首页的公告滚动插件的js需要重新加载 -->
+<script src="/js/vue-seamless-scroll/index.js"></script>
+
+<!-- 打字机效果js -->
+<script src="https://unpkg.com/typed.js@2.0.11"></script>
+
+
+    <div id="safearea">
+      <main class="main" id="pjax-container">
+        <!-- 头部导航 -->
+        
+<header class="header  " 
+  id="navHeader"
+  style="position: fixed;
+  left: 0; top: 0; z-index: 10;width: 100%;"
+>
+  <div class="header-content">
+    <div class="bars">
+      <div id="appDrawer" class="sidebar-image">
+  <div class="drawer-box-icon">
+    <i class="fas fa-bars" aria-hidden="true" @click="showDialogDrawer"></i>
+  </div>
+  
+  <transition name="fade">
+    <div class="drawer-box_mask" v-cloak style="display: none;" v-show="visible" @click.self="cancelDialogDrawer">
+    </div>
+  </transition>
+  <div class="drawer-box" :class="{'active': visible}">
+    <div class="drawer-box-head bg-color">
+      <img class="drawer-box-head_logo lazyload placeholder" src="/medias/logo.png" class="lazyload placeholder" data-srcset="/medias/logo.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="logo">
+      <h3 class="drawer-box-head_title">Winzerokyo的游戏站</h3>
+      <h5 class="drawer-box-head_desc"></h5>
+    </div>
+    
+    <div class="drawer-box-content">
+      <ul class="drawer-box-content_menu">
+        
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script>
+  var body = document.body || document.documentElement || window;
+  var vm = new Vue({
+    el: '#appDrawer',
+    data: {
+      visible: false,
+      top: 0,
+      openArr: [],
+    },
+    computed: {
+    },
+    mounted() {
+    },
+    methods: {
+      isOpen(index) {
+        if (this.openArr.includes(index)) {
+          return true;
+        } else {
+          return false;
+        }
+      },
+      openOrCloseMenu(curIndex) {
+        const index = this.openArr.indexOf(curIndex);
+        if (index !== -1) {
+          this.openArr.splice(index, 1);
+        } else {
+          this.openArr.push(curIndex);
+        }
+      },
+      showDialogDrawer() {
+        this.visible = true;
+        // 防止页面滚动，只能让弹框滚动
+        this.top = $(document).scrollTop()
+        body.style.cssText = 'width: 100%; height: 100%;overflow: hidden;';
+      },
+      cancelDialogDrawer() {
+        this.visible = false;
+        body.removeAttribute('style');
+        $(document).scrollTop(this.top)
+      }
+    },
+    created() {}
+  })
+</script>
+
+    </div>
+    <div class="blog-title" id="author-avatar">
+      
+        <div class="avatar">
+          <img src="/medias/logo.png" class="lazyload placeholder" data-srcset="/medias/logo.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="logo">
+        </div>
+      
+      <a href="/" class="logo">Winzerokyo的游戏站</a>
+    </div>
+    <nav class="navbar">
+      <ul class="menu">
+        
+      </ul>
+      
+      
+
+    </nav>
+  </div>
+  
+  
+    <div id="he-plugin-simple"></div>
+    <script defer>
+      WIDGET = {
+        CONFIG: {
+          "modules": "012",
+          "background": 5,
+          "tmpColor": "4A4A4A",
+          "tmpSize": 16,
+          "cityColor": "4A4A4A",
+          "citySize": 16,
+          "aqiSize": 16,
+          "weatherIconSize": 24,
+          "alertIconSize": 18,
+          "padding": "10px 10px 10px 10px",
+          "shadow": "1",
+          "language": "auto",
+          "borderRadius": 5,
+          "fixed": "false",
+          "vertical": "middle",
+          "horizontal": "center",
+          "key": "2784dd3fcb1e4f0f9a9b579bf69641f2"
+        }
+      }
+    </script>
+    <script defer src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script> 
+    
+</header>
+        <!-- 内容区域 -->
+        
+<!-- prismjs 代码高亮 -->
+
+
+
+
+<div class="bg-dark-floor" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -1;"></div>
+
+
+  <!-- 文章详情页顶部图片和标题 -->
+
+
+
+
+<div class="post-detail-header" id="thumbnail_canvas" style="background-repeat: no-repeat; background-size: cover; 
+  background-position: center center;position: relative;background-image:url('https://pic4.zhimg.com/80/v2-83ea273b88e119d9615aed0d89aad4ab_1440w.webp')">
+  <div class="post-detail-header-mask"></div>
+  <canvas id="header_canvas"style="position:absolute;bottom:0;pointer-events:none;"></canvas>
+  
+  <div class="post-detail-header_info-box">
+    <div class="title-box">
+      <span class="title">
+        Xenia-canary.config.toml注释汉化
+      </span>
+    </div>
+    
+    
+      
+        <span class="post-detail-header_date">
+          <i class="fas fa-calendar"></i> 发表于：2025-12-08 |
+        </span>
+      
+
+      
+        <span class="post-detail-header_categories">
+          <i class="iconfont iconbookmark1"></i> 分类：
+          
+            <a href="/categories/XBOX360/" class="post-detail-header_category">
+              XBOX360
+            </a>
+          
+        </span>
+      
+
+      
+    
+  </div>
+  
+  
+    <script defer src="/js/bubble/bubble.js"></script>
+  
+</div>
+
+
+
+
+
+<div class="post-detail-content post-row" 
+  style="padding-top: 0px;">
+  <div class="main-content">
+    <article class="post post-detail">
+      <div class="post-content">
+        <p>基于20251205的xenia-canary.config.toml注释汉化</p>
+<p>[APU]<br>apu &#x3D; “any”                                       	# 音频系统。使用: [any, nop, sdl, xaudio2]<br>apu_max_queued_frames &#x3D; 8                         	# 允许更改最大缓冲音频帧以减少音频延迟。降低此值可能会导致性能问题。取值范围: [4-64]<br>enable_xmp &#x3D; true                                 	# 启用音乐播放器播放。<br>ffmpeg_verbose &#x3D; false                            	# 详细FFmpeg输出（调试及以上）<br>mute &#x3D; false                                      	# 将所有音频输出静音。<br>use_dedicated_xma_thread &#x3D; true                   	# 在单独的线程上启用XMA解码。禁用应该产生更好的结果，但会稍微降低性能。<br>xma_decoder &#x3D; “new”                               	# 支持使用新的实验XMA音频解码器。<br>                                                      # 使用: [fake, master, old, new]<br>                                                      #  fake:<br>                                                      #   不会解码任何音频。<br>                                                      #  master:<br>                                                      #   解码器版本与 Xenia 基础版本完全相同。<br>                                                      #  old:<br>                                                      #   基于主版本解码器并做了一些改进的解码器。<br>                                                      #  new:<br>                                                      #   新版解码器。提供了最高的稳定性，但尚未完成。</p>
+<p>xmp_default_volume &#x3D; 70                           	# 如果游戏未设置默认音乐音量 [0-100].</p>
+<p>[CPU]<br>break_condition_gpr &#x3D; -1                          	# GPR 比较<br>break_condition_op &#x3D; “eq”                         	# 比较运算符<br>break_condition_truncate &#x3D; true                   	# 将值截断为32位<br>break_condition_value &#x3D; 0                         	# 被比较的值<br>break_on_debugbreak &#x3D; true                        	# 在JIT编译的 __debugbreak 请求上触发 int3 中断。<br>break_on_instruction &#x3D; 0                          	# 在给定的客户机地址被执行前触发 int3 中断。<br>break_on_start &#x3D; false                            	# 启动时中断调试器。<br>break_on_unimplemented_instructions &#x3D; true        	# 如果遇到未实现的 PowerPC 指令，则中断到主机调试器（若无调试器附加则崩溃）。<br>clock_no_scaling &#x3D; false                          	# 禁用缩放代码。绕过时间和锁管理。直接从主机获取客户机系统时间。<br>clock_source_raw &#x3D; false                          	# 使用 RDTSC 指令作为时间源。主机 CPU 必须支持不变 TSC（Invariant TSC）。<br>cpu &#x3D; “any”                                       	# 什么也不做。CPU后端 [any, x64]。<br>debug_symbol_loader &#x3D; false                       	# 启用 dbghelp 调试日志记录和验证。<br>debugprint_trap_log &#x3D; false                       	# 将调试打印debug记录到活动调试器<br>disable_context_promotion &#x3D; false                 	# 禁用上下文提升（Context Promotion）优化，某些体育游戏可能需要此设置，但会降低性能<br>disable_instruction_infocache &#x3D; false             	# 禁用对已调用指令&#x2F;MMIO 访问记录的缓存。<br>disable_prefetch_and_cachecontrol &#x3D; true          	# 禁用将 PowerPC 预取&#x2F;缓存刷新指令转换为主机的预取&#x2F;缓存刷新指令。这可能会提升性能，因为这些指令原本是为 Xbox 360 的缓存机制设计的，而现代处理器会自行执行自动预取操作。<br>disassemble_functions &#x3D; false                     	# 在生成过程中反汇编函数。<br>dump_translated_hir_functions &#x3D; false             	# 转储翻译后的 HIR（High-Level Intermediate Representation，高级中间表示）。<br>elide_e0_check &#x3D; false                            	# 在某些内存访问（例如对 r13（线程局部存储）或 r1（栈指针）的访问）上消除 e0 检查。<br>emit_mmio_aware_stores_for_recorded_exception_addresses &#x3D; true	# 使用通过 record_mmio_access_exceptions 收集的信息，生成比触发异常更快的特殊存储操作。<br>emit_source_annotations &#x3D; false                   	# 添加额外的 mov 指令和 nop 指令，以使反汇编结果更易于阅读。<br>enable_early_precompilation &#x3D; false               	# 启用预编译来宾函数，这些函数要么是我们已知调用过的，要么是通过简单启发式方法识别出的函数。此功能对使用 JIT（即时编译器）进行错误查找和压力测试很有帮助。<br>full_optimization_even_with_debug &#x3D; false         	# 供开发者分析生成代码的质量使用，不用于代码的实际调试。<br>ignore_trap_instructions &#x3D; true                   	# 对 PowerPC 的 trap 指令不生成任何代码，这可能会在那些频繁使用 trap 进行检查的游戏中带来更好的性能。<br>ignore_undefined_externs &#x3D; true                   	# 调用未定义的外部函数时，不退出程序。<br>inline_loadclock &#x3D; false                          	# 直接读取缓存的来宾时钟，而不调用 LoadClock 方法（该时钟会因其他线程的调用而反复更新）。<br>inline_mmio_access &#x3D; true                         	# 内联常量 MMIO（内存映射 I&#x2F;O）的加载和存储操作。<br>load_module_map &#x3D; “”                              	# 加载一个 .map 文件以获取符号名称，并与生成的符号数据库进行比较。<br>no_reserved_ops &#x3D; false                           	# 用于测试游戏在存在缺陷的保留加载&#x2F;存储实现时是否可能出现竞争条件。<br>no_round_to_single &#x3D; false                        	# 非面向用户的功能，会导致游戏出错。跳过将双精度浮点数（double）四舍五入为单精度（float）再转回的操作。<br>permit_float_constant_evaluation &#x3D; false          	# 允许浮点常量求值，但这可能会产生不正确的结果，并破坏游戏中的数学运算。<br>pvr &#x3D; 7407360                                     	# 已知的 PVR 型号。（注：PVR 通常指 PowerVR，一种图形处理器，常见于游戏主机或嵌入式设备中，此处可能指代特定硬件或模拟器中的图形芯片型号。）<br>                                                      #  0x710200 &#x3D; 由 Zephyr 使用<br>                                                      #  0x710300 &#x3D; 由 Zephyr 使用<br>                                                      #  0x710500 &#x3D; 由 Jasper 使用<br>                                                      #  0x710700 &#x3D; 默认<br>                                                      #  0x710800 &#x3D; 由 Corona V1 &amp; V2 使用<br>                                                      # 处理器版本和修订号。<br>                                                      # 第 0 到 15 位是版本号。<br>                                                      # 第 16 到 31 位是修订号。<br>                                                      # 注意：某些 XEX 文件（例如 mfgbootlauncher.xex）可能会检查是否小于 0x710700 的值。</p>
+<p>store_all_context_values &#x3D; false                  	# 不要移除无效的上下文存储，以帮助调试。<br>trace_function_coverage &#x3D; false                   	# 生成用于函数指令覆盖率统计的跟踪信息。<br>trace_function_data &#x3D; false                       	# 生成用于函数结果数据的跟踪信息。<br>trace_function_data_path &#x3D; “”                     	# 用于写入跟踪数据的文件。<br>trace_function_references &#x3D; false                 	# 生成用于函数地址引用的跟踪信息。<br>trace_functions &#x3D; false                           	# 生成用于函数统计信息的跟踪信息。<br>use_fast_dot_product &#x3D; false                      	# 实验性优化，在点积运算中使用更短的指令序列，将 inf（无穷大）视为溢出处理，而不是使用 mcxsrfour 指令进行点积运算。<br>validate_hir &#x3D; false                              	# 在编译期间对 HIR 执行验证检查。<br>writable_code_segments &#x3D; false                    	# 允许程序在内存中写入自己的代码段。</p>
+<p>[Config]<br>defaults_date &#x3D; 2025120421                        	# 不要修改——这是配置中默认值的内部版本，用于在任何选项的默认值更改时实现无缝更新。</p>
+<p>[Content]<br>license_mask &#x3D; -1                                 	# 设置已激活内容的许可证掩码。（这个选项就是开有DLC的游戏，如果游戏有DLC加载建议数值为-1）<br>                                                      #  0 &#x3D; 没有启用任何许可证。<br>                                                      #  1 &#x3D; 已启用第一个许可证。通常在Xbox Live Arcade游戏中代表完整版许可证。<br>                                                      #<br>                                                      #  -1 or 0xFFFFFFFF &#x3D; 启用所有可能的许可证。通常不建议这样做，可能会导致未定义的行为。<br>                                                      #                     </p>
+<p>[D3D12]<br>d3d12_adapter &#x3D; -1                                	# 要使用的 DXGI 适配器的索引。-1 表示任何物理适配器，-2 表示 WARP 软件渲染。<br>d3d12_allow_variable_refresh_rate_and_tearing &#x3D; true	# 在全屏模式下，允许在支持可变刷新率的显示器上使用该功能。在不支持 VRR 的显示器上，某些情况下可能会出现屏幕撕裂。<br>d3d12_bindless &#x3D; true                             	# 在可用的地方使用无绑定资源——可能会提升性能，但可能会使调试更加复杂。<br>d3d12_break_on_error &#x3D; false                      	# 在 Direct3D 12 验证错误时中断。<br>d3d12_break_on_warning &#x3D; false                    	# 在 Direct3D 12 验证警告时中断。<br>d3d12_debug &#x3D; false                               	# 启用 Direct3D 12 和 DXGI 调试层。<br>d3d12_dxbc_disasm &#x3D; false                         	# 在生成后反汇编 DXBC 着色器。<br>d3d12_dxbc_disasm_dxilconv &#x3D; false                	# 如果操作系统支持DXIL着色器，并且在<a target="_blank" rel="noopener" href="https://github.com/microsoft/DirectXShaderCompiler/releases%E4%B8%8A%E6%8F%90%E4%BE%9B%E4%BA%86DirectX%E7%9D%80%E8%89%B2%E5%99%A8%E7%BC%96%E8%AF%91%E5%99%A8DLL%EF%BC%8C%E5%88%99%E5%9C%A8%E8%BD%AC%E6%8D%A2%E4%B8%BADXIL%E5%90%8E%EF%BC%8C%E5%AF%B9DXBC%E7%9D%80%E8%89%B2%E5%99%A8%E8%BF%9B%E8%A1%8C%E5%8F%8D%E6%B1%87%E7%BC%96">https://github.com/microsoft/DirectXShaderCompiler/releases上提供了DirectX着色器编译器DLL，则在转换为DXIL后，对DXBC着色器进行反汇编</a><br>d3d12_pipeline_creation_threads &#x3D; -1              	# 用于图形管线创建的线程数。-1 表示自动计算（逻辑 CPU 核心数的 75%），正数表示明确指定线程数（不超过逻辑 CPU 核心数），0 表示禁用多线程管线创建。<br>d3d12_queue_priority &#x3D; 1                          	# 图形（直接）命令队列调度优先级，0 - 正常，1 - 高，2 - 全局实时（需要管理员权限，可能影响系统响应能力）。<br>d3d12_submit_on_primary_buffer_end &#x3D; true         	# 在 PM4 主缓冲区结束时提交命令列表，如果可以立即提交，则尝试减少帧延迟。<br>d3d12_tessellation_wireframe &#x3D; false              	# 以线框模式显示细分曲面，用于调试。<br>d3d12_tiled_shared_memory &#x3D; true                  	# 启用平铺资源以模拟共享内存。禁用它们会增加视频内存使用量（将创建一个 512 MB 的缓冲区），但可以让不支持平铺资源的图形调试器正常工作。</p>
+<p>[Display]<br>fullscreen &#x3D; false                                	# 是否以全屏模式启动模拟器。<br>host_present_from_non_ui_thread &#x3D; true            	# 允许GPU模拟线程直接将客户机输出呈现到主机表面，而不是通过主机窗口系统请求UI线程来执行此操作。<br>postprocess_antialiasing &#x3D; “”                     	# 应用于游戏图像输出的后处理抗锯齿效果。<br>                                                      # 当启用 AMD FidelityFX 对比度自适应锐化或超分辨率 1.0 时，强烈建议使用后处理抗锯齿。<br>                                                      # 使用: [none, fxaa, fxaa_extreme]<br>                                                      #  none (或任何未在此列出的值):<br>                                                      #   不修改原始图像。<br>                                                      #  fxaa:<br>                                                      #   NVIDIA 快速近似抗锯齿 3.11，正常质量预设 (12)。<br>                                                      #  fxaa_extreme:<br>                                                      #   NVIDIA 快速近似抗锯齿 3.11，极致质量预设 (39)。</p>
+<p>postprocess_dither &#x3D; true                         	# 将最终图像输出从内部精度抖动至每通道 8 位，从而使渐变效果更平滑。<br>                                                      # 在 10 位色深（10bpc）的显示器上，较低的 2 位仍将保留，但会向其中添加噪点。因此，对于 10 位色深显示，建议禁用此功能，但这具体取决于实际使用的显示器对 10 位色深的显示能力。</p>
+<p>postprocess_ffx_cas_additional_sharpness &#x3D; 0      	# AMD FidelityFX 对比度自适应锐化（CAS）的额外锐度，取值范围为 0 到 1。<br>                                                      # 数值越高，图像越锐利。</p>
+<p>postprocess_ffx_fsr_max_upsampling_passes &#x3D; 4     	# 在 AMD FidelityFX 超分辨率 1.0（FSR）中，在最终迭代后回退到双线性拉伸之前，执行的上采样迭代的最大次数。<br>                                                      # 每次迭代仅将图像放大至前一次尺寸的 2x2 倍。例如，如果游戏输出的图像为 1280x720，一次迭代后将放大至最高 2560x1440（低于 4K），两次迭代后则最高可放大至 5120x2880（包含 4K 分辨率 3840x2160），以此类推。<br>                                                      # 如果显示分辨率不高，此变量将不起作用；但在 4K 或 8K 等高分辨率下，若多次 FSR 上采样带来的性能开销过大，或用户希望画面边缘更柔和时，可适当降低该数值。<br>                                                      # 默认值为 Xenia 内部支持的最大值。</p>
+<p>postprocess_ffx_fsr_sharpness_reduction &#x3D; 0.20000000298023224	# AMD FidelityFX 超分辨率 1.0（FSR）的锐度降低值，单位为档（stops）。<br>                                                      # 数值越低，图像越锐利。</p>
+<p>postprocess_scaling_and_sharpening &#x3D; “”           	# 用于最终显示输出重采样和&#x2F;或锐化的后处理效果。<br>                                                      # 使用: [bilinear, cas, fsr]<br>                                                      #  bilinear (或任何未在此列出的值):<br>                                                      #   原始图像，1:1 显示，重采样使用简单的双线性拉伸。<br>                                                      #  cas:<br>                                                      #   使用 AMD FidelityFX 对比度自适应锐化（CAS）进行锐化，适用于最高 2x2 的缩放倍率；对于更大的倍率，则额外使用双线性拉伸。<br>                                                      #  fsr:<br>                                                      #   使用 AMD FidelityFX 超分辨率 1.0 (FSR) 以获得最高质量的上采样；若不进行缩放或进行下采样，则使用 AMD FidelityFX 对比度自适应锐化 (CAS) 进行锐化。<br>                                                      #   对于超过 2x2 的缩放倍率，需要进行多次 FSR 迭代。</p>
+<p>present_letterbox &#x3D; true                          	# 拉伸时保持宽高比，当没有更多过扫描区域可供裁剪时，通过在图像周围显示黑边来实现。<br>present_render_pass_clear &#x3D; true                  	# 在支持此功能的图形后端上，使用呈现操作中的“清空渲染通道加载操作”，而不是使用仅清除信箱模式区域的清除命令。<br>present_safe_area_x &#x3D; 100                         	# 在显示时为了保持宽高比且不出现黑边或拉伸，图像宽度可保留的百分比。<br>present_safe_area_y &#x3D; 100                         	# 在显示时为了保持宽高比且不出现黑边或拉伸，图像高度可保留的百分比。</p>
+<p>[GPU]<br>clear_memory_page_state &#x3D; false                   	# 刷新内存页面状态，以启用 GPU 写入的数据。（用于“Team Ninja”游戏，修复缺失的角色模型问题）<br>depth_float24_convert_in_pixel_shader &#x3D; false     	# 使用主机深度缓冲区时，是否直接在来宾绘制的像素着色器中将深度值从主机精度（32位浮点）转换为24位浮点（20e4）。<br>                                                      # 如果丢失了完整的主机精度深度数据，这可以防止出现视觉瑕疵（即渲染表面的部分区域与未渲染部分交替出现的条纹状伪影：当使用“大于或等于”深度测试函数时，这些条纹宽度通常一致；而当使用“等于”函数时，未渲染部分的条纹会比渲染部分细得多）。<br>                                                      # 如果游戏将此前从 EDRAM（嵌入式动态随机存取存储器）逐出到普通 RAM 中的深度数据重新加载回 EDRAM，但此前包含该深度缓冲区的 EDRAM 区域已被另一个深度缓冲区覆盖，或者游戏将其加载到了与之前不同的 EDRAM 位置，那么 Xenia 将无法以原始精度恢复这些深度数据。在这种情况下，模拟器只能退而求其次，使用较低精度的数值进行转换。因此，在针对同一几何体的后续渲染过程中，表面的实际深度值将不再与深度缓冲区中存储的值匹配。<br>                                                      # 这是一个开销巨大的选项，因为它会导致 GPU 无法使用深度缓冲区压缩技术；同时，在启用多重采样抗锯齿（MSAA）时，它会强制像素着色器对每一个子像素采样点而非整个像素执行，导致像素着色的负载根据 MSAA 采样数量的不同而增加 2 倍或 4 倍。<br>                                                      # 该舍入方向由 depth_float24_round 配置变量控制。<br>                                                      # 请注意，当 depth_float24_round 设为 true 时，开销会进一步增加，因为无论表面是否位于先前已绘制表面的后方，都必须执行像素着色器。而当 depth_float24_round 设为 false 时，则会使用保守深度输出，因此像素着色器前的深度剔除可能仍然有效。<br>                                                      # 如果主机 GPU 不支持样本级着色（sample-rate shading），则仅在未使用 MSAA 时才会在像素着色器中进行该转换。<br>                                                      # 当深度缓冲区通过片段着色器互锁&#x2F;光栅化顺序视图在软件中进行模拟时，此设置将被忽略，因为此时始终直接使用 24 位深度。</p>
+<p>depth_float24_round &#x3D; false                       	# 当使用主机深度缓冲区，且在片段着色器中将深度值从主机精度（32 位浮点数）转换为 24 位浮点数（20e4）时，是否采用向最近的偶数舍入，而不是向零截断。<br>                                                      # false:<br>                                                      #  建议使用该选项。<br>                                                      #  由于该舍入方式（向最近的偶数舍入）的特性，转换后的深度值可能会比原始值更远离摄像机（即深度值变大）。<br>                                                      #  如果不启用depth_float24_convert_in_pixel_shader:<br>                                                      #   即使丢失了完整的主机精度深度数据，“大于或等于”（greater or equal）深度测试函数仍然可以正常工作，依然可以使用它来绘制同一几何体的另一个渲染通道。<br>                                                      #   (有关完整精度深度数据丢失的更多信息，请参阅 depth_float24_convert_in_pixel_shader 的描述。.)<br>                                                      #  如果启用depth_float24_convert_in_pixel_shader:<br>                                                      #   更快——由于使用了保守深度输出，被遮挡表面的像素着色器仍然可能会被跳过。<br>                                                      # true:<br>                                                      #  仅适用于由微小的 32 位浮点舍入误差引起的特殊问题情况，例如，当游戏通过将顶点位置的 Z 值设置为 W 来尝试在摄像机平面上绘制物体时。<br>                                                      #  该转换可能会导致深度值向摄像机靠近，也可能导致深度值远离摄像机，具体取决于舍入的方向。<br>                                                      #  使用与 Direct3D 9 参考光栅化器（reference rasterizer）中相同的舍入模式。<br>                                                      #  如果不启用depth_float24_convert_in_pixel_shader:<br>                                                      #   无法从完整的主机精度深度数据丢失中恢复——在后续对同一几何体的渲染过程中，将有一半的采样点会在“大于或等于”的深度测试中失败。<br>                                                      #  如果启用depth_float24_convert_in_pixel_shader:<br>                                                      #   更慢——无法在像素着色器执行之前进行深度拒绝（即无法使用“早期内部测试”）。<br>                                                      # 当深度缓冲区通过软件方式模拟（通过片段着色器锁&#x2F;光栅化顺序视图）时，此设置将被忽略，并且始终执行向最近偶数舍入。</p>
+<p>depth_transfer_not_equal_test &#x3D; true              	# 在深度渲染目标之间传输数据时，使用“不等于”（Not Equal）测试。这样，如果数据与当前深度缓冲区中的数据相同，则可以避免通过着色器深度输出进行重写，从而防止数据在往返传输过程中发生重复写入。<br>                                                      # 将此设置为 true 可能会使数据往返传输对深度压缩更加友好（具体取决于 GPU 的实现方式），因为任意的深度输出可能会导致深度压缩完全失效。这对后续的渲染是有利的；而将此设置为 false 则可能减少传输过程中的带宽占用，因为不需要读取之前的深度值。</p>
+<p>disassemble_pm4 &#x3D; false                           	# 仅在调试版本中生效，若启用该选项，将反汇编并记录发送给 CP 的所有 PM4 数据包。<br>draw_resolution_scale_x &#x3D; 1                       	# 用于不透明地缩放渲染分辨率的整数像素宽度缩放比例。<br>                                                      # 虽然支持 1、2 和 3，但任何大于 1 的数值的支持情况都取决于设备属性，例如是否支持稀疏绑定&#x2F;平铺资源、每个资源的虚拟地址位数以及其他因素。<br>                                                      # 由于从游戏的角度来看像素变得不明确，以及半像素偏移（在不使用 MSAA 时通常不影响覆盖范围）变成了全像素偏移，游戏渲染管线中的各种特效和部分可能会出现错误。</p>
+<p>draw_resolution_scale_y &#x3D; 1                       	# 用于对游戏不透明地缩放渲染分辨率的整数像素宽度比例。<br>                                                      # 有关详细信息，请参阅 draw_resolution_scale_x。</p>
+<p>draw_resolution_scaled_texture_offsets &#x3D; true     	# 针对渲染到纹理的操作，考虑分辨率缩放因素，应用纹理采样指令的偏移量，以便在某些情况下实现更准确的阴影过滤、泛光（Bloom）等效果。<br>dump_shaders &#x3D; “”                                 	# 用于着色器调试，指定在编译 GPU 着色器时将其转储到的路径。<br>dxbc_source_map &#x3D; false                           	# 在生成的 DXBC 中，将 Xenos 指令反汇编为注释，用于调试。<br>dxbc_switch &#x3D; true                                	# 使用 switch 语句而非 if 语句来进行流程控制。开启或关闭此选项可能会提高稳定性，但这很大程度上取决于显卡驱动程序对于 AMD 显卡，建议将此选项设为 true（开启），因为部分游戏在使用 if 语句进行流程控制时会出现崩溃（可能是着色器编译器试图将其“展平”导致的）。对于 Intel 核显（HD Graphics），此选项将被忽略，因为其在执行 switch 指令时会导致崩溃。<br>execute_unclipped_draw_vs_on_cpu &#x3D; true           	# 对于禁用了裁剪的绘制（主要是屏幕空间绘制，例如清屏操作），尽可能在 CPU 上执行顶点着色器，以估算该次绘制所涉及的 EDRAM 范围。<br>                                                      # 启用此选项可能会显著提升 GPU 性能，因为否则在禁用裁剪的绘制操作中，可能会被视为使用了全部 EDRAM，从而导致在主机渲染目标之间发生不必要的 EDRAM 范围所有权传输往返。<br>                                                      # 此外，对于那些必须以有损方式模拟特定渲染目标格式的主机（例如，通过 16 位浮点数来模拟 16 位定点数），此选项可以防止因这些绘制操作所进行的有损范围所有权传输，而导致位于 EDRAM 中当前渲染目标之后的其他渲染目标发生损坏。</p>
+<p>execute_unclipped_draw_vs_on_cpu_for_psi_render_backend &#x3D; true	# 如果启用了 execute_unclipped_draw_vs_on_cpu，那么即使在主机渲染后端使用了像素着色器交错执行（光栅化有序视图）的实现方式时，也依然要在 CPU 上执行无裁剪绘制的顶点着色器。<br>                                                      # 如果启用此选项，在切换位于 EDRAM 不同位置的不同渲染目标时，可能会消除多余的内存屏障（同步指令）。</p>
+<p>execute_unclipped_draw_vs_on_cpu_with_scissor &#x3D; false	# 不要将 execute_unclipped_draw_vs_on_cpu 的使用限制在仅针对无裁剪区域的绘制操作上（即裁剪矩形的右侧和底边位于 8192 或更大数值的情况）。尽管当裁剪矩形存在时，通常利用它就足以估算出渲染目标的高度。<br>                                                      # 启用此选项可能会导致 CPU 对顶点进行过度处理，因为一些游戏在绘制矩形（例如其用户界面）时，虽然没有启用裁剪（Clipping），但已经设置了正确的裁剪矩形（Scissor Rectangle）。</p>
+<p>force_convert_line_loops_to_strips &#x3D; false        	# 仅用于主机图形 API 降级支持测试，强制在 CPU 上将“线框环”图元转换为“线框带”，即使主机原生支持“线框环”图元。<br>force_convert_quad_lists_to_triangle_lists &#x3D; false	# 仅用于主机图形 API 降级支持测试，强制在 CPU 上将“四边形列表”图元转换为“四边形带”，即使主机原生支持“四边形列表”图元或可通过几何着色器进行模拟。<br>                                                      # 当调试器无法正确显示几何着色器生成的几何体时，此选项对于图形调试也可能有用。</p>
+<p>force_convert_triangle_fans_to_lists &#x3D; false      	# 仅用于主机图形 API 降级支持测试，强制在 CPU 上将“三角形扇”图元转换为“三角形列表”，即使主机原生支持“三角形扇”图元。<br>framerate_limit &#x3D; 0                               	# 最大帧率。0 &#x3D; 无限制帧率。<br>                                                      # 当设置为 0 且开启垂直同步（VSYNC）时，默认值为 60。</p>
+<p>gamma_render_target_as_srgb &#x3D; false               	# 当主机无法直接通过正确的混合模式写入分段线性伽马（piecewise linear gamma）时，使用主机的 sRGB 输出。这样可以在概念上实现线性色彩空间的正确混合，但渲染目标中的精度分布会略有不同；并且，如果游戏直接将生成的颜色作为原始数据读取，数值将会严重错误。<br>gpu &#x3D; “any”                                       	# 图形系统。 使用: [any, d3d12, vulkan, null]<br>gpu_allow_invalid_fetch_constants &#x3D; true          	# 允许使用类型无效的纹理和顶点获取常量。这通常存在安全隐患，因为该常量可能包含完全无效的值；但为了绕过某些游戏中出现的获取常量类型错误，直到找到它们失效的根本原因之前，可以暂时使用此选项。<br>gpu_allow_invalid_upload_range &#x3D; false            	# 允许游戏读取被标记为“无访问权限”的内存页中的数据。<br>half_pixel_offset &#x3D; true                          	# 启用顶点半像素偏移支持 (D3D9 PA_SU_VTX_CNTL PIX_CENTER)。通常情况下，游戏逻辑是基于半像素偏移设计的，因此开启此功能才是正确的行为（禁用此功能可能会严重破坏部分游戏的后处理效果）。但在某些游戏中，开发者可能忽略了这一点，导致在纹理像素间隙（而非像素中心）采样时，UI 纹理出现轻微模糊；或者在全屏渲染通道配合多重采样抗锯齿 (MSAA) 使用时，最左侧或最顶部的像素无法完全覆盖。<br>ignore_32bit_vertex_index_support &#x3D; false         	# 仅用于主机图形 API 降级测试（仅对高通 Adreno 4xx 级别的主机 GPU 测试有用），强制进行间接寻址或预掩码及预交换 32 位顶点索引，就像主机仅支持 24 位索引一样。<br>log_guest_driven_gpu_register_written_values &#x3D; false	# 仅在调试版本中生效。如果启用，将记录客户机（Guest）对 GPU 寄存器所做的每一次写入操作。它不会记录由命令处理器（CP）自主执行的写入操作，仅记录由客户机直接发起或指令其执行的写入操作。<br>log_ringbuffer_kickoff_initiator_bts &#x3D; false      	# 仅在调试版本中生效，如果启用，将记录写入新读取位置的客户机线程的伪堆栈跟踪信息。<br>mrt_edram_used_range_clamp_to_min &#x3D; true          	# 对于主机渲染目标（Host Render Targets），如果绑定了多个渲染目标，则估算其中任意一个被修改的 EDRAM 范围，使其不超过 EDRAM 中任意两个渲染目标之间的距离；而不是允许最后一个渲染目标占据 EDRAM 剩余的所有空间。<br>                                                      # 主要对不包含视口裁剪的绘制操作产生影响。<br>                                                      # 在极少数情况下，将其设为“否”可获得更高的精度，但有时可能会增加所需的复制操作量。</p>
+<p>native_2x_msaa &#x3D; true                             	# 如果可用，使用主机原生的 2倍多重采样抗锯齿 (MSAA)。为了在那些非强制支持 2倍抗锯齿的主机图形 API 上进行可扩展性测试，可以禁用此选项。在此情况下，将使用 4倍抗锯齿中的 2个采样代替（画质相似或更差，且显存占用更高）。<br>native_stencil_value_output &#x3D; true                	# 在可用的情况下，使用像素着色器的模板参考值输出（Stencil Reference Output）来实现诸如在渲染目标之间进行复制等操作。为了进行可扩展性测试，可以禁用此功能；在这种情况下，将执行代价昂贵得多的 8 个四边形（Quads）绘制操作。<br>native_stencil_value_output_d3d12_intel &#x3D; false   	# 允许在英特尔显卡的 Direct3D 12 上使用模板参考值输出功能。截至 2021 年 3 月，该功能在 UHD Graphics 630 显卡上无法正常工作（对应的驱动版本为 27.20.0100.8336）<br>no_discard_stencil_in_transfer_pipelines &#x3D; false  	# 厌烦<br>non_seamless_cube_map &#x3D; true                      	# 在可能的情况下，禁用立方体贴图面之间在边缘附近的过滤（使用 Vulkan 的 VK_EXT_non_seamless_cube_map 扩展），以重现 Direct3D 9 的行为。<br>primitive_processor_cache_min_indices &#x3D; 4096      	# 如果进行了处理（例如图元类型转换或重置索引替换），在同一帧内尝试稍后重用时，应存储在缓存中的最少访客索引数量。<br>                                                      # 将其设置为过高的数值可能会导致过多的 CPU 处理开销，而设置为过低的数值则可能导致过多的加锁操作和查找操作。<br>                                                      # 负值将禁用缓存。</p>
+<p>query_occlusion_sample_lower_threshold &#x3D; 80       	# 如果设置为 -1，则不会写入任何采样计数，游戏可能会挂起（卡死）。否则，每个瓦片（Tile）的采样计数将在每次发生 EVENT_WRITE_ZPD 事件时，增加该设定的数值。将此值设置为 0 意味着所有物体都将被视为被遮挡（不可见）。<br>query_occlusion_sample_upper_threshold &#x3D; 100      	# 设置为比“遮挡查询采样下限阈值”更高的数值。如果“遮挡查询采样下限阈值”被设置为 -1，则此值将被忽略。<br>readback_memexport &#x3D; false                        	# 在 CPU 上读取由着色器中的“内存导出”操作写入的数据。某些游戏可能需要此功能（但许多游戏仅在 GPU 上访问导出的数据，处理此类行为无需此标志），不过这会导致帧内同步，因此会对性能产生巨大影响。<br>readback_resolve &#x3D; “none”                         	# 控制对“渲染到纹理”解析结果的 CPU 读取操作。<br>                                                      #  fast: 读取上一帧数据（1 帧延迟，无 GPU 停顿，轻微性能损耗）<br>                                                      #  full: 等待 GPU 完成（准确但缓慢，会导致 GPU-CPU 同步停顿）<br>                                                      #  none: 完全禁用读取回传（部分游戏在禁用该功能时渲染效果更好）</p>
+<p>render_target_path_d3d12 &#x3D; “”                     	# 在 Direct3D 12 上使用的渲染目标模拟路径。<br>                                                      # 使用: [any, rtv, rov]<br>                                                      #  rtv:<br>                                                      #   在宿主机上处理渲染目标、固定功能混合以及深度&#x2F;模板测试，并在需要时在渲染目标之间进行复制。<br>                                                      #   精度较低（像素格式支持有限）。<br>                                                      #   性能主要受限于因渲染目标布局更改而需要进行的数据复制操作，但总体性能较高<br>                                                      #  rov:<br>                                                      #   手动像素打包、混合以及深度&#x2F;模板测试，且支持自由的渲染目标布局更改。<br>                                                      #   需要支持“光栅化顺序视图”的 GPU。<br>                                                      #   最高精度（所有像素格式均在软件中处理）。<br>                                                      #   性能主要受限于过度绘制。<br>                                                      #   在 AMD 显卡驱动程序中，当前在许多情况下会导致着色器编译器崩溃。<br>                                                      #  任何其他值:<br>                                                      #   选择对系统而言最优化的方案（目前默认始终为 RTV，因为 ROV 路径现在的速度要慢得多，但 Intel 显卡除外；Intel 显卡在模板测试中存在一个 Bug，会导致 Xbox 360 Direct3D 9 的清除操作无法工作）。<br>render_target_path_vulkan &#x3D; “”                    	# 在 Vulkan 下使用的渲染目标模拟路径。<br>                                                      # 使用: [any, fbo, fsi]<br>                                                      #  fbo:<br>                                                      #   使用宿主机帧缓冲区以及固定功能的混合、深度&#x2F;模板测试，在需要时在渲染目标之间进行复制。<br>                                                      #   较低的精度（像素格式支持有限）。<br>                                                      #   性能主要受限于需要进行复制操作的渲染目标布局更改，但总体性能更高。<br>                                                      #  fsi:<br>                                                      #   手动像素打包、混合以及深度&#x2F;模板测试，且渲染目标布局更改不受限制。<br>                                                      #   需要支持片段着色器互锁功能的显卡。<br>                                                      #   最高精度（所有像素格式均由软件处理）。<br>                                                      #   性能主要受限于过度绘制（Overdraw）。<br>                                                      #  任何其他值:<br>                                                      #   选择对系统而言最优化的方案（目前默认始终为 FB，因为 FSI 路径现在的速度要慢得多）。</p>
+<p>resolve_resolution_scale_fill_half_pixel_offset &#x3D; true	# 在使用分辨率缩放时，应用一种“修改手段”：将渲染目标解析区域左侧和顶部第一个必定被覆盖的宿主机像素进行拉伸，以此消除因半像素偏移造成的间隙（某些游戏必须开启此选项才能正确显示画面图形）。<br>snorm16_render_target_full_range &#x3D; true           	# 当宿主机仅能将 16_16 和 16_16_16_16 渲染目标支持为 -1…1 范围时，将 -32…32 的范围重新映射到 -1…1 范围以利用数值的完整可能范围，但代价是乘法混合的正确性。<br>store_shaders &#x3D; true                              	# 将着色器进行持久化存储，并在加载游戏时将其载入，以避免在非首次游玩游戏时出现运行时的性能骤降和卡顿。<br>target_trace_file &#x3D; “”                            	# 指定要加载的跟踪文件。<br>texture_cache_memory_limit_hard &#x3D; 768             	# 宿主机纹理显存使用的最大值（以兆字节为单位），超过此数值后，纹理将被尽快销毁。<br>texture_cache_memory_limit_render_to_texture &#x3D; 24 	# 宿主机纹理显存预算中随当前绘制分辨率缩放而变化的部分（以兆字节为单位）<br>                                                      # 例如，如果 texture_cache_memory_limit_soft（软性显存限制）为 384 MB，而（上一项设置的）缩放部分为 24 MB，则系统会假定该游戏将占用约 24 MB 的“渲染到纹理”（解析）目标，以及 384 - 24 &#x3D; 360 MB 的普通纹理。因此，在 2x2 分辨率缩放下，软性限制将变为 360 + 96 MB；在 3x3 分辨率缩放下，软性限制将变为 360 + 216 MB。</p>
+<p>texture_cache_memory_limit_soft &#x3D; 384             	# 宿主机纹理显存使用的最大值（以兆字节为单位），超过此数值后，旧的纹理将被销毁。<br>texture_cache_memory_limit_soft_lifetime &#x3D; 30     	# 当纹理显存使用量超过软性限制时，一个纹理需要处于未使用状态的秒数，达到该时长后才会被视为“足够旧”，从而被考虑删除。<br>trace_dump_path &#x3D; “”                              	# 导出文件的输出路径。<br>trace_gpu_prefix &#x3D; “scratch&#x2F;gpu&#x2F;“                 	# GPU 跟踪文件的前缀路径。<br>trace_gpu_stream &#x3D; false                          	# 追踪所有 GPU 数据包。<br>use_fuzzy_alpha_epsilon &#x3D; false                   	# 对 Alpha 值使用近似比较，以防止在 NVIDIA 显卡上出现闪烁现象。<br>vsync &#x3D; true                                      	# 启用垂直同步。</p>
+<p>[General]<br>allow_game_relative_writes &#x3D; false                	# 对普通用户无用。允许代码写入相对于 game:&#x2F;&#x2F; 的路径。用于生成测试数据，以便与原版硬件进行对比。<br>allow_plugins &#x3D; false                             	# 允许从 plugins\title_id\plugin.xex 路径加载插件&#x2F;修改器。插件是自制的 xex 模块，可用于制作游戏模组（Mods）。此功能为实验性功能。<br>apply_patches &#x3D; true                              	# 启用自定义补丁功能<br>controller_hotkeys &#x3D; false                        	# Xbox 和 PlayStation 控制器的快捷键设置。<br>debug &#x3D; false                                     	# 允许调试并保留调试信息。<br>disable_doubleclick_fullscreen &#x3D; false            	# 允许用户禁用“快速双击导致 Xenia 进入全屏模式”的行为。<br>discord &#x3D; true                                    	# 启用 Discord 状态显示<br>launch_module &#x3D; “”                                	# 指定从 .iso 或安装包中启动的可执行文件，而非默认的 default.xex 或游戏指定的模块。留空则启动默认模块。<br>notification_sound_path &#x3D; “”                      	# 所选通知声音的路径（包含文件名）。声音文件必须为 wav 格式！<br>priority_class &#x3D; 0                                	# 强制 Xenia 使用与默认值不同的进程优先级。这可能会影响性能，并导致意外的错误。可选值：0 - 正常，1 - 高于正常，2 - 高<br>recent_titles_entry_amount &#x3D; 10                   	# 允许用户定义“最近游玩列表”中保存的游戏数量。<br>time_scalar &#x3D; 1                                   	# 用于加速或减慢时间的倍率（1倍、2倍、1&#x2F;2倍等）。</p>
+<p>[HACKS]<br>ac6_ground_fix &#x3D; false                            	# 此选项用于修复（隐藏）《阿凡达：潘多拉边境》（AC6）中的地面黑色显示问题。仅限在 AC6 中使用，应用于其他游戏可能会导致问题。</p>
+<p>[HID]<br>guide_button &#x3D; true                               	# 将“指南”按钮的按键操作传递给客户系统。<br>hid &#x3D; “any”                                       	# 输入系统。使用: [any, nop, sdl（非XBOX模式手柄）, winkey（键盘）, xinput（XBOX模式手柄）]（）里的是注释，键值以英文为准<br>keyboard_mode &#x3D; 0                                 	# 允许用户指定键盘的工作模式。可选值：0 - 禁用，1 - 启用，2 - 透传（注意：透传模式需要连接控制器！）<br>keyboard_user_index &#x3D; 0                           	# 键盘模拟的控制器端口。[0, 3] - 键盘被分配到选定的插槽。透传模式不需要分配插槽。<br>left_stick_deadzone_percentage &#x3D; 0                	# 定义左摇杆的死区等级。允许范围 [0.0-1.0].<br>right_stick_deadzone_percentage &#x3D; 0               	# 定义右摇杆的死区等级。允许范围 [0.0-1.0].<br>vibration &#x3D; true                                  	# 切换控制器振动（开关）。</p>
+<p>[HID.WinKey]<br>keybind_a &#x3D; “0xBA”                                	# 绑定到 A 键的按键列表，以空格分隔。<br>keybind_b &#x3D; “0xDE”                                	# 绑定到 B 键的按键列表，以空格分隔。<br>keybind_back &#x3D; “Z”                                	# 绑定到 返回 键的按键列表，以空格分隔。<br>keybind_dpad_down &#x3D; “^S”                          	# 绑定到 十字键下 键的按键列表，以空格分隔。<br>keybind_dpad_left &#x3D; “^A”                          	# 绑定到 十字键左 键的按键列表，以空格分隔。<br>keybind_dpad_right &#x3D; “^D”                         	# 绑定到 十字键右 键的按键列表，以空格分隔。<br>keybind_dpad_up &#x3D; “^W”                            	# 绑定到 十字键上 键的按键列表，以空格分隔。<br>keybind_guide &#x3D; “0x08”                            	# 绑定到 导航 键的按键列表，以空格分隔。<br>keybind_left_shoulder &#x3D; “1”                       	# 绑定到 LB（L1） 键的按键列表，以空格分隔。<br>keybind_left_thumb &#x3D; “F”                          	# 绑定到 左摇杆按下 键的按键列表，以空格分隔。<br>keybind_left_thumb_down &#x3D; “_S”                    	# 绑定到 左摇杆下 键的按键列表，以空格分隔。<br>keybind_left_thumb_left &#x3D; “_A”                    	# 绑定到 左摇杆左 键的按键列表，以空格分隔。<br>keybind_left_thumb_right &#x3D; “_D”                   	# 绑定到 左摇杆右 键的按键列表，以空格分隔。<br>keybind_left_thumb_up &#x3D; “_W”                      	# 绑定到 左摇杆上 键的按键列表，以空格分隔。<br>keybind_left_trigger &#x3D; “Q I”                      	# 绑定到 LT（L2） 键的按键列表，以空格分隔。<br>keybind_right_shoulder &#x3D; “3”                      	# 绑定到 RB（R1） 键的按键列表，以空格分隔。<br>keybind_right_thumb &#x3D; “K”                         	# 绑定到 右摇杆按下 键的按键列表，以空格分隔。<br>keybind_right_thumb_down &#x3D; “0x28”                 	# 绑定到 右摇杆下 键的按键列表，以空格分隔。<br>keybind_right_thumb_left &#x3D; “0x25”                 	# 绑定到 右摇杆左 键的按键列表，以空格分隔。<br>keybind_right_thumb_right &#x3D; “0x27”                	# 绑定到 右摇杆右 键的按键列表，以空格分隔。<br>keybind_right_thumb_up &#x3D; “0x26”                   	# 绑定到 右摇杆上 键的按键列表，以空格分隔。<br>keybind_right_trigger &#x3D; “E O”                     	# 绑定到 RT（R2） 键的按键列表，以空格分隔。<br>keybind_start &#x3D; “X”                               	# 绑定到 开始 键的按键列表，以空格分隔。<br>keybind_x &#x3D; “L”                                   	# 绑定到 X 键的按键列表，以空格分隔。<br>keybind_y &#x3D; “P”                                   	# 绑定到 Y 键的按键列表，以空格分隔。</p>
+<p>[Kernel]<br>allow_avatar_initialization &#x3D; false               	# 启用头像初始化<br>                                                      #  仅在测试虚拟形象（Avatar）游戏时设置为 True。某些游戏可能需要 Kinect 的支持实现。</p>
+<p>allow_incompatible_title_update &#x3D; true            	# 允许应用签名不匹配的标题更新。<br>allow_nui_initialization &#x3D; false                  	# 启用 NUI 初始化<br>                                                      #  仅在测试 Kinect 游戏时设置为 True。某些游戏可能需要头像（Avatar）功能的支持。</p>
+<p>apply_title_update &#x3D; true                         	# 应用标题更新。<br>cl &#x3D; “”                                           	# 指定提供给访客系统的附加命令行参数。<br>default_achievements_backend &#x3D; “GPD”              	# 定义应使用哪个成就后端作为默认设置。可能的选项：GPD。<br>ignore_thread_affinities &#x3D; true                   	# 忽略游戏指定的线程亲和性。(为应对12代以后酷睿的大小核设计的锁大核选项)<br>ignore_thread_priorities &#x3D; true                   	# 忽略游戏指定的线程优先级。(为应对12代以后酷睿的大小核设计的锁大核选项)<br>kernel_build_version &#x3D; 1888                       	# 定义当前内核版本<br>kernel_cert_monitor &#x3D; false                       	# 启用证书监视器。<br>kernel_debug_monitor &#x3D; false                      	# 启用调试监视器。<br>kernel_display_gamma_power &#x3D; 2.22222233           	# 当 kernel_display_gamma_type 设置为 3 时，使用的显示伽马值。<br>kernel_display_gamma_type &#x3D; 2                     	# 显示伽马类型：0 - 线性，1 - sRGB (CRT)，2 - BT.709 (HDTV)，3 - 由 kernel_display_gamma_power 指定的幂值。<br>kernel_pix &#x3D; false                                	# 启用 PIX。<br>log_high_frequency_kernel_calls &#x3D; false           	# 记录带有 kHighFrequency 标签的内核调用。<br>staging_mode &#x3D; false                              	# 在仪表盘中启用预览模式以渲染调试信息。</p>
+<p>[Logging]<br>enable_console &#x3D; false                            	# 随主窗口一同打开一个控制台窗口。<br>flush_log &#x3D; true                                  	# 在每一批日志行写入后刷新日志文件。<br>log_file &#x3D; “”                                     	# 日志将写入指定的文件中。<br>log_level &#x3D; 2                                     	# 要记录的最大级别。（0&#x3D;错误，1&#x3D;警告，2&#x3D;信息，3&#x3D;调试）<br>log_mask &#x3D; 0                                      	# 禁用特定分类，以获得更精细的调试日志。内核 &#x3D; 1，Apu &#x3D; 2，Cpu &#x3D; 4，Gpu &#x3D; 8。<br>log_string_format_kernel_calls &#x3D; false            	# 记录带有 kHighFrequency 标签的内核调用。<br>log_to_debugprint &#x3D; false                         	# 将日志转储到 DebugPrint。<br>log_to_stdout &#x3D; true                              	# 将日志输出写入标准输出。</p>
+<p>[Memory]<br>ignore_offset_for_ranged_allocations &#x3D; false      	# 允许忽略指定范围内物理分配的 4k 偏移量。某些游戏会检查结果是否与提供的较低范围匹配。<br>protect_on_release &#x3D; false                        	# 保护已释放的内存，以防止访问。<br>protect_zero &#x3D; true                               	# 保护零页，防止读取和写入操作。<br>scribble_heap &#x3D; false                             	# 将 0xCD 填充到所有已分配的堆内存中。<br>writable_executable_memory &#x3D; true                 	# 允许映射同时具有写入和执行权限的内存，以模拟在不支持该特性的平台上的行为。</p>
+<p>[Profiles]<br>logged_profile_slot_0_xuid &#x3D; “”                   	# 启动时在插槽 0 中加载的配置文件的 XUID。<br>logged_profile_slot_1_xuid &#x3D; “”                   	# 启动时在插槽 1 中加载的配置文件的 XUID。<br>logged_profile_slot_2_xuid &#x3D; “”                   	# 启动时在插槽 2 中加载的配置文件的 XUID。<br>logged_profile_slot_3_xuid &#x3D; “”                   	# 启动时在插槽 3 中加载的配置文件的 XUID。</p>
+<p>[SDL]<br>mappings_file &#x3D; “gamecontrollerdb.txt”            	# 包含自定义游戏控制器映射的数据库文件名。</p>
+<p>[Storage]<br>cache_root &#x3D; “”                                   	# 用于加速模拟器或游戏某些部分的文件的根路径。这些文件可能是持久化的，但删除它们不会产生重大副作用（例如进度丢失）。如果留空，则使用存储根目录下的缓存文件夹，或者（如果可用）操作系统首选的缓存目录。<br>content_root &#x3D; “”                                 	# 访客内容存储的根路径（如存档等），若留空则使用存储根目录下的 content 文件夹。<br>force_mount_devkit &#x3D; false                        	# 强制挂载开发套件目录<br>mount_cache &#x3D; true                                	# 启用缓存挂载<br>mount_scratch &#x3D; false                             	# 启用临时存储挂载<br>storage_root &#x3D; “”                                 	# 用于持久化内部数据存储（配置等）的根路径，若留空则使用操作系统首选的路径（如文档文件夹），或者如果模拟器可执行文件目录中存在 portable.txt，则使用该可执行文件目录。</p>
+<p>[UI]<br>custom_font_path &#x3D; “”                             	# 允许用户加载自定义字体并使用它，以替换默认字体。<br>font_size &#x3D; 14                                    	# 允许用户设置自定义字体大小。<br>headless &#x3D; false                                  	# 不显示任何用户界面，根据需要对提示使用默认设置。<br>imgui_debug &#x3D; false                               	# 显示 ImGui 调试工具。<br>profiler_dpi_scaling &#x3D; false                      	# 将窗口 DPI 缩放应用于分析器。<br>show_achievement_notification &#x3D; false             	# 在屏幕上显示成就通知。<br>show_profiler &#x3D; false                             	# 默认显示性能分析界面。<br>storage_selection_dialog &#x3D; false                  	# 当游戏请求时，显示存储设备选择对话框。</p>
+<p>[Video]<br>avpack &#x3D; 8                                        	# 视频模式<br>                                                      #  0 &#x3D; PAL-60 分量视频（标清）<br>                                                      #  1 &#x3D; Unused<br>                                                      #  2 &#x3D; PAL-60 SCART<br>                                                      #  3 &#x3D; 480p 分量视频（高清）<br>                                                      #  4 &#x3D; HDMI+A<br>                                                      #  5 &#x3D; PAL-60 Composite&#x2F;S-Video<br>                                                      #  6 &#x3D; VGA<br>                                                      #  7 &#x3D; TV PAL-60<br>                                                      #  8 &#x3D; HDMI (默认)</p>
+<p>enable_3d_mode &#x3D; false                            	# 在游戏标题（游戏）中启用立体显示模式。<br>interlaced &#x3D; false                                	# 切换隔行扫描模式。<br>internal_display_resolution &#x3D; 8                   	# 允许支持多种分辨率的游戏以特定分辨率进行渲染。<br>                                                      # 这无法保证兼容所有游戏，也不一定能提升性能。<br>                                                      #    0&#x3D;640x480<br>                                                      #    1&#x3D;640x576<br>                                                      #    2&#x3D;720x480<br>                                                      #    3&#x3D;720x576<br>                                                      #    4&#x3D;800x600<br>                                                      #    5&#x3D;848x480<br>                                                      #    6&#x3D;1024x768<br>                                                      #    7&#x3D;1152x864<br>                                                      #    8&#x3D;1280x720 (默认)<br>                                                      #    9&#x3D;1280x768<br>                                                      #    10&#x3D;1280x960<br>                                                      #    11&#x3D;1280x1024<br>                                                      #    12&#x3D;1360x768<br>                                                      #    13&#x3D;1440x900<br>                                                      #    14&#x3D;1680x1050<br>                                                      #    15&#x3D;1920x540<br>                                                      #    16&#x3D;1920x1080<br>                                                      #    17&#x3D;internal_display_resolution_x&#x2F;y</p>
+<p>internal_display_resolution_x &#x3D; 1280              	# 自定义宽度。参见 internal_display_resolution（内部显示分辨率）。范围 1-1920。<br>internal_display_resolution_y &#x3D; 720               	# 自定义高度。参见 internal_display_resolution（内部显示分辨率）。范围 1-1080。</p>
+<p>use_50Hz_mode &#x3D; false                             	# 启用 PAL-50 模式。<br>video_standard &#x3D; 1                                	# 启用在不同视频信号之间的切换。<br>                                                      #    1&#x3D;NTSC<br>                                                      #    2&#x3D;NTSC-J<br>                                                      #    3&#x3D;PAL</p>
+<p>widescreen &#x3D; true                                 	# 在 16:9 和 4:3 画幅比例之间切换。</p>
+<p>[Vulkan]<br>vulkan_allow_present_mode_fifo_relaxed &#x3D; true     	# 当可用时，允许使用“宽松的先入先出”呈现模式（第三优先级）。该模式会等待主机显示器的垂直同步，但如果帧率无法跟上显示器的刷新率，可能会出现画面撕裂。<br>vulkan_allow_present_mode_immediate &#x3D; true        	# 当可用时，允许使用即时呈现模式（第一优先级），该模式提供最低的延迟，但在某些情况下可能会出现画面撕裂，并且根据配置不同，可能支持可变刷新率。<br>vulkan_allow_present_mode_mailbox &#x3D; true          	# 当可用时，允许使用“邮箱”呈现模式（第二优先级），该模式提供低延迟，且不会出现画面撕裂。<br>vulkan_device &#x3D; -1                                	# 首选 Vulkan 物理设备的索引号，若设置为 -1 则使用任意兼容的设备。<br>vulkan_log_debug_messages &#x3D; true                  	# 将 Vulkan VK_EXT_debug_utils 调试信息写入 Xenia 日志，而不是操作系统的调试输出中。<br>vulkan_sparse_shared_memory &#x3D; true                	# 为共享内存模拟启用稀疏绑定。禁用它会增加显存使用量（会创建一个 512 MB 的缓冲区），但可以让那些不支持稀疏绑定的图形调试器正常工作。<br>vulkan_validation &#x3D; false                         	# 启用 Vulkan 验证层（VK_LAYER_KHRONOS_validation）。如果开启了 ‘vulkan_log_debug_messages’，消息将写入 Xenia 日志；否则，消息将写入操作系统的调试输出。</p>
+<p>[Win32]<br>win32_high_resolution_timer &#x3D; true                	# 向 NT 内核请求高分辨率定时器。<br>win32_mmcss &#x3D; true                                	# 加入多媒体类调度器服务 (MMCSS)，以获得对 CPU 资源的优先调度访问权。</p>
+<p>[XConfig]<br>audio_flag &#x3D; 65537                                	# 音频模式：模拟<br>                                                      #  0x00000001 &#x3D; 杜比定向逻辑<br>                                                      #  0x00000002 &#x3D; 模拟单声道<br>                                                      # 音频模式：数字<br>                                                      #  0x00000000 &#x3D; 数字立体声（单独选择上述其中一种）<br>                                                      #  0x00010000 &#x3D; 杜比数字<br>                                                      #  0x00030000 &#x3D; 杜比数字（包含 WMA Pro）<br>                                                      # 特殊标志 或 特殊选项<br>                                                      #  0x00000003 &#x3D; 立体声直通 或 立体声绕过<br>                                                      #  0x80000000 &#x3D; 低延迟<br>                                                      #  此配置要求您将一个模拟标志和一个数字标志配对使用。<br>                                                      #  而数字立体声只需要一个模拟标志。附加标志是可选的。例如：0x00010001</p>
+<p>user_country &#x3D; 20                                 	# 用户国家代码<br>                                                      #    1&#x3D;AE   2&#x3D;AL   3&#x3D;AM   4&#x3D;AR   5&#x3D;AT   6&#x3D;AU   7&#x3D;AZ   8&#x3D;BE   9&#x3D;BG<br>                                                      #   10&#x3D;BH  11&#x3D;BN  12&#x3D;BO  13&#x3D;BR  14&#x3D;BY  15&#x3D;BZ  16&#x3D;CA  18&#x3D;CH  19&#x3D;CL<br>                                                      #   20&#x3D;CN（中国）  21&#x3D;CO  22&#x3D;CR  23&#x3D;CZ  24&#x3D;DE  25&#x3D;DK  26&#x3D;DO  27&#x3D;DZ  28&#x3D;EC<br>                                                      #   29&#x3D;EE  30&#x3D;EG  31&#x3D;ES  32&#x3D;FI  33&#x3D;FO  34&#x3D;FR  35&#x3D;GB  36&#x3D;GE  37&#x3D;GR<br>                                                      #   38&#x3D;GT  39&#x3D;HK（中国香港）  40&#x3D;HN  41&#x3D;HR  42&#x3D;HU  43&#x3D;ID  44&#x3D;IE  45&#x3D;IL  46&#x3D;IN<br>                                                      #   47&#x3D;IQ  48&#x3D;IR  49&#x3D;IS  50&#x3D;IT  51&#x3D;JM  52&#x3D;JO  53&#x3D;JP  54&#x3D;KE  55&#x3D;KG<br>                                                      #   56&#x3D;KR  57&#x3D;KW  58&#x3D;KZ  59&#x3D;LB  60&#x3D;LI  61&#x3D;LT  62&#x3D;LU  63&#x3D;LV  64&#x3D;LY<br>                                                      #   65&#x3D;MA  66&#x3D;MC  67&#x3D;MK  68&#x3D;MN  69&#x3D;MO  70&#x3D;MV  71&#x3D;MX  72&#x3D;MY  73&#x3D;NI<br>                                                      #   74&#x3D;NL  75&#x3D;NO  76&#x3D;NZ  77&#x3D;OM  78&#x3D;PA  79&#x3D;PE  80&#x3D;PH  81&#x3D;PK  82&#x3D;PL<br>                                                      #   83&#x3D;PR  84&#x3D;PT  85&#x3D;PY  86&#x3D;QA  87&#x3D;RO  88&#x3D;RU  89&#x3D;SA  90&#x3D;SE  91&#x3D;SG<br>                                                      #   92&#x3D;SI  93&#x3D;SK  95&#x3D;SV  96&#x3D;SY  97&#x3D;TH  98&#x3D;TN  99&#x3D;TR 100&#x3D;TT 101&#x3D;TW（中国台湾）<br>                                                      #  102&#x3D;UA 103&#x3D;US 104&#x3D;UY 105&#x3D;UZ 106&#x3D;VE 107&#x3D;VN 108&#x3D;YE 109&#x3D;ZA</p>
+<p>user_language &#x3D; 8                                 	# 用户语言代码<br>                                                      #   1&#x3D;en  2&#x3D;ja  3&#x3D;de  4&#x3D;fr  5&#x3D;es  6&#x3D;it  7&#x3D;ko  8&#x3D;zh（中文）<br>                                                      #   9&#x3D;pt 11&#x3D;pl 12&#x3D;ru 13&#x3D;sv 14&#x3D;tr 15&#x3D;nb 16&#x3D;nl 17&#x3D;zh（中文）</p>
+<p>[x64]<br>align_all_basic_blocks &#x3D; 0                        	# 将所有基本块的起始位置按 N 字节对齐。仅指定 2 的幂次方数值，推荐值为 16。这将导致更大的指令缓存占用，但可能带来更快的循环执行速度。<br>delay_via_maybeyield &#x3D; false                      	# 通过 MaybeYield 实现 db16cyc 指令，可能改善客户机线程的调度。<br>enable_host_guest_stack_synchronization &#x3D; true    	# 在函数开始处记录客户机&#x2F;宿主机栈映射条目，并在返回点检查重入。会有轻微的性能影响，但能修复使用 setjmp&#x2F;longjmp 的游戏崩溃问题。<br>enable_incorrect_roundingmode_behavior &#x3D; false    	# 禁用 FPU&#x2F;VMX MXCSR 共享的临时解决方案。这可能导致 VMX 代码中的舍入行为和非规格化数（denormal）处理出现错误。（注：该临时解决方案虽然可能会降低 CPU 性能，但能提供更精确的模拟。）<br>enable_rmw_context_merging &#x3D; false                	# 允许将“读-改-写”高级中间表示指令序列合并为使用内存操作数的 x86 指令。<br>instrument_call_times &#x3D; false                     	# 计算函数所花费的时间，用于分析客户机代码的性能。<br>max_stackpoints &#x3D; 65536                           	# 我们可以记录的宿主机到客户机栈映射的最大数量。<br>record_mmio_access_exceptions &#x3D; true              	# 针对客户机地址，记录是否曾捕获到针对它们的 MMIO 访问。此信息随后可用于下一次运行，以指示重编译器生成相应的检查代码。<br>x64_extension_mask &#x3D; -1                           	# 允许检测和利用特定的指令集特性。<br>                                                      #     0 &#x3D; x86_64 + AVX1<br>                                                      #     1 &#x3D; AVX2<br>                                                      #     2 &#x3D; FMA<br>                                                      #     4 &#x3D; LZCNT<br>                                                      #     8 &#x3D; BMI1<br>                                                      #    16 &#x3D; BMI2<br>                                                      #    32 &#x3D; F16C<br>                                                      #    64 &#x3D; Movbe<br>                                                      #   128 &#x3D; GFNI<br>                                                      #   256 &#x3D; AVX512F<br>                                                      #   512 &#x3D; AVX512VL<br>                                                      #  1024 &#x3D; AVX512BW<br>                                                      #  2048 &#x3D; AVX512DQ<br>                                                      #  4096 &#x3D; AVX512VBMI<br>                                                      #    -1 &#x3D; 检测并利用所有可能的处理器特性</p>
+<p>xop_arithmetic_right_shifts &#x3D; false               	# 通过 XOP 指令集实现 SAR（算术右移）。<br>xop_compares &#x3D; true                               	# 通过 XOP 指令集实现比较操作。<br>xop_left_shifts &#x3D; false                           	# 通过 XOP 指令集实现 SHL（逻辑左移）。<br>xop_right_shifts &#x3D; false                          	# 通过 XOP 指令集实现 SHR（逻辑右移）。<br>xop_rotates &#x3D; false                               	# 通过 XOP 指令集实现旋转操作。</p>
+
+      </div>
+      <div class="post-tags-categories">
+        
+        <div class="tags">
+          
+            <a href="/tags/XBOX360%E6%A8%A1%E6%8B%9F%E5%99%A8/" class="">
+              XBOX360模拟器
+            </a>
+          
+        </div>
+        
+      </div>
+      
+        <div class="copyright">
+  <ul class="post-copyright">
+    <li class="post-copyright-author">
+    <strong>作者:  </strong>Winzerokyo</a>
+    </li>
+    <li class="post-copyright-link">
+    <strong>文章链接:  </strong>
+    <a href="/2025/12/08/xenia-canary.config.toml-zhu-shi-han-hua/" target="_blank" title="Xenia-canary.config.toml注释汉化">http://example.com/2025/12/08/xenia-canary.config.toml-zhu-shi-han-hua/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>版权声明:   </strong>
+      本网站所有文章除特别声明外,均采用 <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">CC BY-NC-ND 4.0</a>
+      许可协议。转载请注明出处!
+    </li>
+  </ul>
+<div>
+      
+    </article>
+    <!-- 上一篇文章和下一篇文章 -->
+    
+      <!-- 文章详情页的上一页和下一页 -->
+<div class="post-nav">
+
+
+
+  
+  <div class="post-nav-prev post-nav-item">
+    <div class="post-nav-img" style="background-size: cover; 
+      background-position: center center;">
+      <img class="lazyload lazyload placeholder" src="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+    </div>
+    <a href="/2025/12/25/psv-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/" class="post-nav-link">
+      <div class="title">
+        <i class="fas fa-angle-left"></i> 上一篇:
+        <div class="title-text">PSV模拟器教程和下载-转换软件教程和下载</div>
+      </div>
+      
+      <!-- <div class="content">
+        模拟器教程和下载
+为了照顾不看网站公告的，默认解压密码：2234。
+##########################
+      </div> -->
+    </a>
+  </div>
+
+
+
+  
+  <div class="post-nav-next post-nav-item">
+    <div class="post-nav-img" style="background-size: cover; 
+      background-position: center center;">
+      <img class="lazyload lazyload placeholder" src="https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" src="" alt="">
+    </div>
+    <a href="/2025/11/29/md-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/" class="post-nav-link">
+      <div class="title">
+        下一篇: <i class="fas fa-angle-right"></i>
+        <div class="title-text">MD模拟器教程和下载 转换软件教程和下载</div>
+      </div>
+      <!-- <div class="content">
+        模拟器教程和下载
+为了照顾不看网站公告的，默认解压密码：2234。
+##########################
+      </div> -->
+    </a>
+  </div>
+
+</div>
+
+    
+    
+
+    <!-- 打赏 -->
+    
+      <div id="appDonate" class="post-donate">
+  <div id="donate_board" class="donate_bar center" ref="donate">
+    <a id="btn_donate" class="btn_donate" href="javascript:;" title="打赏" @click="showDialogDrawer()"></a>
+  </div>
+  <transition name="fade">
+    <div 
+      class="donate-box-mask"
+      v-cloak 
+      v-show="visible"
+      @click="cancelDialogDrawer()"
+    >
+    </div>
+  </transition>
+  <transition name="bounce">
+    <div class="donate-box" v-cloak v-show="visible">
+      <div class="donate-box_close">
+        <i class="fas fa-times" aria-hidden="true" @click="cancelDialogDrawer" pointer></i>
+      </div>
+      <div class="donate-box_title">
+        <h4>
+          你的赏识是我前进的动力
+        </h4>
+      </div>
+      <div class="donate-box_tab">
+        <div class="Alipay" pointer :class="{'active': tabActive === 'Alipay'}" @click="changeTabActive('Alipay')">
+          支付宝
+        </div>
+        <div class="WeChatpay" pointer :class="{'active': tabActive === 'WeChatpay'}" @click="changeTabActive('WeChatpay')">
+          微信
+        </div>
+      </div>
+      <div class="donate-box_img">
+        <div class="AlipayImg" v-show="tabActive === 'Alipay'">
+          <img src="/images/Alipay.jpg" class="lazyload placeholder" data-srcset="/images/Alipay.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="支付宝打赏" />
+        </div> 
+        <div class="WeChatpayImg" v-show="tabActive === 'WeChatpay'">
+          <img src="/images/WeChatpay.png" class="lazyload placeholder" data-srcset="/images/WeChatpay.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="微信打赏" />
+        </div>
+      </div>
+    </div>
+  </transition>
+</div>
+
+<script>
+  var body = document.body || document.documentElement || window;
+  var vm = new Vue({
+    el: '#appDonate',
+    data: {
+      visible: false,
+      tabActive: 'Alipay',
+      top: 0,
+    },
+    computed: {
+    },
+    mounted() {
+    },
+    methods: {
+      showDialogDrawer() {
+        this.visible = true;
+        // 防止页面滚动，只能让弹框滚动
+        // function getScroll() {
+        //   return {
+        //     left: window.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft || 0,
+        //     top: window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0
+        //   };
+        // }
+        this.top = $(document).scrollTop() // or getScroll().top
+        // console.log('aa', $('.main-content'));
+        body.style.cssText = 'overflow: hidden;';
+      },
+      cancelDialogDrawer() {
+        this.visible = false;
+        body.removeAttribute('style');
+        $(document).scrollTop(this.top)
+      },
+      changeTabActive(name) {
+        this.tabActive = name;
+      }
+    },
+    created() {}
+  })
+</script>
+    
+
+    <!-- 分享 -->
+    
+    
+    <!-- 评论 -->
+    <!-- 评论 -->
+
+  <div id="myComment">
+    
+  </div>
+
+
+<!-- 还需要在后面这个地址里设置script, comment script in themes\hexo-theme-bamboo\layout\_partial\scripts\index.ejs -->
+
+
+  </div>
+
+  <!-- 目录 -->
+  <aside id='l_side'>
+  
+    
+      <section class="widget side_blogger">
+  <div class='content'>
+    
+      
+        <a class='avatar flat-box circle' href='/about/'>
+          <img src='https://pic2.zhimg.com/80/v2-42b72d5ebee4b8d8aa70d9687effe87b_1440w.webp'/>
+        </a>
+      
+    
+    
+      <div class='text'>
+        
+          <h2>Winzerokyo游戏站</h2>
+        
+        
+          <p>创建者Winzerokyo</p>
+
+        
+        
+          <p><span id="jinrishici-sentence">Winzerokyo的游戏站</span></p>
+          <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+        
+      </div>
+    
+    
+      <div class="social-wrapper">
+        
+          
+            <a href="/atom.xml"
+              class="social fas fa-rss flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+              
+            </a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    
+  </div>
+</section>
+
+    
+  
+  
+  
+    
+      <div class="widget test_a" id="test_a" style="order: 0;background: #fff">
+        <header>
+          
+            <a style="color: #d63130" target="_blank" rel="noopener" href='https://space.bilibili.com/5788784'><i class="fab fa-weibo fa-fw" aria-hidden="true"></i><span class='name'>BILIBILI winzerokyo</span></a>
+          
+        </header>
+        <div class="content">
+          BILIBILI主页
+        </div>
+    </div>
+    
+  
+
+  <div class="layout_sticky">    
+    
+      
+<section class="widget side_toc">
+  
+  <header>
+    
+      <i style="color: " class="fas fa-list fa-fw" aria-hidden="true"></i><span class='name' style="color: ">本文目录</span>
+    
+  </header>
+
+
+  <div class='content'>
+    <div class="toc-main">
+      <div class="toc-content">
+        <!--  -->
+        <div class="toc"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 手机端目录按钮 -->
+<div id="toc-mobile-btn">
+  <i class="fas fa-list-ul" aria-hidden="true"></i>
+</div>
+
+      
+  <section class="widget side_recent_post">
+    
+  <header>
+    
+      <a style="color: " href='/tags/'><i class="fas fa-book fa-fw" aria-hidden="true"></i><span class='name'>最新文章</span></a>
+    
+  </header>
+
+
+    <div class='content'>
+      
+      <!-- hash算法 -->
+      
+      <div class="aside-list">
+        
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
+              <a href="/2026/01/31/hello-world/" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic3.zhimg.com/80/v2-5f7cb7e900b9dcf5354c3d4d2c5cc3c2_1440w.webp" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-5f7cb7e900b9dcf5354c3d4d2c5cc3c2_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">01-31</span>
+                
+              </div>
+              <a class="post-title" href="/2026/01/31/hello-world/">Hello World</a>
+            </div>
+          </div>
+        
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
+              <a href="/2026/01/31/mo-ni-qi-ban-ben-geng-xin-xin-xi/" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic2.zhimg.com/80/v2-29e78b52051ce542adf6d786d61fbd19_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-29e78b52051ce542adf6d786d61fbd19_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">01-31</span>
+                
+              </div>
+              <a class="post-title" href="/2026/01/31/mo-ni-qi-ban-ben-geng-xin-xin-xi/">模拟器版本更新信息</a>
+            </div>
+          </div>
+        
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
+              <a href="/2026/01/31/switch-mo-ni-qi-de-wen-ti-hui-zong/" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">01-31</span>
+                
+              </div>
+              <a class="post-title" href="/2026/01/31/switch-mo-ni-qi-de-wen-ti-hui-zong/">SWITCH模拟器的问题汇总</a>
+            </div>
+          </div>
+        
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
+              <a href="/2026/01/31/ss-you-xi-zi-yuan/" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">01-31</span>
+                
+              </div>
+              <a class="post-title" href="/2026/01/31/ss-you-xi-zi-yuan/">SS游戏资源</a>
+            </div>
+          </div>
+        
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
+              <a href="/2026/01/30/switch-you-xi-zi-yuan/" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic2.zhimg.com/80/v2-63bbdb5b76b8d349ad35ff4281efbd37_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-63bbdb5b76b8d349ad35ff4281efbd37_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">01-30</span>
+                
+              </div>
+              <a class="post-title" href="/2026/01/30/switch-you-xi-zi-yuan/">SWITCH游戏资源</a>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  </section>
+
+    
+  </div>
+</aside>
+
+  <!-- 图片放大 Wrap images with fancybox support -->
+  <script defer src="/js/wrapImage.js"></script>
+</div>
+
+<!-- 文章详情页背景图 -->
+<div id="appBgSwiper" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -2;"
+	:style="{'background-color': bgColor ? bgColor : 'transparent'}">
+	<transition-group tag="ul" :name="names">
+		<li v-for='(image,index) in img' :key='index' v-show="index === mark" class="bg-swiper-box">
+			<img :src="image" class="bg-swiper-img no-lazy">
+		</li>
+	</transition-group>
+</div>
+<script>
+	var vm = new Vue({
+		el: '#appBgSwiper',
+		data: {
+			names: '' || 'fade' || 'fade', // translate-fade fade
+			mark: 0,
+			img: [],
+			bgColor: '',
+			time: null
+		},
+		methods: {   //添加方法
+			change(i, m) {
+				if (i > m) {
+					// this.names = 'fade';
+				} else if (i < m) {
+					// this.names = 'fade';
+				} else {
+					return;
+				}
+				this.mark = i;
+			},
+			prev() {
+				// this.names = 'fade';
+				this.mark--;
+				if (this.mark === -1) {
+					this.mark = 3;
+					return
+				}
+			},
+			next() {
+				// this.names = 'fade';
+				this.mark++;
+				if (this.mark === this.img.length) {
+					this.mark = 0;
+					return
+				}
+			},
+			autoPlay() {
+				// this.names = 'fade';
+				this.mark++;
+				if (this.mark === this.img.length) {
+					this.mark = 0;
+					return
+				}
+			},
+			play() {
+				let bgImgDelay = '' || '180000'
+				let delay = parseInt(bgImgDelay) || 180000;
+				this.time = setInterval(this.autoPlay, delay);
+			},
+			enter() {
+				clearInterval(this.time);
+			},
+			leave() {
+				this.play();
+			}
+		},
+		created() {
+			this.play()
+		},
+		beforeDestroy() {
+			clearInterval(this.time);
+		},
+		mounted() {
+			let prop = '' || '';
+			let isImg = prop.includes('.bmp') || prop.includes('.jpg') || prop.includes('.png') || prop.includes('.tif') || prop.includes('.gif') || prop.includes('.pcx') || prop.includes('.tga') || prop.includes('.exif') || prop.includes('.fpx') || prop.includes('.psd') || prop.includes('.cdr') || prop.includes('.pcd') || prop.includes('.dxf') || prop.includes('.ufo') || prop.includes('.eps') || prop.includes('.ai') || prop.includes('.raw') || prop.includes('.WMF') || prop.includes('.webp') || prop.includes('.jpeg') || prop.includes('http://') || prop.includes('https://')
+			if (isImg) {
+				let img = prop.split(',');
+				let configRoot = '/'
+				let arrImg = [];
+				img.forEach(el => {
+					var Expression = /http(s)?:\/\/([\w-]+\.)+[\w-]+(\/[\w- .\/?%&=]*)?/;
+					var objExp = new RegExp(Expression);
+
+					if (objExp.test(el)) {
+						// http or https
+						arrImg.push(el);
+					} else {
+						// 非http or https开头
+						// 本地文件
+						let firstStr = el.charAt(0);
+						if (firstStr == '/') {
+							el = el.substr(1); // 删除第一个字符 '/',因为 configRoot最后一个字符为 /
+						}
+						el = configRoot + el;
+						arrImg.push(el);
+					}
+				})
+				this.img = arrImg;
+			} else {
+				this.bgColor = prop;
+			}
+		}
+	})
+</script>
+
+<style>
+	.bg-swiper-box {
+		position: absolute;
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+
+	.bg-swiper-img {
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+	}
+</style>
+
+
+
+
+  <script>
+  function loadMermaid() {
+    if (document.getElementsByClassName('mermaid').length) {
+      if (window.mermaidJsLoad) mermaid.init()
+      else {
+        loadScript('https://unpkg.com/mermaid/dist/mermaid.min.js').then(() => {
+          window.mermaidJsLoad = true
+          mermaid.initialize({
+            theme: 'default',
+          })
+          if ('true') {
+            mermaid.init();
+          }
+        })
+      }
+    }
+  };
+  document.addEventListener("DOMContentLoaded", function () {
+    loadMermaid();
+  })
+
+  document.addEventListener('pjax:complete', function () {
+    loadMermaid();
+  })
+  
+</script>
+
+
+      </main>
+    </div>
+
+    <!-- 页脚 -->
+    
+  
+  
+    <!-- 底部鱼儿跳动效果，依赖于jquery-->
+<div id="j-fish-skip" style=" position: relative;height: 153px;width: auto;"></div>
+<script defer>
+  var RENDERER = {
+    POINT_INTERVAL: 5,
+    FISH_COUNT: 3,
+    MAX_INTERVAL_COUNT: 50,
+    INIT_HEIGHT_RATE: .5,
+    THRESHOLD: 50,
+    FISH_COLOR: '',
+    init: function () {
+      this.setFishColor(); this.setParameters(), this.reconstructMethods(), this.setup(), this.bindEvent(), this.render()
+    },
+    setFishColor: function () {
+      let isDark = JSON.parse(localStorage.getItem('dark')) || JSON.parse('false');
+      if (isDark) {
+        this.FISH_COLOR = '#222'; // 暗黑色，有时间把这整成一个变量
+      } else {
+        this.FISH_COLOR = '' || 'rgba(66, 185, 133, 0.8)';
+      }
+    },
+    setParameters: function () {
+      this.$window = $(window), this.$container = $("#j-fish-skip"), this.$canvas = $("<canvas />"), this.context = this.$canvas.appendTo(this.$container).get(0).getContext("2d"), this.points = [], this.fishes = [], this.watchIds = []
+    },
+    createSurfacePoints: function () {
+      var t = Math.round(this.width / this.POINT_INTERVAL);
+      this.pointInterval = this.width / (t - 1), this.points.push(new SURFACE_POINT(this, 0));
+      for (var i = 1; i < t; i++) {
+        var e = new SURFACE_POINT(this, i * this.pointInterval),
+          h = this.points[i - 1];
+        e.setPreviousPoint(h), h.setNextPoint(e), this.points.push(e)
+      }
+    },
+    reconstructMethods: function () {
+      this.watchWindowSize = this.watchWindowSize.bind(this), this.jdugeToStopResize = this.jdugeToStopResize.bind(this), this.startEpicenter = this.startEpicenter.bind(this), this.moveEpicenter = this.moveEpicenter.bind(this), this.reverseVertical = this.reverseVertical.bind(this), this.render = this.render.bind(this)
+    },
+    setup: function () {
+      this.points.length = 0, this.fishes.length = 0, this.watchIds.length = 0, this.intervalCount = this.MAX_INTERVAL_COUNT, this.width = this.$container.width(), this.height = this.$container.height(), this.fishCount = this.FISH_COUNT * this.width / 500 * this.height / 500, this.$canvas.attr({
+        width: this.width,
+        height: this.height
+      }), this.reverse = !1, this.fishes.push(new FISH(this)), this.createSurfacePoints()
+    },
+    watchWindowSize: function () {
+      this.clearTimer(), this.tmpWidth = this.$window.width(), this.tmpHeight = this.$window.height(), this.watchIds.push(setTimeout(this.jdugeToStopResize, this.WATCH_INTERVAL))
+    },
+    clearTimer: function () {
+      for (; this.watchIds.length > 0;) clearTimeout(this.watchIds.pop())
+    },
+    jdugeToStopResize: function () {
+      var t = this.$window.width(),
+        i = this.$window.height(),
+        e = t == this.tmpWidth && i == this.tmpHeight;
+      this.tmpWidth = t, this.tmpHeight = i, e && this.setup()
+    },
+    bindEvent: function () {
+      this.$window.on("resize", this.watchWindowSize), this.$container.on("mouseenter", this.startEpicenter), this.$container.on("mousemove", this.moveEpicenter)
+    },
+    getAxis: function (t) {
+      var i = this.$container.offset();
+      return {
+        x: t.clientX - i.left + this.$window.scrollLeft(),
+        y: t.clientY - i.top + this.$window.scrollTop()
+      }
+    },
+    startEpicenter: function (t) {
+      this.axis = this.getAxis(t)
+    },
+    moveEpicenter: function (t) {
+      var i = this.getAxis(t);
+      this.axis || (this.axis = i), this.generateEpicenter(i.x, i.y, i.y - this.axis.y), this.axis = i
+    },
+    generateEpicenter: function (t, i, e) {
+      if (!(i < this.height / 2 - this.THRESHOLD || i > this.height / 2 + this.THRESHOLD)) {
+        var h = Math.round(t / this.pointInterval);
+        h < 0 || h >= this.points.length || this.points[h].interfere(i, e)
+      }
+    },
+    reverseVertical: function () {
+      this.reverse = !this.reverse;
+      for (var t = 0, i = this.fishes.length; t < i; t++) this.fishes[t].reverseVertical()
+    },
+    controlStatus: function () {
+      for (var t = 0, i = this.points.length; t < i; t++) this.points[t].updateSelf();
+      for (t = 0, i = this.points.length; t < i; t++) this.points[t].updateNeighbors();
+      this.fishes.length < this.fishCount && 0 == --this.intervalCount && (this.intervalCount = this.MAX_INTERVAL_COUNT, this.fishes.push(new FISH(this)))
+    },
+    render: function () {
+      requestAnimationFrame(this.render), this.controlStatus(), this.context.clearRect(0, 0, this.width, this.height), this.context.fillStyle = this.FISH_COLOR;
+      for (var t = 0, i = this.fishes.length; t < i; t++) this.fishes[t].render(this.context);
+      this.context.save(), this.context.globalCompositeOperation = "xor", this.context.beginPath(), this.context.moveTo(0, this.reverse ? 0 : this.height);
+      for (t = 0, i = this.points.length; t < i; t++) this.points[t].render(this.context);
+      this.context.lineTo(this.width, this.reverse ? 0 : this.height), this.context.closePath(), this.context.fill(), this.context.restore()
+    }
+  },
+  SURFACE_POINT = function (t, i) {
+    this.renderer = t, this.x = i, this.init()
+  };
+  SURFACE_POINT.prototype = {
+    SPRING_CONSTANT: .03,
+    SPRING_FRICTION: .9,
+    WAVE_SPREAD: .3,
+    ACCELARATION_RATE: .01,
+    init: function () {
+      this.initHeight = this.renderer.height * this.renderer.INIT_HEIGHT_RATE, this.height = this.initHeight, this.fy = 0, this.force = {
+        previous: 0,
+        next: 0
+      }
+    },
+    setPreviousPoint: function (t) {
+      this.previous = t
+    },
+    setNextPoint: function (t) {
+      this.next = t
+    },
+    interfere: function (t, i) {
+      this.fy = this.renderer.height * this.ACCELARATION_RATE * (this.renderer.height - this.height - t >= 0 ? -1 : 1) * Math.abs(i)
+    },
+    updateSelf: function () {
+      this.fy += this.SPRING_CONSTANT * (this.initHeight - this.height), this.fy *= this.SPRING_FRICTION, this.height += this.fy
+    },
+    updateNeighbors: function () {
+      this.previous && (this.force.previous = this.WAVE_SPREAD * (this.height - this.previous.height)), this.next && (this.force.next = this.WAVE_SPREAD * (this.height - this.next.height))
+    },
+    render: function (t) {
+      this.previous && (this.previous.height += this.force.previous, this.previous.fy += this.force.previous), this.next && (this.next.height += this.force.next, this.next.fy += this.force.next), t.lineTo(this.x, this.renderer.height - this.height)
+    }
+  };
+  var FISH = function (t) {
+    this.renderer = t, this.init()
+  };
+  FISH.prototype = {
+    GRAVITY: .4,
+    init: function () {
+      this.direction = Math.random() < .5, this.x = this.direction ? this.renderer.width + this.renderer.THRESHOLD : -this.renderer.THRESHOLD, this.previousY = this.y, this.vx = this.getRandomValue(4, 10) * (this.direction ? -1 : 1), this.renderer.reverse ? (this.y = this.getRandomValue(1 * this.renderer.height / 10, 4 * this.renderer.height / 10), this.vy = this.getRandomValue(2, 5), this.ay = this.getRandomValue(.05, .2)) : (this.y = this.getRandomValue(6 * this.renderer.height / 10, 9 * this.renderer.height / 10), this.vy = this.getRandomValue(-5, -2), this.ay = this.getRandomValue(-.2, -.05)), this.isOut = !1, this.theta = 0, this.phi = 0
+    },
+    getRandomValue: function (t, i) {
+      return t + (i - t) * Math.random()
+    },
+    reverseVertical: function () {
+      this.isOut = !this.isOut, this.ay *= -1
+    },
+    controlStatus: function (t) {
+      this.previousY = this.y, this.x += this.vx, this.y += this.vy, this.vy += this.ay, this.renderer.reverse ? this.y > this.renderer.height * this.renderer.INIT_HEIGHT_RATE ? (this.vy -= this.GRAVITY, this.isOut = !0) : (this.isOut && (this.ay = this.getRandomValue(.05, .2)), this.isOut = !1) : this.y < this.renderer.height * this.renderer.INIT_HEIGHT_RATE ? (this.vy += this.GRAVITY, this.isOut = !0) : (this.isOut && (this.ay = this.getRandomValue(-.2, -.05)), this.isOut = !1), this.isOut || (this.theta += Math.PI / 20, this.theta %= 2 * Math.PI, this.phi += Math.PI / 30, this.phi %= 2 * Math.PI), this.renderer.generateEpicenter(this.x + (this.direction ? -1 : 1) * this.renderer.THRESHOLD, this.y, this.y - this.previousY), (this.vx > 0 && this.x > this.renderer.width + this.renderer.THRESHOLD || this.vx < 0 && this.x < -this.renderer.THRESHOLD) && this.init()
+    },
+    render: function (t) {
+      t.save(), t.translate(this.x, this.y), t.rotate(Math.PI + Math.atan2(this.vy, this.vx)), t.scale(1, this.direction ? 1 : -1), t.beginPath(), t.moveTo(-30, 0), t.bezierCurveTo(-20, 15, 15, 10, 40, 0), t.bezierCurveTo(15, -10, -20, -15, -30, 0), t.fill(), t.save(), t.translate(40, 0), t.scale(.9 + .2 * Math.sin(this.theta), 1), t.beginPath(), t.moveTo(0, 0), t.quadraticCurveTo(5, 10, 20, 8), t.quadraticCurveTo(12, 5, 10, 0), t.quadraticCurveTo(12, -5, 20, -8), t.quadraticCurveTo(5, -10, 0, 0), t.fill(), t.restore(), t.save(), t.translate(-3, 0), t.rotate((Math.PI / 3 + Math.PI / 10 * Math.sin(this.phi)) * (this.renderer.reverse ? -1 : 1)), t.beginPath(), this.renderer.reverse ? (t.moveTo(5, 0), t.bezierCurveTo(10, 10, 10, 30, 0, 40), t.bezierCurveTo(-12, 25, -8, 10, 0, 0)) : (t.moveTo(-5, 0), t.bezierCurveTo(-10, -10, -10, -30, 0, -40), t.bezierCurveTo(12, -25, 8, -10, 0, 0)), t.closePath(), t.fill(), t.restore(), t.restore(), this.controlStatus(t)
+    }
+  }, $(function () {
+    RENDERER.init()
+    $('.dark').click(function () {
+      setTimeout(() => {
+        RENDERER.setFishColor();
+        RENDERER.context.fill();
+      });
+    })
+  });
+</script>
+  
+  <div class="footer bg-color">
+    <div class="footer-main">
+      
+        
+          <div class="link">
+            
+          </div>
+        
+      
+        
+          <div class="footer-copyright">
+            <p>Copyright © 2019 - 2020 <a target="_blank" rel="noopener" href="https://github.com/yuang01">yuang01</a> | Powered by <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">Hexo</a> | Theme <a target="_blank" rel="noopener" href="https://github.com/yuang01/theme">Bamboo</a> </p>
+
+          </div>
+        
+      
+        
+          <div class="footer-custom">
+            
+          </div>
+        
+      
+    </div>
+  </div>
+
+
+
+    <!-- 渲染暗黑按钮 -->
+    
+      <div class="dark" onclick="toggleDarkMode()">
+  <div class="dark-content">
+    <i class="fas" id="darkIcon" aria-hidden="true"></i>
+  </div>
+</div>
+
+<script defer>
+  $(function() {
+    // 初始化暗黑模式状态
+    let isDark = JSON.parse(localStorage.getItem('dark')) || JSON.parse('false');
+    updateDarkModeIcon(isDark);
+  });
+
+  function toggleDarkMode() {
+    const isDark = $(document.body).hasClass('darkModel');
+    $(document.body).toggleClass('darkModel');
+    localStorage.setItem('dark', !isDark);
+    updateDarkModeIcon(!isDark);
+  }
+
+  function updateDarkModeIcon(isDark) {
+    const iconElement = document.getElementById('darkIcon');
+    if (isDark) {
+      iconElement.classList.remove('fa-moon');
+      iconElement.classList.add('fa-lightbulb');
+    } else {
+      iconElement.classList.remove('fa-lightbulb');
+      iconElement.classList.add('fa-moon');
+    }
+  }
+</script>
+
+    
+    <!-- 渲染回到顶部按钮 -->
+    
+      <div class="goTop top-btn-color" pointer>
+  <i class="fas fa-arrow-up" aria-hidden="true"></i>
+</div>
+<script defer src="/js/goTop.js"></script>
+
+    
+    <!-- 渲染左下角音乐播放器 -->
+    
+
+    <!-- 图片放大 -->
+    
+      <script src="https://unpkg.com/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    
+
+    <!-- 百度解析 -->
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script async>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <!-- 背景彩带 -->
+    
+      <script async type="text/javascript" size="100" alpha='0.4' zIndex="-1" src="/js/ribbon.min.js"></script>
+    
+
+    <script src="/js/utils/index.js"></script>
+    <script src="/js/app.js"></script>
+    
+    <!-- 文章目录所需js -->
+<!-- <link href="/js/tocbot/tocbot.css" rel="stylesheet">
+<script src="/js/tocbot/tocbot.min.js"></script> -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.min.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.css">
+
+<script>
+  var headerEl = 'h2, h3, h4',  //headers 
+    content = '.post-detail',//文章容器
+    idArr = {};  //标题数组以确定是否增加索引id
+  //add #id
+  var option = {
+    // Where to render the table of contents.
+    tocSelector: '.toc',
+    // Where to grab the headings to build the table of contents.
+    contentSelector: content,
+    // Which headings to grab inside of the contentSelector element.
+    headingSelector: headerEl,
+    scrollSmooth: true,
+    scrollSmoothOffset: -70,
+    // headingsOffset: -($(window).height() * 0.4 - 45),
+    headingsOffset: -($(window).height() * 0.4 - 70),
+    // positionFixedSelector: '.toc-main',
+    // positionFixedClass: 'is-position-fixed',
+    fixedSidebarOffset: 'auto',
+    activeLinkClass: 'is-active-link',
+    orderedList: true,
+    collapseDepth: 20,
+    // onClick: function (e) {},
+  }
+  if ($('.toc').length > 0) {
+
+    $(content).children(headerEl).each(function () {
+      //去除空格以及多余标点
+      var headerId = $(this).text().replace(/[\s|\~|`|\!|\@|\#|\$|\%|\^|\&|\*|\(|\)|\_|\+|\=|\||\|\[|\]|\{|\}|\;|\:|\"|\'|\,|\<|\.|\>|\/|\?|\：|\，|\。]/g, '');
+
+      headerId = headerId.toLowerCase();
+      if (idArr[headerId]) {
+        //id已经存在
+        $(this).attr('id', headerId + '-' + idArr[headerId]);
+        idArr[headerId]++;
+      }
+      else {
+        //id未存在
+        idArr[headerId] = 1;
+        $(this).attr('id', headerId);
+      }
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+      tocbot.init(option);
+      mobileTocClick();
+    });
+
+  }
+
+  window.tocScrollFn = function () {
+    return bamboo.throttle(function () {
+      findHeadPosition();
+    }, 100)()
+  }
+  window.addEventListener('scroll', tocScrollFn);
+
+  const findHeadPosition = function (top) {
+    if ($('.toc-list').length <= 0) {
+      return false;
+    }
+    setTimeout(() => {  // or DOMContentLoaded 
+      autoScrollToc();
+    }, 0);
+  }
+
+  const autoScrollToc = function () {
+    const $activeItem = document.querySelector('.is-active-link');
+    const $cardToc = document.querySelector('.toc-content');
+    const activePosition = $activeItem.getBoundingClientRect().top
+    const sidebarScrollTop = $cardToc.scrollTop
+    if (activePosition > (document.documentElement.clientHeight - 100)) {
+      $cardToc.scrollTop = sidebarScrollTop + 150
+    }
+    if (activePosition < 150) {
+      $cardToc.scrollTop = sidebarScrollTop - 150
+    }
+  }
+
+  document.addEventListener('pjax:send', function () {
+    if ($('.toc').length) {
+      tocbot.destroy();
+    }
+  });
+
+  document.addEventListener('pjax:complete', function () {
+    if ($('.toc').length) {
+      tocbot.init(option);
+      mobileTocClick();
+    }
+  });
+  
+  // 手机端toc按钮点击出现目录
+  const mobileTocClick = function () {
+    const $cardTocLayout = document.getElementsByClassName('side_toc')[0];
+    const $cardToc = $cardTocLayout.getElementsByClassName('toc-content')[0];
+    let right = '45px';
+    if (window.innerWidth >= 551 && window.innerWidth <= 992) {
+      right = '100px'
+    }
+    const mobileToc = {
+      open: () => {
+        $cardTocLayout.style.cssText = 'animation: toc-open .3s; opacity: 1; right: ' + right
+      },
+
+      close: () => {
+        $cardTocLayout.style.animation = 'toc-close .2s'
+        setTimeout(() => {
+          $cardTocLayout.style.cssText = "opacity:''; animation: ''; right: ''"
+        }, 100)
+      }
+    }
+    document.getElementById('toc-mobile-btn').addEventListener('click', () => {
+      if (window.getComputedStyle($cardTocLayout).getPropertyValue('opacity') === '0') mobileToc.open()
+      else mobileToc.close()
+    })
+
+    $cardToc.addEventListener('click', (e) => {
+      if (window.innerWidth < 992) { // 小于992px的时候
+        mobileToc.close()
+      }
+    })
+  }
+</script>
+
+<style>
+  /* .is-position-fixed {
+    position: sticky !important;
+    top: 74px;
+  }
+
+  .toc-main ul {
+    counter-reset: show-list;
+  }
+
+  .toc-main ul li::before {
+    content: counter(item)".";
+    display: block;
+    position: absolute;
+    left: 12px;
+    top: 0;
+  } */
+</style>
+ 
+
+<!-- 设置导航背景 -->
+<script>
+  let setHeaderClass = () => {
+    const nav = $('#navHeader');
+    const navTop = nav.outerHeight();
+    const winTop = $(window).scrollTop();
+    if(winTop > navTop) {
+      nav.addClass('header-bg-color');
+    }
+    else {
+      nav.removeClass('header-bg-color');
+    }
+  };
+
+  let scrollCollect = () => {
+    return bamboo.throttle(function (e) {
+      setHeaderClass();
+    }, 200)()
+  }
+
+  let initHeaderBg = () => {
+    setHeaderClass();
+  }
+
+  setHeaderClass();
+  window.addEventListener('scroll', scrollCollect);
+
+  document.addEventListener('pjax:send', function () {
+    window.removeEventListener('scroll', scrollCollect)
+  })
+  document.addEventListener('pjax:complete', function () {
+    window.addEventListener('scroll', scrollCollect);
+    setHeaderClass();
+  })
+</script> 
+
+<!-- 渲染issues标签里的内容 -->
+<script>
+  function loadIssuesJS() {
+    if ($(".post-detail").find(".issues-api").length == 0) {
+      return;
+    } 
+    loadScript('/js/issues/index.js');
+  };
+  $(function () {
+    loadIssuesJS();
+  });
+  document.addEventListener('pjax:complete', function () {
+    if (typeof IssuesAPI == "undefined") {
+      loadIssuesJS();
+    }
+  })
+</script>
+
+<!-- 渲染远程json加载的图片标签(getPhotoOnline)里的内容 -->
+<script>
+  function loadPhotoOnlineJS() {
+    if ($(".post-detail").find(".getJsonPhoto-api").length == 0) {
+      return;
+    } 
+    loadScript('/js/getPhotoOnline/index.js');
+  };
+  $(function () {
+    loadPhotoOnlineJS();
+  });
+  document.addEventListener('pjax:complete', function () {
+    if (typeof getPhotoJson == "undefined") {
+      loadPhotoOnlineJS();
+    }
+  })
+</script>
+
+<!-- 渲染远程json加载的talk标签(getTalkOnline)里的内容 -->
+<script>
+  function loadTalkOnlineJS() {
+    if ($(".post-detail").find(".getJsonTalk-api").length == 0) {
+      return;
+    } 
+    loadScript('https://cdnjs.cloudflare.com/ajax/libs/waterfall.js/1.0.2/waterfall.min.js'); // 瀑布流插件，https://raphamorim.io/waterfall.js/
+    loadScript('/js/getTalkOnline/index.js');
+  };
+  $(function () {
+    loadTalkOnlineJS();
+  });
+  document.addEventListener('pjax:complete', function () {
+    if (typeof getTalkJson == "undefined") {
+      loadTalkOnlineJS();
+    }
+  })
+</script>
+
+<!-- 渲染远程json加载的site-card标签(getSiteOnline)里的内容 -->
+<script>
+  function loadSiteOnlineJS() {
+    if ($(".post-detail").find(".getJsonSite-api").length == 0) {
+      return;
+    } 
+    loadScript('/js/getSiteOnline/index.js');
+  };
+  $(function () {
+    loadSiteOnlineJS();
+  });
+  document.addEventListener('pjax:complete', function () {
+    if (typeof getSiteJson == "undefined") {
+      loadSiteOnlineJS();
+    }
+  })
+</script>
+
+<!-- 输入框打字特效 -->
+<!-- 输入框打字特效 -->
+
+  <script src="/js/activate-power-mode.js"></script>
+  <script>
+    POWERMODE.colorful = true;  // 打开随机颜色特效
+    POWERMODE.shake = false;    // 关闭输入框抖动
+    document.body.addEventListener('input', POWERMODE);//监听打字事件
+  </script>
+
+
+<!-- markdown代码一键复制功能 -->
+
+  <link rel="stylesheet" href="https://unpkg.com/v-plugs-ayu/lib/ayu.css">
+  <script src="https://unpkg.com/v-plugs-ayu/lib/ayu.umd.min.js"></script>
+  <script src="/js/clipboard/clipboard.min.js"></script>
+  <div id="appCopy">
+  </div>
+  <script data-pjax>
+    var vm = new Vue({
+      el: '#appCopy',
+      data: {
+      },
+      computed: {
+      },
+      mounted() {
+        const that = this;
+        var copy = '复制';
+        /* code */
+        var initCopyCode = function () {
+          var copyHtml = '';
+          copyHtml += '<button class="btn-copy" data-clipboard-snippet="" style="position:absolute;top:0;right:0;z-index:1;">';
+          copyHtml += '<i class="fas fa-copy"></i><span>' + copy + '</span>';
+          copyHtml += '</button>';
+          $(".post-detail pre").not('.gutter pre').wrap("<div class='codeBox' style='position:relative;width:100%;'></div>")
+          $(".post-detail pre").not('.gutter pre').before(copyHtml);
+          new ClipboardJS('.btn-copy', {
+            target: function (trigger) {
+              return trigger.nextElementSibling;
+            }
+          });
+        }
+        initCopyCode();
+        $('.btn-copy').unbind('click').bind('click', function () {
+          doSomething();
+        })
+        $(document).unbind('keypress').bind('keypress', function (e) {
+          if (e.ctrlKey && e.keyCode == 67) {
+            doSomething();
+          }
+        })
+
+        function doSomething() {
+          that.$notify({
+            title: "成功",
+            content: "代码已复制，请遵守相关授权协议。",
+            type: 'success'
+          })
+        }
+      },
+      methods: {
+      },
+      created() { }
+    })
+  </script>
+  
+
+<!-- 图片懒加载 -->
+<script defer src="https://unpkg.com/vanilla-lazyload@17.1.0/dist/lazyload.min.js"></script>
+<script>
+  // https://www.npmjs.com/package/vanilla-lazyload
+  // Set the options globally
+  // to make LazyLoad self-initialize
+  window.lazyLoadOptions = {
+    elements_selector: ".lazyload",
+    threshold: 0
+  };
+  // Listen to the initialization event
+  // and get the instance of LazyLoad
+  window.addEventListener(
+    "LazyLoad::Initialized",
+    function (event) {
+      window.lazyLoadInstance = event.detail.instance;
+    },
+    false
+  );
+  document.addEventListener('DOMContentLoaded', function () {
+    lazyLoadInstance.update();
+  });
+  document.addEventListener('pjax:complete', function () {
+    lazyLoadInstance.update();
+  });
+</script>
+
+
+<!-- 卡片滚动动画 -->
+   
+
+<!-- 评论所需js -->
+
+  
+
+
+<!-- 鼠标点击特效 -->
+<!-- 爱心点击 -->
+
+  
+    <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 999; pointer-events: none;" ></canvas>
+    <script async src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
+    <script async src="/js/cursor/explosion.min.js"></script>
+  
+
+
+
+
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" data-pjax></script>
+
+
+<!-- 轮播图标签 -->
+<script>
+  var bambooSwiperTag = {};
+  function load_swiper() {
+    if (!document.querySelectorAll(".post-swiper-container")[0]) return;
+    loadCSS("https://unpkg.com/swiper@6/swiper-bundle.min.css")
+    loadScript("https://unpkg.com/swiper@6/swiper-bundle.min.js").then(() => {
+      pjax_swiper();
+    });
+  }
+
+  load_swiper();
+
+  function pjax_swiper() {
+    bambooSwiperTag.swiper = new Swiper('.post-swiper-container', {
+      slidesPerView: 'auto',
+      spaceBetween: 8,
+      centeredSlides: true,
+      loop: true,
+      autoplay: true ? {
+        delay: 3000,
+        stopOnLastSlide: false,
+        disableOnInteraction: false,
+      } : false,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      on:{
+        init: function(){
+          swiperAnimateCache(this); //隐藏动画元素 
+          swiperAnimate(this); //初始化完成开始动画
+        }, 
+        slideChangeTransitionEnd: function(){ 
+          swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
+          //this.slides.eq(this.activeIndex).find('.ani').removeClass('ani'); 动画只展现一次，去除ani类名
+        } 
+      }
+    });
+  }
+
+  document.addEventListener('pjax:complete', function () {
+    if (!document.querySelectorAll(".post-swiper-container")[0]) return;
+    if (typeof bambooSwiperTag.swiper === "undefined") {
+      load_swiper();
+    } else {
+      pjax_swiper();
+    }
+  });
+</script>
+    <!-- pjax -->
+    
+
+<!-- pjax -->
+
+
+  <script src="/js/pjax@0.2.8/index.js"></script>
+  
+    <div class="pjax-animate">
+  
+    <div class="loading-circle"><div id="loader-circle"></div></div>
+    <script>
+      window.ShowLoading = function() {
+        $(".loading-circle").css("display", "block");
+      };
+      window.HideLoading = function() {
+        $(".loading-circle").css("display", "none");
+      }
+    </script>
+  
+	<script>
+    document.addEventListener('pjax:complete', function () {
+      window.HideLoading();
+    })
+    document.addEventListener('pjax:send', function () {
+      window.ShowLoading();
+    })
+    document.addEventListener('pjax:error', function () {
+      window.HideLoading();
+    })
+	</script>
+</div>
+
+  
+
+  <script>
+    var pjax = new Pjax({
+      elements: 'a[href]:not([href^="#"]):not([href="javascript:void(0)"]):not([no-pjax])',   // 拦截正常带链接的 a 标签
+      selectors: ["#pjax-container","title"],                                   // 根据实际需要确认重载区域
+      cacheBust: false,   // url 地址追加时间戳，用以避免浏览器缓存
+      timeout: 5000
+    });
+
+    document.addEventListener('pjax:send', function (e) {
+
+      try {
+        var currentUrl = window.location.pathname;
+        var targetUrl = e.triggerElement.href;
+        var banUrl = [""];
+        if (banUrl[0] != "") {
+          banUrl.forEach(item => {
+            if(currentUrl.indexOf(item) != -1 || targetUrl.indexOf(item) != -1) {
+              window.location.href = targetUrl;
+            }
+          });
+        }
+      } catch (error) {}
+
+      $(window).unbind('resize');
+      $(window).unbind('scroll');
+      $(document).unbind('scroll');
+      $(document).unbind('click');
+      $('body').unbind('click');
+
+    })
+    
+    document.addEventListener('pjax:complete', function () {
+      $('script[data-pjax], .pjax-reload script').each(function () {
+        $(this).parent().append($(this).remove());
+      });
+    });
+
+    document.addEventListener('pjax:error', function (e) {
+      window.location.href = e.triggerElement.href;
+    })
+    
+    // 刷新不从顶部开始
+    document.addEventListener("DOMContentLoaded", function () {
+      history.scrollRestoration = 'auto';
+    })
+  </script>
+
+
+
+  </body>
+</html>

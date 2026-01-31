@@ -1,0 +1,1852 @@
+<!DOCTYPE html>
+<html>
+  <!-- meta/link... -->
+  
+
+
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+  <title>SWITCH模拟器的问题汇总 | Winzerokyo的游戏站</title>
+
+  <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/favicon.ico">
+  <link rel="stylesheet" href="https://at.alicdn.com/t/font_1911880_c1nvbyezg17.css">
+  <link href="https://unpkg.com/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="/js/swiper/swiper@5.4.1.min.css" rel="stylesheet">
+  
+  
+  
+  
+<link rel="stylesheet" href="/css/animate.min.css">
+
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+  
+    <link href="https://unpkg.com/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" rel="stylesheet">
+  
+  
+  <style>
+        @media (max-width: 992px) {
+            #waifu {
+                display: none;
+            }
+        }
+    </style>
+    <script defer src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+    <link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+
+    
+    
+    <!-- 依赖于jquery和vue -->
+    <script src="https://unpkg.com/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://unpkg.com/vue@2.6.11/dist/vue.min.js"></script>
+
+    <!-- import link -->
+    
+        
+            
+        
+            
+        
+    
+    <!-- import script -->
+    
+        
+            
+        
+            
+        
+    
+
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="Winzerokyo的游戏站" type="application/atom+xml">
+</head>
+
+  
+  <!-- 预加载动画 -->
+  
+  
+  <div class="preloader_6" id="loader">
+  <div class="loader"></div>
+</div>
+  <script>
+    var endLoading = function () {
+      document.body.style.overflow = 'auto';
+      document.getElementById('loader').classList.add("loaded");
+    }
+    window.addEventListener('DOMContentLoaded', endLoading);
+  </script>
+
+
+  <body>
+    <!-- 判断是否为暗黑风格 -->
+    <!-- 判断是否为黑夜模式 -->
+<script defer>
+  let isDark = JSON.parse(localStorage.getItem('dark')) || JSON.parse('false');
+
+  if (isDark) {
+    $(document.body).addClass('darkModel');
+  }
+</script>
+
+    <!-- 需要在上面加载的js -->
+    <script>
+  function loadScript(src, cb) {
+    return new Promise(resolve => {
+      setTimeout(function () {
+        var HEAD = document.getElementsByTagName("head")[0] || document.documentElement;
+        var script = document.createElement("script");
+        script.setAttribute("type", "text/javascript");
+        if (cb) {
+          if (JSON.stringify(cb)) {
+            for (let p in cb) {
+              if (p == "onload") {
+                script[p] = () => {
+                  cb[p]()
+                  resolve()
+                }
+              } else {
+                script[p] = cb[p]
+                script.onload = resolve
+              }
+            }
+          } else {
+            script.onload = () => {
+              cb()
+              resolve()
+            };
+          }
+        } else {
+          script.onload = resolve
+        }
+        script.setAttribute("src", src);
+        HEAD.appendChild(script);
+      });
+    });
+  }
+
+  //https://github.com/filamentgroup/loadCSS
+  var loadCSS = function (src) {
+    return new Promise(resolve => {
+      setTimeout(function () {
+        var link = document.createElement('link');
+        link.rel = "stylesheet";
+        link.href = src;
+        link.onload = resolve;
+        document.getElementsByTagName("head")[0].appendChild(link);
+      });
+    });
+  };
+
+</script> 
+
+<!-- 轮播图所需要的js -->
+<script src="/js/swiper/swiper.min.js"></script>
+<script src="/js/swiper/vue-awesome-swiper.js"></script>
+<script src="/js/swiper/swiper.animate1.0.3.min.js"></script>
+
+<script type="text/javascript">
+  Vue.use(window.VueAwesomeSwiper)
+</script>
+
+
+  <script src="/js/vue-typed-js/index.js"></script>
+
+
+<!-- 首页的公告滚动插件的js需要重新加载 -->
+<script src="/js/vue-seamless-scroll/index.js"></script>
+
+<!-- 打字机效果js -->
+<script src="https://unpkg.com/typed.js@2.0.11"></script>
+
+
+    <div id="safearea">
+      <main class="main" id="pjax-container">
+        <!-- 头部导航 -->
+        
+<header class="header  " 
+  id="navHeader"
+  style="position: fixed;
+  left: 0; top: 0; z-index: 10;width: 100%;"
+>
+  <div class="header-content">
+    <div class="bars">
+      <div id="appDrawer" class="sidebar-image">
+  <div class="drawer-box-icon">
+    <i class="fas fa-bars" aria-hidden="true" @click="showDialogDrawer"></i>
+  </div>
+  
+  <transition name="fade">
+    <div class="drawer-box_mask" v-cloak style="display: none;" v-show="visible" @click.self="cancelDialogDrawer">
+    </div>
+  </transition>
+  <div class="drawer-box" :class="{'active': visible}">
+    <div class="drawer-box-head bg-color">
+      <img class="drawer-box-head_logo lazyload placeholder" src="/medias/logo.png" class="lazyload placeholder" data-srcset="/medias/logo.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="logo">
+      <h3 class="drawer-box-head_title">Winzerokyo的游戏站</h3>
+      <h5 class="drawer-box-head_desc"></h5>
+    </div>
+    
+    <div class="drawer-box-content">
+      <ul class="drawer-box-content_menu">
+        
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script>
+  var body = document.body || document.documentElement || window;
+  var vm = new Vue({
+    el: '#appDrawer',
+    data: {
+      visible: false,
+      top: 0,
+      openArr: [],
+    },
+    computed: {
+    },
+    mounted() {
+    },
+    methods: {
+      isOpen(index) {
+        if (this.openArr.includes(index)) {
+          return true;
+        } else {
+          return false;
+        }
+      },
+      openOrCloseMenu(curIndex) {
+        const index = this.openArr.indexOf(curIndex);
+        if (index !== -1) {
+          this.openArr.splice(index, 1);
+        } else {
+          this.openArr.push(curIndex);
+        }
+      },
+      showDialogDrawer() {
+        this.visible = true;
+        // 防止页面滚动，只能让弹框滚动
+        this.top = $(document).scrollTop()
+        body.style.cssText = 'width: 100%; height: 100%;overflow: hidden;';
+      },
+      cancelDialogDrawer() {
+        this.visible = false;
+        body.removeAttribute('style');
+        $(document).scrollTop(this.top)
+      }
+    },
+    created() {}
+  })
+</script>
+
+    </div>
+    <div class="blog-title" id="author-avatar">
+      
+        <div class="avatar">
+          <img src="/medias/logo.png" class="lazyload placeholder" data-srcset="/medias/logo.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="logo">
+        </div>
+      
+      <a href="/" class="logo">Winzerokyo的游戏站</a>
+    </div>
+    <nav class="navbar">
+      <ul class="menu">
+        
+      </ul>
+      
+      
+
+    </nav>
+  </div>
+  
+  
+    <div id="he-plugin-simple"></div>
+    <script defer>
+      WIDGET = {
+        CONFIG: {
+          "modules": "012",
+          "background": 5,
+          "tmpColor": "4A4A4A",
+          "tmpSize": 16,
+          "cityColor": "4A4A4A",
+          "citySize": 16,
+          "aqiSize": 16,
+          "weatherIconSize": 24,
+          "alertIconSize": 18,
+          "padding": "10px 10px 10px 10px",
+          "shadow": "1",
+          "language": "auto",
+          "borderRadius": 5,
+          "fixed": "false",
+          "vertical": "middle",
+          "horizontal": "center",
+          "key": "2784dd3fcb1e4f0f9a9b579bf69641f2"
+        }
+      }
+    </script>
+    <script defer src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script> 
+    
+</header>
+        <!-- 内容区域 -->
+        
+<!-- prismjs 代码高亮 -->
+
+
+
+
+<div class="bg-dark-floor" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -1;"></div>
+
+
+  <!-- 文章详情页顶部图片和标题 -->
+
+
+
+
+<div class="post-detail-header" id="thumbnail_canvas" style="background-repeat: no-repeat; background-size: cover; 
+  background-position: center center;position: relative;background-image:url('https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp')">
+  <div class="post-detail-header-mask"></div>
+  <canvas id="header_canvas"style="position:absolute;bottom:0;pointer-events:none;"></canvas>
+  
+  <div class="post-detail-header_info-box">
+    <div class="title-box">
+      <span class="title">
+        SWITCH模拟器的问题汇总
+      </span>
+    </div>
+    
+    
+      
+        <span class="post-detail-header_date">
+          <i class="fas fa-calendar"></i> 发表于：2026-01-31 |
+        </span>
+      
+
+      
+        <span class="post-detail-header_categories">
+          <i class="iconfont iconbookmark1"></i> 分类：
+          
+            <a href="/categories/SWITCH/" class="post-detail-header_category">
+              SWITCH
+            </a>
+          
+        </span>
+      
+
+      
+    
+  </div>
+  
+  
+    <script defer src="/js/bubble/bubble.js"></script>
+  
+</div>
+
+
+
+
+
+<div class="post-detail-content post-row" 
+  style="padding-top: 0px;">
+  <div class="main-content">
+    <article class="post post-detail">
+      <div class="post-content">
+        <p>##############################################################</p>
+<p>游戏文件基础知识</p>
+<p>NS模拟器游戏文件格式上通常较常见是nsz、xcz、nsp、xci。nsz、xcz你们可以理解成加密和压缩了的游戏文件，这种文件通常是用在实体机上的，因为nsz、xcz真是省空间的。模拟器只能读取nsp、xci这种解密解压缩好的。这里面nsp格式的游戏文件是可以作为游戏本体文件，游戏更新文件和游戏的DLC文件的。至于xci通常只作为游戏本体文件存在。游戏更新文件和游戏的DLC文件的nsp格式文件是无法转换成xci的。非整合的游戏本体文件上nsp和xci是可以用软件互相转换。</p>
+<p>游戏本体、游戏更新和游戏DLC的文件判断。有些人说按照文件大小来区分，首先说明这个方法是不完全对的，因为例如：迪士尼梦幻星谷这些游戏来说，游戏本体文件就是个启动游戏的程序，本身不包含游戏内容的，游戏内容在游戏更新或者DLC的，它的游戏更新和DLC都有可能比游戏本体大。这个最好用NSGManager（菲菲的家）这款电脑软件读取，如果软件读取的信息上写着APP的就是本体，UPD就是更新，DLC就是DLC嘛。没有软件时只能说用模拟器逐个读取来试，因为模拟器读取到了游戏本体就会写明信息，这样就可以排除了本体，更新和DLC可以慢慢试就知道。<br>游戏本体以这个游戏本体文件名为例Donkey Kong Country Tropical Freeze[0100C1F0051B6000][1.0.0][0][4.1.0].nsp。上面的文件名字中，Donkey Kong Country Tropical Freeze就是游戏名字，[0100C1F0051B6000]就是游戏编号，如果有游戏编号呢容易判断，还有因为游戏编号通常是以000结尾的，当然也会有不对的情况。[1.0.0]就是游戏本体的版本号，[0]就是游戏本体的特征写法，一般写得比较标准的话里面就会有v0、0、APP等字样，但是也有例外，[4.1.0]就是要用的最低固件版本，.nsp就是nsp文件格式。.xci格式通常都是游戏本体了。但是也有例外，因为有些人就是乱写。<br>游戏更新以这个游戏本体文件名为例Donkey Kong Country Tropical Freeze[0100C1F0051B6800][1.0.2][131072][5.1.0].nsp。上面的文件名字中，Donkey Kong Country Tropical Freeze就是游戏名字，[0100C1F0051B6800]就是游戏编号，如果有游戏编号呢就容易判断，还有因为游戏编号通常是以800结尾的，当然也会有不对的情况。[1.0.2]就是游戏更新应用后游戏的版本号，[131072]就是游戏更新的特征写法，一般写得比较标准的话里面就会有65536的倍数写法、UPD等字样，[5.1.0]就是要用的最低固件版本，.nsp就是nsp文件格式。但是也有例外，因为有些人就是乱写。<br>游戏DLC以这个游戏本体文件名为例Star Overdrive [Star Overdrive Deluxe upgrade DLC][010047E01EA25002][v0].nsp。上面的文件名字中，[Star Overdrive Deluxe upgrade DLC]就是Star Overdrive Deluxe游戏的DLC，[010047E01EA25002]就是游戏编号就容易判断，如果有游戏编号呢，还有因为游戏本体通常是以0XX结尾的，这里XX是可以是任意数字或者字母，当然也会有不对的情况。[v0]这里的意思就是有游戏本体就可以加载此DLC文件来添加游戏内容，如果是65536的倍数写法的就要加载比65536的倍数写法高的游戏更新，才可以加载此DLC文件来添加游戏内容，.nsp就是nsp文件格式。但是也有例外，因为有些人就是乱写。</p>
+<p>整合好的游戏要慎用，有可能会进不了游戏，进不了游戏就找游戏本体，游戏更新和DLC分开加载的资源来就可以，龙神模拟器那里右击游戏图标，管理游戏更新和管理游戏DLC那里能不能识别加载，不能就自己去网上下载游戏更新和DLC来加载。根据我整理这么多游戏的实践，出现问题的形式上有两种情况，一种是怎样操作都是无法正常读取整合游戏的正确信息，包括更新和DLC的数量，另一种是读取游戏的版本等都正确，但是弹出错误无法运行游戏。第二种情况有些人说整合好的游戏文件最好用xci来整合，这样子通常是没问题的，但是我自己以前实践中发现，文件格式上nsp和xci的整合出来的游戏都是会有几率导致模拟器无法正常读取，弹出错误。我在某次实践中发现这个模拟器的prod.keys和title.keys有关系，因为我试过发现有时候替换key能解决。至于怎样形成这个我不是编译的我不知道，以前测试数据上，如果你比较喜欢整合游戏的，建议用yuzu系的模拟器，尽量少用龙神系的，因为这问题出现的概率龙神系的比yuzu系高。还有要注意的事情，如果是整合好的nsp和xci的游戏会无法转换成另一种格式。</p>
+<p>##############################################################</p>
+<p>模拟器的一些基础知识</p>
+<p>柚子模拟器的固件和密钥和龙神模拟器视频的固件密钥是一样的吗？<br>答案：固件和密钥两个模拟器是通用的。（B站网友石炎）</p>
+<p>yuzu系模拟器就是继承yuzu这个模拟器的代码进行分支和修正的模拟器就是yuzu系模拟器<br>龙神系模拟器就是继承龙神这个模拟器的代码进行分支和修正的模拟器就是yuzu系模拟器</p>
+<p>##############################################################</p>
+<p>模拟器本身问题</p>
+<p>由于有些操作是可能跟几个问题有关系的，请排查时认真看看。</p>
+<p>系统必须是Windows10 1803及以上的版本才能使用，如果达不到系统要求就会弹出错误框提示升级系统（B站网友烈火炜哥）</p>
+<p>打开模拟器就闪退的情况或者打开设置闪退（模拟器闪退的自我排查，闪退没有固定的解决方法，因为产生原因多种多样。可以按照下面的办法自己排除。）</p>
+<p>1.安装或者更新最新版本的VC++2015-2022的64位版本</p>
+<p>2.看看自己的显卡驱动够不够新，这个去官网下载最新就能解决。</p>
+<p>3.龙神系模拟器下载后点击打开：显示快速异常检测失败，将不会调用异常处理程序，并且进程将立刻终止（感谢B站网友“刀宗不幸炉宗幸”找到的办法）<br>yuzu系和龙神系模拟器在图形设置中调用VULKAN后端后无法显示显卡型号（感谢B站网友“叠加的影子是深色的”实践试验的办法）<br>首先说一下成因，根据本人所找到的知识理解，应该是模拟器读取调用VULKAN后端时触发了英特尔的安全硬件（CET）的防御机制中的用户模式影子堆栈数据异常而导致，下面的操作就是禁用“禁用所有进程的用户模式影子堆栈 （CET） Disable User-mode shadow stack (CET) for all processes”<br>以管理员身份运行 CMD 或 PowerShell，然后执行以下命令：<br>reg add “HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Session Manager\Kernel” &#x2F;v MitigationOptions &#x2F;t REG_BINARY &#x2F;d “0000000000000000000000000000002000” &#x2F;f<br>重新启动 Windows 以应用设置。</p>
+<p>如果遇到需要“恢复所有进程的用户模式影子堆栈 （CET）”的方法<br>以管理员身份运行 CMD 或 PowerShell，然后执行以下命令：<br>reg delete “HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Session Manager\Kernel” &#x2F;v MitigationOptions &#x2F;f<br>重新启动 Windows 以应用设置。</p>
+<p>4.龙神系模拟器ryujinx文件夹没有放在默认位置C:\Users\用户名\AppData\Roaming（仅限没在模拟器文件夹下建立portable文件夹的用户。）（B站网友三原怜）<br>yuzu系模拟器将C:\Users\用户名\AppData\Roaming\yuzu\config下的qt-config.ini文件删除然后重启模拟器（官方FAQ）</p>
+<p>5.yuzu系模拟器一些屏幕录制应用程序使用可疑的方法将自己注入软件，从而导致崩溃。例如Reshade、GShade、Bandicam、Action和Screenrec或者微星小飞机。如果已安装软件，请将其卸载。对于Reshade GShade，如果您需要至少安装它，请关闭它在窗口上全局触摸Vulkan的功能，以允许Yuzu&amp;Vulkan再次工作。官方建议使用OBS Studio、Radeon ReLive、Nvidia ShadowPlay或Microsoft XBox Game Bar。（官方FAQ）</p>
+<p>打开游戏后模拟器闪退的情况（模拟器闪退的自我排查，闪退没有固定的解决方法，因为产生原因多种多样。可以按照下面的办法自己排除。）</p>
+<p>1.游戏现在在模拟器中无法运行，可能需要特定版本的模拟器或者其他方法（up主本人，B站网友喔嘛麻，B站网友三长，B站网友救济魔女まどか，B站Hestia-L）</p>
+<p>2.游戏的加载的更新或者DLC在模拟器中无法运行，可能需要特定版本的模拟器或者其他方法（up主本人，B站网友喔嘛麻，B站网友三长，B站网友救济魔女まどか，B站Hestia-L）</p>
+<p>3.将MOD和金手指全部不用，排除这些东西导致的闪退。</p>
+<p>4.加载了别人的着色器缓存，这玩意不是不好而是每个硬件生成的会有不一样而且硬件间会有不兼容的情况，正常删除着色器缓存重新生成就可以。</p>
+<p>5.软件冲突，这些体现在桌面花里胡哨（桌面美化）和喜欢游戏帧率监测（用游戏++或者其他游戏帧率监测的）或者录屏或者用推流的人，因为这些软件会使模拟器的图形接口无法正常调用导致闪退。</p>
+<p>6.设置过于激进，这个就是对模拟器的人没什么认识的人犯的错误，将模拟器设置调得过高，导致机器无法处理闪退。</p>
+<p>7.插好各种音响设备，包括耳机或者其他能输出声音的设备，要能够被系统识别的输出声音的设备。（这个几率发生虽然低，我还真遇到过）</p>
+<p>8.游戏本体有问题（B站网友斑点丶丶，B站网友抽象鲨）</p>
+<p>9.内存少于16GB有几率因为运行内存不足而无法打开游戏</p>
+<p>10.AMD有核显的处理器和Nvdia独显搭配无法启用Vulkan模式，OpenGL很卡的解决方法，最近有英特尔的核显也有这问题，也可以留意。</p>
+<p>开始菜单搜索编辑系统变量，打开的页面最底下有环境变量，点击，打开的页面找到系统变量，点击系统变量下方的新建，变量名为<br>DISABLE_LAYER_AMD_SWITCHABLE_GRAPHICS_1 变量值为1，确定就行，不行话设置完重启电脑<br>原理应该是因为AMD核显和Nvdia独显的驱动相互冲突，透过屏蔽核显来正常释放独显性能（解决方法源于贴吧Shark7帖子）</p>
+<p>英特尔的可以直接禁用核显，右击此电脑-管理，设备管理器，找到显示适配器，然后禁用英特尔的核显。</p>
+<p>模拟器中调用VULKAN后无法显示显卡的原因</p>
+<p>1.看看自己的显卡驱动够不够新，这个去官网下载最新就能解决。</p>
+<p>2.重启模拟器将API选项调成OpenGL试一下能否运行游戏，之后将OpenGL改成vulkan（B站网友猎神邪天、B站网友暴走弗洛鸽，B站网友第五期团下等马，B站网友愛丽丝的囚徒）</p>
+<p>3.软件冲突，这些体现在桌面花里胡哨（桌面美化）和喜欢游戏帧率监测（用游戏++或者其他游戏帧率监测的）或者录屏或者用推流的人，因为这些软件会使模拟器的图形接口无法正常调用导致闪退。</p>
+<p>4.龙神系模拟器下载后点击打开：显示快速异常检测失败，将不会调用异常处理程序，并且进程将立刻终止（感谢B站网友“刀宗不幸炉宗幸”找到的办法）<br>yuzu系和龙神系模拟器在图形设置中调用VULKAN后端后无法显示显卡型号（感谢B站网友“叠加的影子是深色的”实践试验的办法）<br>首先说一下成因，根据本人所找到的知识理解，应该是模拟器读取调用VULKAN后端时触发了英特尔的安全硬件（CET）的防御机制中的用户模式影子堆栈数据异常而导致，下面的操作就是禁用“禁用所有进程的用户模式影子堆栈 （CET） Disable User-mode shadow stack (CET) for all processes”<br>以管理员身份运行 CMD 或 PowerShell，然后执行以下命令：<br>reg add “HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Session Manager\Kernel” &#x2F;v MitigationOptions &#x2F;t REG_BINARY &#x2F;d “0000000000000000000000000000002000” &#x2F;f<br>重新启动 Windows 以应用设置。</p>
+<p>如果遇到需要“恢复所有进程的用户模式影子堆栈 （CET）”的方法<br>以管理员身份运行 CMD 或 PowerShell，然后执行以下命令：<br>reg delete “HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Session Manager\Kernel” &#x2F;v MitigationOptions &#x2F;f<br>重新启动 Windows 以应用设置。</p>
+<p>5.内存频率超频过于激进都有可能</p>
+<p>6.AMD有核显的处理器和Nvdia独显搭配无法启用Vulkan模式，OpenGL很卡的解决方法</p>
+<p>开始菜单搜索编辑系统变量，打开的页面最底下有环境变量，点击，打开的页面找到系统变量，点击系统变量下方的新建，变量名为<br>DISABLE_LAYER_AMD_SWITCHABLE_GRAPHICS_1 变量值为1，确定就行，不行话设置完重启电脑<br>原理应该是因为AMD核显和Nvdia独显的驱动相互冲突，透过屏蔽核显来正常释放独显性能（解决方法源于贴吧Shark7帖子）</p>
+<p>上述步骤后将用户文件夹下的Config.json删了，重启模拟器试试，上述只是相关可能性，不一定是适合正确解决方法。</p>
+<p>龙神无法加载游戏文件夹（出自第三方编译的龙神模拟器）</p>
+<p>1.应该是模拟器本身出了错误，选用官方最新版本升级第三方编译的龙神模拟器可能会有改善。（B站网友火山动物园）</p>
+<p>2.游戏本体有问题</p>
+<p>3.模拟器对本游戏或者游戏更新或者DLC不兼容</p>
+<p>ryujinx.exe-无法找到入口</p>
+<p>1.把publish\bin里的zlib1.dll文件，复制到Ryujinx.exe文件的同目录下。（ryujinx吧）</p>
+<p>Ryujinx.Ava已停止工作</p>
+<p>1.ryujinx文件夹没有放在默认位置C:\Users\用户名\AppData\Roaming（仅限没在模拟器文件夹下建立portable文件夹的用户。）（B站网友三原怜）</p>
+<p>未知软件异常（0xe0434352），有一个错误框写着 you are running an outdated version of windows.</p>
+<p>1.升级系统，系统必须是Windows10 1803及以上的版本才能使用，如果达不到系统要求就会弹出错误框提示升级系统（B站网友烈火炜哥）</p>
+<p>龙神系连接不上joy双手柄</p>
+<p>1.龙神模拟器本身识别不了joy双手柄，只能单独识别joy左手柄或右手柄，需要betterjoy驱动来映射，建议使用pro手柄（B站网友藤原书记爱跳舞）</p>
+<p>龙神系模拟器将控制台隐藏</p>
+<p>1.将options-show log console这个不选就可以</p>
+<p>yuzu系开启时出现错误“VCRUNTIME140_1.dll was not found”<br>1.安装64位版本VC++2015-2022（官方FAQ）</p>
+<p>yuzu开启时出现错误“Broken Vulkan Installation Detected”</p>
+<p>1.请根据“打开模拟器就闪退的情况或者打开设置闪退（模拟器闪退的自我排查，闪退没有固定的解决方法，因为产生原因多种多样。可以按照下面的办法自己排除。）”进行操作排查</p>
+<p>yuzu的基础电脑配置（用龙神的可以参考一下）</p>
+<p>1.win10 1803版本以上<br>支持OpenGL4.6的显卡<br>8G物理内存<br>高性能单核处理器（官方FAQ）</p>
+<p>yuzu系开启时出现错误“Missing Derivation Components”</p>
+<p>1.将 prod.keys和title.keys放在C:\Users\用户名\AppData\Roaming\yuzu\keys位置（仅限没在模拟器文件夹下建立portable文件夹的用户。）（官方FAQ）</p>
+<p>yuzu开启时出现错误“Unable to start application: Os { code: 2, kind: NotFound, message: “The system cannot find the file specified.” }”</p>
+<p>1.杀毒软件误杀模拟器为病毒（官方FAQ）</p>
+<p>yuzu系游戏启动失败弹出“WerFault.exe - Application Error - The application was unable to start correctly”</p>
+<p>1.物理内存不足，如果物理内存足够可能需要启用“模拟”-“设置”-“通用”-“扩展的内存布局（6GB DRAM）”（官方FAQ）</p>
+<p>龙神系模拟器进游戏的时候是透明的，游戏背景变透明，看到桌面背景</p>
+<p>1.关闭显卡驱动里面的全局锐化功能</p>
+<p>龙神模拟器无法运行游戏，控制台出现Gtk-CRITICAL**：14：49：30.035类似语句</p>
+<p>1.将模拟器最大化窗口就可以解决。</p>
+<p>yuzu系固件更新后无法读取存档</p>
+<p>1.用更新工具更新的，换KEY的时候这个文件不要删title.keys_autogenerated这个文件，删了就读不到原来的存档，从回收站找回来的。放回原位置就好了。</p>
+<p>龙神系模拟器在添加游戏文件夹位置时闪退</p>
+<p>1.有可能是输入法跟模拟器不兼容导致的闪退，现在有实例表明，搜狗的中文输入法会跟模拟器有冲突，可以转系统自带输入法解决。</p>
+<p>2.关闭挂梯子软件（B站网友穗绀提供的答案）</p>
+<p>3.打开portable（用户文件夹）文件夹里的config文件，game_dir里面的内容清空（B站网友穗绀提供的答案）</p>
+<p>安卓版的NS模拟器在某些要自己输入文字的地方闪退</p>
+<p>1.进入用户文件夹nand\system\Contents\registered删除固件文件5b991be1efff3e2d2bc34fba9d200c58.nca就能调用设备的输入法</p>
+<p>2.直接不安装固件</p>
+<p>Ryujinx is not intended to be run as administrator，然后模拟器无法正常启动</p>
+<p>这个问题多出于ryubing或者叫Ryujinx的greemdev分支最新canary版上，如果你的系统用户名为administrator就是管理员，这种多见于ghost版系统，有网友说可以新建另一个管理员账号，然后将本来的管理员账号变成普通账号就可以。</p>
+<p>如何更改电脑用户权限：管理员或普通用户<br>想要更改电脑用户的权限吗？无论是想要给予管理员权限还是普通用户权限，都可以通过以下步骤来实现。下面是详细的操作指南：<br>按下 Win + R 键：首先，按下键盘上的 Win 键和 R 键，这将打开运行窗口。<br>输入 netplwiz：在运行窗口中输入 netplwiz，然后按回车键。<br>选择用户：在弹出的窗口中，找到你想要更改权限的用户名，并点击它。<br>点击“属性”：选中用户名后，在下方点击“属性”按钮。<br>设置权限：在“组成员”选项卡中，勾选相应的权限（管理员或普通用户），然后点击“应用”和“确定”。<br>注销并重新登录：最后，注销电脑并重新登录，以使更改生效。</p>
+<p>通过以上步骤，你就可以轻松地将电脑用户设置为管理员或普通用户权限了。</p>
+<p>##############################################################</p>
+<p>特殊问题</p>
+<p>更新（update）文件或者DLC文件安装失败</p>
+<p>1.根据百度贴吧埃阿斯的方法，使用sak软件的path nsp功能将无法安装的文件放进去修复，修复后的文件就应该能使用了。原理据本人估计应该是在在机子搬出来时游戏的内部路径出了错误，用这个功能将路径修复了，文件就能正常使用了。</p>
+<p>笔记本电脑无法跑满频率导致游戏帧率低下</p>
+<p>1.以下是Nvdia的显卡的解决方法，去Nvdia GeForce Experience那里去常规-WHISPER MODE这个选项是不是打开了，如果是打开了，关闭了就可以跑满性能了。（贴吧迷茫浪子提供的解决方法）</p>
+<p>手柄无法使用体感</p>
+<p>1.请看手柄说明书上的操作，特别是北通的手柄，根据手柄上的说明做好连接电脑后，再去模拟器输入设置那里的体感选项进行识别。</p>
+<p>##############################################################</p>
+<p>模拟器运行游戏时的问题</p>
+<p>问题1：画音不同步<br>答案：这个有可能是因为模拟帧率不够导致。Yuzu可以将cpu的精度设置为精确有几率解决（B站网友迷糊小仙客、UP主本人）</p>
+<p>问题2：手柄无法使用<br>答案：手柄设置里面所有或者部分按键出unbound字样，只要重新在手柄设置处选好输入设备，然后点击unbound，输入你设置按键（B站网友烙印の光）</p>
+<p>问题3：纯键盘要如何操作<br>答案：手柄设置里面选好输入设备为keyboard，然后点击相应按键进行设置，输入你设置按键（B站网友梅川内酷晓解）</p>
+<p>问题4：某些游戏运行时候有卡顿或者声音和画面不同步的问题（例如暗黑破坏神3，GTA3 最终版，Sympathy Kiss）<br>答案：这个问题主要出现在yuzu系模拟器声音设置，输出设备改成sdl2就能解决（up主本人）</p>
+<p>问题5：龙神感觉不小心开了两倍速，就是关闭VSync如何解决<br>答案：在游戏时将左下角的VSync点击一下变成非红色字状态就能解决。（B站皮皮鸿鸿）</p>
+<p>问题6：玩游戏时画面发黄<br>答案：主要是可能是因为模拟器的问题或者是使用AMD显卡，通常是升级模拟器可以解决。（百度ryujinx贴吧）</p>
+<p>问题7：手柄控制失灵，某些控制失控<br>答案：<br>情况1将player1以外的其他player（包括handheld）设置的输入设备为disable即可解决。（B站网友球灬球Sama）<br>情况2手柄设置中Deadzone Left或Deadzone Right下面的数值为0，导致手柄过度灵敏失控，将数值跳到0.10或以上可以改善。（B站网友丹墀之下）</p>
+<p>问题8：龙神模拟器宝可梦朱紫运行时闪退<br>答案：一般情况下系统设置上Memory Manager Mode：选Host（fast），（1.1.366之前）Expand DRAM Size to6GiB不选就可以（B站网友周大刀xxx）</p>
+<p>问题9：游戏存档无故损坏无法读取存档<br>解决思路将存档位置的文件备份后逐个相关文件删除验证，当某个有问题的文件删除后存档能读取就说明该存档的这个文件损坏导致存档无法读取，这种方法可以保存大部分存档数据和进度。</p>
+<p>问题10：模拟器如何制作MII（某些游戏可能需要用到,例如迷托邦）<br>答案：在File-Load applet-MII Editor根据提示操作制作即可，再在游戏中选择即可，yuzu系可以在游戏中建立不需要额外操作或者工具-打开MII editor来生成</p>
+<p>问题11：真女神转生5不显示中文<br>答案：模拟器系统设置上将语言设置成繁体中文才能正常显示中文</p>
+<p>问题12：某系游戏无法正常运行（迪士尼梦幻星谷）<br>答案：游戏一定要加载补丁</p>
+<p>问题13：某些游戏本体没有中文（塞尔达传说旷野之息，剪纸大厦，妖怪捉迷藏，马里奥赛车8）<br>答案：加载最新升级补丁就有中文</p>
+<p>问题14：暗黑破坏神3整合或者加载中文DLC无中文<br>答案：DLC中的中文语言包需要在加载所有补丁和DLC（除语言包DLC）后再加载才能生效，龙神无法提供中文语音，有中文显示</p>
+<p>问题15：龙神模拟器设置手柄体感模式<br>答案：这个手柄必须要有陀螺仪和支持体感才能用，支持switch模式。<br>首先手柄切换成switch模式，链接电脑后模拟器可以正确是识别。左上角就会显示设备可以选择，然后再勾选体感模式motion第一个选项即可（感谢提供答案的B站网友ziopp99）</p>
+<p>问题16：输入设置中使用键盘作为输入设备，但是游戏中无法使用<br>答案：首先看看输入设置中按键有没有设置好，然后启动模拟器后要将输入法调成英文输入法，模拟器使用键盘作为输入设备不支持中文输入法</p>
+<p>问题17：宝可梦剑盾在冰系道馆卡死闪退<br>答案：这个是区分剑和盾游戏的道馆，可能是剑和盾游戏存档互相调换了。如果是在剑遇到就将存档转移到盾那里，另外一个也是调换存档来操作。这种情况多出现在网上下载别人存档时发生，请别乱用网上别人的存档。</p>
+<p>问题18：月姬REMAKE V1.0.2+CHS V2.02和夜点灯（深夜点灯），使用汉化MOD后画面出现错误<br>答案：经大概测试应该是模拟器编译优化王国之泪时导致的。因为这是在1.1.811以后出现的，这个时候两个模拟器都针对王国之泪进行大量的优化。暂时只知道龙神1.1.811柚子主线版1411之后的版本都有这个问题，那段时间的柚子和龙神都一样有这个画面错误。解决方法要么模拟器重新支持，要么汉化MOD那里进行修正。（月姬有官方中文的版本了可以不用这个方法了，这个方法是用在美版的）</p>
+<p>问题19：柚子宝可梦朱和紫在宝可梦进化时无法正常运行，宠物进化时卡死，可以拖动视角，也有声音<br>答案1：可以在进化前保存，关闭多核仿真功能，然后进化后保存游戏后，开启多核仿真功能调回来<br>答案2：贴吧有吧友说卸载服装DLC也可以解决这个问题</p>
+<p>问题20：洛克人EXE传奇合集1和2的运行问题<br>答案：洛克人EXE传奇合集1 V1.0.3+5DLC主线版柚子只能运行游戏本体，不能使用update和DLC。龙神如果要加载全部DLC就不能加载update。加载了update，DLC的Mega Man Battle Network Legacy Collection Vol. 1 [P.Aデビューチップセット② Vol.1] [010038E016265005][v0].nsp就不能加载，否则会闪退<br>洛克人EXE传奇合集2 V1.0.3+5DLC主线版柚子无法运行，龙神如果要加载全部DLC就不能加载update。加载了update，DLC的Mega Man Battle Network Legacy Collection Vol. 2 [P.Aデビューチップセット② Vol.2] [0100734016267005][v0].nsp就不能加载，否则会闪退</p>
+<p>问题21：龙神模拟器无法识别宝可梦朱紫的保存数据（存档数据）<br>答案：在Ryujinx文件夹里找到poke-trade文件删除就行了。（B站网友“Hui钛狼哦”提供的解决方法）</p>
+<p>问题22：超级马里奥派对 V1.0.1运行游戏时进入游戏会闪退<br>答案：将VULKAN改成OpenGL就能运行，还有要注意这个游戏要用joycon玩才能完整体验。</p>
+<p>问题23：游戏运行时人物视角或者人物移动不断旋转？<br>答案：柚子上可能是因为在输入设置中使用了“鼠标漂移”的设置，只要不启用就可以解决。</p>
+<p>问题24：星之海洋2 第二个故事R V1.0.1+4DLC运行时声音播放不正常<br>答案：声音插件使用SDL2就可以正常播放声音。</p>
+<p>问题25：超级马里奥3D全明星 V1.1.1怎样运行在模拟器上？<br>答案：这个游戏是多游戏集合在一个文件上，建议使用龙神模拟器运行游戏，图形接口选OpenGL，我用的是1.1.1065的官版龙神玩的。系统固件16.1.0。这样运行时卡顿会比较少，但是这游戏对处理器单核要求比较高，本人估计可能是游戏里套了个模拟器那类的软件来运行里面的游戏。</p>
+<p>问题26：东方计划 不可思议的幻想乡 重载 V1.0.1（不可思议的幻想乡tod reload）播放开场动画后黑屏无法继续游玩<br>答案：只能在动画播放时直接跳过，跳过了就能玩了</p>
+<p>问题27：寒蝉鸣泣之时 奉用龙神模拟器有破音的问题<br>答案：换yuzu来玩。本人使用龙神1.1.1202版本时经过设置都没法解决。</p>
+<p>问题28：精灵宝可梦 去吧,伊布! 和精灵宝可梦 去吧,皮卡丘! 设置按键后没法使用<br>答案：这两个游戏在模拟器中只支持左joycon或者右joycon手柄类型，不是这两个手柄类型的的按键在游戏中是无效的。</p>
+<p>问题29：病态 七侍者 V1.0.6运行在PC版模拟器运行方法<br>答案：1这个游戏要用柚子系的模拟器才能玩，龙神的玩不了。<br>2柚子的主线版1732或者EA版的4176只能使用图形接口中的OpenGL接口，vulkan用不了。运行中有图像问题，暂停等某些画面有图像错误。<br>sudachi、suyu或者torzu的最新版可以用vulkan接口，而且没有图像问题<br>3每次重新运行游戏前要删除游戏所有的着色器缓存，不然进不了游戏<br>4如果前三步做了还是进不了游戏请关闭模拟器重新启动模拟器，记得运行游戏做步骤3就可以。</p>
+<p>问题30：真女神转生5 复仇 V1.01+7DLC改名字后闪退<br>答案：此方法暂时适用于PC版的模拟器上<br>使用sudachi V1.0.2版本，CPU设置那里使用“unsafe”选项选后的选项不用管，GPU要使用“OpenGL”，由于本人是用N卡的，用的是OpenGL中N卡专用的api，A卡你要自己试试A卡专用的。</p>
+<p>问题31：一些支持的中文的老游戏没法显示中文，例如：马里奥赛车8，超级马里奥奥德赛和还有其他一些很久以前的老游戏<br>答案：系统语言那里，龙神系那里有另外两个中文选项的，中文（简体）和中文（繁体），yuzu系那里那里有另外两个中文选项的，有个Chinese，还有一个中国台湾的选项（这个选项会比较难找，但我不能明说），你自己留意一下就知道了</p>
+<p>问题32：疯狂兔子 奇遇派对无法控制？<br>答案：输入设置上要使用左或者右的joycon类型手柄来设置按键。非原生joycon手柄，摇杆要设置顺时针旋转90度，然后左joycon中，方向下键设置成A键，方向左键设置成B键，方向上键设置成Y键，方向右键设置成X键。然后右joycon中，X键设置成A键，A键设置成B键，B键设置成Y键，Y键设置成X键，这样就可以正常游玩了。</p>
+<p>问题33：信长之野望 新生 威力加强版 V1.1.7+16DLC加载了全部DLC时无法进入游戏<br>答案：出现这个问题的原因就是[01007AB012873008][v0].nsp这个DLC文件导致的，不加载就能进入游戏，这个问题需要模拟器去进行兼容。感谢B站网友秋意辽阔提出这问题。</p>
+<p>问题34：最终幻想战略版 伊瓦利斯编年史 V1.2.0+2DLC游戏运行和汉化MOD使用后的一些解决方法<br>答案：如果要加载游戏更新和DLC请使用Citron V0.8.0的模拟器加载游戏更新和DLC，Citron V0.8.0模拟器设置上system-multicore CPU Emulation（多核仿真模拟）不要勾选。图形设置那里最好使用OPEN GL，因为VULKAN要看硬件和模拟器的兼容情况。龙神系模拟器会有显示不了游戏画面的问题，建议使用Citron V0.8.0模拟器。</p>
+<p>问题35：宝可梦传说Z-A的运行问题<br>答案：现在用ryubing或者叫greemdev分支ca版1.3.167或以后的版本，可以正常加载游戏更新和DLC来运行游戏，如果你电脑或者手机在游戏进入城市后没有画面问题可以使用citron V0.8.0来进行游戏玩，kenji-nx来只运行游戏本体来玩。请大家按需要来使用。</p>
+<p>问题36：塞尔达传说 旷野之息在ryubing或者叫Ryujinx的greemdev分支的稳定版1.3.3版本使用21以上固件在加载游戏更新后无法正常加载或者显示游戏<br>答案：稳定版1.3.3版本对21固件及以上固件支持不好，请使用20固件就可以正常显示游戏了。</p>
+
+      </div>
+      <div class="post-tags-categories">
+        
+        <div class="tags">
+          
+            <a href="/tags/SWITCH%E6%A8%A1%E6%8B%9F%E5%99%A8/" class="">
+              SWITCH模拟器
+            </a>
+          
+        </div>
+        
+      </div>
+      
+        <div class="copyright">
+  <ul class="post-copyright">
+    <li class="post-copyright-author">
+    <strong>作者:  </strong>Winzerokyo</a>
+    </li>
+    <li class="post-copyright-link">
+    <strong>文章链接:  </strong>
+    <a href="/2026/01/31/switch-mo-ni-qi-de-wen-ti-hui-zong/" target="_blank" title="SWITCH模拟器的问题汇总">http://example.com/2026/01/31/switch-mo-ni-qi-de-wen-ti-hui-zong/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>版权声明:   </strong>
+      本网站所有文章除特别声明外,均采用 <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">CC BY-NC-ND 4.0</a>
+      许可协议。转载请注明出处!
+    </li>
+  </ul>
+<div>
+      
+    </article>
+    <!-- 上一篇文章和下一篇文章 -->
+    
+      <!-- 文章详情页的上一页和下一页 -->
+<div class="post-nav">
+
+
+
+  
+  <div class="post-nav-prev post-nav-item">
+    <div class="post-nav-img" style="background-size: cover; 
+      background-position: center center;">
+      <img class="lazyload lazyload placeholder" src="https://pic2.zhimg.com/80/v2-29e78b52051ce542adf6d786d61fbd19_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-29e78b52051ce542adf6d786d61fbd19_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+    </div>
+    <a href="/2026/01/31/mo-ni-qi-ban-ben-geng-xin-xin-xi/" class="post-nav-link">
+      <div class="title">
+        <i class="fas fa-angle-left"></i> 上一篇:
+        <div class="title-text">模拟器版本更新信息</div>
+      </div>
+      
+      <!-- <div class="content">
+        这里只是对各种模拟器版本的说明，软件链接请去相关分类的找
+现在我提供的资源用了很多相对路径，请不要用超过3层文件夹套着，
+      </div> -->
+    </a>
+  </div>
+
+
+
+  
+  <div class="post-nav-next post-nav-item">
+    <div class="post-nav-img" style="background-size: cover; 
+      background-position: center center;">
+      <img class="lazyload lazyload placeholder" src="https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" src="" alt="">
+    </div>
+    <a href="/2026/01/31/ss-you-xi-zi-yuan/" class="post-nav-link">
+      <div class="title">
+        下一篇: <i class="fas fa-angle-right"></i>
+        <div class="title-text">SS游戏资源</div>
+      </div>
+      <!-- <div class="content">
+        为了照顾不看网站公告的，默认解压密码：2234。
+
+
+
+资源中文名称
+度盘下载地址
+迅雷下载地址
+夸克下载地址
+资源英文
+      </div> -->
+    </a>
+  </div>
+
+</div>
+
+    
+    
+
+    <!-- 打赏 -->
+    
+      <div id="appDonate" class="post-donate">
+  <div id="donate_board" class="donate_bar center" ref="donate">
+    <a id="btn_donate" class="btn_donate" href="javascript:;" title="打赏" @click="showDialogDrawer()"></a>
+  </div>
+  <transition name="fade">
+    <div 
+      class="donate-box-mask"
+      v-cloak 
+      v-show="visible"
+      @click="cancelDialogDrawer()"
+    >
+    </div>
+  </transition>
+  <transition name="bounce">
+    <div class="donate-box" v-cloak v-show="visible">
+      <div class="donate-box_close">
+        <i class="fas fa-times" aria-hidden="true" @click="cancelDialogDrawer" pointer></i>
+      </div>
+      <div class="donate-box_title">
+        <h4>
+          你的赏识是我前进的动力
+        </h4>
+      </div>
+      <div class="donate-box_tab">
+        <div class="Alipay" pointer :class="{'active': tabActive === 'Alipay'}" @click="changeTabActive('Alipay')">
+          支付宝
+        </div>
+        <div class="WeChatpay" pointer :class="{'active': tabActive === 'WeChatpay'}" @click="changeTabActive('WeChatpay')">
+          微信
+        </div>
+      </div>
+      <div class="donate-box_img">
+        <div class="AlipayImg" v-show="tabActive === 'Alipay'">
+          <img src="/images/Alipay.jpg" class="lazyload placeholder" data-srcset="/images/Alipay.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="支付宝打赏" />
+        </div> 
+        <div class="WeChatpayImg" v-show="tabActive === 'WeChatpay'">
+          <img src="/images/WeChatpay.png" class="lazyload placeholder" data-srcset="/images/WeChatpay.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="微信打赏" />
+        </div>
+      </div>
+    </div>
+  </transition>
+</div>
+
+<script>
+  var body = document.body || document.documentElement || window;
+  var vm = new Vue({
+    el: '#appDonate',
+    data: {
+      visible: false,
+      tabActive: 'Alipay',
+      top: 0,
+    },
+    computed: {
+    },
+    mounted() {
+    },
+    methods: {
+      showDialogDrawer() {
+        this.visible = true;
+        // 防止页面滚动，只能让弹框滚动
+        // function getScroll() {
+        //   return {
+        //     left: window.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft || 0,
+        //     top: window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0
+        //   };
+        // }
+        this.top = $(document).scrollTop() // or getScroll().top
+        // console.log('aa', $('.main-content'));
+        body.style.cssText = 'overflow: hidden;';
+      },
+      cancelDialogDrawer() {
+        this.visible = false;
+        body.removeAttribute('style');
+        $(document).scrollTop(this.top)
+      },
+      changeTabActive(name) {
+        this.tabActive = name;
+      }
+    },
+    created() {}
+  })
+</script>
+    
+
+    <!-- 分享 -->
+    
+    
+    <!-- 评论 -->
+    <!-- 评论 -->
+
+  <div id="myComment">
+    
+  </div>
+
+
+<!-- 还需要在后面这个地址里设置script, comment script in themes\hexo-theme-bamboo\layout\_partial\scripts\index.ejs -->
+
+
+  </div>
+
+  <!-- 目录 -->
+  <aside id='l_side'>
+  
+    
+      <section class="widget side_blogger">
+  <div class='content'>
+    
+      
+        <a class='avatar flat-box circle' href='/about/'>
+          <img src='https://pic2.zhimg.com/80/v2-42b72d5ebee4b8d8aa70d9687effe87b_1440w.webp'/>
+        </a>
+      
+    
+    
+      <div class='text'>
+        
+          <h2>Winzerokyo游戏站</h2>
+        
+        
+          <p>创建者Winzerokyo</p>
+
+        
+        
+          <p><span id="jinrishici-sentence">Winzerokyo的游戏站</span></p>
+          <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+        
+      </div>
+    
+    
+      <div class="social-wrapper">
+        
+          
+            <a href="/atom.xml"
+              class="social fas fa-rss flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+              
+            </a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    
+  </div>
+</section>
+
+    
+  
+  
+  
+    
+      <div class="widget test_a" id="test_a" style="order: 0;background: #fff">
+        <header>
+          
+            <a style="color: #d63130" target="_blank" rel="noopener" href='https://space.bilibili.com/5788784'><i class="fab fa-weibo fa-fw" aria-hidden="true"></i><span class='name'>BILIBILI winzerokyo</span></a>
+          
+        </header>
+        <div class="content">
+          BILIBILI主页
+        </div>
+    </div>
+    
+  
+
+  <div class="layout_sticky">    
+    
+      
+<section class="widget side_toc">
+  
+  <header>
+    
+      <i style="color: " class="fas fa-list fa-fw" aria-hidden="true"></i><span class='name' style="color: ">本文目录</span>
+    
+  </header>
+
+
+  <div class='content'>
+    <div class="toc-main">
+      <div class="toc-content">
+        <!--  -->
+        <div class="toc"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 手机端目录按钮 -->
+<div id="toc-mobile-btn">
+  <i class="fas fa-list-ul" aria-hidden="true"></i>
+</div>
+
+      
+  <section class="widget side_recent_post">
+    
+  <header>
+    
+      <a style="color: " href='/tags/'><i class="fas fa-book fa-fw" aria-hidden="true"></i><span class='name'>最新文章</span></a>
+    
+  </header>
+
+
+    <div class='content'>
+      
+      <!-- hash算法 -->
+      
+      <div class="aside-list">
+        
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
+              <a href="/2026/01/31/hello-world/" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic3.zhimg.com/80/v2-5f7cb7e900b9dcf5354c3d4d2c5cc3c2_1440w.webp" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-5f7cb7e900b9dcf5354c3d4d2c5cc3c2_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">01-31</span>
+                
+              </div>
+              <a class="post-title" href="/2026/01/31/hello-world/">Hello World</a>
+            </div>
+          </div>
+        
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
+              <a href="/2026/01/31/mo-ni-qi-ban-ben-geng-xin-xin-xi/" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic2.zhimg.com/80/v2-29e78b52051ce542adf6d786d61fbd19_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-29e78b52051ce542adf6d786d61fbd19_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">01-31</span>
+                
+              </div>
+              <a class="post-title" href="/2026/01/31/mo-ni-qi-ban-ben-geng-xin-xin-xi/">模拟器版本更新信息</a>
+            </div>
+          </div>
+        
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
+              <a href="/2026/01/31/switch-mo-ni-qi-de-wen-ti-hui-zong/" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">01-31</span>
+                
+              </div>
+              <a class="post-title" href="/2026/01/31/switch-mo-ni-qi-de-wen-ti-hui-zong/">SWITCH模拟器的问题汇总</a>
+            </div>
+          </div>
+        
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
+              <a href="/2026/01/31/ss-you-xi-zi-yuan/" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">01-31</span>
+                
+              </div>
+              <a class="post-title" href="/2026/01/31/ss-you-xi-zi-yuan/">SS游戏资源</a>
+            </div>
+          </div>
+        
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
+              <a href="/2026/01/30/switch-you-xi-zi-yuan/" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic2.zhimg.com/80/v2-63bbdb5b76b8d349ad35ff4281efbd37_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-63bbdb5b76b8d349ad35ff4281efbd37_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">01-30</span>
+                
+              </div>
+              <a class="post-title" href="/2026/01/30/switch-you-xi-zi-yuan/">SWITCH游戏资源</a>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  </section>
+
+    
+  </div>
+</aside>
+
+  <!-- 图片放大 Wrap images with fancybox support -->
+  <script defer src="/js/wrapImage.js"></script>
+</div>
+
+<!-- 文章详情页背景图 -->
+<div id="appBgSwiper" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -2;"
+	:style="{'background-color': bgColor ? bgColor : 'transparent'}">
+	<transition-group tag="ul" :name="names">
+		<li v-for='(image,index) in img' :key='index' v-show="index === mark" class="bg-swiper-box">
+			<img :src="image" class="bg-swiper-img no-lazy">
+		</li>
+	</transition-group>
+</div>
+<script>
+	var vm = new Vue({
+		el: '#appBgSwiper',
+		data: {
+			names: '' || 'fade' || 'fade', // translate-fade fade
+			mark: 0,
+			img: [],
+			bgColor: '',
+			time: null
+		},
+		methods: {   //添加方法
+			change(i, m) {
+				if (i > m) {
+					// this.names = 'fade';
+				} else if (i < m) {
+					// this.names = 'fade';
+				} else {
+					return;
+				}
+				this.mark = i;
+			},
+			prev() {
+				// this.names = 'fade';
+				this.mark--;
+				if (this.mark === -1) {
+					this.mark = 3;
+					return
+				}
+			},
+			next() {
+				// this.names = 'fade';
+				this.mark++;
+				if (this.mark === this.img.length) {
+					this.mark = 0;
+					return
+				}
+			},
+			autoPlay() {
+				// this.names = 'fade';
+				this.mark++;
+				if (this.mark === this.img.length) {
+					this.mark = 0;
+					return
+				}
+			},
+			play() {
+				let bgImgDelay = '' || '180000'
+				let delay = parseInt(bgImgDelay) || 180000;
+				this.time = setInterval(this.autoPlay, delay);
+			},
+			enter() {
+				clearInterval(this.time);
+			},
+			leave() {
+				this.play();
+			}
+		},
+		created() {
+			this.play()
+		},
+		beforeDestroy() {
+			clearInterval(this.time);
+		},
+		mounted() {
+			let prop = '' || '';
+			let isImg = prop.includes('.bmp') || prop.includes('.jpg') || prop.includes('.png') || prop.includes('.tif') || prop.includes('.gif') || prop.includes('.pcx') || prop.includes('.tga') || prop.includes('.exif') || prop.includes('.fpx') || prop.includes('.psd') || prop.includes('.cdr') || prop.includes('.pcd') || prop.includes('.dxf') || prop.includes('.ufo') || prop.includes('.eps') || prop.includes('.ai') || prop.includes('.raw') || prop.includes('.WMF') || prop.includes('.webp') || prop.includes('.jpeg') || prop.includes('http://') || prop.includes('https://')
+			if (isImg) {
+				let img = prop.split(',');
+				let configRoot = '/'
+				let arrImg = [];
+				img.forEach(el => {
+					var Expression = /http(s)?:\/\/([\w-]+\.)+[\w-]+(\/[\w- .\/?%&=]*)?/;
+					var objExp = new RegExp(Expression);
+
+					if (objExp.test(el)) {
+						// http or https
+						arrImg.push(el);
+					} else {
+						// 非http or https开头
+						// 本地文件
+						let firstStr = el.charAt(0);
+						if (firstStr == '/') {
+							el = el.substr(1); // 删除第一个字符 '/',因为 configRoot最后一个字符为 /
+						}
+						el = configRoot + el;
+						arrImg.push(el);
+					}
+				})
+				this.img = arrImg;
+			} else {
+				this.bgColor = prop;
+			}
+		}
+	})
+</script>
+
+<style>
+	.bg-swiper-box {
+		position: absolute;
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+
+	.bg-swiper-img {
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+	}
+</style>
+
+
+
+
+  <script>
+  function loadMermaid() {
+    if (document.getElementsByClassName('mermaid').length) {
+      if (window.mermaidJsLoad) mermaid.init()
+      else {
+        loadScript('https://unpkg.com/mermaid/dist/mermaid.min.js').then(() => {
+          window.mermaidJsLoad = true
+          mermaid.initialize({
+            theme: 'default',
+          })
+          if ('true') {
+            mermaid.init();
+          }
+        })
+      }
+    }
+  };
+  document.addEventListener("DOMContentLoaded", function () {
+    loadMermaid();
+  })
+
+  document.addEventListener('pjax:complete', function () {
+    loadMermaid();
+  })
+  
+</script>
+
+
+      </main>
+    </div>
+
+    <!-- 页脚 -->
+    
+  
+  
+    <!-- 底部鱼儿跳动效果，依赖于jquery-->
+<div id="j-fish-skip" style=" position: relative;height: 153px;width: auto;"></div>
+<script defer>
+  var RENDERER = {
+    POINT_INTERVAL: 5,
+    FISH_COUNT: 3,
+    MAX_INTERVAL_COUNT: 50,
+    INIT_HEIGHT_RATE: .5,
+    THRESHOLD: 50,
+    FISH_COLOR: '',
+    init: function () {
+      this.setFishColor(); this.setParameters(), this.reconstructMethods(), this.setup(), this.bindEvent(), this.render()
+    },
+    setFishColor: function () {
+      let isDark = JSON.parse(localStorage.getItem('dark')) || JSON.parse('false');
+      if (isDark) {
+        this.FISH_COLOR = '#222'; // 暗黑色，有时间把这整成一个变量
+      } else {
+        this.FISH_COLOR = '' || 'rgba(66, 185, 133, 0.8)';
+      }
+    },
+    setParameters: function () {
+      this.$window = $(window), this.$container = $("#j-fish-skip"), this.$canvas = $("<canvas />"), this.context = this.$canvas.appendTo(this.$container).get(0).getContext("2d"), this.points = [], this.fishes = [], this.watchIds = []
+    },
+    createSurfacePoints: function () {
+      var t = Math.round(this.width / this.POINT_INTERVAL);
+      this.pointInterval = this.width / (t - 1), this.points.push(new SURFACE_POINT(this, 0));
+      for (var i = 1; i < t; i++) {
+        var e = new SURFACE_POINT(this, i * this.pointInterval),
+          h = this.points[i - 1];
+        e.setPreviousPoint(h), h.setNextPoint(e), this.points.push(e)
+      }
+    },
+    reconstructMethods: function () {
+      this.watchWindowSize = this.watchWindowSize.bind(this), this.jdugeToStopResize = this.jdugeToStopResize.bind(this), this.startEpicenter = this.startEpicenter.bind(this), this.moveEpicenter = this.moveEpicenter.bind(this), this.reverseVertical = this.reverseVertical.bind(this), this.render = this.render.bind(this)
+    },
+    setup: function () {
+      this.points.length = 0, this.fishes.length = 0, this.watchIds.length = 0, this.intervalCount = this.MAX_INTERVAL_COUNT, this.width = this.$container.width(), this.height = this.$container.height(), this.fishCount = this.FISH_COUNT * this.width / 500 * this.height / 500, this.$canvas.attr({
+        width: this.width,
+        height: this.height
+      }), this.reverse = !1, this.fishes.push(new FISH(this)), this.createSurfacePoints()
+    },
+    watchWindowSize: function () {
+      this.clearTimer(), this.tmpWidth = this.$window.width(), this.tmpHeight = this.$window.height(), this.watchIds.push(setTimeout(this.jdugeToStopResize, this.WATCH_INTERVAL))
+    },
+    clearTimer: function () {
+      for (; this.watchIds.length > 0;) clearTimeout(this.watchIds.pop())
+    },
+    jdugeToStopResize: function () {
+      var t = this.$window.width(),
+        i = this.$window.height(),
+        e = t == this.tmpWidth && i == this.tmpHeight;
+      this.tmpWidth = t, this.tmpHeight = i, e && this.setup()
+    },
+    bindEvent: function () {
+      this.$window.on("resize", this.watchWindowSize), this.$container.on("mouseenter", this.startEpicenter), this.$container.on("mousemove", this.moveEpicenter)
+    },
+    getAxis: function (t) {
+      var i = this.$container.offset();
+      return {
+        x: t.clientX - i.left + this.$window.scrollLeft(),
+        y: t.clientY - i.top + this.$window.scrollTop()
+      }
+    },
+    startEpicenter: function (t) {
+      this.axis = this.getAxis(t)
+    },
+    moveEpicenter: function (t) {
+      var i = this.getAxis(t);
+      this.axis || (this.axis = i), this.generateEpicenter(i.x, i.y, i.y - this.axis.y), this.axis = i
+    },
+    generateEpicenter: function (t, i, e) {
+      if (!(i < this.height / 2 - this.THRESHOLD || i > this.height / 2 + this.THRESHOLD)) {
+        var h = Math.round(t / this.pointInterval);
+        h < 0 || h >= this.points.length || this.points[h].interfere(i, e)
+      }
+    },
+    reverseVertical: function () {
+      this.reverse = !this.reverse;
+      for (var t = 0, i = this.fishes.length; t < i; t++) this.fishes[t].reverseVertical()
+    },
+    controlStatus: function () {
+      for (var t = 0, i = this.points.length; t < i; t++) this.points[t].updateSelf();
+      for (t = 0, i = this.points.length; t < i; t++) this.points[t].updateNeighbors();
+      this.fishes.length < this.fishCount && 0 == --this.intervalCount && (this.intervalCount = this.MAX_INTERVAL_COUNT, this.fishes.push(new FISH(this)))
+    },
+    render: function () {
+      requestAnimationFrame(this.render), this.controlStatus(), this.context.clearRect(0, 0, this.width, this.height), this.context.fillStyle = this.FISH_COLOR;
+      for (var t = 0, i = this.fishes.length; t < i; t++) this.fishes[t].render(this.context);
+      this.context.save(), this.context.globalCompositeOperation = "xor", this.context.beginPath(), this.context.moveTo(0, this.reverse ? 0 : this.height);
+      for (t = 0, i = this.points.length; t < i; t++) this.points[t].render(this.context);
+      this.context.lineTo(this.width, this.reverse ? 0 : this.height), this.context.closePath(), this.context.fill(), this.context.restore()
+    }
+  },
+  SURFACE_POINT = function (t, i) {
+    this.renderer = t, this.x = i, this.init()
+  };
+  SURFACE_POINT.prototype = {
+    SPRING_CONSTANT: .03,
+    SPRING_FRICTION: .9,
+    WAVE_SPREAD: .3,
+    ACCELARATION_RATE: .01,
+    init: function () {
+      this.initHeight = this.renderer.height * this.renderer.INIT_HEIGHT_RATE, this.height = this.initHeight, this.fy = 0, this.force = {
+        previous: 0,
+        next: 0
+      }
+    },
+    setPreviousPoint: function (t) {
+      this.previous = t
+    },
+    setNextPoint: function (t) {
+      this.next = t
+    },
+    interfere: function (t, i) {
+      this.fy = this.renderer.height * this.ACCELARATION_RATE * (this.renderer.height - this.height - t >= 0 ? -1 : 1) * Math.abs(i)
+    },
+    updateSelf: function () {
+      this.fy += this.SPRING_CONSTANT * (this.initHeight - this.height), this.fy *= this.SPRING_FRICTION, this.height += this.fy
+    },
+    updateNeighbors: function () {
+      this.previous && (this.force.previous = this.WAVE_SPREAD * (this.height - this.previous.height)), this.next && (this.force.next = this.WAVE_SPREAD * (this.height - this.next.height))
+    },
+    render: function (t) {
+      this.previous && (this.previous.height += this.force.previous, this.previous.fy += this.force.previous), this.next && (this.next.height += this.force.next, this.next.fy += this.force.next), t.lineTo(this.x, this.renderer.height - this.height)
+    }
+  };
+  var FISH = function (t) {
+    this.renderer = t, this.init()
+  };
+  FISH.prototype = {
+    GRAVITY: .4,
+    init: function () {
+      this.direction = Math.random() < .5, this.x = this.direction ? this.renderer.width + this.renderer.THRESHOLD : -this.renderer.THRESHOLD, this.previousY = this.y, this.vx = this.getRandomValue(4, 10) * (this.direction ? -1 : 1), this.renderer.reverse ? (this.y = this.getRandomValue(1 * this.renderer.height / 10, 4 * this.renderer.height / 10), this.vy = this.getRandomValue(2, 5), this.ay = this.getRandomValue(.05, .2)) : (this.y = this.getRandomValue(6 * this.renderer.height / 10, 9 * this.renderer.height / 10), this.vy = this.getRandomValue(-5, -2), this.ay = this.getRandomValue(-.2, -.05)), this.isOut = !1, this.theta = 0, this.phi = 0
+    },
+    getRandomValue: function (t, i) {
+      return t + (i - t) * Math.random()
+    },
+    reverseVertical: function () {
+      this.isOut = !this.isOut, this.ay *= -1
+    },
+    controlStatus: function (t) {
+      this.previousY = this.y, this.x += this.vx, this.y += this.vy, this.vy += this.ay, this.renderer.reverse ? this.y > this.renderer.height * this.renderer.INIT_HEIGHT_RATE ? (this.vy -= this.GRAVITY, this.isOut = !0) : (this.isOut && (this.ay = this.getRandomValue(.05, .2)), this.isOut = !1) : this.y < this.renderer.height * this.renderer.INIT_HEIGHT_RATE ? (this.vy += this.GRAVITY, this.isOut = !0) : (this.isOut && (this.ay = this.getRandomValue(-.2, -.05)), this.isOut = !1), this.isOut || (this.theta += Math.PI / 20, this.theta %= 2 * Math.PI, this.phi += Math.PI / 30, this.phi %= 2 * Math.PI), this.renderer.generateEpicenter(this.x + (this.direction ? -1 : 1) * this.renderer.THRESHOLD, this.y, this.y - this.previousY), (this.vx > 0 && this.x > this.renderer.width + this.renderer.THRESHOLD || this.vx < 0 && this.x < -this.renderer.THRESHOLD) && this.init()
+    },
+    render: function (t) {
+      t.save(), t.translate(this.x, this.y), t.rotate(Math.PI + Math.atan2(this.vy, this.vx)), t.scale(1, this.direction ? 1 : -1), t.beginPath(), t.moveTo(-30, 0), t.bezierCurveTo(-20, 15, 15, 10, 40, 0), t.bezierCurveTo(15, -10, -20, -15, -30, 0), t.fill(), t.save(), t.translate(40, 0), t.scale(.9 + .2 * Math.sin(this.theta), 1), t.beginPath(), t.moveTo(0, 0), t.quadraticCurveTo(5, 10, 20, 8), t.quadraticCurveTo(12, 5, 10, 0), t.quadraticCurveTo(12, -5, 20, -8), t.quadraticCurveTo(5, -10, 0, 0), t.fill(), t.restore(), t.save(), t.translate(-3, 0), t.rotate((Math.PI / 3 + Math.PI / 10 * Math.sin(this.phi)) * (this.renderer.reverse ? -1 : 1)), t.beginPath(), this.renderer.reverse ? (t.moveTo(5, 0), t.bezierCurveTo(10, 10, 10, 30, 0, 40), t.bezierCurveTo(-12, 25, -8, 10, 0, 0)) : (t.moveTo(-5, 0), t.bezierCurveTo(-10, -10, -10, -30, 0, -40), t.bezierCurveTo(12, -25, 8, -10, 0, 0)), t.closePath(), t.fill(), t.restore(), t.restore(), this.controlStatus(t)
+    }
+  }, $(function () {
+    RENDERER.init()
+    $('.dark').click(function () {
+      setTimeout(() => {
+        RENDERER.setFishColor();
+        RENDERER.context.fill();
+      });
+    })
+  });
+</script>
+  
+  <div class="footer bg-color">
+    <div class="footer-main">
+      
+        
+          <div class="link">
+            
+          </div>
+        
+      
+        
+          <div class="footer-copyright">
+            <p>Copyright © 2019 - 2020 <a target="_blank" rel="noopener" href="https://github.com/yuang01">yuang01</a> | Powered by <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">Hexo</a> | Theme <a target="_blank" rel="noopener" href="https://github.com/yuang01/theme">Bamboo</a> </p>
+
+          </div>
+        
+      
+        
+          <div class="footer-custom">
+            
+          </div>
+        
+      
+    </div>
+  </div>
+
+
+
+    <!-- 渲染暗黑按钮 -->
+    
+      <div class="dark" onclick="toggleDarkMode()">
+  <div class="dark-content">
+    <i class="fas" id="darkIcon" aria-hidden="true"></i>
+  </div>
+</div>
+
+<script defer>
+  $(function() {
+    // 初始化暗黑模式状态
+    let isDark = JSON.parse(localStorage.getItem('dark')) || JSON.parse('false');
+    updateDarkModeIcon(isDark);
+  });
+
+  function toggleDarkMode() {
+    const isDark = $(document.body).hasClass('darkModel');
+    $(document.body).toggleClass('darkModel');
+    localStorage.setItem('dark', !isDark);
+    updateDarkModeIcon(!isDark);
+  }
+
+  function updateDarkModeIcon(isDark) {
+    const iconElement = document.getElementById('darkIcon');
+    if (isDark) {
+      iconElement.classList.remove('fa-moon');
+      iconElement.classList.add('fa-lightbulb');
+    } else {
+      iconElement.classList.remove('fa-lightbulb');
+      iconElement.classList.add('fa-moon');
+    }
+  }
+</script>
+
+    
+    <!-- 渲染回到顶部按钮 -->
+    
+      <div class="goTop top-btn-color" pointer>
+  <i class="fas fa-arrow-up" aria-hidden="true"></i>
+</div>
+<script defer src="/js/goTop.js"></script>
+
+    
+    <!-- 渲染左下角音乐播放器 -->
+    
+
+    <!-- 图片放大 -->
+    
+      <script src="https://unpkg.com/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    
+
+    <!-- 百度解析 -->
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script async>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <!-- 背景彩带 -->
+    
+      <script async type="text/javascript" size="100" alpha='0.4' zIndex="-1" src="/js/ribbon.min.js"></script>
+    
+
+    <script src="/js/utils/index.js"></script>
+    <script src="/js/app.js"></script>
+    
+    <!-- 文章目录所需js -->
+<!-- <link href="/js/tocbot/tocbot.css" rel="stylesheet">
+<script src="/js/tocbot/tocbot.min.js"></script> -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.min.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.css">
+
+<script>
+  var headerEl = 'h2, h3, h4',  //headers 
+    content = '.post-detail',//文章容器
+    idArr = {};  //标题数组以确定是否增加索引id
+  //add #id
+  var option = {
+    // Where to render the table of contents.
+    tocSelector: '.toc',
+    // Where to grab the headings to build the table of contents.
+    contentSelector: content,
+    // Which headings to grab inside of the contentSelector element.
+    headingSelector: headerEl,
+    scrollSmooth: true,
+    scrollSmoothOffset: -70,
+    // headingsOffset: -($(window).height() * 0.4 - 45),
+    headingsOffset: -($(window).height() * 0.4 - 70),
+    // positionFixedSelector: '.toc-main',
+    // positionFixedClass: 'is-position-fixed',
+    fixedSidebarOffset: 'auto',
+    activeLinkClass: 'is-active-link',
+    orderedList: true,
+    collapseDepth: 20,
+    // onClick: function (e) {},
+  }
+  if ($('.toc').length > 0) {
+
+    $(content).children(headerEl).each(function () {
+      //去除空格以及多余标点
+      var headerId = $(this).text().replace(/[\s|\~|`|\!|\@|\#|\$|\%|\^|\&|\*|\(|\)|\_|\+|\=|\||\|\[|\]|\{|\}|\;|\:|\"|\'|\,|\<|\.|\>|\/|\?|\：|\，|\。]/g, '');
+
+      headerId = headerId.toLowerCase();
+      if (idArr[headerId]) {
+        //id已经存在
+        $(this).attr('id', headerId + '-' + idArr[headerId]);
+        idArr[headerId]++;
+      }
+      else {
+        //id未存在
+        idArr[headerId] = 1;
+        $(this).attr('id', headerId);
+      }
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+      tocbot.init(option);
+      mobileTocClick();
+    });
+
+  }
+
+  window.tocScrollFn = function () {
+    return bamboo.throttle(function () {
+      findHeadPosition();
+    }, 100)()
+  }
+  window.addEventListener('scroll', tocScrollFn);
+
+  const findHeadPosition = function (top) {
+    if ($('.toc-list').length <= 0) {
+      return false;
+    }
+    setTimeout(() => {  // or DOMContentLoaded 
+      autoScrollToc();
+    }, 0);
+  }
+
+  const autoScrollToc = function () {
+    const $activeItem = document.querySelector('.is-active-link');
+    const $cardToc = document.querySelector('.toc-content');
+    const activePosition = $activeItem.getBoundingClientRect().top
+    const sidebarScrollTop = $cardToc.scrollTop
+    if (activePosition > (document.documentElement.clientHeight - 100)) {
+      $cardToc.scrollTop = sidebarScrollTop + 150
+    }
+    if (activePosition < 150) {
+      $cardToc.scrollTop = sidebarScrollTop - 150
+    }
+  }
+
+  document.addEventListener('pjax:send', function () {
+    if ($('.toc').length) {
+      tocbot.destroy();
+    }
+  });
+
+  document.addEventListener('pjax:complete', function () {
+    if ($('.toc').length) {
+      tocbot.init(option);
+      mobileTocClick();
+    }
+  });
+  
+  // 手机端toc按钮点击出现目录
+  const mobileTocClick = function () {
+    const $cardTocLayout = document.getElementsByClassName('side_toc')[0];
+    const $cardToc = $cardTocLayout.getElementsByClassName('toc-content')[0];
+    let right = '45px';
+    if (window.innerWidth >= 551 && window.innerWidth <= 992) {
+      right = '100px'
+    }
+    const mobileToc = {
+      open: () => {
+        $cardTocLayout.style.cssText = 'animation: toc-open .3s; opacity: 1; right: ' + right
+      },
+
+      close: () => {
+        $cardTocLayout.style.animation = 'toc-close .2s'
+        setTimeout(() => {
+          $cardTocLayout.style.cssText = "opacity:''; animation: ''; right: ''"
+        }, 100)
+      }
+    }
+    document.getElementById('toc-mobile-btn').addEventListener('click', () => {
+      if (window.getComputedStyle($cardTocLayout).getPropertyValue('opacity') === '0') mobileToc.open()
+      else mobileToc.close()
+    })
+
+    $cardToc.addEventListener('click', (e) => {
+      if (window.innerWidth < 992) { // 小于992px的时候
+        mobileToc.close()
+      }
+    })
+  }
+</script>
+
+<style>
+  /* .is-position-fixed {
+    position: sticky !important;
+    top: 74px;
+  }
+
+  .toc-main ul {
+    counter-reset: show-list;
+  }
+
+  .toc-main ul li::before {
+    content: counter(item)".";
+    display: block;
+    position: absolute;
+    left: 12px;
+    top: 0;
+  } */
+</style>
+ 
+
+<!-- 设置导航背景 -->
+<script>
+  let setHeaderClass = () => {
+    const nav = $('#navHeader');
+    const navTop = nav.outerHeight();
+    const winTop = $(window).scrollTop();
+    if(winTop > navTop) {
+      nav.addClass('header-bg-color');
+    }
+    else {
+      nav.removeClass('header-bg-color');
+    }
+  };
+
+  let scrollCollect = () => {
+    return bamboo.throttle(function (e) {
+      setHeaderClass();
+    }, 200)()
+  }
+
+  let initHeaderBg = () => {
+    setHeaderClass();
+  }
+
+  setHeaderClass();
+  window.addEventListener('scroll', scrollCollect);
+
+  document.addEventListener('pjax:send', function () {
+    window.removeEventListener('scroll', scrollCollect)
+  })
+  document.addEventListener('pjax:complete', function () {
+    window.addEventListener('scroll', scrollCollect);
+    setHeaderClass();
+  })
+</script> 
+
+<!-- 渲染issues标签里的内容 -->
+<script>
+  function loadIssuesJS() {
+    if ($(".post-detail").find(".issues-api").length == 0) {
+      return;
+    } 
+    loadScript('/js/issues/index.js');
+  };
+  $(function () {
+    loadIssuesJS();
+  });
+  document.addEventListener('pjax:complete', function () {
+    if (typeof IssuesAPI == "undefined") {
+      loadIssuesJS();
+    }
+  })
+</script>
+
+<!-- 渲染远程json加载的图片标签(getPhotoOnline)里的内容 -->
+<script>
+  function loadPhotoOnlineJS() {
+    if ($(".post-detail").find(".getJsonPhoto-api").length == 0) {
+      return;
+    } 
+    loadScript('/js/getPhotoOnline/index.js');
+  };
+  $(function () {
+    loadPhotoOnlineJS();
+  });
+  document.addEventListener('pjax:complete', function () {
+    if (typeof getPhotoJson == "undefined") {
+      loadPhotoOnlineJS();
+    }
+  })
+</script>
+
+<!-- 渲染远程json加载的talk标签(getTalkOnline)里的内容 -->
+<script>
+  function loadTalkOnlineJS() {
+    if ($(".post-detail").find(".getJsonTalk-api").length == 0) {
+      return;
+    } 
+    loadScript('https://cdnjs.cloudflare.com/ajax/libs/waterfall.js/1.0.2/waterfall.min.js'); // 瀑布流插件，https://raphamorim.io/waterfall.js/
+    loadScript('/js/getTalkOnline/index.js');
+  };
+  $(function () {
+    loadTalkOnlineJS();
+  });
+  document.addEventListener('pjax:complete', function () {
+    if (typeof getTalkJson == "undefined") {
+      loadTalkOnlineJS();
+    }
+  })
+</script>
+
+<!-- 渲染远程json加载的site-card标签(getSiteOnline)里的内容 -->
+<script>
+  function loadSiteOnlineJS() {
+    if ($(".post-detail").find(".getJsonSite-api").length == 0) {
+      return;
+    } 
+    loadScript('/js/getSiteOnline/index.js');
+  };
+  $(function () {
+    loadSiteOnlineJS();
+  });
+  document.addEventListener('pjax:complete', function () {
+    if (typeof getSiteJson == "undefined") {
+      loadSiteOnlineJS();
+    }
+  })
+</script>
+
+<!-- 输入框打字特效 -->
+<!-- 输入框打字特效 -->
+
+  <script src="/js/activate-power-mode.js"></script>
+  <script>
+    POWERMODE.colorful = true;  // 打开随机颜色特效
+    POWERMODE.shake = false;    // 关闭输入框抖动
+    document.body.addEventListener('input', POWERMODE);//监听打字事件
+  </script>
+
+
+<!-- markdown代码一键复制功能 -->
+
+  <link rel="stylesheet" href="https://unpkg.com/v-plugs-ayu/lib/ayu.css">
+  <script src="https://unpkg.com/v-plugs-ayu/lib/ayu.umd.min.js"></script>
+  <script src="/js/clipboard/clipboard.min.js"></script>
+  <div id="appCopy">
+  </div>
+  <script data-pjax>
+    var vm = new Vue({
+      el: '#appCopy',
+      data: {
+      },
+      computed: {
+      },
+      mounted() {
+        const that = this;
+        var copy = '复制';
+        /* code */
+        var initCopyCode = function () {
+          var copyHtml = '';
+          copyHtml += '<button class="btn-copy" data-clipboard-snippet="" style="position:absolute;top:0;right:0;z-index:1;">';
+          copyHtml += '<i class="fas fa-copy"></i><span>' + copy + '</span>';
+          copyHtml += '</button>';
+          $(".post-detail pre").not('.gutter pre').wrap("<div class='codeBox' style='position:relative;width:100%;'></div>")
+          $(".post-detail pre").not('.gutter pre').before(copyHtml);
+          new ClipboardJS('.btn-copy', {
+            target: function (trigger) {
+              return trigger.nextElementSibling;
+            }
+          });
+        }
+        initCopyCode();
+        $('.btn-copy').unbind('click').bind('click', function () {
+          doSomething();
+        })
+        $(document).unbind('keypress').bind('keypress', function (e) {
+          if (e.ctrlKey && e.keyCode == 67) {
+            doSomething();
+          }
+        })
+
+        function doSomething() {
+          that.$notify({
+            title: "成功",
+            content: "代码已复制，请遵守相关授权协议。",
+            type: 'success'
+          })
+        }
+      },
+      methods: {
+      },
+      created() { }
+    })
+  </script>
+  
+
+<!-- 图片懒加载 -->
+<script defer src="https://unpkg.com/vanilla-lazyload@17.1.0/dist/lazyload.min.js"></script>
+<script>
+  // https://www.npmjs.com/package/vanilla-lazyload
+  // Set the options globally
+  // to make LazyLoad self-initialize
+  window.lazyLoadOptions = {
+    elements_selector: ".lazyload",
+    threshold: 0
+  };
+  // Listen to the initialization event
+  // and get the instance of LazyLoad
+  window.addEventListener(
+    "LazyLoad::Initialized",
+    function (event) {
+      window.lazyLoadInstance = event.detail.instance;
+    },
+    false
+  );
+  document.addEventListener('DOMContentLoaded', function () {
+    lazyLoadInstance.update();
+  });
+  document.addEventListener('pjax:complete', function () {
+    lazyLoadInstance.update();
+  });
+</script>
+
+
+<!-- 卡片滚动动画 -->
+   
+
+<!-- 评论所需js -->
+
+  
+
+
+<!-- 鼠标点击特效 -->
+<!-- 爱心点击 -->
+
+  
+    <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 999; pointer-events: none;" ></canvas>
+    <script async src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
+    <script async src="/js/cursor/explosion.min.js"></script>
+  
+
+
+
+
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" data-pjax></script>
+
+
+<!-- 轮播图标签 -->
+<script>
+  var bambooSwiperTag = {};
+  function load_swiper() {
+    if (!document.querySelectorAll(".post-swiper-container")[0]) return;
+    loadCSS("https://unpkg.com/swiper@6/swiper-bundle.min.css")
+    loadScript("https://unpkg.com/swiper@6/swiper-bundle.min.js").then(() => {
+      pjax_swiper();
+    });
+  }
+
+  load_swiper();
+
+  function pjax_swiper() {
+    bambooSwiperTag.swiper = new Swiper('.post-swiper-container', {
+      slidesPerView: 'auto',
+      spaceBetween: 8,
+      centeredSlides: true,
+      loop: true,
+      autoplay: true ? {
+        delay: 3000,
+        stopOnLastSlide: false,
+        disableOnInteraction: false,
+      } : false,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      on:{
+        init: function(){
+          swiperAnimateCache(this); //隐藏动画元素 
+          swiperAnimate(this); //初始化完成开始动画
+        }, 
+        slideChangeTransitionEnd: function(){ 
+          swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
+          //this.slides.eq(this.activeIndex).find('.ani').removeClass('ani'); 动画只展现一次，去除ani类名
+        } 
+      }
+    });
+  }
+
+  document.addEventListener('pjax:complete', function () {
+    if (!document.querySelectorAll(".post-swiper-container")[0]) return;
+    if (typeof bambooSwiperTag.swiper === "undefined") {
+      load_swiper();
+    } else {
+      pjax_swiper();
+    }
+  });
+</script>
+    <!-- pjax -->
+    
+
+<!-- pjax -->
+
+
+  <script src="/js/pjax@0.2.8/index.js"></script>
+  
+    <div class="pjax-animate">
+  
+    <div class="loading-circle"><div id="loader-circle"></div></div>
+    <script>
+      window.ShowLoading = function() {
+        $(".loading-circle").css("display", "block");
+      };
+      window.HideLoading = function() {
+        $(".loading-circle").css("display", "none");
+      }
+    </script>
+  
+	<script>
+    document.addEventListener('pjax:complete', function () {
+      window.HideLoading();
+    })
+    document.addEventListener('pjax:send', function () {
+      window.ShowLoading();
+    })
+    document.addEventListener('pjax:error', function () {
+      window.HideLoading();
+    })
+	</script>
+</div>
+
+  
+
+  <script>
+    var pjax = new Pjax({
+      elements: 'a[href]:not([href^="#"]):not([href="javascript:void(0)"]):not([no-pjax])',   // 拦截正常带链接的 a 标签
+      selectors: ["#pjax-container","title"],                                   // 根据实际需要确认重载区域
+      cacheBust: false,   // url 地址追加时间戳，用以避免浏览器缓存
+      timeout: 5000
+    });
+
+    document.addEventListener('pjax:send', function (e) {
+
+      try {
+        var currentUrl = window.location.pathname;
+        var targetUrl = e.triggerElement.href;
+        var banUrl = [""];
+        if (banUrl[0] != "") {
+          banUrl.forEach(item => {
+            if(currentUrl.indexOf(item) != -1 || targetUrl.indexOf(item) != -1) {
+              window.location.href = targetUrl;
+            }
+          });
+        }
+      } catch (error) {}
+
+      $(window).unbind('resize');
+      $(window).unbind('scroll');
+      $(document).unbind('scroll');
+      $(document).unbind('click');
+      $('body').unbind('click');
+
+    })
+    
+    document.addEventListener('pjax:complete', function () {
+      $('script[data-pjax], .pjax-reload script').each(function () {
+        $(this).parent().append($(this).remove());
+      });
+    });
+
+    document.addEventListener('pjax:error', function (e) {
+      window.location.href = e.triggerElement.href;
+    })
+    
+    // 刷新不从顶部开始
+    document.addEventListener("DOMContentLoaded", function () {
+      history.scrollRestoration = 'auto';
+    })
+  </script>
+
+
+
+  </body>
+</html>
