@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-02-02T15:42:41.829Z</updated>
+  <updated>2026-02-02T16:53:19.418Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于使用模拟器前需要学习哪些知识和一些问题解答2.0</title>
+    <link href="http://example.com/2026/02/03/guan-yu-shi-yong-mo-ni-qi-qian-xu-yao-xue-xi-na-xie-zhi-shi-he-yi-xie-wen-ti-jie-da-2.0/"/>
+    <id>http://example.com/2026/02/03/guan-yu-shi-yong-mo-ni-qi-qian-xu-yao-xue-xi-na-xie-zhi-shi-he-yi-xie-wen-ti-jie-da-2.0/</id>
+    <published>2026-02-02T16:52:16.000Z</published>
+    <updated>2026-02-02T16:53:19.418Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;想要试试怎样使用模拟器玩游戏，我现在就说说需要哪些知识和解答一些问题&lt;br&gt;通用型类知识&lt;/p&gt;
+&lt;p&gt;1.要学会压缩文件的解压缩，zip和rar这些要学会怎样解压缩，包括怎样安装相关软件&lt;/p&gt;
+&lt;p&gt;2.在硬件上需要对硬件性能有一个基础认识，PC上不要用入门奔腾跑SWI</summary>
+        
+      
+    
+    
+    
+    <category term="其他问题的解答" scheme="http://example.com/categories/%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E7%AD%94/"/>
+    
+    
+    <category term="模拟器类" scheme="http://example.com/tags/%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%B1%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>SWITCH游戏资源</title>
@@ -593,37 +620,6 @@
     
     
     <category term="GBA游戏" scheme="http://example.com/tags/GBA%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS2游戏资源</title>
-    <link href="http://example.com/2026/01/23/ps2-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/01/23/ps2-you-xi-zi-yuan/</id>
-    <published>2026-01-23T08:00:36.000Z</published>
-    <updated>2026-01-23T08:01:27.768Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PS2" scheme="http://example.com/categories/PS2/"/>
-    
-    
-    <category term="PS2游戏" scheme="http://example.com/tags/PS2%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
