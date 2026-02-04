@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-02-03T15:38:09.269Z</updated>
+  <updated>2026-02-04T03:38:49.792Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,70 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Shandps4兼容性列表</title>
+    <link href="http://example.com/2026/02/04/shandps4-jian-rong-xing-lie-biao/"/>
+    <id>http://example.com/2026/02/04/shandps4-jian-rong-xing-lie-biao/</id>
+    <published>2026-02-04T03:37:38.000Z</published>
+    <updated>2026-02-04T03:38:49.792Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;特别备注&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;血源诅咒</summary>
+        
+      
+    
+    
+    
+    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
+    
+    
+    <category term="PS4模拟器" scheme="http://example.com/tags/PS4%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PS4游戏资源</title>
+    <link href="http://example.com/2026/02/04/ps4-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/02/04/ps4-you-xi-zi-yuan/</id>
+    <published>2026-02-04T03:31:11.000Z</published>
+    <updated>2026-02-04T03:33:00.119Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
+    
+    
+    <category term="PS4游戏" scheme="http://example.com/tags/PS4%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>3DS游戏资源</title>
@@ -114,7 +178,7 @@
     <link href="http://example.com/2026/02/03/guan-yu-shi-yong-mo-ni-qi-qian-xu-yao-xue-xi-na-xie-zhi-shi-he-yi-xie-wen-ti-jie-da-2.0/"/>
     <id>http://example.com/2026/02/03/guan-yu-shi-yong-mo-ni-qi-qian-xu-yao-xue-xi-na-xie-zhi-shi-he-yi-xie-wen-ti-jie-da-2.0/</id>
     <published>2026-02-02T16:52:16.000Z</published>
-    <updated>2026-02-02T16:53:19.418Z</updated>
+    <updated>2026-02-03T16:46:58.234Z</updated>
     
     
       
@@ -354,7 +418,7 @@
     <link href="http://example.com/2026/01/31/switch-mo-ni-qi-de-wen-ti-hui-zong/"/>
     <id>http://example.com/2026/01/31/switch-mo-ni-qi-de-wen-ti-hui-zong/</id>
     <published>2026-01-31T04:46:57.000Z</published>
-    <updated>2026-01-31T04:48:39.451Z</updated>
+    <updated>2026-02-04T03:35:06.018Z</updated>
     
     
       
@@ -494,70 +558,6 @@
     
     
     <category term="WSC+WS模拟器" scheme="http://example.com/tags/WSC-WS%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Shandps4兼容性列表</title>
-    <link href="http://example.com/2026/01/27/shandps4-jian-rong-xing-lie-biao/"/>
-    <id>http://example.com/2026/01/27/shandps4-jian-rong-xing-lie-biao/</id>
-    <published>2026-01-26T16:15:37.000Z</published>
-    <updated>2026-01-26T16:16:25.708Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;特别备注&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;血源诅咒</summary>
-        
-      
-    
-    
-    
-    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
-    
-    
-    <category term="PS4模拟器" scheme="http://example.com/tags/PS4%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS4游戏资源</title>
-    <link href="http://example.com/2026/01/27/ps4-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/01/27/ps4-you-xi-zi-yuan/</id>
-    <published>2026-01-26T16:13:10.000Z</published>
-    <updated>2026-01-26T16:14:11.118Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
-    
-    
-    <category term="PS4游戏" scheme="http://example.com/tags/PS4%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
