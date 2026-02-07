@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-02-05T18:25:01.943Z</updated>
+  <updated>2026-02-07T15:21:18.581Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,59 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>模拟器版本更新信息</title>
+    <link href="http://example.com/2026/03/07/mo-ni-qi-ban-ben-geng-xin-xin-xi/"/>
+    <id>http://example.com/2026/03/07/mo-ni-qi-ban-ben-geng-xin-xin-xi/</id>
+    <published>2026-03-07T15:18:29.000Z</published>
+    <updated>2026-02-07T15:21:18.581Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;这里只是对各种模拟器版本的说明，软件链接请去相关分类的找&lt;/p&gt;
+&lt;p&gt;现在我提供的资源用了很多相对路径，请不要用超过3层文件夹套着，文件路径指向有什么问题请你们自己手动改回绝对路径。&lt;/p&gt;
+&lt;p&gt;2026-02-07</summary>
+        
+      
+    
+    
+    
+    <category term="模拟器版本更新信息" scheme="http://example.com/categories/%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
+    
+    
+    <category term="模拟器版本更新信息" scheme="http://example.com/tags/%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PC游戏问题汇总</title>
+    <link href="http://example.com/2026/02/06/pc-you-xi-wen-ti-hui-zong/"/>
+    <id>http://example.com/2026/02/06/pc-you-xi-wen-ti-hui-zong/</id>
+    <published>2026-02-06T14:16:30.000Z</published>
+    <updated>2026-02-06T14:16:33.393Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;问题1：游戏运行后闪退&lt;br&gt;答案：&lt;br&gt;情况1：请大家玩游戏前将各种运行库安装好，因为很多报错就是因为没有相关运行库导致。&lt;br&gt;情况2：游戏文件路径要全英文&lt;/p&gt;
+&lt;p&gt;问题2：钢铁雄心IV如何修改成中文&lt;br&gt;答案：&lt;br&gt;先运行一次游戏&lt;br&gt;然后进入此电脑&#92;文</summary>
+        
+      
+    
+    
+    
+    <category term="PC" scheme="http://example.com/categories/PC/"/>
+    
+    
+    <category term="PC游戏" scheme="http://example.com/tags/PC%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>SWITCH游戏资源</title>
@@ -128,32 +181,6 @@
 &lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
 &lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
 &lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PC" scheme="http://example.com/categories/PC/"/>
-    
-    
-    <category term="PC游戏" scheme="http://example.com/tags/PC%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PC游戏问题汇总</title>
-    <link href="http://example.com/2026/02/05/pc-you-xi-wen-ti-hui-zong/"/>
-    <id>http://example.com/2026/02/05/pc-you-xi-wen-ti-hui-zong/</id>
-    <published>2026-02-04T16:01:29.000Z</published>
-    <updated>2026-02-04T16:02:04.339Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;问题1：游戏运行后闪退&lt;br&gt;答案：&lt;br&gt;情况1：请大家玩游戏前将各种运行库安装好，因为很多报错就是因为没有相关运行库导致。&lt;br&gt;情况2：游戏文件路径要全英文&lt;/p&gt;
-&lt;p&gt;问题2：钢铁雄心IV如何修改成中文&lt;br&gt;答案：&lt;br&gt;先运行一次游戏&lt;br&gt;然后进入此电脑&#92;文</summary>
         
       
     
@@ -409,33 +436,6 @@
     
     
     <category term="WII+NGC游戏" scheme="http://example.com/tags/WII-NGC%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>模拟器版本更新信息</title>
-    <link href="http://example.com/2026/01/31/mo-ni-qi-ban-ben-geng-xin-xin-xi/"/>
-    <id>http://example.com/2026/01/31/mo-ni-qi-ban-ben-geng-xin-xin-xi/</id>
-    <published>2026-01-31T05:20:27.000Z</published>
-    <updated>2026-02-03T07:07:10.247Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;这里只是对各种模拟器版本的说明，软件链接请去相关分类的找&lt;/p&gt;
-&lt;p&gt;现在我提供的资源用了很多相对路径，请不要用超过3层文件夹套着，文件路径指向有什么问题请你们自己手动改回绝对路径。&lt;/p&gt;
-&lt;p&gt;2026-01-31</summary>
-        
-      
-    
-    
-    
-    <category term="模拟器版本更新信息" scheme="http://example.com/categories/%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
-    
-    
-    <category term="模拟器版本更新信息" scheme="http://example.com/tags/%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
     
   </entry>
   
