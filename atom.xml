@@ -44,37 +44,11 @@
   </entry>
   
   <entry>
-    <title>PC游戏问题汇总</title>
-    <link href="http://example.com/2026/02/06/pc-you-xi-wen-ti-hui-zong/"/>
-    <id>http://example.com/2026/02/06/pc-you-xi-wen-ti-hui-zong/</id>
-    <published>2026-02-06T14:16:30.000Z</published>
-    <updated>2026-02-06T14:16:33.393Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;问题1：游戏运行后闪退&lt;br&gt;答案：&lt;br&gt;情况1：请大家玩游戏前将各种运行库安装好，因为很多报错就是因为没有相关运行库导致。&lt;br&gt;情况2：游戏文件路径要全英文&lt;/p&gt;
-&lt;p&gt;问题2：钢铁雄心IV如何修改成中文&lt;br&gt;答案：&lt;br&gt;先运行一次游戏&lt;br&gt;然后进入此电脑&#92;文</summary>
-        
-      
-    
-    
-    
-    <category term="PC" scheme="http://example.com/categories/PC/"/>
-    
-    
-    <category term="PC游戏" scheme="http://example.com/tags/PC%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
     <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2026/02/06/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/02/06/switch-you-xi-zi-yuan/</id>
-    <published>2026-02-05T18:23:35.000Z</published>
-    <updated>2026-02-05T18:25:01.943Z</updated>
+    <link href="http://example.com/2026/02/09/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/02/09/switch-you-xi-zi-yuan/</id>
+    <published>2026-02-08T16:10:36.000Z</published>
+    <updated>2026-02-08T16:11:11.180Z</updated>
     
     
       
@@ -97,6 +71,125 @@
     
     
     <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PS3游戏资源</title>
+    <link href="http://example.com/2026/02/09/ps3-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/02/09/ps3-you-xi-zi-yuan/</id>
+    <published>2026-02-08T16:08:15.000Z</published>
+    <updated>2026-02-08T16:09:06.554Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PS3" scheme="http://example.com/categories/PS3/"/>
+    
+    
+    <category term="PS3游戏" scheme="http://example.com/tags/PS3%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GBC+GB游戏资源</title>
+    <link href="http://example.com/2026/02/09/gbc-gb-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/02/09/gbc-gb-you-xi-zi-yuan/</id>
+    <published>2026-02-08T16:07:24.000Z</published>
+    <updated>2026-02-08T16:08:31.392Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="GBA+GBC+GB" scheme="http://example.com/categories/GBA-GBC-GB/"/>
+    
+    
+    <category term="GBC+GB游戏" scheme="http://example.com/tags/GBC-GB%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PC游戏资源</title>
+    <link href="http://example.com/2026/02/08/pc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/02/08/pc-you-xi-zi-yuan/</id>
+    <published>2026-02-08T13:03:30.000Z</published>
+    <updated>2026-02-08T13:04:06.449Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PC" scheme="http://example.com/categories/PC/"/>
+    
+    
+    <category term="PC游戏" scheme="http://example.com/tags/PC%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PC游戏问题汇总</title>
+    <link href="http://example.com/2026/02/06/pc-you-xi-wen-ti-hui-zong/"/>
+    <id>http://example.com/2026/02/06/pc-you-xi-wen-ti-hui-zong/</id>
+    <published>2026-02-06T14:16:30.000Z</published>
+    <updated>2026-02-06T14:16:33.393Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;问题1：游戏运行后闪退&lt;br&gt;答案：&lt;br&gt;情况1：请大家玩游戏前将各种运行库安装好，因为很多报错就是因为没有相关运行库导致。&lt;br&gt;情况2：游戏文件路径要全英文&lt;/p&gt;
+&lt;p&gt;问题2：钢铁雄心IV如何修改成中文&lt;br&gt;答案：&lt;br&gt;先运行一次游戏&lt;br&gt;然后进入此电脑&#92;文</summary>
+        
+      
+    
+    
+    
+    <category term="PC" scheme="http://example.com/categories/PC/"/>
+    
+    
+    <category term="PC游戏" scheme="http://example.com/tags/PC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -159,37 +252,6 @@
     
     
     <category term="PS2游戏" scheme="http://example.com/tags/PS2%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PC游戏资源</title>
-    <link href="http://example.com/2026/02/05/pc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/02/05/pc-you-xi-zi-yuan/</id>
-    <published>2026-02-05T15:44:29.000Z</published>
-    <updated>2026-02-05T15:45:09.927Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PC" scheme="http://example.com/categories/PC/"/>
-    
-    
-    <category term="PC游戏" scheme="http://example.com/tags/PC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -378,37 +440,6 @@
   </entry>
   
   <entry>
-    <title>PS3游戏资源</title>
-    <link href="http://example.com/2026/02/02/ps3-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/02/02/ps3-you-xi-zi-yuan/</id>
-    <published>2026-02-02T14:56:14.000Z</published>
-    <updated>2026-02-02T14:57:19.026Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PS3" scheme="http://example.com/categories/PS3/"/>
-    
-    
-    <category term="PS3游戏" scheme="http://example.com/tags/PS3%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
     <title>WII+NGC游戏资源</title>
     <link href="http://example.com/2026/02/02/wii-ngc-you-xi-zi-yuan/"/>
     <id>http://example.com/2026/02/02/wii-ngc-you-xi-zi-yuan/</id>
@@ -584,37 +615,6 @@
     
     
     <category term="WSC+WS模拟器" scheme="http://example.com/tags/WSC-WS%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SFC游戏资源</title>
-    <link href="http://example.com/2026/01/26/sfc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/01/26/sfc-you-xi-zi-yuan/</id>
-    <published>2026-01-26T06:07:18.000Z</published>
-    <updated>2026-01-26T06:08:05.086Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="SFC" scheme="http://example.com/categories/SFC/"/>
-    
-    
-    <category term="SFC游戏" scheme="http://example.com/tags/SFC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
