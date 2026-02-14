@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-02-14T06:20:26.267Z</updated>
+  <updated>2026-02-14T06:32:20.240Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,68 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>WSC+WS游戏资源</title>
+    <link href="http://example.com/2026/02/14/wsc-ws-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/02/14/wsc-ws-you-xi-zi-yuan/</id>
+    <published>2026-02-14T06:31:00.000Z</published>
+    <updated>2026-02-14T06:32:20.240Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="WSC+WS" scheme="http://example.com/categories/WSC-WS/"/>
+    
+    
+    <category term="WSC+WS游戏" scheme="http://example.com/tags/WSC-WS%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GBC+GB游戏资源</title>
+    <link href="http://example.com/2026/02/14/gbc-gb-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/02/14/gbc-gb-you-xi-zi-yuan/</id>
+    <published>2026-02-14T06:30:25.000Z</published>
+    <updated>2026-02-14T06:31:51.722Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="GBA+GBC+GB" scheme="http://example.com/categories/GBA-GBC-GB/"/>
+    
+    
+    <category term="GBC+GB游戏" scheme="http://example.com/tags/GBC-GB%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>SWITCH游戏资源</title>
@@ -232,37 +294,6 @@
   </entry>
   
   <entry>
-    <title>WSC+WS游戏资源</title>
-    <link href="http://example.com/2026/02/12/wsc-ws-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/02/12/wsc-ws-you-xi-zi-yuan/</id>
-    <published>2026-02-12T13:52:59.000Z</published>
-    <updated>2026-02-12T13:53:39.766Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="WSC+WS" scheme="http://example.com/categories/WSC-WS/"/>
-    
-    
-    <category term="WSC+WS游戏" scheme="http://example.com/tags/WSC-WS%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
     <title>本人2025回顾</title>
     <link href="http://example.com/2026/02/11/zhan-chang-2025-hui-gu/"/>
     <id>http://example.com/2026/02/11/zhan-chang-2025-hui-gu/</id>
@@ -346,37 +377,6 @@
     
     
     <category term="PS3游戏" scheme="http://example.com/tags/PS3%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GBC+GB游戏资源</title>
-    <link href="http://example.com/2026/02/09/gbc-gb-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/02/09/gbc-gb-you-xi-zi-yuan/</id>
-    <published>2026-02-08T16:07:24.000Z</published>
-    <updated>2026-02-08T16:08:31.392Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="GBA+GBC+GB" scheme="http://example.com/categories/GBA-GBC-GB/"/>
-    
-    
-    <category term="GBC+GB游戏" scheme="http://example.com/tags/GBC-GB%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
