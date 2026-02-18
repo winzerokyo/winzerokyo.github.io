@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-02-18T13:04:36.017Z</updated>
+  <updated>2026-02-18T14:30:26.315Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,99 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>XBOX360游戏资源</title>
+    <link href="http://example.com/2026/02/18/xbox360-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/02/18/xbox360-you-xi-zi-yuan/</id>
+    <published>2026-02-18T14:29:43.000Z</published>
+    <updated>2026-02-18T14:30:26.315Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="XBOX360" scheme="http://example.com/categories/XBOX360/"/>
+    
+    
+    <category term="XBOX360游戏" scheme="http://example.com/tags/XBOX360%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PS游戏资源</title>
+    <link href="http://example.com/2026/02/18/ps-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/02/18/ps-you-xi-zi-yuan/</id>
+    <published>2026-02-18T14:28:51.000Z</published>
+    <updated>2026-02-18T14:29:50.452Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PS" scheme="http://example.com/categories/PS/"/>
+    
+    
+    <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>FC游戏资源</title>
+    <link href="http://example.com/2026/02/18/fc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/02/18/fc-you-xi-zi-yuan/</id>
+    <published>2026-02-18T14:28:50.000Z</published>
+    <updated>2026-02-18T14:29:13.942Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="FC" scheme="http://example.com/categories/FC/"/>
+    
+    
+    <category term="FC游戏" scheme="http://example.com/tags/FC%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>Shandps4兼容性列表</title>
@@ -54,7 +147,7 @@
     <link href="http://example.com/2026/02/18/ps4-you-xi-zi-yuan/"/>
     <id>http://example.com/2026/02/18/ps4-you-xi-zi-yuan/</id>
     <published>2026-02-18T13:00:14.000Z</published>
-    <updated>2026-02-18T13:01:39.653Z</updated>
+    <updated>2026-02-18T13:13:18.815Z</updated>
     
     
       
@@ -108,37 +201,6 @@
     
     
     <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS游戏资源</title>
-    <link href="http://example.com/2026/02/17/ps-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/02/17/ps-you-xi-zi-yuan/</id>
-    <published>2026-02-17T03:41:50.000Z</published>
-    <updated>2026-02-17T03:42:25.565Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PS" scheme="http://example.com/categories/PS/"/>
-    
-    
-    <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -382,37 +444,6 @@
   </entry>
   
   <entry>
-    <title>XBOX360游戏资源</title>
-    <link href="http://example.com/2026/02/12/xbox360-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/02/12/xbox360-you-xi-zi-yuan/</id>
-    <published>2026-02-12T13:53:42.000Z</published>
-    <updated>2026-02-12T13:54:12.727Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="XBOX360" scheme="http://example.com/categories/XBOX360/"/>
-    
-    
-    <category term="XBOX360游戏" scheme="http://example.com/tags/XBOX360%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
     <title>本人2025回顾</title>
     <link href="http://example.com/2026/02/11/zhan-chang-2025-hui-gu/"/>
     <id>http://example.com/2026/02/11/zhan-chang-2025-hui-gu/</id>
@@ -580,37 +611,6 @@
     
     
     <category term="DC游戏" scheme="http://example.com/tags/DC%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>WII+NGC游戏资源</title>
-    <link href="http://example.com/2026/02/02/wii-ngc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/02/02/wii-ngc-you-xi-zi-yuan/</id>
-    <published>2026-02-02T14:55:37.000Z</published>
-    <updated>2026-02-02T14:56:38.595Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="WII+NGC" scheme="http://example.com/categories/WII-NGC/"/>
-    
-    
-    <category term="WII+NGC游戏" scheme="http://example.com/tags/WII-NGC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
