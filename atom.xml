@@ -48,6 +48,33 @@
   </entry>
   
   <entry>
+    <title>模拟器版本更新信息</title>
+    <link href="http://example.com/2026/02/21/mo-ni-qi-ban-ben-geng-xin-xin-xi/"/>
+    <id>http://example.com/2026/02/21/mo-ni-qi-ban-ben-geng-xin-xin-xi/</id>
+    <published>2026-02-21T03:05:31.000Z</published>
+    <updated>2026-02-21T03:09:21.075Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;这里只是对各种模拟器版本的说明，软件链接请去相关分类的找&lt;/p&gt;
+&lt;p&gt;现在我提供的资源用了很多相对路径，请不要用超过3层文件夹套着，文件路径指向有什么问题请你们自己手动改回绝对路径。&lt;/p&gt;
+&lt;p&gt;2026-02-21</summary>
+        
+      
+    
+    
+    
+    <category term="模拟器版本更新信息" scheme="http://example.com/categories/%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
+    
+    
+    <category term="模拟器版本更新信息" scheme="http://example.com/tags/%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>SWITCH游戏资源</title>
     <link href="http://example.com/2026/02/21/switch-you-xi-zi-yuan/"/>
     <id>http://example.com/2026/02/21/switch-you-xi-zi-yuan/</id>
@@ -413,33 +440,6 @@
     
     
     <category term="GBC+GB游戏" scheme="http://example.com/tags/GBC-GB%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>模拟器版本更新信息</title>
-    <link href="http://example.com/2026/02/14/mo-ni-qi-ban-ben-geng-xin-xin-xi/"/>
-    <id>http://example.com/2026/02/14/mo-ni-qi-ban-ben-geng-xin-xin-xi/</id>
-    <published>2026-02-14T03:29:30.000Z</published>
-    <updated>2026-02-14T03:46:36.729Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;这里只是对各种模拟器版本的说明，软件链接请去相关分类的找&lt;/p&gt;
-&lt;p&gt;现在我提供的资源用了很多相对路径，请不要用超过3层文件夹套着，文件路径指向有什么问题请你们自己手动改回绝对路径。&lt;/p&gt;
-&lt;p&gt;2026-02-14</summary>
-        
-      
-    
-    
-    
-    <category term="模拟器版本更新信息" scheme="http://example.com/categories/%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
-    
-    
-    <category term="模拟器版本更新信息" scheme="http://example.com/tags/%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
     
   </entry>
   
