@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-02-26T17:14:46.710Z</updated>
+  <updated>2026-02-27T15:11:58.094Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>音乐资源</title>
     <link href="http://example.com/2026/02/27/yin-le-zi-yuan/"/>
     <id>http://example.com/2026/02/27/yin-le-zi-yuan/</id>
-    <published>2026-02-26T17:12:58.000Z</published>
-    <updated>2026-02-26T17:14:46.710Z</updated>
+    <published>2026-02-27T15:10:59.000Z</published>
+    <updated>2026-02-27T15:11:58.094Z</updated>
     
     
       
@@ -44,6 +44,63 @@
     
     
     <category term="音乐" scheme="http://example.com/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PS3游戏资源</title>
+    <link href="http://example.com/2026/02/27/ps3-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/02/27/ps3-you-xi-zi-yuan/</id>
+    <published>2026-02-27T15:06:18.000Z</published>
+    <updated>2026-02-27T15:07:07.451Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PS3" scheme="http://example.com/categories/PS3/"/>
+    
+    
+    <category term="PS3游戏" scheme="http://example.com/tags/PS3%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>临时公告</title>
+    <link href="http://example.com/2026/02/27/2026-nong-li-xin-nian-kuai-le/"/>
+    <id>http://example.com/2026/02/27/2026-nong-li-xin-nian-kuai-le/</id>
+    <published>2026-02-27T15:06:15.000Z</published>
+    <updated>2026-02-27T15:10:52.216Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;由于最近更新PS4类别占用了大量的网络上传带宽，所以其他类别会在PS4类别更新完后才会开始陆续更新，如果需要临时更新或者补充的中文游戏资源可以跟我说，方便在更新PS4类别时进行临时调整。&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="临时公告" scheme="http://example.com/categories/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
+    
+    
+    <category term="临时公告" scheme="http://example.com/tags/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
     
   </entry>
   
@@ -227,37 +284,6 @@
     
     
     <category term="XBOX游戏" scheme="http://example.com/tags/XBOX%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS3游戏资源</title>
-    <link href="http://example.com/2026/02/23/ps3-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/02/23/ps3-you-xi-zi-yuan/</id>
-    <published>2026-02-23T15:12:17.000Z</published>
-    <updated>2026-02-23T15:13:10.870Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PS3" scheme="http://example.com/categories/PS3/"/>
-    
-    
-    <category term="PS3游戏" scheme="http://example.com/tags/PS3%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -597,37 +623,6 @@
     
     
     <category term="PS4游戏" scheme="http://example.com/tags/PS4%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>3DS游戏资源</title>
-    <link href="http://example.com/2026/02/17/3ds-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/02/17/3ds-you-xi-zi-yuan/</id>
-    <published>2026-02-17T03:40:52.000Z</published>
-    <updated>2026-02-17T03:41:40.558Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="3DS" scheme="http://example.com/categories/3DS/"/>
-    
-    
-    <category term="3DS游戏" scheme="http://example.com/tags/3DS%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
