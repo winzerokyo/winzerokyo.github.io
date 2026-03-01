@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-03-01T10:01:05.178Z</updated>
+  <updated>2026-03-01T11:29:48.291Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>临时公告</title>
+    <link href="http://example.com/2026/03/01/lin-shi-gong-gao/"/>
+    <id>http://example.com/2026/03/01/lin-shi-gong-gao/</id>
+    <published>2026-03-01T11:26:16.000Z</published>
+    <updated>2026-03-01T11:29:48.291Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;PC游戏资源现在很多绕过D加密的游戏，本人无法保证搬过来的都能运行，因为现在的都是要用相对复杂的操作来绕过D加密，本质就是特制虚拟机绕过去，现在来说还有不少问题的。玩不了就敬请见谅。&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="临时公告" scheme="http://example.com/categories/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
+    
+    
+    <category term="临时公告" scheme="http://example.com/tags/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>音乐资源</title>
@@ -248,32 +274,6 @@
     
     
     <category term="PS3游戏" scheme="http://example.com/tags/PS3%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>临时公告</title>
-    <link href="http://example.com/2026/02/27/2026-nong-li-xin-nian-kuai-le/"/>
-    <id>http://example.com/2026/02/27/2026-nong-li-xin-nian-kuai-le/</id>
-    <published>2026-02-27T15:06:15.000Z</published>
-    <updated>2026-02-27T15:10:52.216Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;由于最近更新PS4类别占用了大量的网络上传带宽，所以其他类别会在PS4类别更新完后才会开始陆续更新，如果需要临时更新或者补充的中文游戏资源可以跟我说，方便在更新PS4类别时进行临时调整。&lt;/p&gt;
-</summary>
-        
-      
-    
-    
-    
-    <category term="临时公告" scheme="http://example.com/categories/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
-    
-    
-    <category term="临时公告" scheme="http://example.com/tags/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
     
   </entry>
   
