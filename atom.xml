@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-03-01T14:54:15.256Z</updated>
+  <updated>2026-03-02T02:43:40.941Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>PC游戏资源</title>
-    <link href="http://example.com/2026/03/01/pc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/03/01/pc-you-xi-zi-yuan/</id>
-    <published>2026-03-01T14:53:37.000Z</published>
-    <updated>2026-03-01T14:54:15.256Z</updated>
+    <link href="http://example.com/2026/03/02/pc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/03/02/pc-you-xi-zi-yuan/</id>
+    <published>2026-03-02T02:36:38.000Z</published>
+    <updated>2026-03-02T02:43:40.941Z</updated>
     
     
       
@@ -44,6 +44,68 @@
     
     
     <category term="PC游戏" scheme="http://example.com/tags/PC%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SWITCH游戏资源</title>
+    <link href="http://example.com/2026/03/02/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/03/02/switch-you-xi-zi-yuan/</id>
+    <published>2026-03-02T02:34:48.000Z</published>
+    <updated>2026-03-02T02:35:39.188Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
+    
+    
+    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PS游戏资源</title>
+    <link href="http://example.com/2026/03/02/ps-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/03/02/ps-you-xi-zi-yuan/</id>
+    <published>2026-03-02T02:26:53.000Z</published>
+    <updated>2026-03-02T02:35:54.777Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PS" scheme="http://example.com/categories/PS/"/>
+    
+    
+    <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -127,37 +189,6 @@
     
     
     <category term="PSP游戏" scheme="http://example.com/tags/PSP%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2026/03/01/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/03/01/switch-you-xi-zi-yuan/</id>
-    <published>2026-03-01T09:37:47.000Z</published>
-    <updated>2026-03-01T09:38:55.315Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
-    
-    
-    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -519,37 +550,6 @@
     
     
     <category term="WSC+WS游戏" scheme="http://example.com/tags/WSC-WS%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS游戏资源</title>
-    <link href="http://example.com/2026/02/23/ps-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/02/23/ps-you-xi-zi-yuan/</id>
-    <published>2026-02-23T03:27:52.000Z</published>
-    <updated>2026-02-23T03:28:28.272Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PS" scheme="http://example.com/categories/PS/"/>
-    
-    
-    <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
