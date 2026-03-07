@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-03-06T23:51:55.386Z</updated>
+  <updated>2026-03-07T10:38:57.611Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PSP模拟器的问题汇总</title>
+    <link href="http://example.com/2026/03/07/psp-mo-ni-qi-de-wen-ti-hui-zong/"/>
+    <id>http://example.com/2026/03/07/psp-mo-ni-qi-de-wen-ti-hui-zong/</id>
+    <published>2026-03-07T10:37:24.000Z</published>
+    <updated>2026-03-07T10:38:57.611Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;问题1：PPSSPP运行幻想传说（Tales of</summary>
+        
+      
+    
+    
+    
+    <category term="PSP" scheme="http://example.com/categories/PSP/"/>
+    
+    
+    <category term="PSP模拟器" scheme="http://example.com/tags/PSP%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>模拟器版本更新信息</title>
@@ -577,37 +602,6 @@
     
     
     <category term="SFC游戏" scheme="http://example.com/tags/SFC%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>XBOX游戏资源</title>
-    <link href="http://example.com/2026/02/23/xbox-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/02/23/xbox-you-xi-zi-yuan/</id>
-    <published>2026-02-23T15:12:57.000Z</published>
-    <updated>2026-02-23T15:13:52.683Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="XBOX" scheme="http://example.com/categories/XBOX/"/>
-    
-    
-    <category term="XBOX游戏" scheme="http://example.com/tags/XBOX%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
