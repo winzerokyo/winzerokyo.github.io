@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-03-11T16:01:24.092Z</updated>
+  <updated>2026-03-11T17:31:11.903Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>音乐资源</title>
+    <link href="http://example.com/2026/03/12/yin-le-zi-yuan/"/>
+    <id>http://example.com/2026/03/12/yin-le-zi-yuan/</id>
+    <published>2026-03-11T17:30:01.000Z</published>
+    <updated>2026-03-11T17:31:11.903Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;p&gt;度盘下载地址：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="音乐" scheme="http://example.com/categories/%E9%9F%B3%E4%B9%90/"/>
+    
+    
+    <category term="音乐" scheme="http://example.com/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+  </entry>
   
   <entry>
     <title>PS4游戏资源</title>
@@ -548,32 +574,6 @@
     
     
     <category term="临时公告" scheme="http://example.com/tags/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>音乐资源</title>
-    <link href="http://example.com/2026/03/01/yin-le-zi-yuan/"/>
-    <id>http://example.com/2026/03/01/yin-le-zi-yuan/</id>
-    <published>2026-03-01T10:00:00.000Z</published>
-    <updated>2026-03-01T10:01:05.178Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;p&gt;度盘下载地址：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="音乐" scheme="http://example.com/categories/%E9%9F%B3%E4%B9%90/"/>
-    
-    
-    <category term="音乐" scheme="http://example.com/tags/%E9%9F%B3%E4%B9%90/"/>
     
   </entry>
   
