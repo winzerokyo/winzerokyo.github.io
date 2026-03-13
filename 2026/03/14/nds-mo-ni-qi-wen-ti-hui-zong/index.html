@@ -11,7 +11,7 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-  <title>PSV模拟器Vita3K如何安装各种封装的游戏资源 | Winzerokyo的游戏站</title>
+  <title>NDS模拟器问题汇总 | Winzerokyo的游戏站</title>
 
   <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/favicon.ico">
   <link rel="stylesheet" href="https://at.alicdn.com/t/font_1911880_c1nvbyezg17.css">
@@ -309,21 +309,21 @@
 
 
 <div class="post-detail-header" id="thumbnail_canvas" style="background-repeat: no-repeat; background-size: cover; 
-  background-position: center center;position: relative;background-image:url('https://pic3.zhimg.com/80/v2-e5c15010b8ba4608a1974403a02a2da0_1440w.webp')">
+  background-position: center center;position: relative;background-image:url('https://pic2.zhimg.com/80/v2-63bbdb5b76b8d349ad35ff4281efbd37_1440w.webp')">
   <div class="post-detail-header-mask"></div>
   <canvas id="header_canvas"style="position:absolute;bottom:0;pointer-events:none;"></canvas>
   
   <div class="post-detail-header_info-box">
     <div class="title-box">
       <span class="title">
-        PSV模拟器Vita3K如何安装各种封装的游戏资源
+        NDS模拟器问题汇总
       </span>
     </div>
     
     
       
         <span class="post-detail-header_date">
-          <i class="fas fa-calendar"></i> 发表于：2025-07-16 |
+          <i class="fas fa-calendar"></i> 发表于：2026-03-14 |
         </span>
       
 
@@ -331,8 +331,8 @@
         <span class="post-detail-header_categories">
           <i class="iconfont iconbookmark1"></i> 分类：
           
-            <a href="/categories/PSV/" class="post-detail-header_category">
-              PSV
+            <a href="/categories/NDS/" class="post-detail-header_category">
+              NDS
             </a>
           
         </span>
@@ -356,46 +356,27 @@
   <div class="main-content">
     <article class="post post-detail">
       <div class="post-content">
-        <p>游戏文件封装类型</p>
-<p>1.黑商店最传统的pkg格式+zRif文本或者work.bin文件或者rif文件</p>
-<p>2.学习版机子中出现的MAI封装方式</p>
-<p>3.学习版机子中出现的nonpdrm封装方式</p>
-<p>4.多用于移植游戏的启动的VPK</p>
-<p>5.学习版机子中出现的vitamin dump封装方式</p>
-<p>Vita3K游戏存储位置查看方式</p>
-<p>配置-设置-模拟器-模拟系统储存文件夹，那里下面就能看到你的固件那些安装在哪里了。这个路径下ux0\app是游戏本体放的位置。ux0\addcont是游戏DLC放的位置。ux0\patch有时候是游戏更新放的位置，但是现在都跟游戏本体放混合在一起。ux0\data是一些移植游戏放文件的地方。</p>
-<p>对应封装方式的游戏文件的安装方法</p>
-<p>1.黑商店最传统的pkg格式+zRif文本或者work.bin文件或者rif文件</p>
-<p>这种最简单只要下载到了对应游戏的pkg格式文件，拥有对应游戏的zRif文本或者work.bin文件或者rif文件，pkg文件和zRif文本或者work.bin文件或者rif文件缺一不可。然后运行模拟器。</p>
-<p>安装方法：文件-安装pkg，然后选上对应游戏的pkg格式文件，安装好后游戏文件后在安装授权那里输入对应游戏的zRif文本或者选择对应游戏的work.bin文件或者rif文件就可以。</p>
-<p>2.学习版机子中出现的MAI封装方式</p>
-<p>这个要看资源提供者说明或者看到游戏里的文件才能最确定，以前不少汉化资源也用这种方式</p>
-<p>这种封装方式通常以压缩包文件或者文件夹出现，这种封装文件会有两种安装方法。</p>
-<p>安装方法：</p>
-<p>方法1.是有些Up主说的，将游戏解压缩后再压缩成zip方式然后运行模拟器。</p>
-<p>文件-安装zip、vpk，然后选上对应游戏的zip文件，然后等待游戏安装成功。</p>
-<p>方法2.直接解压缩，然后将解压缩后带有游戏编号的文件夹复制到模拟器的ux0\app里面。</p>
-<p>这种封装方式有时候会一个游戏文件夹里带齐了游戏更新和DLC的，用了方法2时无法正常识别游戏更新和DLC时可以试试将这个游戏文件复制一个出来，再用方法1安装一遍试试。还是不能识别时就要自己另外找资源了。</p>
-<p>3.学习版机子中出现的nonpdrm封装方式</p>
-<p>这个要看资源提供者说明或者有时候在黑商店下载的带游戏编号游戏文件夹就是这种封装方式</p>
-<p>这种封装方式通常以压缩包文件或者文件夹出现。</p>
-<p>安装方法：将游戏解压缩后再压缩成zip方式然后运行模拟器。</p>
-<p>文件-安装zip、vpk，然后选上对应游戏的zip文件，然后等待游戏安装成功。</p>
-<p>4.多用于移植游戏的启动的VPK</p>
-<p>移植游戏多数都用这种方式，有时候只有一个VPK文件，有时候会是VPK+相关游戏的data的压缩包。</p>
-<p>情况1，只有VPK文件，这种最简单。</p>
-<p>安装方法：文件-安装zip、vpk，然后选上对应游戏的VPK，然后等待游戏安装成功。</p>
-<p>情况2，VPK+相关游戏的data的压缩包，这种比较麻烦，基本要看那个资源的安装方法。只能说大多数情况下，安装VPK游戏后，相关游戏的data的压缩包解压缩后是放在ux0\data里，但是有例外。</p>
-<p>5.学习版机子中出现的vitamin dump封装方式</p>
-<p>这种封装方式的游戏模拟器暂时不支持的，怎样安装都运行不了。</p>
+        <p>问题1：DeSmuME_0.9.13_x64.exe运行后最小化在任务栏不能显示在桌面<br>答案：<br>1.右击DeSmuME_0.9.13_x64.exe选择运用管理员模式运行即可解决<br>2.有可能是杀毒软件导致，将杀毒软件退出后启动可以解决<br>3.将desmume.ini删除后再运行模拟器</p>
+<p>问题2：DeSmuME_0.9.13 x64 SSE2一个窗口出来，无法启动模拟器<br>答案：<br>1.应该是处理器没有SSE2这个指令集导致的，换个模拟器吧<br>2.将desmume.ini删除后再运行模拟器</p>
+<p>问题3：DeSmuME_0.9.13和melonds如何一直开加速<br>答案：设置-热键设置，里面有个切换帧率限制的按键，设置了就可以开加速和关加速</p>
+<p>问题4：melonds玩游戏没有声音<br>答案：看看是不是双开了模拟器，如果是双开了模拟器，可以去设置-多人联机设置那里将声音设置一下就有声音了。</p>
+<p>问题5：melonds游戏加速只有90帧<br>答案：设置-模拟器设置-cpu模拟，勾选“启用JIT重新编译器”勾选了就可以去到300多帧</p>
+<p>问题6：melonds玩宝可梦心灵之金和灵魂之银时画面有黑线<br>答案：将模拟器中“设置”-“视频设置”中的OpenGL渲染改成软件渲染就可以解决。但是这种方法会导致3D画质无法提升。</p>
+<p>问题7：Desmume无法存档，打开时提示Battery文件夹缺失<br>答案：在模拟器文件夹那里新建一个Battery的文件夹即可</p>
+<p>问题8：安卓版melonds玩塞尔达传说大地的汽笛图像贴图有问题<br>答案：设置那里video-renderer改成software就可以，但是这样就没法提高分辨率</p>
+<p>问题9：melonds玩逆转检事有一个要吹铝粉要怎么设置<br>答案：电脑版1.先设置-控制和热键-一般热键-改麦克风按键。2.设置音频设置-把麦克风输入改成模拟吹入噪音。最后按麦克风热键就可以。</p>
+<p>问题10：melonds玩超时空之轮无中文汉化<br>答案：melonds玩超时空之轮要在设置-固件设置，勾选“使用外部固件的设置进行覆盖”，然后下面的语言选项选上日语才会有中文，因为这游戏的汉化是占用了日语做的汉化。</p>
+<p>问题11：Desmume-0.9.13如何让固件文件跟着模拟器文件夹位置变化而变化，就是模拟器放到哪里都可以自动读取固件文件。<br>答案：<br>1.首先在模拟器文件夹内新建一个英文的文件夹（什么英文名字都可以），下面举例的那个文件我这里叫Firmware文件夹，内里固件文件通常包括ARM9BIOS文件我这里举例是叫bios9.bin，ARM7BIOS文件我这里举例是叫bios7.bin，Firmware文件叫firmware.bin<br>2.运行一次模拟器后关闭模拟器，使模拟器文件夹内生成一个desmume.ini，打开desmume.ini<br>3.找出ARM9BIOSFile&#x3D;，这个行文本，然后改成ARM9BIOSFile&#x3D;.\Firmware\bios9.bin<br>4.找出ARM7BIOSFile&#x3D;，这个行文本，然后改成ARM7BIOSFile&#x3D;.\Firmware\bios7.bin<br>5.找出FirmwareFile&#x3D;，这个行文本，然后改成FirmwareFile&#x3D;.\Firmware\firmware.bin<br>6.保存desmume.ini。以后这个模拟器内的文件复制到哪里，模拟器都会读取文件夹内的固件文件了</p>
+<p>问题12：melonDS如何让固件文件跟着模拟器文件夹位置变化而变化，就是模拟器放到哪里都可以自动读取固件文件。<br>答案：<br>1.首先在模拟器文件夹内新建一个英文的文件夹（什么英文名字都可以），下面举例的那个文件我这里叫Firmware文件夹，内里固件文件通常包括ARM9BIOS文件我这里举例是叫bios9.bin，ARM7BIOS文件我这里举例是叫bios7.bin，Firmware文件叫firmware.bin<br>2.运行一次模拟器进入模拟设置-DS勾选使用固件模式后先选择一次固件文件，然后关闭模拟器，使模拟器文件夹内生成一个melonDS.toml，打开melonDS.toml<br>3.找出LastBIOSFolder &#x3D;，这个行文本，然后改成LastBIOSFolder &#x3D; “.&#x2F;Firmware”<br>4.找出BIOS9Path &#x3D;，这个行文本，然后改成BIOS9Path &#x3D; “.&#x2F;Firmware&#x2F;bios9.bin”<br>5.找出BIOS7Path &#x3D;，这个行文本，然后改成BIOS7Path &#x3D; “.&#x2F;Firmware&#x2F;bios7.bin”<br>6.找出FirmwarePath &#x3D;，这个行文本，然后改成FirmwarePath &#x3D; “.&#x2F;Firmware&#x2F;firmware.bin”<br>7.保存melonDS.toml。以后这个模拟器内的文件复制到哪里，模拟器都会读取文件夹内的固件文件了</p>
+<p>问题13：塞尔达传说 四支剑 25周年纪念版[Monado汉化组汉化]无法运行<br>答案：<br>1.MelonDS上需要先加载特制DSi的BIOS和固件，加载BIOS和固件那里的“完整BIOS引导”不要勾选，然后去模拟器“系统”-“管理DSI应用”，然后选“导入应用”（PS：如果之前有加载非汉化版的要先点击右上角的“删除应用”），然后“可执行文件”旁边的“浏览”选好游戏文件，然后“元数据（TMD）”选“从NUS下载”，最后选“OK”。随后关闭窗口。<br>2.模拟器上选“文件”-“启动固件（firmware）”,第一次使用会叫你创建用户的，随便创建个不知道什么东西（因为我看不懂日文），然后进到系统界面，找到一个蓝色的礼物包打开就能见到游戏图标，然后按A键进入游戏就可以，这个方法可能会无法在模拟器内创建正常游戏存档数据，可能需要模拟器的即时存档来进行存档。</p>
 
       </div>
       <div class="post-tags-categories">
         
         <div class="tags">
           
-            <a href="/tags/PSV%E6%A8%A1%E6%8B%9F%E5%99%A8/" class="">
-              PSV模拟器
+            <a href="/tags/NDS%E6%A8%A1%E6%8B%9F%E5%99%A8/" class="">
+              NDS模拟器
             </a>
           
         </div>
@@ -409,7 +390,7 @@
     </li>
     <li class="post-copyright-link">
     <strong>文章链接:  </strong>
-    <a href="/2025/07/16/psv-mo-ni-qi-vita3k-ru-he-an-zhuang-ge-chong-feng-zhuang-de-you-xi-zi-yuan/" target="_blank" title="PSV模拟器Vita3K如何安装各种封装的游戏资源">http://example.com/2025/07/16/psv-mo-ni-qi-vita3k-ru-he-an-zhuang-ge-chong-feng-zhuang-de-you-xi-zi-yuan/</a>
+    <a href="/2026/03/14/nds-mo-ni-qi-wen-ti-hui-zong/" target="_blank" title="NDS模拟器问题汇总">http://example.com/2026/03/14/nds-mo-ni-qi-wen-ti-hui-zong/</a>
     </li>
     <li class="post-copyright-license">
       <strong>版权声明:   </strong>
@@ -427,41 +408,29 @@
 
 
 
-  
-  <div class="post-nav-prev post-nav-item">
-    <div class="post-nav-img" style="background-size: cover; 
-      background-position: center center;">
-      <img class="lazyload lazyload placeholder" src="https://pic4.zhimg.com/80/v2-e434e3a2888fb4efb1844845b8791d1f_1440w.webp" class="lazyload placeholder" data-srcset="https://pic4.zhimg.com/80/v2-e434e3a2888fb4efb1844845b8791d1f_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
-    </div>
-    <a href="/2025/08/27/ss-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/" class="post-nav-link">
-      <div class="title">
-        <i class="fas fa-angle-left"></i> 上一篇:
-        <div class="title-text">SS模拟器教程和下载 转换软件教程和下载</div>
-      </div>
-      
-      <!-- <div class="content">
-        模拟器教程和下载
-为了照顾不看网站公告的，默认解压密码：2234。
-##########################
-      </div> -->
-    </a>
-  </div>
-
 
 
   
   <div class="post-nav-next post-nav-item">
     <div class="post-nav-img" style="background-size: cover; 
       background-position: center center;">
-      <img class="lazyload lazyload placeholder" src="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" src="" alt="">
+      <img class="lazyload lazyload placeholder" src="https://pic2.zhimg.com/80/v2-63bbdb5b76b8d349ad35ff4281efbd37_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-63bbdb5b76b8d349ad35ff4281efbd37_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" src="" alt="">
     </div>
-    <a href="/2025/07/06/3ds-mo-ni-qi-wen-ti-hui-zong/" class="post-nav-link">
+    <a href="/2026/03/13/switch-you-xi-zi-yuan/" class="post-nav-link">
       <div class="title">
         下一篇: <i class="fas fa-angle-right"></i>
-        <div class="title-text">3DS模拟器问题汇总</div>
+        <div class="title-text">SWITCH游戏资源</div>
       </div>
       <!-- <div class="content">
-        问题1：未找到shared fonts答案：电脑版解决方法，在使用教程简介链接中的shared_font.bin复制到C
+        为了照顾不看网站公告的，默认解压密码：2234。
+
+
+
+资源中文名称
+度盘下载地址
+迅雷下载地址
+夸克下载地址
+资源英文
       </div> -->
     </a>
   </div>
