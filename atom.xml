@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-03-15T17:36:12.574Z</updated>
+  <updated>2026-03-15T17:50:01.149Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MD游戏资源</title>
+    <link href="http://example.com/2026/03/16/md-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/03/16/md-you-xi-zi-yuan/</id>
+    <published>2026-03-15T17:48:44.000Z</published>
+    <updated>2026-03-15T17:50:01.149Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="MD" scheme="http://example.com/categories/MD/"/>
+    
+    
+    <category term="MD游戏" scheme="http://example.com/tags/MD%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>PC游戏资源</title>
@@ -569,37 +600,6 @@
     
     
     <category term="SWITCH模拟器" scheme="http://example.com/tags/SWITCH%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS2游戏资源</title>
-    <link href="http://example.com/2026/03/04/ps2-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/03/04/ps2-you-xi-zi-yuan/</id>
-    <published>2026-03-03T18:08:41.000Z</published>
-    <updated>2026-03-03T18:09:40.060Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PS2" scheme="http://example.com/categories/PS2/"/>
-    
-    
-    <category term="PS2游戏" scheme="http://example.com/tags/PS2%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
