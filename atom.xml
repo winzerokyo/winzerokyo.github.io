@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-03-24T03:14:42.917Z</updated>
+  <updated>2026-03-25T13:57:49.063Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PC游戏资源</title>
+    <link href="http://example.com/2026/03/25/pc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/03/25/pc-you-xi-zi-yuan/</id>
+    <published>2026-03-25T13:56:52.000Z</published>
+    <updated>2026-03-25T13:57:49.063Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PC" scheme="http://example.com/categories/PC/"/>
+    
+    
+    <category term="PC游戏" scheme="http://example.com/tags/PC%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>Shandps4兼容性列表</title>
@@ -196,37 +227,6 @@
     
     
     <category term="音乐" scheme="http://example.com/tags/%E9%9F%B3%E4%B9%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PC游戏资源</title>
-    <link href="http://example.com/2026/03/23/pc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/03/23/pc-you-xi-zi-yuan/</id>
-    <published>2026-03-22T17:52:51.000Z</published>
-    <updated>2026-03-22T17:53:50.710Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PC" scheme="http://example.com/categories/PC/"/>
-    
-    
-    <category term="PC游戏" scheme="http://example.com/tags/PC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
