@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-04-02T13:35:59.830Z</updated>
+  <updated>2026-04-02T19:02:29.339Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>3DS模拟器教程和下载 转换软件教程和下载</title>
+    <link href="http://example.com/2026/04/03/3ds-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
+    <id>http://example.com/2026/04/03/3ds-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
+    <published>2026-04-02T18:58:56.000Z</published>
+    <updated>2026-04-02T19:02:29.339Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
+&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;p&gt;##############################################################&lt;/p&gt;
+&lt;p&gt;Azaharplus模拟器（安卓版）视</summary>
+        
+      
+    
+    
+    
+    <category term="3DS" scheme="http://example.com/categories/3DS/"/>
+    
+    
+    <category term="3DS模拟器" scheme="http://example.com/tags/3DS%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>PC游戏资源</title>
@@ -297,7 +325,7 @@
     <link href="http://example.com/2026/03/28/mo-ni-qi-ban-ben-geng-xin-xin-xi/"/>
     <id>http://example.com/2026/03/28/mo-ni-qi-ban-ben-geng-xin-xin-xi/</id>
     <published>2026-03-28T03:28:36.000Z</published>
-    <updated>2026-03-28T03:33:55.838Z</updated>
+    <updated>2026-04-02T19:04:30.316Z</updated>
     
     
       
@@ -581,31 +609,6 @@
     
     
     <category term="XBOX360模拟器" scheme="http://example.com/tags/XBOX360%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>NDS模拟器问题汇总</title>
-    <link href="http://example.com/2026/03/14/nds-mo-ni-qi-wen-ti-hui-zong/"/>
-    <id>http://example.com/2026/03/14/nds-mo-ni-qi-wen-ti-hui-zong/</id>
-    <published>2026-03-13T16:09:22.000Z</published>
-    <updated>2026-03-13T16:10:56.711Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;问题1：DeSmuME_0.9.13_x64.exe运行后最小化在任务栏不能显示在桌面&lt;br&gt;答案：&lt;br&gt;1.右击DeSmuME_0.9.13_x64.exe选择运用管理员模式运行即可解决&lt;br&gt;2.有可能是杀毒软件导致，将杀毒软件退出后启动可以解决&lt;br&gt;3.将desm</summary>
-        
-      
-    
-    
-    
-    <category term="NDS" scheme="http://example.com/categories/NDS/"/>
-    
-    
-    <category term="NDS模拟器" scheme="http://example.com/tags/NDS%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
     
   </entry>
   
