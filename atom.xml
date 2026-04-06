@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-04-06T03:17:23.486Z</updated>
+  <updated>2026-04-06T12:59:35.044Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PC游戏问题汇总</title>
+    <link href="http://example.com/2026/04/06/pc-you-xi-wen-ti-hui-zong/"/>
+    <id>http://example.com/2026/04/06/pc-you-xi-wen-ti-hui-zong/</id>
+    <published>2026-04-06T12:58:32.000Z</published>
+    <updated>2026-04-06T12:59:35.044Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;问题1：游戏运行后闪退&lt;br&gt;答案：&lt;br&gt;情况1：请大家玩游戏前将各种运行库安装好，因为很多报错就是因为没有相关运行库导致。&lt;br&gt;情况2：游戏文件路径要全英文&lt;/p&gt;
+&lt;p&gt;问题2：钢铁雄心IV如何修改成中文&lt;br&gt;答案：&lt;br&gt;先运行一次游戏&lt;br&gt;然后进入此电脑&#92;文</summary>
+        
+      
+    
+    
+    
+    <category term="PC" scheme="http://example.com/categories/PC/"/>
+    
+    
+    <category term="PC游戏" scheme="http://example.com/tags/PC%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>SWITCH游戏资源</title>
@@ -551,32 +577,6 @@
     
     
     <category term="音乐" scheme="http://example.com/tags/%E9%9F%B3%E4%B9%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PC游戏问题汇总</title>
-    <link href="http://example.com/2026/03/20/pc-you-xi-wen-ti-hui-zong/"/>
-    <id>http://example.com/2026/03/20/pc-you-xi-wen-ti-hui-zong/</id>
-    <published>2026-03-19T16:21:31.000Z</published>
-    <updated>2026-03-19T16:22:59.258Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;问题1：游戏运行后闪退&lt;br&gt;答案：&lt;br&gt;情况1：请大家玩游戏前将各种运行库安装好，因为很多报错就是因为没有相关运行库导致。&lt;br&gt;情况2：游戏文件路径要全英文&lt;/p&gt;
-&lt;p&gt;问题2：钢铁雄心IV如何修改成中文&lt;br&gt;答案：&lt;br&gt;先运行一次游戏&lt;br&gt;然后进入此电脑&#92;文</summary>
-        
-      
-    
-    
-    
-    <category term="PC" scheme="http://example.com/categories/PC/"/>
-    
-    
-    <category term="PC游戏" scheme="http://example.com/tags/PC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
