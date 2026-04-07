@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-04-07T04:57:05.940Z</updated>
+  <updated>2026-04-07T05:30:55.562Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,68 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SS游戏资源</title>
+    <link href="http://example.com/2026/04/07/ss-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/04/07/ss-you-xi-zi-yuan/</id>
+    <published>2026-04-07T05:29:14.000Z</published>
+    <updated>2026-04-07T05:30:55.562Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="SS" scheme="http://example.com/categories/SS/"/>
+    
+    
+    <category term="SS游戏" scheme="http://example.com/tags/SS%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PS2游戏资源</title>
+    <link href="http://example.com/2026/04/07/ps2-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/04/07/ps2-you-xi-zi-yuan/</id>
+    <published>2026-04-07T05:28:42.000Z</published>
+    <updated>2026-04-07T05:29:56.238Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PS2" scheme="http://example.com/categories/PS2/"/>
+    
+    
+    <category term="PS2游戏" scheme="http://example.com/tags/PS2%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>PS2模拟器的问题汇总</title>
@@ -545,63 +607,6 @@
     
     
     <category term="GBC+GB游戏" scheme="http://example.com/tags/GBC-GB%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GBA游戏资源</title>
-    <link href="http://example.com/2026/03/23/gba-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/03/23/gba-you-xi-zi-yuan/</id>
-    <published>2026-03-22T18:10:18.000Z</published>
-    <updated>2026-03-22T18:11:21.555Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="GBA+GBC+GB" scheme="http://example.com/categories/GBA-GBC-GB/"/>
-    
-    
-    <category term="GBA游戏" scheme="http://example.com/tags/GBA%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>音乐资源</title>
-    <link href="http://example.com/2026/03/23/yin-le-zi-yuan/"/>
-    <id>http://example.com/2026/03/23/yin-le-zi-yuan/</id>
-    <published>2026-03-22T17:55:03.000Z</published>
-    <updated>2026-03-22T17:56:17.215Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;p&gt;度盘下载地址：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="音乐" scheme="http://example.com/categories/%E9%9F%B3%E4%B9%90/"/>
-    
-    
-    <category term="音乐" scheme="http://example.com/tags/%E9%9F%B3%E4%B9%90/"/>
     
   </entry>
   
