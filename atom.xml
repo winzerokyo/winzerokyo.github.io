@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-05-14T03:21:18.794Z</updated>
+  <updated>2026-05-14T05:55:57.254Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2016-05-14站长随便写</title>
+    <link href="http://example.com/2026/05/14/2016-05-14-zhan-chang-sui-bian-xie/"/>
+    <id>http://example.com/2026/05/14/2016-05-14-zhan-chang-sui-bian-xie/</id>
+    <published>2026-05-14T05:54:17.000Z</published>
+    <updated>2026-05-14T05:55:57.254Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;HELLO各位网友大家好啊，这篇随便写真的就是字面意义上写的事情，就是我随便写的。&lt;br&gt;我就先说一下为什么最近我为什么视频低产，其实有心细的网友可能就会看到，我现在大部分都在更新各种资源，也是由于这些资源数量很多，而且现在我有些是几个网盘都有资源的，上传的时间就很长。&lt;b</summary>
+        
+      
+    
+    
+    
+    <category term="站长随便写" scheme="http://example.com/categories/%E7%AB%99%E9%95%BF%E9%9A%8F%E4%BE%BF%E5%86%99/"/>
+    
+    
+    <category term="站长随便写" scheme="http://example.com/tags/%E7%AB%99%E9%95%BF%E9%9A%8F%E4%BE%BF%E5%86%99/"/>
+    
+  </entry>
   
   <entry>
     <title>PC游戏资源</title>
@@ -589,37 +614,6 @@
     
     
     <category term="3DS模拟器" scheme="http://example.com/tags/3DS%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>WII+NGC游戏资源</title>
-    <link href="http://example.com/2026/04/09/wii-ngc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/04/09/wii-ngc-you-xi-zi-yuan/</id>
-    <published>2026-04-08T16:30:38.000Z</published>
-    <updated>2026-04-08T16:31:37.248Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="WII+NGC" scheme="http://example.com/categories/WII-NGC/"/>
-    
-    
-    <category term="WII+NGC游戏" scheme="http://example.com/tags/WII-NGC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
