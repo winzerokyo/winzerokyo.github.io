@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-05-16T04:34:51.963Z</updated>
+  <updated>2026-05-16T15:02:15.717Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,68 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SWITCH游戏资源</title>
+    <link href="http://example.com/2026/05/16/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/05/16/switch-you-xi-zi-yuan/</id>
+    <published>2026-05-16T15:01:42.000Z</published>
+    <updated>2026-05-16T15:02:15.717Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
+    
+    
+    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DC游戏资源</title>
+    <link href="http://example.com/2026/05/16/dc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/05/16/dc-you-xi-zi-yuan/</id>
+    <published>2026-05-16T04:51:25.000Z</published>
+    <updated>2026-05-16T04:52:23.998Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="DC" scheme="http://example.com/categories/DC/"/>
+    
+    
+    <category term="DC游戏" scheme="http://example.com/tags/DC%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>PS2游戏资源</title>
@@ -251,37 +313,6 @@
     
     
     <category term="SWITCH模拟器" scheme="http://example.com/tags/SWITCH%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2026/05/14/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/05/14/switch-you-xi-zi-yuan/</id>
-    <published>2026-05-14T07:44:41.000Z</published>
-    <updated>2026-05-14T07:45:14.558Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
-    
-    
-    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -588,32 +619,6 @@
     
     
     <category term="PS3游戏" scheme="http://example.com/tags/PS3%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>音乐资源</title>
-    <link href="http://example.com/2026/04/21/yin-le-zi-yuan/"/>
-    <id>http://example.com/2026/04/21/yin-le-zi-yuan/</id>
-    <published>2026-04-21T06:06:05.000Z</published>
-    <updated>2026-04-21T06:07:39.864Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;p&gt;度盘下载地址：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="音乐" scheme="http://example.com/categories/%E9%9F%B3%E4%B9%90/"/>
-    
-    
-    <category term="音乐" scheme="http://example.com/tags/%E9%9F%B3%E4%B9%90/"/>
     
   </entry>
   
