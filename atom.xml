@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-06-08T15:08:36.857Z</updated>
+  <updated>2026-06-09T16:12:23.622Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -18,17 +18,43 @@
   
   <entry>
     <title>临时公告</title>
-    <link href="http://example.com/2026/06/08/lin-shi-gong-gao/"/>
-    <id>http://example.com/2026/06/08/lin-shi-gong-gao/</id>
-    <published>2026-06-08T15:05:17.000Z</published>
-    <updated>2026-06-08T15:08:36.857Z</updated>
+    <link href="http://example.com/2026/06/10/lin-shi-gong-gao/"/>
+    <id>http://example.com/2026/06/10/lin-shi-gong-gao/</id>
+    <published>2026-06-09T16:11:18.000Z</published>
+    <updated>2026-06-09T16:12:23.622Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;最近的游戏更新会变得非常的慢，因为要将某些类别的镜像文件变成CHD格式的压缩镜像文件。一些类别的模拟器能直接读取CHD格式的压缩镜像文件，相关类别的游戏会用CHD镜像代替，这样能省容量空间。所以如果发现某些游戏文件夹里面是空的可以跟我说一下。我会看看是不是漏了上传。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;最近的游戏更新会变得非常的慢，因为要将某些类别的镜像文件变成CHD格式的压缩镜像文件。一些类别的模拟器能直接读取CHD格式的压缩镜像文件，相关类别的游戏会用CHD镜像代替，这样能省容量空间。所以如果发现某些游戏文件夹里面是空的可以跟我说一下。我会看看是不是漏了上传。现在已经</summary>
+        
+      
+    
+    
+    
+    <category term="临时公告" scheme="http://example.com/categories/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
+    
+    
+    <category term="临时公告" scheme="http://example.com/tags/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>网站详细说明</title>
+    <link href="http://example.com/2026/06/10/wang-zhan-xiang-xi-shuo-ming/"/>
+    <id>http://example.com/2026/06/10/wang-zhan-xiang-xi-shuo-ming/</id>
+    <published>2026-06-09T16:10:19.000Z</published>
+    <updated>2026-06-09T16:12:25.525Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;网站使用及反馈方法&lt;/p&gt;
+&lt;p&gt;1.本网站是使用GitHub</summary>
         
       
     
@@ -43,10 +69,10 @@
   
   <entry>
     <title>PS游戏资源</title>
-    <link href="http://example.com/2026/06/08/ps-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/06/08/ps-you-xi-zi-yuan/</id>
-    <published>2026-06-08T14:17:00.000Z</published>
-    <updated>2026-06-08T14:18:15.415Z</updated>
+    <link href="http://example.com/2026/06/09/ps-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/06/09/ps-you-xi-zi-yuan/</id>
+    <published>2026-06-08T16:28:01.000Z</published>
+    <updated>2026-06-08T16:29:32.085Z</updated>
     
     
       
@@ -589,37 +615,6 @@
     
     
     <category term="PSP游戏" scheme="http://example.com/tags/PSP%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS2游戏资源</title>
-    <link href="http://example.com/2026/05/21/ps2-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/05/21/ps2-you-xi-zi-yuan/</id>
-    <published>2026-05-21T03:11:47.000Z</published>
-    <updated>2026-05-21T03:12:33.399Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PS2" scheme="http://example.com/categories/PS2/"/>
-    
-    
-    <category term="PS2游戏" scheme="http://example.com/tags/PS2%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
