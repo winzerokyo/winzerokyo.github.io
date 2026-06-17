@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-06-16T13:28:32.311Z</updated>
+  <updated>2026-06-17T03:27:22.560Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>临时公告</title>
+    <link href="http://example.com/2026/06/17/lin-shi-gong-gao/"/>
+    <id>http://example.com/2026/06/17/lin-shi-gong-gao/</id>
+    <published>2026-06-17T03:25:20.000Z</published>
+    <updated>2026-06-17T03:27:22.560Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;2026-07-09之前，度盘分享暂时被禁，这段时间会继续完善其他网盘资源，如有不便敬请谅解。&lt;/p&gt;
+&lt;p&gt;这段时间重点依然是压缩资源，释放空间。&lt;/p&gt;
+&lt;p&gt;最近的游戏更新会变得非常的慢，因为要将某些类别的镜像文件变成CHD格式的压缩镜像文件。一些类别的模拟器能直接读</summary>
+        
+      
+    
+    
+    
+    <category term="临时公告" scheme="http://example.com/categories/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
+    
+    
+    <category term="临时公告" scheme="http://example.com/tags/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>XBOX360游戏资源</title>
@@ -294,31 +321,6 @@
     
     
     <category term="WII+NGC游戏" scheme="http://example.com/tags/WII-NGC%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>临时公告</title>
-    <link href="http://example.com/2026/06/13/lin-shi-gong-gao/"/>
-    <id>http://example.com/2026/06/13/lin-shi-gong-gao/</id>
-    <published>2026-06-13T03:31:19.000Z</published>
-    <updated>2026-06-13T03:32:55.750Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;最近的游戏更新会变得非常的慢，因为要将某些类别的镜像文件变成CHD格式的压缩镜像文件。一些类别的模拟器能直接读取CHD格式的压缩镜像文件，相关类别的游戏会用CHD镜像代替，这样能省容量空间。所以如果发现某些游戏文件夹里面是空的可以跟我说一下。我会看看是不是漏了上传。现在已经</summary>
-        
-      
-    
-    
-    
-    <category term="临时公告" scheme="http://example.com/categories/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
-    
-    
-    <category term="临时公告" scheme="http://example.com/tags/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
     
   </entry>
   
