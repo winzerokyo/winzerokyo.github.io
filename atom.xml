@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-06-24T14:04:58.965Z</updated>
+  <updated>2026-06-26T02:25:30.871Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,99 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PC98游戏资源</title>
+    <link href="http://example.com/2026/06/26/pc98-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/06/26/pc98-you-xi-zi-yuan/</id>
+    <published>2026-06-26T02:24:01.000Z</published>
+    <updated>2026-06-26T02:25:30.871Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。能不能用不好说，收集时是怎样就怎样。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PC98" scheme="http://example.com/categories/PC98/"/>
+    
+    
+    <category term="PC98游戏" scheme="http://example.com/tags/PC98%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NDS游戏资源</title>
+    <link href="http://example.com/2026/06/26/nds-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/06/26/nds-you-xi-zi-yuan/</id>
+    <published>2026-06-26T02:16:52.000Z</published>
+    <updated>2026-06-26T02:17:43.300Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="NDS" scheme="http://example.com/categories/NDS/"/>
+    
+    
+    <category term="NDS游戏" scheme="http://example.com/tags/NDS%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PSP游戏资源</title>
+    <link href="http://example.com/2026/06/26/psp-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/06/26/psp-you-xi-zi-yuan/</id>
+    <published>2026-06-26T02:09:06.000Z</published>
+    <updated>2026-06-26T02:10:05.813Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PSP" scheme="http://example.com/categories/PSP/"/>
+    
+    
+    <category term="PSP游戏" scheme="http://example.com/tags/PSP%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>SWITCH游戏资源</title>
@@ -382,37 +475,6 @@
   </entry>
   
   <entry>
-    <title>PSP游戏资源</title>
-    <link href="http://example.com/2026/06/20/psp-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/06/20/psp-you-xi-zi-yuan/</id>
-    <published>2026-06-20T06:14:05.000Z</published>
-    <updated>2026-06-20T06:15:09.811Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PSP" scheme="http://example.com/categories/PSP/"/>
-    
-    
-    <category term="PSP游戏" scheme="http://example.com/tags/PSP%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
     <title>WII+NGC模拟器问题汇总</title>
     <link href="http://example.com/2026/06/20/wii-ngc-mo-ni-qi-wen-ti-hui-zong/"/>
     <id>http://example.com/2026/06/20/wii-ngc-mo-ni-qi-wen-ti-hui-zong/</id>
@@ -496,37 +558,6 @@
   </entry>
   
   <entry>
-    <title>NDS游戏资源</title>
-    <link href="http://example.com/2026/06/18/nds-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/06/18/nds-you-xi-zi-yuan/</id>
-    <published>2026-06-18T15:00:51.000Z</published>
-    <updated>2026-06-18T15:00:34.712Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="NDS" scheme="http://example.com/categories/NDS/"/>
-    
-    
-    <category term="NDS游戏" scheme="http://example.com/tags/NDS%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
     <title>GBC+GB游戏资源</title>
     <link href="http://example.com/2026/06/18/gbc-gb-you-xi-zi-yuan/"/>
     <id>http://example.com/2026/06/18/gbc-gb-you-xi-zi-yuan/</id>
@@ -585,37 +616,6 @@
     
     
     <category term="GBA游戏" scheme="http://example.com/tags/GBA%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>XBOX360游戏资源</title>
-    <link href="http://example.com/2026/06/16/xbox360-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/06/16/xbox360-you-xi-zi-yuan/</id>
-    <published>2026-06-16T13:27:49.000Z</published>
-    <updated>2026-06-16T13:28:32.311Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="XBOX360" scheme="http://example.com/categories/XBOX360/"/>
-    
-    
-    <category term="XBOX360游戏" scheme="http://example.com/tags/XBOX360%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
