@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-06-26T02:25:30.871Z</updated>
+  <updated>2026-06-26T03:03:23.467Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SFC游戏资源</title>
+    <link href="http://example.com/2026/06/26/sfc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/06/26/sfc-you-xi-zi-yuan/</id>
+    <published>2026-06-26T03:02:28.000Z</published>
+    <updated>2026-06-26T03:03:23.467Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="SFC" scheme="http://example.com/categories/SFC/"/>
+    
+    
+    <category term="SFC游戏" scheme="http://example.com/tags/SFC%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>PC98游戏资源</title>
@@ -347,37 +378,6 @@
     
     
     <category term="PSV游戏" scheme="http://example.com/tags/PSV%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SFC游戏资源</title>
-    <link href="http://example.com/2026/06/22/sfc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/06/22/sfc-you-xi-zi-yuan/</id>
-    <published>2026-06-22T14:22:27.000Z</published>
-    <updated>2026-06-22T14:23:30.293Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="SFC" scheme="http://example.com/categories/SFC/"/>
-    
-    
-    <category term="SFC游戏" scheme="http://example.com/tags/SFC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
