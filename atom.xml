@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-06-28T03:14:38.646Z</updated>
+  <updated>2026-06-28T14:50:36.888Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,87 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>网站详细说明</title>
+    <link href="http://example.com/2026/06/28/wang-zhan-xiang-xi-shuo-ming/"/>
+    <id>http://example.com/2026/06/28/wang-zhan-xiang-xi-shuo-ming/</id>
+    <published>2026-06-28T14:48:23.000Z</published>
+    <updated>2026-06-28T14:50:36.888Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;网站使用及反馈方法&lt;/p&gt;
+&lt;p&gt;1.本网站是使用GitHub</summary>
+        
+      
+    
+    
+    
+    <category term="临时公告" scheme="http://example.com/categories/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
+    
+    
+    <category term="临时公告" scheme="http://example.com/tags/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>临时公告</title>
+    <link href="http://example.com/2026/06/28/lin-shi-gong-gao/"/>
+    <id>http://example.com/2026/06/28/lin-shi-gong-gao/</id>
+    <published>2026-06-28T14:46:23.000Z</published>
+    <updated>2026-06-28T14:49:19.774Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;2026-07-09之前，度盘分享暂时被禁，这段时间会继续完善其他网盘资源，如有不便敬请谅解。&lt;/p&gt;
+&lt;p&gt;这段时间重点依然是压缩资源，释放空间。&lt;/p&gt;
+&lt;p&gt;最近的游戏更新会变得非常的慢，因为要将某些类别的镜像文件变成CHD格式的压缩镜像文件。一些类别的模拟器能直接读</summary>
+        
+      
+    
+    
+    
+    <category term="临时公告" scheme="http://example.com/categories/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
+    
+    
+    <category term="临时公告" scheme="http://example.com/tags/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SWITCH模拟器教程和下载，转换软件教程和下载</title>
+    <link href="http://example.com/2026/06/28/switch-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
+    <id>http://example.com/2026/06/28/switch-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
+    <published>2026-06-28T12:42:35.000Z</published>
+    <updated>2026-06-28T12:43:35.096Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
+&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;p&gt;##############################################################&lt;/p&gt;
+&lt;p&gt;Sumi模拟器（PC版）模拟器&lt;br&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
+    
+    
+    <category term="SWITCH模拟器" scheme="http://example.com/tags/SWITCH%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>Shandps4兼容性列表</title>
@@ -108,59 +189,6 @@
     
     
     <category term="DC游戏" scheme="http://example.com/tags/DC%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>临时公告</title>
-    <link href="http://example.com/2026/06/27/lin-shi-gong-gao/"/>
-    <id>http://example.com/2026/06/27/lin-shi-gong-gao/</id>
-    <published>2026-06-27T09:30:22.000Z</published>
-    <updated>2026-06-27T09:31:33.800Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;2026-07-09之前，度盘分享暂时被禁，这段时间会继续完善其他网盘资源，如有不便敬请谅解。&lt;/p&gt;
-&lt;p&gt;这段时间重点依然是压缩资源，释放空间。&lt;/p&gt;
-&lt;p&gt;最近的游戏更新会变得非常的慢，因为要将某些类别的镜像文件变成CHD格式的压缩镜像文件。一些类别的模拟器能直接读</summary>
-        
-      
-    
-    
-    
-    <category term="临时公告" scheme="http://example.com/categories/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
-    
-    
-    <category term="临时公告" scheme="http://example.com/tags/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>网站详细说明</title>
-    <link href="http://example.com/2026/06/27/wang-zhan-xiang-xi-shuo-ming/"/>
-    <id>http://example.com/2026/06/27/wang-zhan-xiang-xi-shuo-ming/</id>
-    <published>2026-06-27T09:30:22.000Z</published>
-    <updated>2026-06-27T09:30:34.303Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;网站使用及反馈方法&lt;/p&gt;
-&lt;p&gt;1.本网站是使用GitHub</summary>
-        
-      
-    
-    
-    
-    <category term="临时公告" scheme="http://example.com/categories/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
-    
-    
-    <category term="临时公告" scheme="http://example.com/tags/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
     
   </entry>
   
@@ -591,31 +619,6 @@
     
     
     <category term="FC游戏" scheme="http://example.com/tags/FC%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>WII+NGC模拟器问题汇总</title>
-    <link href="http://example.com/2026/06/20/wii-ngc-mo-ni-qi-wen-ti-hui-zong/"/>
-    <id>http://example.com/2026/06/20/wii-ngc-mo-ni-qi-wen-ti-hui-zong/</id>
-    <published>2026-06-20T06:03:10.000Z</published>
-    <updated>2026-06-20T06:04:40.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;问题1：塞尔达</summary>
-        
-      
-    
-    
-    
-    <category term="WII+NGC" scheme="http://example.com/categories/WII-NGC/"/>
-    
-    
-    <category term="WII+NGC模拟器" scheme="http://example.com/tags/WII-NGC%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
     
   </entry>
   
