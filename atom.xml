@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-07-02T03:10:55.082Z</updated>
+  <updated>2026-07-03T14:34:59.676Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,68 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PC98游戏资源</title>
+    <link href="http://example.com/2026/07/03/pc98-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/07/03/pc98-you-xi-zi-yuan/</id>
+    <published>2026-07-03T14:33:02.000Z</published>
+    <updated>2026-07-03T14:34:59.676Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。能不能用不好说，收集时是怎样就怎样。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PC98" scheme="http://example.com/categories/PC98/"/>
+    
+    
+    <category term="PC98游戏" scheme="http://example.com/tags/PC98%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PCFX游戏资源</title>
+    <link href="http://example.com/2026/07/03/pcfx-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/07/03/pcfx-you-xi-zi-yuan/</id>
+    <published>2026-07-03T14:32:02.000Z</published>
+    <updated>2026-07-03T14:33:46.149Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。能不能用不好说，收集时是怎样就怎样。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PCFX" scheme="http://example.com/categories/PCFX/"/>
+    
+    
+    <category term="PCFX游戏" scheme="http://example.com/tags/PCFX%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>SWITCH游戏资源</title>
@@ -437,37 +499,6 @@
   </entry>
   
   <entry>
-    <title>PC98游戏资源</title>
-    <link href="http://example.com/2026/06/26/pc98-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/06/26/pc98-you-xi-zi-yuan/</id>
-    <published>2026-06-26T02:24:01.000Z</published>
-    <updated>2026-06-26T02:25:30.871Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。能不能用不好说，收集时是怎样就怎样。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PC98" scheme="http://example.com/categories/PC98/"/>
-    
-    
-    <category term="PC98游戏" scheme="http://example.com/tags/PC98%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
     <title>NDS游戏资源</title>
     <link href="http://example.com/2026/06/26/nds-you-xi-zi-yuan/"/>
     <id>http://example.com/2026/06/26/nds-you-xi-zi-yuan/</id>
@@ -588,37 +619,6 @@
     
     
     <category term="PSV游戏" scheme="http://example.com/tags/PSV%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>WII+NGC游戏资源</title>
-    <link href="http://example.com/2026/06/20/wii-ngc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/06/20/wii-ngc-you-xi-zi-yuan/</id>
-    <published>2026-06-20T06:57:43.000Z</published>
-    <updated>2026-06-20T06:58:21.900Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="WII+NGC" scheme="http://example.com/categories/WII-NGC/"/>
-    
-    
-    <category term="WII+NGC游戏" scheme="http://example.com/tags/WII-NGC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
