@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-07-07T08:56:21.102Z</updated>
+  <updated>2026-07-08T00:32:06.527Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,104 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>PS2游戏资源</title>
+    <link href="http://example.com/2026/07/08/ps2-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/07/08/ps2-you-xi-zi-yuan/</id>
+    <published>2026-07-08T00:31:53.000Z</published>
+    <updated>2026-07-08T00:32:06.527Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PS2" scheme="http://example.com/categories/PS2/"/>
+    
+    
+    <category term="PS2游戏" scheme="http://example.com/tags/PS2%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PSP游戏资源</title>
+    <link href="http://example.com/2026/07/08/psp-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/07/08/psp-you-xi-zi-yuan/</id>
+    <published>2026-07-08T00:30:08.000Z</published>
+    <updated>2026-07-08T00:31:27.660Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PSP" scheme="http://example.com/categories/PSP/"/>
+    
+    
+    <category term="PSP游戏" scheme="http://example.com/tags/PSP%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NDS游戏资源</title>
+    <link href="http://example.com/2026/07/08/nds-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/07/08/nds-you-xi-zi-yuan/</id>
+    <published>2026-07-08T00:29:53.000Z</published>
+    <updated>2026-07-08T00:30:50.561Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="NDS" scheme="http://example.com/categories/NDS/"/>
+    
+    
+    <category term="NDS游戏" scheme="http://example.com/tags/NDS%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
     <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2026/07/07/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/07/07/switch-you-xi-zi-yuan/</id>
-    <published>2026-07-07T08:55:14.000Z</published>
-    <updated>2026-07-07T08:56:21.102Z</updated>
+    <link href="http://example.com/2026/07/08/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/07/08/switch-you-xi-zi-yuan/</id>
+    <published>2026-07-08T00:23:15.000Z</published>
+    <updated>2026-07-08T00:24:24.409Z</updated>
     
     
       
@@ -253,37 +346,6 @@
   </entry>
   
   <entry>
-    <title>PSP游戏资源</title>
-    <link href="http://example.com/2026/07/04/psp-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/07/04/psp-you-xi-zi-yuan/</id>
-    <published>2026-07-04T03:23:07.000Z</published>
-    <updated>2026-07-04T03:24:18.338Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PSP" scheme="http://example.com/categories/PSP/"/>
-    
-    
-    <category term="PSP游戏" scheme="http://example.com/tags/PSP%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
     <title>PC98游戏资源</title>
     <link href="http://example.com/2026/07/03/pc98-you-xi-zi-yuan/"/>
     <id>http://example.com/2026/07/03/pc98-you-xi-zi-yuan/</id>
@@ -406,37 +468,6 @@
     
     
     <category term="PS4游戏" scheme="http://example.com/tags/PS4%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS2游戏资源</title>
-    <link href="http://example.com/2026/07/02/ps2-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/07/02/ps2-you-xi-zi-yuan/</id>
-    <published>2026-07-02T02:52:52.000Z</published>
-    <updated>2026-07-02T02:53:41.753Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PS2" scheme="http://example.com/categories/PS2/"/>
-    
-    
-    <category term="PS2游戏" scheme="http://example.com/tags/PS2%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -584,37 +615,6 @@
     
     
     <category term="DC游戏" scheme="http://example.com/tags/DC%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SEGA Game Gear游戏资源</title>
-    <link href="http://example.com/2026/06/27/sega-game-gear-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/06/27/sega-game-gear-you-xi-zi-yuan/</id>
-    <published>2026-06-27T02:42:59.000Z</published>
-    <updated>2026-06-27T02:45:12.076Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="SEGA Game Gear" scheme="http://example.com/categories/SEGA-Game-Gear/"/>
-    
-    
-    <category term="SEGA Game Gear游戏" scheme="http://example.com/tags/SEGA-Game-Gear%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
