@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-07-13T14:14:29.432Z</updated>
+  <updated>2026-07-14T02:18:08.033Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,101 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Shandps4兼容性列表</title>
+    <link href="http://example.com/2026/07/14/shandps4-jian-rong-xing-lie-biao/"/>
+    <id>http://example.com/2026/07/14/shandps4-jian-rong-xing-lie-biao/</id>
+    <published>2026-07-14T02:17:10.000Z</published>
+    <updated>2026-07-14T02:18:08.033Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;特别备注&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;血源诅咒</summary>
+        
+      
+    
+    
+    
+    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
+    
+    
+    <category term="PS4模拟器" scheme="http://example.com/tags/PS4%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PS4游戏资源</title>
+    <link href="http://example.com/2026/07/14/ps4-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/07/14/ps4-you-xi-zi-yuan/</id>
+    <published>2026-07-14T02:14:48.000Z</published>
+    <updated>2026-07-14T02:15:52.989Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
+    
+    
+    <category term="PS4游戏" scheme="http://example.com/tags/PS4%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PSV游戏资源</title>
+    <link href="http://example.com/2026/07/14/psv-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/07/14/psv-you-xi-zi-yuan/</id>
+    <published>2026-07-13T16:40:05.000Z</published>
+    <updated>2026-07-13T16:41:38.818Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PSV" scheme="http://example.com/categories/PSV/"/>
+    
+    
+    <category term="PSV游戏" scheme="http://example.com/tags/PSV%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>SWITCH游戏资源</title>
@@ -75,6 +170,37 @@
     
     
     <category term="PC游戏" scheme="http://example.com/tags/PC%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>WII+NGC游戏资源</title>
+    <link href="http://example.com/2026/07/13/wii-ngc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/07/13/wii-ngc-you-xi-zi-yuan/</id>
+    <published>2026-07-13T02:07:44.000Z</published>
+    <updated>2026-07-14T02:08:12.448Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="WII+NGC" scheme="http://example.com/categories/WII-NGC/"/>
+    
+    
+    <category term="WII+NGC游戏" scheme="http://example.com/tags/WII-NGC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -195,101 +321,6 @@
     
     
     <category term="PS2游戏" scheme="http://example.com/tags/PS2%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PSV游戏资源</title>
-    <link href="http://example.com/2026/07/10/psv-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/07/10/psv-you-xi-zi-yuan/</id>
-    <published>2026-07-10T02:14:04.000Z</published>
-    <updated>2026-07-10T02:15:20.346Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PSV" scheme="http://example.com/categories/PSV/"/>
-    
-    
-    <category term="PSV游戏" scheme="http://example.com/tags/PSV%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Shandps4兼容性列表</title>
-    <link href="http://example.com/2026/07/09/shandps4-jian-rong-xing-lie-biao/"/>
-    <id>http://example.com/2026/07/09/shandps4-jian-rong-xing-lie-biao/</id>
-    <published>2026-07-09T13:54:09.000Z</published>
-    <updated>2026-07-09T13:55:12.756Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;特别备注&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;血源诅咒</summary>
-        
-      
-    
-    
-    
-    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
-    
-    
-    <category term="PS4模拟器" scheme="http://example.com/tags/PS4%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS4游戏资源</title>
-    <link href="http://example.com/2026/07/09/ps4-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/07/09/ps4-you-xi-zi-yuan/</id>
-    <published>2026-07-09T13:51:47.000Z</published>
-    <updated>2026-07-09T13:52:48.451Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
-    
-    
-    <category term="PS4游戏" scheme="http://example.com/tags/PS4%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -592,32 +623,6 @@
     
     
     <category term="PCE CD游戏" scheme="http://example.com/tags/PCE-CD%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>网站详细说明</title>
-    <link href="http://example.com/2026/06/28/wang-zhan-xiang-xi-shuo-ming/"/>
-    <id>http://example.com/2026/06/28/wang-zhan-xiang-xi-shuo-ming/</id>
-    <published>2026-06-28T14:48:23.000Z</published>
-    <updated>2026-06-28T14:50:36.888Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;网站使用及反馈方法&lt;/p&gt;
-&lt;p&gt;1.本网站是使用GitHub</summary>
-        
-      
-    
-    
-    
-    <category term="临时公告" scheme="http://example.com/categories/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
-    
-    
-    <category term="临时公告" scheme="http://example.com/tags/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
     
   </entry>
   
