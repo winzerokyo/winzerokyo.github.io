@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-07-17T04:24:12.588Z</updated>
+  <updated>2026-07-17T15:31:58.361Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>SWITCH游戏资源</title>
     <link href="http://example.com/2026/07/17/switch-you-xi-zi-yuan/"/>
     <id>http://example.com/2026/07/17/switch-you-xi-zi-yuan/</id>
-    <published>2026-07-17T04:23:22.000Z</published>
-    <updated>2026-07-17T04:24:12.588Z</updated>
+    <published>2026-07-17T15:30:23.000Z</published>
+    <updated>2026-07-17T15:31:58.361Z</updated>
     
     
       
@@ -44,6 +44,37 @@
     
     
     <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PS2游戏资源</title>
+    <link href="http://example.com/2026/07/17/ps2-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/07/17/ps2-you-xi-zi-yuan/</id>
+    <published>2026-07-17T15:27:57.000Z</published>
+    <updated>2026-07-17T15:28:51.498Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PS2" scheme="http://example.com/categories/PS2/"/>
+    
+    
+    <category term="PS2游戏" scheme="http://example.com/tags/PS2%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -137,37 +168,6 @@
     
     
     <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS2游戏资源</title>
-    <link href="http://example.com/2026/07/15/ps2-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/07/15/ps2-you-xi-zi-yuan/</id>
-    <published>2026-07-15T14:43:56.000Z</published>
-    <updated>2026-07-15T14:45:02.628Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PS2" scheme="http://example.com/categories/PS2/"/>
-    
-    
-    <category term="PS2游戏" scheme="http://example.com/tags/PS2%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
