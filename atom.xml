@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-07-17T15:31:58.361Z</updated>
+  <updated>2026-07-18T06:22:07.726Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,116 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>网站详细说明</title>
+    <link href="http://example.com/2026/07/18/wang-zhan-xiang-xi-shuo-ming/"/>
+    <id>http://example.com/2026/07/18/wang-zhan-xiang-xi-shuo-ming/</id>
+    <published>2026-07-18T06:18:24.000Z</published>
+    <updated>2026-07-18T06:22:07.726Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;网站使用及反馈方法&lt;/p&gt;
+&lt;p&gt;1.本网站是使用GitHub</summary>
+        
+      
+    
+    
+    
+    <category term="临时公告" scheme="http://example.com/categories/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
+    
+    
+    <category term="临时公告" scheme="http://example.com/tags/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>临时公告</title>
+    <link href="http://example.com/2026/07/18/lin-shi-gong-gao/"/>
+    <id>http://example.com/2026/07/18/lin-shi-gong-gao/</id>
+    <published>2026-07-18T06:17:25.000Z</published>
+    <updated>2026-07-18T06:24:24.803Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;这段时间重点依然是压缩资源，释放空间。可能也是未来一段长时间（可能是一年的内）的主要方向，这个压缩容量是被各种现实条件倒逼出来的，我只能说容量扩容的费用趁人病拿人命。&lt;/p&gt;
+&lt;p&gt;模拟器使用教程会在以后有时间时再进行更新，没办法了，压缩这事情太费时间和电脑的资源了。&lt;/p</summary>
+        
+      
+    
+    
+    
+    <category term="临时公告" scheme="http://example.com/categories/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
+    
+    
+    <category term="临时公告" scheme="http://example.com/tags/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>模拟器版本更新信息</title>
+    <link href="http://example.com/2026/07/18/mo-ni-qi-ban-ben-geng-xin-xin-xi/"/>
+    <id>http://example.com/2026/07/18/mo-ni-qi-ban-ben-geng-xin-xin-xi/</id>
+    <published>2026-07-18T05:52:53.000Z</published>
+    <updated>2026-07-18T06:07:31.840Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;这里只是对各种模拟器版本的说明，软件链接请去相关分类里面找&lt;/p&gt;
+&lt;p&gt;现在我提供的资源用了很多相对路径，请不要用超过3层文件夹套着，文件路径指向有什么问题请你们自己手动改回绝对路径。&lt;/p&gt;
+&lt;p&gt;2026-07-18</summary>
+        
+      
+    
+    
+    
+    <category term="临时公告" scheme="http://example.com/categories/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
+    
+    
+    <category term="模拟器版本更新信息" scheme="http://example.com/tags/%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>WSC+WS游戏资源</title>
+    <link href="http://example.com/2026/07/18/wsc-ws-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/07/18/wsc-ws-you-xi-zi-yuan/</id>
+    <published>2026-07-18T04:13:13.000Z</published>
+    <updated>2026-07-18T04:15:07.398Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="WSC+WS" scheme="http://example.com/categories/WSC-WS/"/>
+    
+    
+    <category term="WSC+WS游戏" scheme="http://example.com/tags/WSC-WS%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>SWITCH游戏资源</title>
@@ -329,33 +439,6 @@
   </entry>
   
   <entry>
-    <title>模拟器版本更新信息</title>
-    <link href="http://example.com/2026/07/11/mo-ni-qi-ban-ben-geng-xin-xin-xi/"/>
-    <id>http://example.com/2026/07/11/mo-ni-qi-ban-ben-geng-xin-xin-xi/</id>
-    <published>2026-07-11T06:56:52.000Z</published>
-    <updated>2026-07-11T07:01:06.267Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;这里只是对各种模拟器版本的说明，软件链接请去相关分类里面找&lt;/p&gt;
-&lt;p&gt;现在我提供的资源用了很多相对路径，请不要用超过3层文件夹套着，文件路径指向有什么问题请你们自己手动改回绝对路径。&lt;/p&gt;
-&lt;p&gt;2026-07-11</summary>
-        
-      
-    
-    
-    
-    <category term="临时公告" scheme="http://example.com/categories/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
-    
-    
-    <category term="模拟器版本更新信息" scheme="http://example.com/tags/%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
-    
-  </entry>
-  
-  <entry>
     <title>SS游戏资源</title>
     <link href="http://example.com/2026/07/08/ss-you-xi-zi-yuan/"/>
     <id>http://example.com/2026/07/08/ss-you-xi-zi-yuan/</id>
@@ -508,32 +591,6 @@
   </entry>
   
   <entry>
-    <title>临时公告</title>
-    <link href="http://example.com/2026/07/04/lin-shi-gong-gao/"/>
-    <id>http://example.com/2026/07/04/lin-shi-gong-gao/</id>
-    <published>2026-07-04T06:26:24.000Z</published>
-    <updated>2026-07-04T06:29:13.422Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;这段时间重点依然是压缩资源，释放空间。&lt;/p&gt;
-&lt;p&gt;最近的游戏更新会变得非常的慢，因为要将某些类别的镜像文件变成CHD格式的压缩镜像文件。一些类别的模拟器能直接读取CHD格式的压缩镜像文件，相关类别的游戏会用CHD镜像代替，这样能省容量空间。所以如果发现某些游戏文件夹里面</summary>
-        
-      
-    
-    
-    
-    <category term="临时公告" scheme="http://example.com/categories/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
-    
-    
-    <category term="临时公告" scheme="http://example.com/tags/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
-    
-  </entry>
-  
-  <entry>
     <title>PC98游戏资源</title>
     <link href="http://example.com/2026/07/03/pc98-you-xi-zi-yuan/"/>
     <id>http://example.com/2026/07/03/pc98-you-xi-zi-yuan/</id>
@@ -561,68 +618,6 @@
     
     
     <category term="PC98游戏" scheme="http://example.com/tags/PC98%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PCFX游戏资源</title>
-    <link href="http://example.com/2026/07/03/pcfx-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/07/03/pcfx-you-xi-zi-yuan/</id>
-    <published>2026-07-03T14:32:02.000Z</published>
-    <updated>2026-07-03T14:33:46.149Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。能不能用不好说，收集时是怎样就怎样。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PCFX" scheme="http://example.com/categories/PCFX/"/>
-    
-    
-    <category term="PCFX游戏" scheme="http://example.com/tags/PCFX%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PCE CD游戏资源</title>
-    <link href="http://example.com/2026/07/02/pce-cd-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/07/02/pce-cd-you-xi-zi-yuan/</id>
-    <published>2026-07-02T02:51:01.000Z</published>
-    <updated>2026-07-02T02:52:44.153Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。能不能用不好说，收集时是怎样就怎样。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PCE CD" scheme="http://example.com/categories/PCE-CD/"/>
-    
-    
-    <category term="PCE CD游戏" scheme="http://example.com/tags/PCE-CD%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
