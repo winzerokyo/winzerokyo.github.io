@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-07-30T05:59:56.042Z</updated>
+  <updated>2026-07-30T13:38:20.101Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,68 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>3DS游戏资源</title>
+    <link href="http://example.com/2026/07/30/3ds-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/07/30/3ds-you-xi-zi-yuan/</id>
+    <published>2026-07-30T13:37:55.000Z</published>
+    <updated>2026-07-30T13:38:20.101Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="3DS" scheme="http://example.com/categories/3DS/"/>
+    
+    
+    <category term="3DS游戏" scheme="http://example.com/tags/3DS%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NDS游戏资源</title>
+    <link href="http://example.com/2026/07/30/nds-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/07/30/nds-you-xi-zi-yuan/</id>
+    <published>2026-07-30T06:12:55.000Z</published>
+    <updated>2026-07-30T06:13:40.401Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="NDS" scheme="http://example.com/categories/NDS/"/>
+    
+    
+    <category term="NDS游戏" scheme="http://example.com/tags/NDS%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>SWITCH游戏资源</title>
@@ -341,37 +403,6 @@
   </entry>
   
   <entry>
-    <title>3DS游戏资源</title>
-    <link href="http://example.com/2026/07/25/3ds-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/07/25/3ds-you-xi-zi-yuan/</id>
-    <published>2026-07-24T18:08:54.000Z</published>
-    <updated>2026-07-24T18:09:45.824Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="3DS" scheme="http://example.com/categories/3DS/"/>
-    
-    
-    <category term="3DS游戏" scheme="http://example.com/tags/3DS%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
     <title>GBC+GB游戏资源</title>
     <link href="http://example.com/2026/07/24/gbc-gb-you-xi-zi-yuan/"/>
     <id>http://example.com/2026/07/24/gbc-gb-you-xi-zi-yuan/</id>
@@ -399,37 +430,6 @@
     
     
     <category term="GBC+GB游戏" scheme="http://example.com/tags/GBC-GB%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>NDS游戏资源</title>
-    <link href="http://example.com/2026/07/24/nds-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/07/24/nds-you-xi-zi-yuan/</id>
-    <published>2026-07-24T15:34:54.000Z</published>
-    <updated>2026-07-24T15:35:44.282Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="NDS" scheme="http://example.com/categories/NDS/"/>
-    
-    
-    <category term="NDS游戏" scheme="http://example.com/tags/NDS%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
