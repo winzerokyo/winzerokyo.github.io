@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-08-02T07:24:46.960Z</updated>
+  <updated>2026-08-02T07:35:18.217Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PS4模拟器教程和下载 转换软件教程和下载</title>
+    <link href="http://example.com/2026/08/02/ps4-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
+    <id>http://example.com/2026/08/02/ps4-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
+    <published>2026-08-02T07:34:20.000Z</published>
+    <updated>2026-08-02T07:35:18.217Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
+&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;p&gt;##############################################################&lt;/p&gt;
+&lt;p&gt;Shadps4(PC版)视频教程&lt;/p</summary>
+        
+      
+    
+    
+    
+    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
+    
+    
+    <category term="PS4模拟器" scheme="http://example.com/tags/PS4%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>PS4游戏资源</title>
@@ -581,32 +609,6 @@
     
     
     <category term="PC98游戏" scheme="http://example.com/tags/PC98%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>临时公告</title>
-    <link href="http://example.com/2026/07/18/lin-shi-gong-gao/"/>
-    <id>http://example.com/2026/07/18/lin-shi-gong-gao/</id>
-    <published>2026-07-18T06:17:25.000Z</published>
-    <updated>2026-07-18T06:24:24.803Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;这段时间重点依然是压缩资源，释放空间。可能也是未来一段长时间（可能是一年的内）的主要方向，这个压缩容量是被各种现实条件倒逼出来的，我只能说容量扩容的费用趁人病拿人命。&lt;/p&gt;
-&lt;p&gt;模拟器使用教程会在以后有时间时再进行更新，没办法了，压缩这事情太费时间和电脑的资源了。&lt;/p</summary>
-        
-      
-    
-    
-    
-    <category term="临时公告" scheme="http://example.com/categories/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
-    
-    
-    <category term="临时公告" scheme="http://example.com/tags/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
     
   </entry>
   
