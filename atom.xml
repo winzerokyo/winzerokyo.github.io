@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-08-03T07:36:50.131Z</updated>
+  <updated>2026-08-03T16:26:23.087Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,62 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PS2游戏资源</title>
+    <link href="http://example.com/2026/08/04/ps2-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/08/04/ps2-you-xi-zi-yuan/</id>
+    <published>2026-08-03T16:25:58.000Z</published>
+    <updated>2026-08-03T16:26:23.087Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PS2" scheme="http://example.com/categories/PS2/"/>
+    
+    
+    <category term="PS2游戏" scheme="http://example.com/tags/PS2%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SWITCH游戏资源</title>
+    <link href="http://example.com/2026/08/03/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/08/03/switch-you-xi-zi-yuan/</id>
+    <published>2026-08-03T15:49:38.000Z</published>
+    <updated>2026-08-03T15:50:58.481Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;switch资源将会使用nsz和xcz的格式，这种格式我对其资源进行极限压缩，安卓平台可以使用Final</summary>
+        
+      
+    
+    
+    
+    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
+    
+    
+    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>SWITCH模拟器的问题汇总</title>
@@ -281,31 +337,6 @@
     
     
     <category term="WSC+WS游戏" scheme="http://example.com/tags/WSC-WS%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2026/07/31/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/07/31/switch-you-xi-zi-yuan/</id>
-    <published>2026-07-31T06:15:37.000Z</published>
-    <updated>2026-07-31T06:16:11.067Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;switch资源将会使用nsz和xcz的格式，这种格式我对其资源进行极限压缩，安卓平台可以使用Final</summary>
-        
-      
-    
-    
-    
-    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
-    
-    
-    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -578,37 +609,6 @@
     
     
     <category term="PSP游戏" scheme="http://example.com/tags/PSP%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PC98游戏资源</title>
-    <link href="http://example.com/2026/07/20/pc98-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/07/20/pc98-you-xi-zi-yuan/</id>
-    <published>2026-07-20T13:08:03.000Z</published>
-    <updated>2026-07-20T13:09:39.184Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。能不能用不好说，收集时是怎样就怎样。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PC98" scheme="http://example.com/categories/PC98/"/>
-    
-    
-    <category term="PC98游戏" scheme="http://example.com/tags/PC98%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
