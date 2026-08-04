@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-08-04T04:38:36.476Z</updated>
+  <updated>2026-08-04T06:18:46.519Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,64 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>网站详细说明</title>
+    <link href="http://example.com/2026/08/04/wang-zhan-xiang-xi-shuo-ming/"/>
+    <id>http://example.com/2026/08/04/wang-zhan-xiang-xi-shuo-ming/</id>
+    <published>2026-08-04T06:17:26.000Z</published>
+    <updated>2026-08-04T06:18:46.519Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;网站情况说明&lt;/p&gt;
+&lt;p&gt;这段时间重点依然是压缩资源，释放空间。可能也是未来一段长时间（可能是一年的内）的主要方向，这个压缩容量是被各种现实条件倒逼出来的，我只能说容量扩容的费用趁人病拿人命。&lt;/p&gt;
+&lt;p&gt;模拟器使用教程会在以后有时间时再进行更新，没办法了，压缩这事情太</summary>
+        
+      
+    
+    
+    
+    <category term="临时公告" scheme="http://example.com/categories/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
+    
+    
+    <category term="临时公告" scheme="http://example.com/tags/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PC游戏资源</title>
+    <link href="http://example.com/2026/08/04/pc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/08/04/pc-you-xi-zi-yuan/</id>
+    <published>2026-08-04T06:09:59.000Z</published>
+    <updated>2026-08-04T06:10:19.748Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PC" scheme="http://example.com/categories/PC/"/>
+    
+    
+    <category term="PC游戏" scheme="http://example.com/tags/PC%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>PS2游戏资源</title>
@@ -152,37 +210,6 @@
     
     
     <category term="SWITCH模拟器" scheme="http://example.com/tags/SWITCH%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PC游戏资源</title>
-    <link href="http://example.com/2026/08/03/pc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/08/03/pc-you-xi-zi-yuan/</id>
-    <published>2026-08-03T03:50:58.000Z</published>
-    <updated>2026-08-03T03:51:05.931Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PC" scheme="http://example.com/categories/PC/"/>
-    
-    
-    <category term="PC游戏" scheme="http://example.com/tags/PC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -519,32 +546,6 @@
     
     
     <category term="XBOX360游戏" scheme="http://example.com/tags/XBOX360%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>网站详细说明</title>
-    <link href="http://example.com/2026/07/25/wang-zhan-xiang-xi-shuo-ming/"/>
-    <id>http://example.com/2026/07/25/wang-zhan-xiang-xi-shuo-ming/</id>
-    <published>2026-07-25T04:25:25.000Z</published>
-    <updated>2026-07-27T15:33:23.613Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;网站使用及反馈方法&lt;/p&gt;
-&lt;p&gt;1.本网站是使用GitHub</summary>
-        
-      
-    
-    
-    
-    <category term="临时公告" scheme="http://example.com/categories/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
-    
-    
-    <category term="临时公告" scheme="http://example.com/tags/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
     
   </entry>
   
