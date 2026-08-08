@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-08-06T01:47:23.495Z</updated>
+  <updated>2026-08-08T02:30:24.792Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,36 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2026/08/06/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/08/06/switch-you-xi-zi-yuan/</id>
-    <published>2026-08-06T01:46:39.000Z</published>
-    <updated>2026-08-06T01:47:23.495Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;switch资源将会使用nsz和xcz的格式，这种格式我对其资源进行极限压缩，安卓平台可以使用Final</summary>
-        
-      
-    
-    
-    
-    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
-    
-    
-    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
     <title>PC游戏资源</title>
-    <link href="http://example.com/2026/08/06/pc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/08/06/pc-you-xi-zi-yuan/</id>
-    <published>2026-08-06T01:43:00.000Z</published>
-    <updated>2026-08-06T01:44:58.724Z</updated>
+    <link href="http://example.com/2026/08/08/pc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/08/08/pc-you-xi-zi-yuan/</id>
+    <published>2026-08-08T02:29:01.000Z</published>
+    <updated>2026-08-08T02:30:24.792Z</updated>
     
     
       
@@ -69,6 +44,157 @@
     
     
     <category term="PC游戏" scheme="http://example.com/tags/PC%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GBA游戏资源</title>
+    <link href="http://example.com/2026/08/08/gba-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/08/08/gba-you-xi-zi-yuan/</id>
+    <published>2026-08-08T02:26:30.000Z</published>
+    <updated>2026-08-08T02:27:28.336Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="GBA+GBC+GB" scheme="http://example.com/categories/GBA-GBC-GB/"/>
+    
+    
+    <category term="GBA游戏" scheme="http://example.com/tags/GBA%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Shandps4兼容性列表</title>
+    <link href="http://example.com/2026/08/07/shandps4-jian-rong-xing-lie-biao/"/>
+    <id>http://example.com/2026/08/07/shandps4-jian-rong-xing-lie-biao/</id>
+    <published>2026-08-07T09:18:12.000Z</published>
+    <updated>2026-08-07T09:19:07.506Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;特别备注&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;血源诅咒</summary>
+        
+      
+    
+    
+    
+    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
+    
+    
+    <category term="PS4模拟器" scheme="http://example.com/tags/PS4%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PS4游戏资源</title>
+    <link href="http://example.com/2026/08/07/ps4-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/08/07/ps4-you-xi-zi-yuan/</id>
+    <published>2026-08-07T09:16:53.000Z</published>
+    <updated>2026-08-07T09:17:08.620Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
+    
+    
+    <category term="PS4游戏" scheme="http://example.com/tags/PS4%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SWITCH游戏资源</title>
+    <link href="http://example.com/2026/08/07/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/08/07/switch-you-xi-zi-yuan/</id>
+    <published>2026-08-07T09:14:40.000Z</published>
+    <updated>2026-08-07T09:15:20.447Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;switch资源将会使用nsz和xcz的格式，这种格式我对其资源进行极限压缩，安卓平台可以使用Final</summary>
+        
+      
+    
+    
+    
+    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
+    
+    
+    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PS游戏资源</title>
+    <link href="http://example.com/2026/08/06/ps-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/08/06/ps-you-xi-zi-yuan/</id>
+    <published>2026-08-06T12:21:12.000Z</published>
+    <updated>2026-08-06T12:22:44.261Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PS" scheme="http://example.com/categories/PS/"/>
+    
+    
+    <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -245,37 +371,6 @@
   </entry>
   
   <entry>
-    <title>PS游戏资源</title>
-    <link href="http://example.com/2026/08/02/ps-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/08/02/ps-you-xi-zi-yuan/</id>
-    <published>2026-08-02T14:29:11.000Z</published>
-    <updated>2026-08-02T14:30:23.090Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PS" scheme="http://example.com/categories/PS/"/>
-    
-    
-    <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
     <title>PS4模拟器教程和下载 转换软件教程和下载</title>
     <link href="http://example.com/2026/08/02/ps4-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
     <id>http://example.com/2026/08/02/ps4-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
@@ -300,37 +395,6 @@
     
     
     <category term="PS4模拟器" scheme="http://example.com/tags/PS4%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS4游戏资源</title>
-    <link href="http://example.com/2026/08/02/ps4-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/08/02/ps4-you-xi-zi-yuan/</id>
-    <published>2026-08-02T07:23:52.000Z</published>
-    <updated>2026-08-02T07:24:46.960Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
-    
-    
-    <category term="PS4游戏" scheme="http://example.com/tags/PS4%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -393,37 +457,6 @@
   </entry>
   
   <entry>
-    <title>GBA游戏资源</title>
-    <link href="http://example.com/2026/07/31/gba-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/07/31/gba-you-xi-zi-yuan/</id>
-    <published>2026-07-31T14:05:29.000Z</published>
-    <updated>2026-07-31T14:06:14.953Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="GBA+GBC+GB" scheme="http://example.com/categories/GBA-GBC-GB/"/>
-    
-    
-    <category term="GBA游戏" scheme="http://example.com/tags/GBA%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
     <title>WSC+WS游戏资源</title>
     <link href="http://example.com/2026/07/31/wsc-ws-you-xi-zi-yuan/"/>
     <id>http://example.com/2026/07/31/wsc-ws-you-xi-zi-yuan/</id>
@@ -482,39 +515,6 @@
     
     
     <category term="PS3游戏" scheme="http://example.com/tags/PS3%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Shandps4兼容性列表</title>
-    <link href="http://example.com/2026/07/28/shandps4-jian-rong-xing-lie-biao/"/>
-    <id>http://example.com/2026/07/28/shandps4-jian-rong-xing-lie-biao/</id>
-    <published>2026-07-28T05:46:11.000Z</published>
-    <updated>2026-07-29T05:48:02.087Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;特别备注&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;血源诅咒</summary>
-        
-      
-    
-    
-    
-    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
-    
-    
-    <category term="PS4模拟器" scheme="http://example.com/tags/PS4%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
     
   </entry>
   
