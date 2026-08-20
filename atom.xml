@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-08-18T15:06:22.062Z</updated>
+  <updated>2026-08-20T02:28:17.551Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,42 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>PS游戏资源</title>
+    <link href="http://example.com/2026/08/20/ps-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/08/20/ps-you-xi-zi-yuan/</id>
+    <published>2026-08-20T02:27:17.000Z</published>
+    <updated>2026-08-20T02:28:17.551Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PS" scheme="http://example.com/categories/PS/"/>
+    
+    
+    <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
     <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2026/08/18/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/08/18/switch-you-xi-zi-yuan/</id>
-    <published>2026-08-18T15:05:48.000Z</published>
-    <updated>2026-08-18T15:06:22.062Z</updated>
+    <link href="http://example.com/2026/08/20/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/08/20/switch-you-xi-zi-yuan/</id>
+    <published>2026-08-20T02:10:49.000Z</published>
+    <updated>2026-08-20T02:11:39.481Z</updated>
     
     
       
@@ -38,6 +69,68 @@
     
     
     <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PC游戏资源</title>
+    <link href="http://example.com/2026/08/20/pc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/08/20/pc-you-xi-zi-yuan/</id>
+    <published>2026-08-20T02:06:05.000Z</published>
+    <updated>2026-08-20T02:07:49.309Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PC" scheme="http://example.com/categories/PC/"/>
+    
+    
+    <category term="PC游戏" scheme="http://example.com/tags/PC%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SFC游戏资源</title>
+    <link href="http://example.com/2026/08/19/sfc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/08/19/sfc-you-xi-zi-yuan/</id>
+    <published>2026-08-18T17:28:34.000Z</published>
+    <updated>2026-08-18T17:29:52.505Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="SFC" scheme="http://example.com/categories/SFC/"/>
+    
+    
+    <category term="SFC游戏" scheme="http://example.com/tags/SFC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -133,37 +226,6 @@
     
     
     <category term="PS4游戏" scheme="http://example.com/tags/PS4%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SFC游戏资源</title>
-    <link href="http://example.com/2026/08/18/sfc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/08/18/sfc-you-xi-zi-yuan/</id>
-    <published>2026-08-18T03:45:33.000Z</published>
-    <updated>2026-08-18T03:46:46.490Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="SFC" scheme="http://example.com/categories/SFC/"/>
-    
-    
-    <category term="SFC游戏" scheme="http://example.com/tags/SFC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -319,68 +381,6 @@
     
     
     <category term="WII+NGC游戏" scheme="http://example.com/tags/WII-NGC%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS游戏资源</title>
-    <link href="http://example.com/2026/08/16/ps-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/08/16/ps-you-xi-zi-yuan/</id>
-    <published>2026-08-16T04:52:16.000Z</published>
-    <updated>2026-08-16T04:54:00.404Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PS" scheme="http://example.com/categories/PS/"/>
-    
-    
-    <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PC游戏资源</title>
-    <link href="http://example.com/2026/08/16/pc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/08/16/pc-you-xi-zi-yuan/</id>
-    <published>2026-08-16T03:07:04.000Z</published>
-    <updated>2026-08-16T03:08:16.930Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PC" scheme="http://example.com/categories/PC/"/>
-    
-    
-    <category term="PC游戏" scheme="http://example.com/tags/PC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
