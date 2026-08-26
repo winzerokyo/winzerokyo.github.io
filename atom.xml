@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-08-25T14:56:25.843Z</updated>
+  <updated>2026-08-26T02:37:05.596Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,93 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PSP游戏资源</title>
+    <link href="http://example.com/2026/08/26/psp-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/08/26/psp-you-xi-zi-yuan/</id>
+    <published>2026-08-26T02:36:16.000Z</published>
+    <updated>2026-08-26T02:37:05.596Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PSP" scheme="http://example.com/categories/PSP/"/>
+    
+    
+    <category term="PSP游戏" scheme="http://example.com/tags/PSP%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PS游戏资源</title>
+    <link href="http://example.com/2026/08/26/ps-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/08/26/ps-you-xi-zi-yuan/</id>
+    <published>2026-08-26T02:25:19.000Z</published>
+    <updated>2026-08-26T02:26:56.372Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PS" scheme="http://example.com/categories/PS/"/>
+    
+    
+    <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SWITCH游戏资源</title>
+    <link href="http://example.com/2026/08/26/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/08/26/switch-you-xi-zi-yuan/</id>
+    <published>2026-08-26T02:19:55.000Z</published>
+    <updated>2026-08-26T02:20:05.455Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;switch资源将会使用nsz和xcz的格式，这种格式我对其资源进行极限压缩，安卓平台可以使用Final</summary>
+        
+      
+    
+    
+    
+    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
+    
+    
+    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>Arcade游戏资源</title>
@@ -44,31 +131,6 @@
     
     
     <category term="Arcade游戏" scheme="http://example.com/tags/Arcade%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2026/08/25/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/08/25/switch-you-xi-zi-yuan/</id>
-    <published>2026-08-25T08:22:54.000Z</published>
-    <updated>2026-08-25T08:24:02.025Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;switch资源将会使用nsz和xcz的格式，这种格式我对其资源进行极限压缩，安卓平台可以使用Final</summary>
-        
-      
-    
-    
-    
-    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
-    
-    
-    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -224,37 +286,6 @@
     
     
     <category term="PS3游戏" scheme="http://example.com/tags/PS3%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS游戏资源</title>
-    <link href="http://example.com/2026/08/22/ps-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/08/22/ps-you-xi-zi-yuan/</id>
-    <published>2026-08-22T09:41:18.000Z</published>
-    <updated>2026-08-22T09:42:50.390Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PS" scheme="http://example.com/categories/PS/"/>
-    
-    
-    <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -585,37 +616,6 @@
     
     
     <category term="3DS游戏" scheme="http://example.com/tags/3DS%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PSP游戏资源</title>
-    <link href="http://example.com/2026/08/16/psp-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/08/16/psp-you-xi-zi-yuan/</id>
-    <published>2026-08-16T04:53:15.000Z</published>
-    <updated>2026-08-16T04:54:27.591Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PSP" scheme="http://example.com/categories/PSP/"/>
-    
-    
-    <category term="PSP游戏" scheme="http://example.com/tags/PSP%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
