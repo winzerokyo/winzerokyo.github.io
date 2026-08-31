@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-08-31T07:40:41.793Z</updated>
+  <updated>2026-08-31T07:54:43.127Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>DC游戏资源</title>
+    <link href="http://example.com/2026/08/31/dc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/08/31/dc-you-xi-zi-yuan/</id>
+    <published>2026-08-31T07:53:29.000Z</published>
+    <updated>2026-08-31T07:54:43.127Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="DC" scheme="http://example.com/categories/DC/"/>
+    
+    
+    <category term="DC游戏" scheme="http://example.com/tags/DC%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>SFC游戏资源</title>
@@ -591,34 +622,6 @@
     
     
     <category term="PS模拟器" scheme="http://example.com/tags/PS%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS3模拟器教程和下载-转换软件教程和下载</title>
-    <link href="http://example.com/2026/08/22/ps3-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/"/>
-    <id>http://example.com/2026/08/22/ps3-mo-ni-qi-jiao-cheng-he-xia-zai-zhuan-huan-ruan-jian-jiao-cheng-he-xia-zai/</id>
-    <published>2026-08-22T03:54:27.000Z</published>
-    <updated>2026-08-22T03:55:28.163Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;模拟器教程和下载&lt;/p&gt;
-&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;p&gt;##############################################################&lt;/p&gt;
-&lt;p&gt;ARMSX3模拟器（安卓版）视频教程&lt;</summary>
-        
-      
-    
-    
-    
-    <category term="PS3" scheme="http://example.com/categories/PS3/"/>
-    
-    
-    <category term="PS3模拟器" scheme="http://example.com/tags/PS3%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
     
   </entry>
   
