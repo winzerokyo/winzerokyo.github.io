@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-09-01T08:29:42.911Z</updated>
+  <updated>2026-09-01T08:43:24.207Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SWITCH游戏资源</title>
+    <link href="http://example.com/2026/09/01/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/09/01/switch-you-xi-zi-yuan/</id>
+    <published>2026-09-01T08:42:01.000Z</published>
+    <updated>2026-09-01T08:43:24.207Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;switch资源将会使用nsz和xcz的格式，这种格式我对其资源进行极限压缩，安卓平台可以使用Final</summary>
+        
+      
+    
+    
+    
+    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
+    
+    
+    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>MD游戏资源</title>
@@ -199,31 +224,6 @@
     
     
     <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2026/09/01/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/09/01/switch-you-xi-zi-yuan/</id>
-    <published>2026-09-01T02:26:00.000Z</published>
-    <updated>2026-09-01T02:27:44.522Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;switch资源将会使用nsz和xcz的格式，这种格式我对其资源进行极限压缩，安卓平台可以使用Final</summary>
-        
-      
-    
-    
-    
-    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
-    
-    
-    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
