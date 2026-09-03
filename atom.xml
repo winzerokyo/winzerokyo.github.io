@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-09-03T04:33:07.080Z</updated>
+  <updated>2026-09-03T10:27:12.431Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,64 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PS游戏资源</title>
+    <link href="http://example.com/2026/09/03/ps-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/09/03/ps-you-xi-zi-yuan/</id>
+    <published>2026-09-03T10:26:24.000Z</published>
+    <updated>2026-09-03T10:27:12.431Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PS" scheme="http://example.com/categories/PS/"/>
+    
+    
+    <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>网站详细说明</title>
+    <link href="http://example.com/2026/09/03/wang-zhan-xiang-xi-shuo-ming/"/>
+    <id>http://example.com/2026/09/03/wang-zhan-xiang-xi-shuo-ming/</id>
+    <published>2026-09-03T06:00:27.000Z</published>
+    <updated>2026-09-03T06:05:10.628Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;网站情况说明&lt;/p&gt;
+&lt;p&gt;这段时间重点依然是压缩资源，释放空间。可能也是未来一段长时间（可能是一年的内）的主要方向，这个压缩容量是被各种现实条件倒逼出来的，我只能说容量扩容的费用趁人病拿人命。&lt;/p&gt;
+&lt;p&gt;模拟器使用教程会在以后有时间时再进行更新，没办法了，压缩这事情太</summary>
+        
+      
+    
+    
+    
+    <category term="临时公告" scheme="http://example.com/categories/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
+    
+    
+    <category term="临时公告" scheme="http://example.com/tags/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>3DS游戏资源</title>
@@ -176,7 +234,7 @@
     <link href="http://example.com/2026/09/03/switch-you-xi-zi-yuan/"/>
     <id>http://example.com/2026/09/03/switch-you-xi-zi-yuan/</id>
     <published>2026-09-03T02:50:02.000Z</published>
-    <updated>2026-09-03T02:51:44.062Z</updated>
+    <updated>2026-09-03T05:58:56.743Z</updated>
     
     
       
@@ -447,37 +505,6 @@
   </entry>
   
   <entry>
-    <title>PS游戏资源</title>
-    <link href="http://example.com/2026/09/01/ps-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/09/01/ps-you-xi-zi-yuan/</id>
-    <published>2026-09-01T04:06:23.000Z</published>
-    <updated>2026-09-01T04:07:54.729Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PS" scheme="http://example.com/categories/PS/"/>
-    
-    
-    <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
     <title>DC游戏资源</title>
     <link href="http://example.com/2026/08/31/dc-you-xi-zi-yuan/"/>
     <id>http://example.com/2026/08/31/dc-you-xi-zi-yuan/</id>
@@ -594,37 +621,6 @@
     
     
     <category term="Arcade游戏" scheme="http://example.com/tags/Arcade%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Sega Master System游戏资源</title>
-    <link href="http://example.com/2026/08/24/sega-master-system-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/08/24/sega-master-system-you-xi-zi-yuan/</id>
-    <published>2026-08-24T03:15:00.000Z</published>
-    <updated>2026-08-24T03:16:09.766Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="Sega Master System" scheme="http://example.com/categories/Sega-Master-System/"/>
-    
-    
-    <category term="Sega Master System游戏" scheme="http://example.com/tags/Sega-Master-System%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
