@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-09-19T11:17:54.466Z</updated>
+  <updated>2026-09-20T03:48:09.498Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,60 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PS2游戏资源</title>
+    <link href="http://example.com/2026/09/20/ps2-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/09/20/ps2-you-xi-zi-yuan/</id>
+    <published>2026-09-20T03:46:32.000Z</published>
+    <updated>2026-09-20T03:48:09.498Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;p&gt;度盘是单独拆分链接，没法大规模搜索，夸克和迅雷是游戏资源合集都可以在下载地址内搜索文件，自己看看资源中文名和资源英文名搜搜看就可以。有时候要看看特别备注，写了就是有用的。&lt;/p&gt;
+&lt;p&gt;夸克下载地址：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="PS2" scheme="http://example.com/categories/PS2/"/>
+    
+    
+    <category term="PS2游戏" scheme="http://example.com/tags/PS2%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GBA游戏资源</title>
+    <link href="http://example.com/2026/09/20/gba-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/09/20/gba-you-xi-zi-yuan/</id>
+    <published>2026-09-20T03:04:40.000Z</published>
+    <updated>2026-09-20T03:06:07.722Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;p&gt;度盘是单独拆分链接，没法大规模搜索，夸克和迅雷是游戏资源合集都可以在下载地址内搜索文件，自己看看资源中文名和资源英文名搜搜看就可以。有时候要看看特别备注，写了就是有用的。&lt;/p&gt;
+&lt;p&gt;夸克下载地址：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="GBA+GBC+GB" scheme="http://example.com/categories/GBA-GBC-GB/"/>
+    
+    
+    <category term="GBA游戏" scheme="http://example.com/tags/GBA%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>SWITCH游戏资源</title>
@@ -65,33 +119,6 @@
     
     
     <category term="PS3游戏" scheme="http://example.com/tags/PS3%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS2游戏资源</title>
-    <link href="http://example.com/2026/09/19/ps2-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/09/19/ps2-you-xi-zi-yuan/</id>
-    <published>2026-09-19T10:48:31.000Z</published>
-    <updated>2026-09-19T10:49:38.384Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;p&gt;度盘是单独拆分链接，没法大规模搜索，夸克和迅雷是游戏资源合集都可以在下载地址内搜索文件，自己看看资源中文名和资源英文名搜搜看就可以。有时候要看看特别备注，写了就是有用的。&lt;/p&gt;
-&lt;p&gt;夸克下载地址：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="PS2" scheme="http://example.com/categories/PS2/"/>
-    
-    
-    <category term="PS2游戏" scheme="http://example.com/tags/PS2%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -534,33 +561,6 @@
     
     
     <category term="Sega Master System游戏" scheme="http://example.com/tags/Sega-Master-System%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SEGA Game Gear游戏资源</title>
-    <link href="http://example.com/2026/09/15/sega-game-gear-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/09/15/sega-game-gear-you-xi-zi-yuan/</id>
-    <published>2026-09-15T13:27:00.000Z</published>
-    <updated>2026-09-15T13:30:07.257Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;p&gt;度盘是没法大规模搜索，但是由于游戏不多就整合了。夸克和迅雷是游戏资源合集都可以在下载地址内搜索文件，自己看看资源中文名和资源英文名搜搜看就可以。有时候要看看特别备注，写了就是有用的。&lt;/p&gt;
-&lt;p&gt;度盘下载地址</summary>
-        
-      
-    
-    
-    
-    <category term="SEGA Game Gear" scheme="http://example.com/categories/SEGA-Game-Gear/"/>
-    
-    
-    <category term="SEGA Game Gear游戏" scheme="http://example.com/tags/SEGA-Game-Gear%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
