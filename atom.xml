@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-09-21T03:37:37.461Z</updated>
+  <updated>2026-09-21T13:53:26.556Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>SS游戏资源</title>
+    <link href="http://example.com/2026/09/21/ss-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/09/21/ss-you-xi-zi-yuan/</id>
+    <published>2026-09-21T13:52:19.000Z</published>
+    <updated>2026-09-21T13:53:26.556Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;p&gt;度盘是单独拆分链接，没法大规模搜索，夸克和迅雷是游戏资源合集都可以在下载地址内搜索文件，自己看看资源中文名和资源英文名搜搜看就可以。有时候要看看特别备注，写了就是有用的。&lt;/p&gt;
+&lt;p&gt;夸克下载地址：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="SS" scheme="http://example.com/categories/SS/"/>
+    
+    
+    <category term="SS游戏" scheme="http://example.com/tags/SS%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
     <title>SWITCH游戏资源</title>
     <link href="http://example.com/2026/09/21/switch-you-xi-zi-yuan/"/>
     <id>http://example.com/2026/09/21/switch-you-xi-zi-yuan/</id>
-    <published>2026-09-21T03:36:26.000Z</published>
-    <updated>2026-09-21T03:37:37.461Z</updated>
+    <published>2026-09-21T13:23:27.000Z</published>
+    <updated>2026-09-21T13:24:53.726Z</updated>
     
     
       
@@ -534,33 +561,6 @@
     
     
     <category term="音乐" scheme="http://example.com/tags/%E9%9F%B3%E4%B9%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Sega Master System游戏资源</title>
-    <link href="http://example.com/2026/09/15/sega-master-system-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/09/15/sega-master-system-you-xi-zi-yuan/</id>
-    <published>2026-09-15T13:31:01.000Z</published>
-    <updated>2026-09-15T13:32:19.519Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;p&gt;度盘是没法大规模搜索，但是由于游戏不多就整合了。夸克和迅雷是游戏资源合集都可以在下载地址内搜索文件，自己看看资源中文名和资源英文名搜搜看就可以。有时候要看看特别备注，写了就是有用的。&lt;/p&gt;
-&lt;p&gt;度盘下载地址</summary>
-        
-      
-    
-    
-    
-    <category term="Sega Master System" scheme="http://example.com/categories/Sega-Master-System/"/>
-    
-    
-    <category term="Sega Master System游戏" scheme="http://example.com/tags/Sega-Master-System%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
