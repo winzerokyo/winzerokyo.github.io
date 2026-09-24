@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-09-24T15:16:07.226Z</updated>
+  <updated>2026-09-24T16:16:32.938Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,87 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PS游戏资源</title>
+    <link href="http://example.com/2026/09/25/ps-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/09/25/ps-you-xi-zi-yuan/</id>
+    <published>2026-09-24T16:15:38.000Z</published>
+    <updated>2026-09-24T16:16:32.938Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;p&gt;度盘是单独拆分链接，没法大规模搜索，夸克和迅雷是游戏资源合集都可以在下载地址内搜索文件，自己看看资源中文名和资源英文名搜搜看就可以。有时候要看看特别备注，写了就是有用的。&lt;/p&gt;
+&lt;p&gt;夸克下载地址：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="PS" scheme="http://example.com/categories/PS/"/>
+    
+    
+    <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DC游戏资源</title>
+    <link href="http://example.com/2026/09/25/dc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/09/25/dc-you-xi-zi-yuan/</id>
+    <published>2026-09-24T16:07:34.000Z</published>
+    <updated>2026-09-24T16:08:44.498Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;p&gt;度盘是单独拆分链接，没法大规模搜索，夸克和迅雷是游戏资源合集都可以在下载地址内搜索文件，自己看看资源中文名和资源英文名搜搜看就可以。有时候要看看特别备注，写了就是有用的。&lt;/p&gt;
+&lt;p&gt;夸克下载地址：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="DC" scheme="http://example.com/categories/DC/"/>
+    
+    
+    <category term="DC游戏" scheme="http://example.com/tags/DC%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PS3游戏资源</title>
+    <link href="http://example.com/2026/09/25/ps3-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/09/25/ps3-you-xi-zi-yuan/</id>
+    <published>2026-09-24T16:04:42.000Z</published>
+    <updated>2026-09-24T16:05:11.977Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;p&gt;度盘是单独拆分链接，没法大规模搜索，夸克和迅雷是游戏资源合集都可以在下载地址内搜索文件，自己看看资源中文名和资源英文名搜搜看就可以。有时候要看看特别备注，写了就是有用的。&lt;/p&gt;
+&lt;p&gt;夸克下载地址：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="PS3" scheme="http://example.com/categories/PS3/"/>
+    
+    
+    <category term="PS3游戏" scheme="http://example.com/tags/PS3%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>WII+NGC游戏资源</title>
@@ -67,60 +148,6 @@
     
     
     <category term="PSP游戏" scheme="http://example.com/tags/PSP%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS游戏资源</title>
-    <link href="http://example.com/2026/09/24/ps-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/09/24/ps-you-xi-zi-yuan/</id>
-    <published>2026-09-24T14:36:37.000Z</published>
-    <updated>2026-09-24T14:37:47.515Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;p&gt;度盘是单独拆分链接，没法大规模搜索，夸克和迅雷是游戏资源合集都可以在下载地址内搜索文件，自己看看资源中文名和资源英文名搜搜看就可以。有时候要看看特别备注，写了就是有用的。&lt;/p&gt;
-&lt;p&gt;夸克下载地址：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="PS" scheme="http://example.com/categories/PS/"/>
-    
-    
-    <category term="PS游戏" scheme="http://example.com/tags/PS%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS3游戏资源</title>
-    <link href="http://example.com/2026/09/24/ps3-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/09/24/ps3-you-xi-zi-yuan/</id>
-    <published>2026-09-24T13:56:41.000Z</published>
-    <updated>2026-09-24T13:57:16.247Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;p&gt;度盘是单独拆分链接，没法大规模搜索，夸克和迅雷是游戏资源合集都可以在下载地址内搜索文件，自己看看资源中文名和资源英文名搜搜看就可以。有时候要看看特别备注，写了就是有用的。&lt;/p&gt;
-&lt;p&gt;夸克下载地址：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="PS3" scheme="http://example.com/categories/PS3/"/>
-    
-    
-    <category term="PS3游戏" scheme="http://example.com/tags/PS3%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -422,33 +449,6 @@
     
     
     <category term="SFC游戏" scheme="http://example.com/tags/SFC%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>DC游戏资源</title>
-    <link href="http://example.com/2026/09/22/dc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/09/22/dc-you-xi-zi-yuan/</id>
-    <published>2026-09-22T02:48:32.000Z</published>
-    <updated>2026-09-22T02:49:46.233Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;p&gt;度盘是单独拆分链接，没法大规模搜索，夸克和迅雷是游戏资源合集都可以在下载地址内搜索文件，自己看看资源中文名和资源英文名搜搜看就可以。有时候要看看特别备注，写了就是有用的。&lt;/p&gt;
-&lt;p&gt;夸克下载地址：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="DC" scheme="http://example.com/categories/DC/"/>
-    
-    
-    <category term="DC游戏" scheme="http://example.com/tags/DC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
