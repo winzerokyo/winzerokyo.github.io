@@ -11,7 +11,7 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-  <title>PS3模拟器的问题汇总 | Winzerokyo的游戏站</title>
+  <title>DC游戏资源 | Winzerokyo的游戏站</title>
 
   <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/favicon.ico">
   <link rel="stylesheet" href="https://at.alicdn.com/t/font_1911880_c1nvbyezg17.css">
@@ -309,21 +309,21 @@
 
 
 <div class="post-detail-header" id="thumbnail_canvas" style="background-repeat: no-repeat; background-size: cover; 
-  background-position: center center;position: relative;background-image:url('https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp')">
+  background-position: center center;position: relative;background-image:url('https://pic2.zhimg.com/80/v2-e22aaad20d20634f506f57fff0fcbc17_1440w.webp')">
   <div class="post-detail-header-mask"></div>
   <canvas id="header_canvas"style="position:absolute;bottom:0;pointer-events:none;"></canvas>
   
   <div class="post-detail-header_info-box">
     <div class="title-box">
       <span class="title">
-        PS3模拟器的问题汇总
+        DC游戏资源
       </span>
     </div>
     
     
       
         <span class="post-detail-header_date">
-          <i class="fas fa-calendar"></i> 发表于：2025-10-04 |
+          <i class="fas fa-calendar"></i> 发表于：2026-09-30 |
         </span>
       
 
@@ -331,8 +331,8 @@
         <span class="post-detail-header_categories">
           <i class="iconfont iconbookmark1"></i> 分类：
           
-            <a href="/categories/PS3/" class="post-detail-header_category">
-              PS3
+            <a href="/categories/DC/" class="post-detail-header_category">
+              DC
             </a>
           
         </span>
@@ -356,21 +356,352 @@
   <div class="main-content">
     <article class="post post-detail">
       <div class="post-content">
-        <p>问题1：RPCS3模拟器玩实况足球系列，正式游戏时球员黑色一片<br>答案：设置-GPU，Write Color Buffers选项勾选了就可以解决。</p>
-<p>问题2：RPCS3模拟器玩GTA5时，随机崩溃或者闪退，跟一些图形问题<br>答案：<br>Configuration-Setting-GPU<br>Resolution scale threshold选项使用512X512，修正天空出现严重的条纹视觉伪影<br>Write color buffers选项勾选使用，修复户外缺失光照<br>Configuration-Setting-Advanced-Core<br>Accurate RSX reservation access选项勾选使用，防止游戏过程中随机冻结或崩溃<br>Configuration-Setting-Advanced-GPU<br>Write depth buffers选项勾选使用，修复缺失的雨滴<br>Configuration-Setting-Advanced<br>RSX FIFO Accuracy选项使用Atomic，大幅度的稳定性提升<br>感谢B站网友“假面骑士参上“在网上找到的答案</p>
-<p>问题3：RPCS3模拟器玩战神 升天时的一些设置参考<br>答案：<br>Configuration-Setting-CPU<br>SPU Block Size选项使用Mega，性能提升，而且正常不会降低稳定性。<br>Configuration-Setting-GPU<br>ZCULL Accuracy选项使用Approximate，不要使用Relaxed，相比Precise模式，性能有所提升。不要尝试使用Relaxed模式，因为它会破坏图形并降低性能。<br>Write color buffers选项勾选使用，修复户外缺失光照<br>Configuration-Setting-Advanced-Core<br>Accurate RSX reservation access选项勾选使用，防止游戏过程中随机冻结或崩溃<br>Configuration-Setting-Advanced<br>RSX FIFO Accuracy选项使用Atomic，稳定性提升<br>Sleep Timers Accuracy选项使用As Host，稍微提升性能</p>
-<p>问题4：RPCS3模拟器玩战神 起源 收藏版时的一些设置参考<br>答案：<br>Configuration-Setting-GPU<br>Framelimit选项使用60，游戏速度与60帧绑定。因此，需要限制以避免加速，并需要锁定60帧的性能以防止游戏变慢。</p>
-<p>问题5：RPCS3模拟器玩战神3时的一些设置参考<br>答案：<br>Configuration-Setting-CPU<br>SPU Block Size选项使用Mega，性能提升，而且正常不会降低稳定性。<br>Configuration-Setting-GPU<br>Framelimit选项使用60，防止游戏速度超过60FPS，并可在加载界面时减少崩溃。<br>Resolution scale threshold选项使用160X160，当使用分辨率缩放超过 100%时，必须设置为 160x160。否则会出现像素化模糊。<br>Write color buffers选项勾选使用，在某些部分中需要。<br>Asynchronous Texture Streaming选项勾选使用，能提升性能，但与Write color buffers会有冲突，导致图像有问题。<br>Configuration-Setting-Advanced<br>RSX FIFO Accuracy选项使用Atomic，稳定性提升</p>
-<p>问题6：RPCS3模拟器玩恶魔之魂时的一些设置参考<br>答案：<br>Configuration-Setting-CPU<br>SPU Block Size选项使用Safe，保证稳定性<br>Configuration-Setting-GPU<br>Resolution scale threshold选项使用640X640，正确调整分辨率高于默认1280x720的景深效果。<br>Write color buffers选项勾选使用，游戏内修复缺失的图形<br>Configuration-Setting-Advanced<br>Maximum  Number of SPURS threads选项使用3，有助于性能提升。如果您有超过6核心和12线程的CPU，请勿修改此设置，否则可能会遇到性能下降。</p>
-<p>问题7：RPCS3模拟器玩美国末日时的一些设置参考<br>答案：<br>Configuration-Setting-GPU<br>Framelimit 选60，启用帧限制可防止加载屏幕期间帧速率可能超过 500 FPS 时出现罕见的崩溃。或者，在 60Hz 显示器上启用垂直同步以获得相同的效果。<br>ZCULL accuracy  ZCULL 选Relaxed，提高性能。可能会损坏手电筒。<br>Resolution scale 选100，分辨率缩放仅适用于 MLAA 补丁。<br>Resolution scale threshold 选1X1，当使用高于 100% 的分辨率缩放时，必须将其设置为 1 x 1，否则将丢失某些效果，例如镜头光晕。<br>Write color buffers 选ON，如果您不使用 MLAA 补丁，则需要。修复绿色雨和粒子问题。略微降低性能。<br>Configuration-Setting-Advanced<br>Accurate RSX reservation access 选ON，防止玩游戏时随机冻结&#x2F;崩溃。<br>Read color buffers 选ON，修复了启用某些补丁时的图形问题。<br>Handle RSX memory tiling 选ON，修复了未修补时的黑色方块。<br>RSX FIFO accuracy 选Atomic，有助于稳定。<br>推荐的补丁<br>请右键单击 RPCS3 中的游戏，然后选择 “Manage Game Patches”，Highly recommended patch，错误修复：受感染的断头崩溃，错误修复：大学钉弹软锁修复，深度边框修复，禁用内置 MLAA，禁用网格修剪，启用 GPU 照明，Speedboost，WCB&#x2F;WDB 性能修复，提高性能，允许分辨率缩放正常工作并修复游戏错误。</p>
+        <p>为了照顾不看网站公告的，默认解压密码：2234。</p>
+<p>度盘是单独拆分链接，没法大规模搜索，夸克和迅雷是游戏资源合集都可以在下载地址内搜索文件，自己看看资源中文名和资源英文名搜搜看就可以。有时候要看看特别备注，写了就是有用的。</p>
+<p>夸克下载地址：<a target="_blank" rel="noopener" href="https://pan.quark.cn/s/364ff220a006">https://pan.quark.cn/s/364ff220a006</a></p>
+<p>迅雷下载地址：<a target="_blank" rel="noopener" href="https://pan.xunlei.com/s/VP-KOFAS9rOwaxiczxDM0mw4A1?pwd=9u54">https://pan.xunlei.com/s/VP-KOFAS9rOwaxiczxDM0mw4A1?pwd=9u54</a></p>
+<table>
+<thead>
+<tr>
+<th align="center">资源中文名称</th>
+<th align="center">度盘下载地址</th>
+<th align="center">资源英文名称</th>
+<th align="center">特别备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Border Down[简][yzb]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1qb4m16TV6-VpuGsMKGcykg?pwd=2234">https://pan.baidu.com/s/1qb4m16TV6-VpuGsMKGcykg?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">SGGG 世嘉嘉嘉[简][yzb][刻盘版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1nZthAP734vVgC0saPdPmWw?pwd=2234">https://pan.baidu.com/s/1nZthAP734vVgC0saPdPmWw?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">SGGG 世嘉嘉嘉[简][yzb][模拟版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1XiPo43fuNtdM_4YwJatkrg?pwd=2234">https://pan.baidu.com/s/1XiPo43fuNtdM_4YwJatkrg?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">三国战纪 七星转生[简][YZB]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1W7I9n4Kl2c5MWNo9ettQSg?pwd=2234">https://pan.baidu.com/s/1W7I9n4Kl2c5MWNo9ettQSg?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">上海[繁][DCLT]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1PWLeZ37QCZwD3GxfNg2Y2w?pwd=2234">https://pan.baidu.com/s/1PWLeZ37QCZwD3GxfNg2Y2w?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">东京巴士指南[v1.0][简][SGGG汉化组]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1jzW8omuzD7gy34YYFrtrlw?pwd=2234">https://pan.baidu.com/s/1jzW8omuzD7gy34YYFrtrlw?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">俄罗斯方块4D[简][DCLT]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1fEx0VzHFjKmAWJCuHEH-Xg?pwd=2234">https://pan.baidu.com/s/1fEx0VzHFjKmAWJCuHEH-Xg?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">再生侠[简][v2.1修复][DCLT汉化组+lanyer]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1CzvSkn3Yf4kDAPH02_qpgQ?pwd=2234">https://pan.baidu.com/s/1CzvSkn3Yf4kDAPH02_qpgQ?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">午夜凶铃[v20200219][简][フェニックス]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1lJfEe0-ppd0NCjQqKXpAOQ?pwd=2234">https://pan.baidu.com/s/1lJfEe0-ppd0NCjQqKXpAOQ?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">哆啦A梦[简][DCLT]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1Rg_CH9ZMYJyIRWBmEHVRrQ?pwd=2234">https://pan.baidu.com/s/1Rg_CH9ZMYJyIRWBmEHVRrQ?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">啾啾火箭隊[繁][DCLT]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/13Pb_tCWDNDH6I6UjEeNwPg?pwd=2234">https://pan.baidu.com/s/13Pb_tCWDNDH6I6UjEeNwPg?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">城堡幻想曲 圣魔大战[v20200602 TEST4][简][YZB]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1tDjmXZ7R0Qe-T6F5SJ_08w?pwd=2234">https://pan.baidu.com/s/1tDjmXZ7R0Qe-T6F5SJ_08w?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">天翔骑兵_胜利铁骑[简][DCLT]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1-9mzkGdJyq_tEdRdgobcNA?pwd=2234">https://pan.baidu.com/s/1-9mzkGdJyq_tEdRdgobcNA?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">姆沙皮的巧克力记录[繁][DCLT]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1DYuugnaFFnsXIAzPUSy7Xg?pwd=2234">https://pan.baidu.com/s/1DYuugnaFFnsXIAzPUSy7Xg?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">恐龙危机<a href="T2v5">简</a>[v20221014][YZB汉化]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1NWWGNC_Pe2-1legsuLnXBA?pwd=2234">https://pan.baidu.com/s/1NWWGNC_Pe2-1legsuLnXBA?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">斑鸠[简][v1.1][oz01]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1nyrZ0g-jclXw9xfYv-pphg?pwd=2234">https://pan.baidu.com/s/1nyrZ0g-jclXw9xfYv-pphg?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">斑鸠[繁][v1.1][oz01]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1dvQtgn63GEf8H2JnhJruZQ?pwd=2234">https://pan.baidu.com/s/1dvQtgn63GEf8H2JnhJruZQ?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">月华剑士2[简][yzb][刻盘版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1biMN8pEPf8BzfYyuFsET6w?pwd=2234">https://pan.baidu.com/s/1biMN8pEPf8BzfYyuFsET6w?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">月华剑士2[简][yzb][模拟版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1folWIBkT_O5xzWPNI0jC0g?pwd=2234">https://pan.baidu.com/s/1folWIBkT_O5xzWPNI0jC0g?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">有炸弹啊![繁][DCLT汉化组]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1tyUSfM874o2RtqZ5xFNQ5g?pwd=2234">https://pan.baidu.com/s/1tyUSfM874o2RtqZ5xFNQ5g?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">格兰蒂亚2 v2.4完全汉化版[简][yzb][模拟版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1G3hBKLiofi-wg0nN9Sq-XA?pwd=2234">https://pan.baidu.com/s/1G3hBKLiofi-wg0nN9Sq-XA?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">格兰蒂亚2[简][yzb][刻盘版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1PruGIhTvAhOA-N-PxW_2oQ?pwd=2234">https://pan.baidu.com/s/1PruGIhTvAhOA-N-PxW_2oQ?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">烙印战士 千年帝国之鹰篇-丧失花之章[简][DCLT]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1vjssoZFH9L-F5OOevVf_IQ?pwd=2234">https://pan.baidu.com/s/1vjssoZFH9L-F5OOevVf_IQ?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">生化危机3[简][coldiori]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1wbIgl0ZATh3qAqf3Y1R9dQ?pwd=2234">https://pan.baidu.com/s/1wbIgl0ZATh3qAqf3Y1R9dQ?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">生化危机 代号维罗妮卡[简][v20221012][YZB汉化][刻盘版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/13vZD0Yd8PvZ2fm1_oW63QA?pwd=2234">https://pan.baidu.com/s/13vZD0Yd8PvZ2fm1_oW63QA?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">电波少年[简][DCLT]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1jEKBo22YUJHpXmjsm1zBIw?pwd=2234">https://pan.baidu.com/s/1jEKBo22YUJHpXmjsm1zBIw?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">病血[简][YZB]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/19QBwotFhxS3YTtBkf2ubeg?pwd=2234">https://pan.baidu.com/s/19QBwotFhxS3YTtBkf2ubeg?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">病血[繁][官方]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1EvNb5qEHn4cZJcuOZxU1dw?pwd=2234">https://pan.baidu.com/s/1EvNb5qEHn4cZJcuOZxU1dw?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">破茧先锋[简][DCLT]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1S_ZVfXZTiVXjknjRxVSc3g?pwd=2234">https://pan.baidu.com/s/1S_ZVfXZTiVXjknjRxVSc3g?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">神机世界2[简][yzb]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1CkpWRFD9VRq3wmeOjVmzLA?pwd=2234">https://pan.baidu.com/s/1CkpWRFD9VRq3wmeOjVmzLA?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">索尼克大冒险2[v1.2][SGGG汉化组]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1T201pRyllVQjleOAfhiJ7w?pwd=2234">https://pan.baidu.com/s/1T201pRyllVQjleOAfhiJ7w?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">罗德斯岛战记[v20200307][简][DCLT+sryidk]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1zfJuY5LNmtLYSFSBQAHV4Q?pwd=2234">https://pan.baidu.com/s/1zfJuY5LNmtLYSFSBQAHV4Q?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">莎木2[简][汉化公测版][yzb]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1ZtBFaBjDOAilR1WjLL2yKw?pwd=2234">https://pan.baidu.com/s/1ZtBFaBjDOAilR1WjLL2yKw?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">莎木一章_横须贺[简][tomson]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1YOvXILMKTwn_7h3vCeLnrw?pwd=2234">https://pan.baidu.com/s/1YOvXILMKTwn_7h3vCeLnrw?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">首都高2[简][v20221129][SGGG汉化组]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1BBiuYl3ID2z0rlCN3kehhQ?pwd=2234">https://pan.baidu.com/s/1BBiuYl3ID2z0rlCN3kehhQ?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">三国志6威力加强版[中国宋庄汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1U5VtDWHOzObj2dh38jEPxQ?pwd=2234">https://pan.baidu.com/s/1U5VtDWHOzObj2dh38jEPxQ?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">死亡火枪OX[aikika汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1pkfiFT2NlK-7qal66zcYXQ?pwd=2234">https://pan.baidu.com/s/1pkfiFT2NlK-7qal66zcYXQ?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">鸦[aikika汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1B1xW2CFdgznSUlsATBojAg?pwd=2234">https://pan.baidu.com/s/1B1xW2CFdgznSUlsATBojAg?pwd=2234</a></td>
+<td align="center">Karous</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">德尔塔空军[aikika汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1LReO_uZm8mPlNegX0RDZtw?pwd=2234">https://pan.baidu.com/s/1LReO_uZm8mPlNegX0RDZtw?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">街头涂鸦[aikika&amp;狸克汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/11BDqlSAn5ZCy2lrto8Vf1A?pwd=2234">https://pan.baidu.com/s/11BDqlSAn5ZCy2lrto8Vf1A?pwd=2234</a></td>
+<td align="center">Jet Set Radio</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">甲胄巨神[aikika汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1jdZuU166KBdR_bWLAJYbZQ?pwd=2234">https://pan.baidu.com/s/1jdZuU166KBdR_bWLAJYbZQ?pwd=2234</a></td>
+<td align="center">FRAMEGRIDE</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">噗哟噗哟DA[zeddbai汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1eddpzO9QE5BjE00CNDvw_Q?pwd=2234">https://pan.baidu.com/s/1eddpzO9QE5BjE00CNDvw_Q?pwd=2234</a></td>
+<td align="center">Puyo Puyo DA ! Featuring Ellena System</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">能量宝石[zeddbai纹理汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1tEyXOPqRVW1XiscweHU9Kw?pwd=2234">https://pan.baidu.com/s/1tEyXOPqRVW1XiscweHU9Kw?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">彩虹棉花小魔女[aikika汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1otjrAN1dqXaKzfV4qj2TBA?pwd=2234">https://pan.baidu.com/s/1otjrAN1dqXaKzfV4qj2TBA?pwd=2234</a></td>
+<td align="center">Rainbow Cotton</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">樱花大战4[ZOZZ V2汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1Hn40GCETQxG9jmbkJ94wKg?pwd=2234">https://pan.baidu.com/s/1Hn40GCETQxG9jmbkJ94wKg?pwd=2234</a></td>
+<td align="center">Sakura Taisen 4 - Koi seyo Otome</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">樱花大战3 巴黎在燃烧吗[ZOZZ V3汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1I1Ah0rucfFRW4vggDBPBxg?pwd=2234">https://pan.baidu.com/s/1I1Ah0rucfFRW4vggDBPBxg?pwd=2234</a></td>
+<td align="center">Sakura Taisen 3 - Paris wa Moeteiru ka</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">青涩宝贝2[ayazokkon汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1DhlLWLd8M66TLLVSB8ZAHA?pwd=2234">https://pan.baidu.com/s/1DhlLWLd8M66TLLVSB8ZAHA?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Prismaticallization[Tring+Zris+Altman V1.1汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/12_qJVCPuXYBzl1Iz1bvx9g?pwd=2234">https://pan.baidu.com/s/12_qJVCPuXYBzl1Iz1bvx9g?pwd=2234</a></td>
+<td align="center">Prismaticallization</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">樱花大战2 望君珍重[ZOZZ V2汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1iXiqQqxwzI-dO7i1xl4O5w?pwd=2234">https://pan.baidu.com/s/1iXiqQqxwzI-dO7i1xl4O5w?pwd=2234</a></td>
+<td align="center">Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">樱花大战[ZOZZ V1汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/121fySmgv6cUKplg9lGic3g?pwd=2234">https://pan.baidu.com/s/121fySmgv6cUKplg9lGic3g?pwd=2234</a></td>
+<td align="center">Sakura Taisen</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Revive 苏生[AFOLF汉化测试版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1POlirqI4wnWUXAcLxxUBLg?pwd=2234">https://pan.baidu.com/s/1POlirqI4wnWUXAcLxxUBLg?pwd=2234</a></td>
+<td align="center">Revive… - Sosei</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">精神战记[白甲工坊 RE WRITE汉化组汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1mwA-DoT0Pr68k321xQ7b1A?pwd=2234">https://pan.baidu.com/s/1mwA-DoT0Pr68k321xQ7b1A?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">快餐店之恋2.5[ZOZZ汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1FoAOCcH--XXHmZ-OIHdEwg?pwd=2234">https://pan.baidu.com/s/1FoAOCcH--XXHmZ-OIHdEwg?pwd=2234</a></td>
+<td align="center">Pia Carrot e Youkoso!! 2.5</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">超级机器人大战Alpha For DreamCast[newisle V0.4汉化版]</td>
+<td align="center"><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1R1E8pe3JWP4x3JM94yWvNQ?pwd=2234">https://pan.baidu.com/s/1R1E8pe3JWP4x3JM94yWvNQ?pwd=2234</a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
 
       </div>
       <div class="post-tags-categories">
         
         <div class="tags">
           
-            <a href="/tags/PS3%E6%A8%A1%E6%8B%9F%E5%99%A8/" class="">
-              PS3模拟器
+            <a href="/tags/DC%E6%B8%B8%E6%88%8F/" class="">
+              DC游戏
             </a>
           
         </div>
@@ -384,7 +715,7 @@
     </li>
     <li class="post-copyright-link">
     <strong>文章链接:  </strong>
-    <a href="/2025/10/04/ps3-mo-ni-qi-de-wen-ti-hui-zong/" target="_blank" title="PS3模拟器的问题汇总">http://example.com/2025/10/04/ps3-mo-ni-qi-de-wen-ti-hui-zong/</a>
+    <a href="/2026/09/30/dc-you-xi-zi-yuan/" target="_blank" title="DC游戏资源">http://example.com/2026/09/30/dc-you-xi-zi-yuan/</a>
     </li>
     <li class="post-copyright-license">
       <strong>版权声明:   </strong>
@@ -406,16 +737,17 @@
   <div class="post-nav-prev post-nav-item">
     <div class="post-nav-img" style="background-size: cover; 
       background-position: center center;">
-      <img class="lazyload lazyload placeholder" src="https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+      <img class="lazyload lazyload placeholder" src="https://picx.zhimg.com/80/v2-b44931ea513e5f7b3b06f2703f79653c_1440w.webp" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-b44931ea513e5f7b3b06f2703f79653c_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
     </div>
-    <a href="/2025/10/30/psv-mo-ni-qi-de-wen-ti-hui-zong/" class="post-nav-link">
+    <a href="/2026/09/30/sfc-you-xi-zi-yuan/" class="post-nav-link">
       <div class="title">
         <i class="fas fa-angle-left"></i> 上一篇:
-        <div class="title-text">PSV模拟器的问题汇总</div>
+        <div class="title-text">SFC游戏资源</div>
       </div>
       
       <!-- <div class="content">
-        安卓版模拟器文件夹在你手机内部储存空间-android-data-org.vita3s.emulator那个文件夹PC版
+        为了照顾不看网站公告的，默认解压密码：2234。
+度盘是单独拆分链接，没法大规模搜索，夸克和迅雷是游戏资源合集都可以在下
       </div> -->
     </a>
   </div>
@@ -426,12 +758,12 @@
   <div class="post-nav-next post-nav-item">
     <div class="post-nav-img" style="background-size: cover; 
       background-position: center center;">
-      <img class="lazyload lazyload placeholder" src="https://pic2.zhimg.com/80/v2-29e78b52051ce542adf6d786d61fbd19_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-29e78b52051ce542adf6d786d61fbd19_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" src="" alt="">
+      <img class="lazyload lazyload placeholder" src="https://pic3.zhimg.com/80/v2-5f7cb7e900b9dcf5354c3d4d2c5cc3c2_1440w.webp" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-5f7cb7e900b9dcf5354c3d4d2c5cc3c2_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" src="" alt="">
     </div>
-    <a href="/2025/09/15/cps1-cps2-neogeo-you-xi-zi-yuan/" class="post-nav-link">
+    <a href="/2026/09/30/nds-you-xi-zi-yuan/" class="post-nav-link">
       <div class="title">
         下一篇: <i class="fas fa-angle-right"></i>
-        <div class="title-text">CPS1+CPS2+NEOGEO游戏资源</div>
+        <div class="title-text">NDS游戏资源</div>
       </div>
       <!-- <div class="content">
         为了照顾不看网站公告的，默认解压密码：2234。
@@ -664,7 +996,28 @@
             
 
             <div class="post-img-box">
-              <a href="/2026/09/29/psp-you-xi-zi-yuan/" class="post-img " style="background-size: cover; 
+              <a href="/2026/09/30/switch-you-xi-zi-yuan/" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic2.zhimg.com/80/v2-63bbdb5b76b8d349ad35ff4281efbd37_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-63bbdb5b76b8d349ad35ff4281efbd37_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">09-30</span>
+                
+              </div>
+              <a class="post-title" href="/2026/09/30/switch-you-xi-zi-yuan/">SWITCH游戏资源</a>
+            </div>
+          </div>
+        
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
+              <a href="/2026/09/30/psp-you-xi-zi-yuan/" class="post-img " style="background-size: cover; 
                 background-position: center center;">
                 <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
               </a>
@@ -672,10 +1025,10 @@
             <div class="post-date-title">
               <div>
                 
-                  <span class="post-date">09-29</span>
+                  <span class="post-date">09-30</span>
                 
               </div>
-              <a class="post-title" href="/2026/09/29/psp-you-xi-zi-yuan/">PSP游戏资源</a>
+              <a class="post-title" href="/2026/09/30/psp-you-xi-zi-yuan/">PSP游戏资源</a>
             </div>
           </div>
         
@@ -685,28 +1038,7 @@
             
 
             <div class="post-img-box">
-              <a href="/2026/09/29/wii-ngc-you-xi-zi-yuan/" class="post-img " style="background-size: cover; 
-                background-position: center center;">
-                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://picx.zhimg.com/80/v2-85c31120acff76826ab53ea8934ef4bb_1440w.webp" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-85c31120acff76826ab53ea8934ef4bb_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
-              </a>
-            </div>
-            <div class="post-date-title">
-              <div>
-                
-                  <span class="post-date">09-29</span>
-                
-              </div>
-              <a class="post-title" href="/2026/09/29/wii-ngc-you-xi-zi-yuan/">WII+NGC游戏资源</a>
-            </div>
-          </div>
-        
-          <div class="aside-list-item">
-            
-            
-            
-
-            <div class="post-img-box">
-              <a href="/2026/09/29/ss-you-xi-zi-yuan/" class="post-img " style="background-size: cover; 
+              <a href="/2026/09/30/ps2-you-xi-zi-yuan/" class="post-img " style="background-size: cover; 
                 background-position: center center;">
                 <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-7cfc909ebe8d83683909846edd6b5232_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
               </a>
@@ -714,10 +1046,10 @@
             <div class="post-date-title">
               <div>
                 
-                  <span class="post-date">09-29</span>
+                  <span class="post-date">09-30</span>
                 
               </div>
-              <a class="post-title" href="/2026/09/29/ss-you-xi-zi-yuan/">SS游戏资源</a>
+              <a class="post-title" href="/2026/09/30/ps2-you-xi-zi-yuan/">PS2游戏资源</a>
             </div>
           </div>
         
@@ -727,7 +1059,28 @@
             
 
             <div class="post-img-box">
-              <a href="/2026/09/28/ps3-you-xi-zi-yuan/" class="post-img " style="background-size: cover; 
+              <a href="/2026/09/30/sfc-you-xi-zi-yuan/" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://picx.zhimg.com/80/v2-b44931ea513e5f7b3b06f2703f79653c_1440w.webp" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-b44931ea513e5f7b3b06f2703f79653c_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">09-30</span>
+                
+              </div>
+              <a class="post-title" href="/2026/09/30/sfc-you-xi-zi-yuan/">SFC游戏资源</a>
+            </div>
+          </div>
+        
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
+              <a href="/2026/09/30/dc-you-xi-zi-yuan/" class="post-img " style="background-size: cover; 
                 background-position: center center;">
                 <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic2.zhimg.com/80/v2-e22aaad20d20634f506f57fff0fcbc17_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-e22aaad20d20634f506f57fff0fcbc17_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
               </a>
@@ -735,31 +1088,10 @@
             <div class="post-date-title">
               <div>
                 
-                  <span class="post-date">09-28</span>
+                  <span class="post-date">09-30</span>
                 
               </div>
-              <a class="post-title" href="/2026/09/28/ps3-you-xi-zi-yuan/">PS3游戏资源</a>
-            </div>
-          </div>
-        
-          <div class="aside-list-item">
-            
-            
-            
-
-            <div class="post-img-box">
-              <a href="/2026/09/28/gbc-gb-you-xi-zi-yuan/" class="post-img " style="background-size: cover; 
-                background-position: center center;">
-                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://picx.zhimg.com/80/v2-9c50d3af0bc62a0e8b6e89e24c769317_1440w.webp" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-9c50d3af0bc62a0e8b6e89e24c769317_1440w.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
-              </a>
-            </div>
-            <div class="post-date-title">
-              <div>
-                
-                  <span class="post-date">09-28</span>
-                
-              </div>
-              <a class="post-title" href="/2026/09/28/gbc-gb-you-xi-zi-yuan/">GBC+GB游戏资源</a>
+              <a class="post-title" href="/2026/09/30/dc-you-xi-zi-yuan/">DC游戏资源</a>
             </div>
           </div>
         
