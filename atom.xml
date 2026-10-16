@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-10-15T14:16:19.584Z</updated>
+  <updated>2026-10-16T09:05:40.752Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,62 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SWITCH游戏资源</title>
+    <link href="http://example.com/2026/10/16/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/10/16/switch-you-xi-zi-yuan/</id>
+    <published>2026-10-16T09:05:55.000Z</published>
+    <updated>2026-10-16T09:05:40.752Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;SWITCH资源将会使用nsz和xcz的格式，这种格式我对其资源进行极限压缩，安卓平台可以使用Final</summary>
+        
+      
+    
+    
+    
+    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
+    
+    
+    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PC游戏资源</title>
+    <link href="http://example.com/2026/10/16/pc-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/10/16/pc-you-xi-zi-yuan/</id>
+    <published>2026-10-16T09:02:37.000Z</published>
+    <updated>2026-10-16T09:03:57.744Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="PC" scheme="http://example.com/categories/PC/"/>
+    
+    
+    <category term="PC游戏" scheme="http://example.com/tags/PC%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>PS游戏资源</title>
@@ -202,31 +258,6 @@
     
     
     <category term="N64游戏" scheme="http://example.com/tags/N64%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2026/10/15/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/10/15/switch-you-xi-zi-yuan/</id>
-    <published>2026-10-15T06:15:54.000Z</published>
-    <updated>2026-10-15T06:16:30.632Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;SWITCH资源将会使用nsz和xcz的格式，这种格式我对其资源进行极限压缩，安卓平台可以使用Final</summary>
-        
-      
-    
-    
-    
-    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
-    
-    
-    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -523,33 +554,6 @@
     
     
     <category term="临时公告" scheme="http://example.com/tags/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS3游戏资源</title>
-    <link href="http://example.com/2026/10/11/ps3-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/10/11/ps3-you-xi-zi-yuan/</id>
-    <published>2026-10-11T14:13:57.000Z</published>
-    <updated>2026-10-11T14:40:27.711Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;p&gt;度盘是单独拆分链接，没法大规模搜索，夸克和迅雷是游戏资源合集都可以在下载地址内搜索文件，自己看看资源中文名和资源英文名搜搜看就可以。有时候要看看特别备注，写了就是有用的。&lt;/p&gt;
-&lt;p&gt;夸克下载地址：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="PS3" scheme="http://example.com/categories/PS3/"/>
-    
-    
-    <category term="PS3游戏" scheme="http://example.com/tags/PS3%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
