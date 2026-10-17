@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-10-16T18:13:17.068Z</updated>
+  <updated>2026-10-17T04:45:01.498Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>模拟器版本更新信息</title>
+    <link href="http://example.com/2026/10/17/mo-ni-qi-ban-ben-geng-xin-xin-xi/"/>
+    <id>http://example.com/2026/10/17/mo-ni-qi-ban-ben-geng-xin-xin-xi/</id>
+    <published>2026-10-17T04:43:07.000Z</published>
+    <updated>2026-10-17T04:45:01.498Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;这里只是对各种模拟器版本的说明，软件链接请去相关分类里面找&lt;/p&gt;
+&lt;p&gt;现在我提供的资源用了很多相对路径，请不要用超过3层文件夹套着，文件路径指向有什么问题请你们自己手动改回绝对路径。&lt;/p&gt;
+&lt;p&gt;2026-10-17</summary>
+        
+      
+    
+    
+    
+    <category term="临时公告" scheme="http://example.com/categories/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
+    
+    
+    <category term="模拟器版本更新信息" scheme="http://example.com/tags/%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E4%BF%A1%E6%81%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>XBOX游戏资源</title>
@@ -528,32 +555,6 @@
     
     
     <category term="SS游戏" scheme="http://example.com/tags/SS%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>网站详细说明</title>
-    <link href="http://example.com/2026/10/11/wang-zhan-xiang-xi-shuo-ming/"/>
-    <id>http://example.com/2026/10/11/wang-zhan-xiang-xi-shuo-ming/</id>
-    <published>2026-10-11T14:53:30.000Z</published>
-    <updated>2026-10-11T14:55:57.949Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;感谢B站揾你笨攞你命、小肥舌等网友对我的资源问题提出修正、提供等支持，还是那句有问题网友们要跟我说，不然有时候我自己都不知道哪个资源有问题，能修尽量修就是了。&lt;/p&gt;
-&lt;p&gt;由于现在AI汉化极度盛行，所以有什么资源我这里没有的，你们可以提出来，最好有具体出处，方便我去寻找添</summary>
-        
-      
-    
-    
-    
-    <category term="临时公告" scheme="http://example.com/categories/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
-    
-    
-    <category term="临时公告" scheme="http://example.com/tags/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
     
   </entry>
   
