@@ -293,6 +293,31 @@
   </entry>
   
   <entry>
+    <title>SWITCH游戏资源</title>
+    <link href="http://example.com/2026/10/25/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/10/25/switch-you-xi-zi-yuan/</id>
+    <published>2026-10-24T16:16:05.000Z</published>
+    <updated>2026-10-25T16:16:54.321Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;SWITCH资源将会使用nsz和xcz的格式，这种格式我对其资源进行极限压缩，安卓平台可以使用Final</summary>
+        
+      
+    
+    
+    
+    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
+    
+    
+    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
     <title>SS游戏资源</title>
     <link href="http://example.com/2026/10/25/ss-you-xi-zi-yuan/"/>
     <id>http://example.com/2026/10/25/ss-you-xi-zi-yuan/</id>
@@ -396,31 +421,6 @@
     
     
     <category term="GBC+GB游戏" scheme="http://example.com/tags/GBC-GB%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2026/10/24/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/10/24/switch-you-xi-zi-yuan/</id>
-    <published>2026-10-24T05:45:04.000Z</published>
-    <updated>2026-10-24T05:46:53.686Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;SWITCH资源将会使用nsz和xcz的格式，这种格式我对其资源进行极限压缩，安卓平台可以使用Final</summary>
-        
-      
-    
-    
-    
-    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
-    
-    
-    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
