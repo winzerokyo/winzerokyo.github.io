@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-11-03T16:11:46.371Z</updated>
+  <updated>2026-11-04T07:00:21.348Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,56 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SWITCH 2游戏资源</title>
+    <link href="http://example.com/2026/11/04/switch2-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/11/04/switch2-you-xi-zi-yuan/</id>
+    <published>2026-11-04T07:00:16.000Z</published>
+    <updated>2026-11-04T07:00:21.348Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;SWITCH资源将会使用nsz和xcz的格式，这种格式我对其资源进行极限压缩，安卓平台可以使用Final</summary>
+        
+      
+    
+    
+    
+    <category term="SWITCH 2" scheme="http://example.com/categories/SWITCH-2/"/>
+    
+    
+    <category term="SWITCH 2游戏" scheme="http://example.com/tags/SWITCH-2%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SWITCH游戏资源</title>
+    <link href="http://example.com/2026/11/04/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/11/04/switch-you-xi-zi-yuan/</id>
+    <published>2026-11-04T05:59:15.000Z</published>
+    <updated>2026-11-04T06:00:05.285Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;SWITCH资源将会使用nsz和xcz的格式，这种格式我对其资源进行极限压缩，安卓平台可以使用Final</summary>
+        
+      
+    
+    
+    
+    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
+    
+    
+    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>Shandps4兼容性列表</title>
@@ -100,31 +150,6 @@
     
     
     <category term="PS3游戏" scheme="http://example.com/tags/PS3%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SWITCH 2游戏资源</title>
-    <link href="http://example.com/2026/11/03/switch2-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/11/03/switch2-you-xi-zi-yuan/</id>
-    <published>2026-11-03T15:23:15.000Z</published>
-    <updated>2026-11-03T15:48:34.825Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;SWITCH资源将会使用nsz和xcz的格式，这种格式我对其资源进行极限压缩，安卓平台可以使用Final</summary>
-        
-      
-    
-    
-    
-    <category term="SWITCH 2" scheme="http://example.com/categories/SWITCH-2/"/>
-    
-    
-    <category term="SWITCH 2游戏" scheme="http://example.com/tags/SWITCH-2%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -396,31 +421,6 @@
     
     
     <category term="PSP游戏" scheme="http://example.com/tags/PSP%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2026/11/02/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/11/02/switch-you-xi-zi-yuan/</id>
-    <published>2026-11-02T09:22:14.000Z</published>
-    <updated>2026-11-02T09:23:16.043Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;SWITCH资源将会使用nsz和xcz的格式，这种格式我对其资源进行极限压缩，安卓平台可以使用Final</summary>
-        
-      
-    
-    
-    
-    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
-    
-    
-    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
