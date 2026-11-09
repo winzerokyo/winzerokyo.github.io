@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-11-08T10:57:51.770Z</updated>
+  <updated>2026-11-09T15:49:09.194Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,110 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SWITCH 2游戏资源</title>
+    <link href="http://example.com/2026/11/09/switch2-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/11/09/switch2-you-xi-zi-yuan/</id>
+    <published>2026-11-09T15:48:18.000Z</published>
+    <updated>2026-11-09T15:49:09.194Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;SWITCH资源将会使用nsz和xcz的格式，这种格式我对其资源进行极限压缩，安卓平台可以使用Final</summary>
+        
+      
+    
+    
+    
+    <category term="SWITCH 2" scheme="http://example.com/categories/SWITCH-2/"/>
+    
+    
+    <category term="SWITCH 2游戏" scheme="http://example.com/tags/SWITCH-2%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SWITCH游戏资源</title>
+    <link href="http://example.com/2026/11/09/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/11/09/switch-you-xi-zi-yuan/</id>
+    <published>2026-11-09T15:46:17.000Z</published>
+    <updated>2026-11-09T15:47:43.790Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;SWITCH资源将会使用nsz和xcz的格式，这种格式我对其资源进行极限压缩，安卓平台可以使用Final</summary>
+        
+      
+    
+    
+    
+    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
+    
+    
+    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>WIIU游戏资源</title>
+    <link href="http://example.com/2026/11/08/wiiu-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/11/08/wiiu-you-xi-zi-yuan/</id>
+    <published>2026-11-08T14:22:40.000Z</published>
+    <updated>2026-11-08T14:22:57.722Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;p&gt;度盘是单独拆分链接，没法大规模搜索，夸克和迅雷是游戏资源合集都可以在下载地址内搜索文件，自己看看资源中文名和资源英文名搜搜看就可以。有时候要看看特别备注，写了就是有用的。&lt;/p&gt;
+&lt;p&gt;夸克下载地址：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="WIIU" scheme="http://example.com/categories/WIIU/"/>
+    
+    
+    <category term="WIIU游戏" scheme="http://example.com/tags/WIIU%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SS游戏资源</title>
+    <link href="http://example.com/2026/11/08/ss-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/11/08/ss-you-xi-zi-yuan/</id>
+    <published>2026-11-08T13:47:40.000Z</published>
+    <updated>2026-11-08T13:47:32.152Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;p&gt;度盘是单独拆分链接，没法大规模搜索，夸克和迅雷是游戏资源合集都可以在下载地址内搜索文件，自己看看资源中文名和资源英文名搜搜看就可以。有时候要看看特别备注，写了就是有用的。&lt;/p&gt;
+&lt;p&gt;夸克下载地址：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="SS" scheme="http://example.com/categories/SS/"/>
+    
+    
+    <category term="SS游戏" scheme="http://example.com/tags/SS%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>GBA游戏资源</title>
@@ -291,7 +395,7 @@
     <link href="http://example.com/2026/11/08/ps3-you-xi-zi-yuan/"/>
     <id>http://example.com/2026/11/08/ps3-you-xi-zi-yuan/</id>
     <published>2026-11-08T03:15:17.000Z</published>
-    <updated>2026-11-08T03:15:41.005Z</updated>
+    <updated>2026-11-08T15:06:16.891Z</updated>
     
     
       
@@ -341,31 +445,6 @@
     
     
     <category term="PC游戏" scheme="http://example.com/tags/PC%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SWITCH 2游戏资源</title>
-    <link href="http://example.com/2026/11/07/switch2-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/11/07/switch2-you-xi-zi-yuan/</id>
-    <published>2026-11-07T06:35:17.000Z</published>
-    <updated>2026-11-07T06:36:28.042Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;SWITCH资源将会使用nsz和xcz的格式，这种格式我对其资源进行极限压缩，安卓平台可以使用Final</summary>
-        
-      
-    
-    
-    
-    <category term="SWITCH 2" scheme="http://example.com/categories/SWITCH-2/"/>
-    
-    
-    <category term="SWITCH 2游戏" scheme="http://example.com/tags/SWITCH-2%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
@@ -424,33 +503,6 @@
   </entry>
   
   <entry>
-    <title>WIIU游戏资源</title>
-    <link href="http://example.com/2026/11/07/wiiu-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/11/07/wiiu-you-xi-zi-yuan/</id>
-    <published>2026-11-07T02:50:39.000Z</published>
-    <updated>2026-11-07T02:53:53.831Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;p&gt;度盘是单独拆分链接，没法大规模搜索，夸克和迅雷是游戏资源合集都可以在下载地址内搜索文件，自己看看资源中文名和资源英文名搜搜看就可以。有时候要看看特别备注，写了就是有用的。&lt;/p&gt;
-&lt;p&gt;夸克下载地址：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="WIIU" scheme="http://example.com/categories/WIIU/"/>
-    
-    
-    <category term="WIIU游戏" scheme="http://example.com/tags/WIIU%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
     <title>3DO游戏资源</title>
     <link href="http://example.com/2026/11/07/3do-you-xi-zi-yuan/"/>
     <id>http://example.com/2026/11/07/3do-you-xi-zi-yuan/</id>
@@ -501,59 +553,6 @@
     
     
     <category term="GBC+GB游戏" scheme="http://example.com/tags/GBC-GB%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SS游戏资源</title>
-    <link href="http://example.com/2026/11/07/ss-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/11/07/ss-you-xi-zi-yuan/</id>
-    <published>2026-11-06T17:20:39.000Z</published>
-    <updated>2026-11-06T17:20:47.552Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;p&gt;度盘是单独拆分链接，没法大规模搜索，夸克和迅雷是游戏资源合集都可以在下载地址内搜索文件，自己看看资源中文名和资源英文名搜搜看就可以。有时候要看看特别备注，写了就是有用的。&lt;/p&gt;
-&lt;p&gt;夸克下载地址：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="SS" scheme="http://example.com/categories/SS/"/>
-    
-    
-    <category term="SS游戏" scheme="http://example.com/tags/SS%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>NGPC游戏资源</title>
-    <link href="http://example.com/2026/11/07/ngpc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/11/07/ngpc-you-xi-zi-yuan/</id>
-    <published>2026-11-06T16:12:04.000Z</published>
-    <updated>2026-11-06T16:13:51.141Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。能不能用不好说，收集时是怎样就怎样。&lt;/p&gt;
-&lt;p&gt;度盘是单独拆分链接，没法大规模搜索，夸克和迅雷是游戏资源合集都可以在下载地址内搜索文件，自己看看资源中文名和资源英文名搜搜看就可以。有时候要看看特别备注，写了就是有用的。&lt;/</summary>
-        
-      
-    
-    
-    
-    <category term="NGPC" scheme="http://example.com/categories/NGPC/"/>
-    
-    
-    <category term="NGPC游戏" scheme="http://example.com/tags/NGPC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
