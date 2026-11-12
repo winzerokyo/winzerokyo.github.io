@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-11-11T17:42:13.895Z</updated>
+  <updated>2026-11-12T09:43:59.710Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>SWITCH游戏资源</title>
+    <link href="http://example.com/2026/11/12/switch-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/11/12/switch-you-xi-zi-yuan/</id>
+    <published>2026-11-12T09:43:19.000Z</published>
+    <updated>2026-11-12T09:43:59.710Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;SWITCH资源将会使用nsz和xcz的格式，这种格式我对其资源进行极限压缩，安卓平台可以使用Final</summary>
+        
+      
+    
+    
+    
+    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
+    
+    
+    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
     <title>PS3游戏资源</title>
     <link href="http://example.com/2026/11/12/ps3-you-xi-zi-yuan/"/>
     <id>http://example.com/2026/11/12/ps3-you-xi-zi-yuan/</id>
-    <published>2026-11-11T17:41:19.000Z</published>
-    <updated>2026-11-11T17:42:13.895Z</updated>
+    <published>2026-11-12T02:49:20.000Z</published>
+    <updated>2026-11-12T02:49:40.621Z</updated>
     
     
       
@@ -202,31 +227,6 @@
     
     
     <category term="PSP游戏" scheme="http://example.com/tags/PSP%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SWITCH游戏资源</title>
-    <link href="http://example.com/2026/11/11/switch-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/11/11/switch-you-xi-zi-yuan/</id>
-    <published>2026-11-11T15:17:18.000Z</published>
-    <updated>2026-11-11T15:18:05.115Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;SWITCH资源将会使用nsz和xcz的格式，这种格式我对其资源进行极限压缩，安卓平台可以使用Final</summary>
-        
-      
-    
-    
-    
-    <category term="SWITCH" scheme="http://example.com/categories/SWITCH/"/>
-    
-    
-    <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
