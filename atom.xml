@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-11-16T04:12:41.927Z</updated>
+  <updated>2026-11-16T12:38:29.315Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,66 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Shandps4兼容性列表</title>
+    <link href="http://example.com/2026/11/16/shandps4-jian-rong-xing-lie-biao/"/>
+    <id>http://example.com/2026/11/16/shandps4-jian-rong-xing-lie-biao/</id>
+    <published>2026-11-16T12:38:34.000Z</published>
+    <updated>2026-11-16T12:38:29.315Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;特别备注&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;血源诅咒</summary>
+        
+      
+    
+    
+    
+    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
+    
+    
+    <category term="PS4模拟器" scheme="http://example.com/tags/PS4%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PS4游戏资源</title>
+    <link href="http://example.com/2026/11/16/ps4-you-xi-zi-yuan/"/>
+    <id>http://example.com/2026/11/16/ps4-you-xi-zi-yuan/</id>
+    <published>2026-11-16T12:33:20.000Z</published>
+    <updated>2026-11-16T12:33:45.867Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
+&lt;p&gt;夸克那里暂时只有列表的30%多一点，如果有发现夸克没有的，你可以找我去补充。&lt;/p&gt;
+&lt;p&gt;度盘是单独拆分链接，没法大规模搜索，夸克和迅雷是游戏资源合集都可以在下载地址内搜索文件，自己看看资源中文名和资源英文名</summary>
+        
+      
+    
+    
+    
+    <category term="PS4" scheme="http://example.com/categories/PS4/"/>
+    
+    
+    <category term="PS4游戏" scheme="http://example.com/tags/PS4%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>网站详细说明</title>
@@ -497,58 +557,6 @@
     
     
     <category term="SWITCH游戏" scheme="http://example.com/tags/SWITCH%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>N64游戏资源</title>
-    <link href="http://example.com/2026/11/13/n64-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/11/13/n64-you-xi-zi-yuan/</id>
-    <published>2026-11-13T14:29:48.000Z</published>
-    <updated>2026-11-13T14:30:12.410Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;p&gt;度盘是没法大规模搜索，但是由于游戏不多就整合了。夸克和迅雷是游戏资源合集都可以在下载地址内搜索文件，自己看看资源中文名和资源英文名搜搜看就可以。有时候要看看特别备注，写了就是有用的。&lt;/p&gt;
-&lt;p&gt;度盘下载地址</summary>
-        
-      
-    
-    
-    
-    <category term="N64" scheme="http://example.com/categories/N64/"/>
-    
-    
-    <category term="N64游戏" scheme="http://example.com/tags/N64%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SWITCH 2游戏资源</title>
-    <link href="http://example.com/2026/11/13/switch2-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/11/13/switch2-you-xi-zi-yuan/</id>
-    <published>2026-11-12T17:35:19.000Z</published>
-    <updated>2026-11-12T17:36:06.711Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;SWITCH</summary>
-        
-      
-    
-    
-    
-    <category term="SWITCH 2" scheme="http://example.com/categories/SWITCH-2/"/>
-    
-    
-    <category term="SWITCH 2游戏" scheme="http://example.com/tags/SWITCH-2%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
