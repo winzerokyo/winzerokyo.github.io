@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2026-11-15T14:00:32.141Z</updated>
+  <updated>2026-11-16T04:12:41.927Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>网站详细说明</title>
+    <link href="http://example.com/2026/11/16/wang-zhan-xiang-xi-shuo-ming/"/>
+    <id>http://example.com/2026/11/16/wang-zhan-xiang-xi-shuo-ming/</id>
+    <published>2026-11-16T04:08:32.000Z</published>
+    <updated>2026-11-16T04:12:41.927Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;今天开始同步更新度盘游戏的内容，同步需要一定时间，暂定12月时可以全部不同完毕，星期六对所有模拟器软件资源进行同步一次。&lt;/p&gt;
+&lt;p&gt;感谢B站揾你笨攞你命、小肥舌等网友对我的资源问题提出修正、提供等支持，还是那句有问题网友们要跟我说，不然有时候我自己都不知道哪个资源有问题</summary>
+        
+      
+    
+    
+    
+    <category term="临时公告" scheme="http://example.com/categories/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
+    
+    
+    <category term="临时公告" scheme="http://example.com/tags/%E4%B8%B4%E6%97%B6%E5%85%AC%E5%91%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>GBA游戏资源</title>
@@ -523,37 +549,6 @@
     
     
     <category term="SWITCH 2游戏" scheme="http://example.com/tags/SWITCH-2%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PC游戏资源</title>
-    <link href="http://example.com/2026/11/12/pc-you-xi-zi-yuan/"/>
-    <id>http://example.com/2026/11/12/pc-you-xi-zi-yuan/</id>
-    <published>2026-11-12T14:38:44.000Z</published>
-    <updated>2026-11-12T14:38:52.444Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了照顾不看网站公告的，默认解压密码：2234。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;资源中文名称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;度盘下载地址&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="PC" scheme="http://example.com/categories/PC/"/>
-    
-    
-    <category term="PC游戏" scheme="http://example.com/tags/PC%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
